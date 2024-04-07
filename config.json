@@ -1,0 +1,14 @@
+{
+  "codrivers": {
+    "janne-v3-numeric": {
+      "name": "Numeric A",
+      "dir": "assets/Jannemod V3 - Public test_v1.1/English/English Numeric A",
+      "ini": ["Rbr.ini", "Rbr-Enhanced.ini"]
+    },
+    "smo-v3": {
+      "name": "SMO V3",
+      "dir": "assets/RBR-Janne-V3-Beifahrer",
+      "ini": ["Rbr.ini"]
+    }
+  }
+}

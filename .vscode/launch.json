@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "janne v3 numeric",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "codriver.py",
+            "console": "integratedTerminal",
+            "args": ["--codriver", "janne-v3-numeric"]
+        },
+        {
+            "name": "janne v3 numeric list ids",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "codriver.py",
+            "console": "integratedTerminal",
+            "args": ["--codriver", "janne-v3-numeric", "--list-ids"]
+        },
+    ]
+}
