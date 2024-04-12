@@ -9,6 +9,11 @@
       "name": "SMO V3",
       "dir": "assets/RBR-Janne-V3-Beifahrer",
       "ini": ["Rbr.ini"]
+    },
+    "bollinger-numeric": {
+      "name": "Bollinger Numeric",
+      "dir": "assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst",
+      "ini": ["Rbr.ini", "Rbr-Enhanced.ini"]
     }
   }
 }

@@ -2,21 +2,29 @@ import configparser
 import io
 import logging
 import os
+from typing import Iterable
 
 class IniFile:
-    def __init__(self, file_path):
+    def __init__(self, file_path, parent=None):
         file_path = file_path.replace('\\', '/')
         # make sure the ini_file exists
         if not os.path.exists(file_path):
             raise FileNotFoundError(f'Not found: {file_path}')
         self.path = file_path
         self.base_dir = os.path.dirname(file_path)
+        self.dir_name = os.path.basename(self.base_dir)
+        self.file_name = os.path.basename(file_path)
         self.sections = {}
 
-        logging.debug(f'IniFile: {file_path}')
+        self.parent = parent
+
+        # logging.debug(f'IniFile: {file_path}')
 
         self.config = self.config_parser(file_path)
         self.parse()
+
+    def __str__(self) -> str:
+        return f'{self.file_name}'
 
     def config_parser(self, file):
         config = configparser.ConfigParser(strict=False)
@@ -50,9 +58,9 @@ class IniFile:
 class IniSection():
     def __init__(self, section, ini):
         self.section = section
-        self.ini = ini
-        self.config = ini.config
-        self.options = self.config.options(section)
+        self._ini = ini
+        self._config = ini.config
+        self.options = self._config.options(section)
         self.entries = {}
         self.parse()
 
@@ -60,7 +68,21 @@ class IniSection():
         pass
 
     def file_path(self, file):
-        return self.ini.file_path(file)
+        return self._ini.file_path(file)
+
+    def ini(self):
+        return self._ini
+
+    def ini_tree(self):
+        ini_file = self.ini()
+        path = [ini_file]
+
+        while ini_file.parent:
+            ini_file = ini_file.parent.ini()
+            path.append(ini_file)
+
+        path.reverse()
+        return path
 
 class PluginIni(IniFile):
     def parse(self):
@@ -89,9 +111,9 @@ class Package(IniSection):
         (_type, name) = self.section.split('::')
         for option in self.options:
             if option.startswith('file'):
-                file = self.config.get(self.section, option)
+                file = self._config.get(self.section, option)
                 file_path = self.file_path(file)
-                self.entries[option] = CategoriesIni(file_path)
+                self.entries[option] = CategoriesIni(file_path, parent=self)
             else:
                 raise ValueError(f'Invalid option: {option}')
 
@@ -101,11 +123,6 @@ class Package(IniSection):
                 yield category
 
 class CategoriesIni(IniFile):
-    def __init__(self, file_path):
-        super().__init__(file_path)
-        self.sections = {}
-        self.parse()
-
     def parse(self):
         for section in self.config.sections():
             if section.startswith('CATEGORY'):
@@ -121,9 +138,9 @@ class Category(IniSection):
         (_type, name) = self.section.split('::')
         for option in self.options:
             if option.startswith('file'):
-                file = self.config.get(self.section, option)
+                file = self._config.get(self.section, option)
                 file_path = self.file_path(file)
-                self.entries[option] = PacenotesIni(file_path)
+                self.entries[option] = PacenotesIni(file_path, parent=self)
             else:
                 raise ValueError(f'Invalid option: {option}')
 
@@ -137,6 +154,8 @@ class PacenotesIni(IniFile):
         for section in self.config.sections():
             if section.startswith('PACENOTE'):
                 self.sections[section] = Pacenote(section, self)
+            elif section.startswith('RANGE'):
+                self.sections[section] = Range(section, self)
             else:
                 raise ValueError(f'Invalid section: {section}')
 
@@ -148,7 +167,7 @@ class Pacenote(IniSection):
     def parse(self):
         (_type, self._name) = self.section.split('::')
         for option in self.options:
-            value = self.config.get(self.section, option)
+            value = self._config.get(self.section, option)
             self.entries[option] = value
 
     def __str__(self):
@@ -157,7 +176,7 @@ class Pacenote(IniSection):
     def id(self):
         _id = self.entries.get('id', None)
         if _id is None:
-            return _id
+            return -1
         return int(_id)
 
     def name(self):
@@ -166,6 +185,15 @@ class Pacenote(IniSection):
     def sounds(self):
         return int(self.entries.get('Sounds', 0))
 
+    def files(self):
+        _files = []
+        for option in self.options:
+            if option.startswith('Snd'):
+                _files.append(self.entries[option])
+        return _files
+
+class Range(Pacenote):
+    pass
 
 class StringsIni(IniFile):
     def parse(self):
@@ -197,6 +225,10 @@ class RbrPacenotePlugin:
             ini_file = os.path.join(self.plugin_dir, 'config', 'pacenotes', ini_file)
             self.packages_ini.append(PackagesIni(ini_file))
 
+        # add ranges
+        ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'Rbr.ini')
+        self.packages_ini.append(PackagesIni(ini_file))
+
         language_dir = os.path.join(self.plugin_dir, 'language')
         self.languages = {}
         # for each language in the language directory
@@ -210,10 +242,8 @@ class RbrPacenotePlugin:
                         ini_file = os.path.join(root, file)
                         self.languages[language].append(StringsIni(ini_file))
 
-        # ini_file = os.path.join(plugin_dir, 'config', 'ranges', 'Rbr.ini')
-        # self.read_ini(ini_file)
 
-    def pacenotes(self) -> Pacenote:
+    def pacenotes(self) -> Iterable[Pacenote]:
         for package_ini in self.packages_ini:
             for package in package_ini.packages():
                 for category in package.categories():

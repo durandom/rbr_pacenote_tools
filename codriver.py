@@ -18,22 +18,32 @@ class CoDriver:
             'id': 'id',
             'name': 'name',
             'translation': 'translation',
-            'sounds': 1
+            'file': 'file',
+            'sounds': 1,
+            'ini': 'ini_file'
         }
         csv_writer = csv.DictWriter(sys.stdout, note.keys())
         csv_writer.writeheader()
 
-        notes = {}
+        notes = []
         for pacenote in self.plugin.pacenotes():
             note = {
                 'id': pacenote.id(),
                 'name': pacenote.name(),
                 'translation': self.plugin.translate(pacenote.name()),
-                'sounds': pacenote.sounds()
+                'file': '',
+                'sounds': pacenote.sounds(),
+                'ini': "/".join([f"{x.dir_name}/{x.file_name}" for x in pacenote.ini_tree()])
             }
-            notes[note['name']] = note
+            files = pacenote.files()
+            if files:
+                for file in files:
+                    note['file'] = file
+                    notes.append(note)
+            else:
+                notes.append(note)
 
-        for note in sorted(notes.values(), key=lambda x: x['name']):
+        for note in sorted(notes, key=lambda x: [x['id'], x['name']]):
             csv_writer.writerow(note)
 
 if __name__ == '__main__':
