@@ -46,6 +46,16 @@ class CoDriver:
         for note in sorted(notes, key=lambda x: [x['id'], x['name']]):
             csv_writer.writerow(note)
 
+    def merge(self, file):
+        # open CSV file
+        with open(file) as csvfile:
+            csv_reader = csv.DictReader(csvfile)
+            for row in csv_reader:
+                self.plugin.merge(row)
+
+    def merge_commit(self):
+        self.plugin.merge_commit()
+
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -54,6 +64,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='CoDriver')
     parser.add_argument('--codriver', help='Codriver in config.json', default='janne-v3-numeric')
     parser.add_argument('--list-ids', help='List all ids', action='store_true')
+    parser.add_argument('--merge', help='Merge from file', default=None)
 
     args = parser.parse_args()
 
@@ -62,6 +73,10 @@ if __name__ == '__main__':
 
     codriver_name = args.codriver
     codriver = CoDriver(config['codrivers'][codriver_name])
+
+    if args.merge:
+        codriver.merge(args.merge)
+        codriver.merge_commit()
 
     if args.list_ids:
         codriver.list_ids()

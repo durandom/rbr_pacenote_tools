@@ -60,12 +60,15 @@ class IniSection():
         self.section = section
         self._ini = ini
         self._config = ini.config
-        self.options = self._config.options(section)
+        # self.options = self._config.options(section)
         self.entries = {}
         self.parse()
 
     def parse(self):
         pass
+
+    def options(self):
+        return self._config.options(self.section)
 
     def file_path(self, file):
         return self._ini.file_path(file)
@@ -109,7 +112,7 @@ class PackagesIni(IniFile):
 class Package(IniSection):
     def parse(self):
         (_type, name) = self.section.split('::')
-        for option in self.options:
+        for option in self.options():
             if option.startswith('file'):
                 file = self._config.get(self.section, option)
                 file_path = self.file_path(file)
@@ -136,7 +139,7 @@ class CategoriesIni(IniFile):
 class Category(IniSection):
     def parse(self):
         (_type, name) = self.section.split('::')
-        for option in self.options:
+        for option in self.options():
             if option.startswith('file'):
                 file = self._config.get(self.section, option)
                 file_path = self.file_path(file)
@@ -166,15 +169,15 @@ class PacenotesIni(IniFile):
 class Pacenote(IniSection):
     def parse(self):
         (_type, self._name) = self.section.split('::')
-        for option in self.options:
-            value = self._config.get(self.section, option)
-            self.entries[option] = value
+        # for option in self.options():
+        #     value = self._config.get(self.section, option)
+        #     self.entries[option] = value
 
     def __str__(self):
         return f'{self.section} - {self.entries}'
 
     def id(self):
-        _id = self.entries.get('id', None)
+        _id = self._config.get(self.section, 'id', fallback=None)
         if _id is None:
             return -1
         return int(_id)
@@ -183,14 +186,40 @@ class Pacenote(IniSection):
         return self._name
 
     def sounds(self):
-        return int(self.entries.get('Sounds', 0))
+        # return int(self.entries.get('Sounds', 0))
+        sounds = self._config.get(self.section, 'Sounds', fallback=0)
+        return int(sounds)
 
     def files(self):
         _files = []
-        for option in self.options:
+        for option in self.options():
             if option.startswith('Snd'):
-                _files.append(self.entries[option])
+                file = self._config.get(self.section, option)
+                _files.append(file)
         return _files
+
+    def merge_queue(self, note):
+        if not hasattr(self, 'queue'):
+            self.queue = []
+        # only add the note if it is not already in the queue
+        if note['file'] not in [n['file'] for n in self.queue]:
+            self.queue.append(note)
+
+    def merge_commit(self):
+        if hasattr(self, 'queue'):
+            # remove all Snd options
+            for option in self.options():
+                if option.startswith('Snd'):
+                    self._config.remove_option(self.section, option)
+
+            # iterate over queue with index
+            for idx, note in enumerate(self.queue):
+                # add Snd options
+                option = f'Snd{idx}'
+                file = note['file']
+                self._config.set(self.section, option, file)
+
+            self._config.set(self.section, 'Sounds', str(len(self.queue)))
 
 class Range(Pacenote):
     pass
@@ -261,6 +290,25 @@ class RbrPacenotePlugin:
             if name in strings_ini.strings:
                 return strings_ini.strings[name]
         return ''
+
+    def merge(self, note):
+        id = int(note['id'])
+        pacenotes = self.find_pacenotes(id, note['name'])
+        for pacenote in pacenotes:
+            pacenote.merge_queue(note)
+
+    def merge_commit(self):
+        for pacenote in self.pacenotes():
+            pacenote.merge_commit()
+
+    def find_pacenotes(self, id, name):
+        notes = []
+        for pacenote in self.pacenotes():
+            if id == -1 and pacenote.name() == name:
+                notes.append(pacenote)
+            elif id != -1 and pacenote.id() == id:
+                notes.append(pacenote)
+        return notes
 
     def add_translation(self, note):
         # ; So, if the plugin searches for a string to translate, e.g. ONE_LEFT

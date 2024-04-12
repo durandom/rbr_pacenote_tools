@@ -20,5 +20,13 @@
             "console": "integratedTerminal",
             "args": ["--codriver", "janne-v3-numeric", "--list-ids"]
         },
+        {
+            "name": "merge bollinger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "codriver.py",
+            "console": "integratedTerminal",
+            "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-ids.csv", "--list-ids"]
+        },
     ]
 }
