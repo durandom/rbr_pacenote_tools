@@ -33,7 +33,7 @@ class CoDriver:
                 'translation': self.plugin.translate(pacenote.name()),
                 'file': '',
                 'sounds': pacenote.sounds(),
-                'ini': "/".join([f"{x.dir_name}/{x.file_name}" for x in ini_tree])
+                'ini': "/".join([f"{x.dirname}/{x.filename}" for x in ini_tree])
             }
             files = pacenote.files()
             if files:
@@ -57,6 +57,17 @@ class CoDriver:
     def merge_commit(self):
         self.plugin.merge_commit()
 
+    def write(self, out):
+        # check if the directory exists and is empty
+        if not os.path.exists(out):
+            os.makedirs(out)
+        else:
+            if len(os.listdir(out)) != 0:
+                logging.error(f"Directory {out} is not empty")
+                return
+
+        self.plugin.write(out)
+
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -66,6 +77,7 @@ if __name__ == '__main__':
     parser.add_argument('--codriver', help='Codriver in config.json', default='janne-v3-numeric')
     parser.add_argument('--list-ids', help='List all ids', action='store_true')
     parser.add_argument('--merge', help='Merge from file', default=None)
+    parser.add_argument('--out', help='Write to directory', default=None)
 
     args = parser.parse_args()
 
@@ -81,3 +93,6 @@ if __name__ == '__main__':
 
     if args.list_ids:
         codriver.list_ids()
+
+    if args.out:
+        codriver.write(args.out)

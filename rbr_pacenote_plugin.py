@@ -2,29 +2,34 @@ import configparser
 import io
 import logging
 import os
+from pathlib import Path
 from typing import Iterable, List, Tuple, Union
 
 class IniFile:
-    def __init__(self, file_path, parent=None):
-        file_path = file_path.replace('\\', '/')
+    def __init__(self, pathname, parent=None):
+        pathname = pathname.replace('\\', '/')
         # make sure the ini_file exists
-        if not os.path.exists(file_path):
-            raise FileNotFoundError(f'Not found: {file_path}')
-        self.path = file_path
-        self.base_dir = os.path.dirname(file_path)
-        self.dir_name = os.path.basename(self.base_dir)
-        self.file_name = os.path.basename(file_path)
+        if not os.path.exists(pathname):
+            raise FileNotFoundError(f'Not found: {pathname}')
+        # /path/to/file.ini
+        self.pathname = pathname
+        # /path/to
+        self.dirname = os.path.dirname(pathname)
+        # to
+        self.basename = os.path.basename(self.dirname)
+        # file.ini
+        self.filename = os.path.basename(pathname)
         self.sections = {}
 
         self.parent = parent
 
         # logging.debug(f'IniFile: {file_path}')
 
-        self.config = self.config_parser(file_path)
+        self.config = self.config_parser(pathname)
         self.parse()
 
     def __str__(self) -> str:
-        return f'{self.file_name}'
+        return f'{self.filename}'
 
     def config_parser(self, file):
         config = configparser.ConfigParser(strict=False)
@@ -53,7 +58,7 @@ class IniFile:
             return ss.read()
 
     def file_path(self, file):
-        return os.path.join(self.base_dir, file)
+        return os.path.join(self.dirname, file)
 
 class IniSection():
     ini_files = {}
@@ -281,6 +286,21 @@ class RbrPacenotePlugin:
                     if file.endswith('.ini'):
                         ini_file = os.path.join(root, file)
                         self.languages[language].append(StringsIni(ini_file))
+
+    def write(self, out_path):
+        basedir = os.path.join(out_path, 'Plugins', 'Pacenote')
+        for package_ini in self.packages_ini:
+            dir = Path(package_ini.dirname).relative_to(self.plugin_dir)
+            out_dir = os.path.join(basedir, dir)
+            if not os.path.exists(out_dir):
+                os.makedirs(out_dir)
+            with open(os.path.join(out_dir, package_ini.filename), 'w', encoding='utf-8') as f:
+                f.write(package_ini.content())
+
+        # for language, strings_ini in self.languages.items():
+        #     for strings in strings_ini:
+        #         with open(os.path.join(out, strings.file_name), 'w', encoding='utf-8') as f:
+        #             f.write(strings.content())
 
 
     def pacenotes(self, with_ini_tree = False) -> Iterable[Union[Pacenote, Tuple[Pacenote, List[IniFile]]]]:
