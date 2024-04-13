@@ -18,6 +18,11 @@ build-bollinger-numeric:
 	./codriver.py --codriver janne-v3-numeric --merge out/bollinger-numeric-ids.csv --out build/bollinger
 	@echo "Done"
 
+build-janne-v3:
+	rm -rf build/janne-v3
+	./codriver.py --codriver janne-v3-numeric --out build/janne-v3
+	@echo "Done"
+
 smo-v3:
 	./codriver.py --codriver smo-v3 --list-ids > out/smo-v3-ids.csv
 	@echo "Done"

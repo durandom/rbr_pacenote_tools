@@ -53,7 +53,7 @@ class IniFile:
 
     def content(self):
         with io.StringIO() as ss:
-            self.config.write(ss)
+            self.config.write(ss, space_around_delimiters=False)
             ss.seek(0) # rewind
             return ss.read()
 
@@ -287,20 +287,27 @@ class RbrPacenotePlugin:
                         ini_file = os.path.join(root, file)
                         self.languages[language].append(StringsIni(ini_file))
 
+    def write_ini(self, ini_file, basedir):
+        dir = Path(ini_file.dirname).relative_to(self.plugin_dir)
+        out_dir = os.path.join(basedir, dir)
+        if not os.path.exists(out_dir):
+            os.makedirs(out_dir)
+        with open(os.path.join(out_dir, ini_file.filename), 'w', encoding='utf-8') as f:
+            f.write(ini_file.content())
+
+
     def write(self, out_path):
         basedir = os.path.join(out_path, 'Plugins', 'Pacenote')
-        for package_ini in self.packages_ini:
-            dir = Path(package_ini.dirname).relative_to(self.plugin_dir)
-            out_dir = os.path.join(basedir, dir)
-            if not os.path.exists(out_dir):
-                os.makedirs(out_dir)
-            with open(os.path.join(out_dir, package_ini.filename), 'w', encoding='utf-8') as f:
-                f.write(package_ini.content())
+        inis = []
+        for pacenote, ini_tree in self.pacenotes(with_ini_tree=True):
+            for ini_file in ini_tree:
+                if ini_file not in inis:
+                    inis.append(ini_file)
+                    self.write_ini(ini_file, basedir)
 
-        # for language, strings_ini in self.languages.items():
-        #     for strings in strings_ini:
-        #         with open(os.path.join(out, strings.file_name), 'w', encoding='utf-8') as f:
-        #             f.write(strings.content())
+        for language, strings_ini in self.languages.items():
+            for strings in strings_ini:
+                self.write_ini(strings, basedir)
 
 
     def pacenotes(self, with_ini_tree = False) -> Iterable[Union[Pacenote, Tuple[Pacenote, List[IniFile]]]]:
