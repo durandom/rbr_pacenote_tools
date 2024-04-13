@@ -2,7 +2,7 @@ import configparser
 import io
 import logging
 import os
-from typing import Iterable
+from typing import Iterable, List, Tuple, Union
 
 class IniFile:
     def __init__(self, file_path, parent=None):
@@ -56,6 +56,7 @@ class IniFile:
         return os.path.join(self.base_dir, file)
 
 class IniSection():
+    ini_files = {}
     def __init__(self, section, ini):
         self.section = section
         self._ini = ini
@@ -66,6 +67,16 @@ class IniSection():
 
     def parse(self):
         pass
+
+    def get_ini_file(self, file_path, parent=None, klass=None):
+        if not klass:
+            klass = IniFile
+
+        if file_path in self.ini_files:
+            return self.ini_files[file_path]
+
+        self.ini_files[file_path] = klass(file_path, parent=parent)
+        return self.ini_files[file_path]
 
     def options(self):
         return self._config.options(self.section)
@@ -116,7 +127,7 @@ class Package(IniSection):
             if option.startswith('file'):
                 file = self._config.get(self.section, option)
                 file_path = self.file_path(file)
-                self.entries[option] = CategoriesIni(file_path, parent=self)
+                self.entries[option] = self.get_ini_file(file_path, parent=self, klass=CategoriesIni)
             else:
                 raise ValueError(f'Invalid option: {option}')
 
@@ -143,7 +154,7 @@ class Category(IniSection):
             if option.startswith('file'):
                 file = self._config.get(self.section, option)
                 file_path = self.file_path(file)
-                self.entries[option] = PacenotesIni(file_path, parent=self)
+                self.entries[option] = self.get_ini_file(file_path, parent=self, klass=PacenotesIni)
             else:
                 raise ValueError(f'Invalid option: {option}')
 
@@ -272,12 +283,20 @@ class RbrPacenotePlugin:
                         self.languages[language].append(StringsIni(ini_file))
 
 
-    def pacenotes(self) -> Iterable[Pacenote]:
+    def pacenotes(self, with_ini_tree = False) -> Iterable[Union[Pacenote, Tuple[Pacenote, List[IniFile]]]]:
         for package_ini in self.packages_ini:
+            ini_tree = [ package_ini, None, None ]
             for package in package_ini.packages():
-                for category in package.categories():
-                    for pacenote in category.pacenotes():
-                        yield pacenote
+                for category_ini in package.entries.values():
+                    ini_tree[1] = category_ini
+                    for category in category_ini.categories():
+                        for pacenotes_ini in category.entries.values():
+                            ini_tree[2] = pacenotes_ini
+                            for pacenote in pacenotes_ini.pacenotes():
+                                if with_ini_tree:
+                                    yield pacenote, ini_tree
+                                else:
+                                    yield pacenote
 
     def translate(self, name, language=None):
         if not language:

@@ -26,20 +26,21 @@ class CoDriver:
         csv_writer.writeheader()
 
         notes = []
-        for pacenote in self.plugin.pacenotes():
+        for pacenote, ini_tree in self.plugin.pacenotes(with_ini_tree=True):
             note = {
                 'id': pacenote.id(),
                 'name': pacenote.name(),
                 'translation': self.plugin.translate(pacenote.name()),
                 'file': '',
                 'sounds': pacenote.sounds(),
-                'ini': "/".join([f"{x.dir_name}/{x.file_name}" for x in pacenote.ini_tree()])
+                'ini': "/".join([f"{x.dir_name}/{x.file_name}" for x in ini_tree])
             }
             files = pacenote.files()
             if files:
                 for file in files:
-                    note['file'] = file
-                    notes.append(note)
+                    new_note = note.copy()
+                    new_note['file'] = file
+                    notes.append(new_note)
             else:
                 notes.append(note)
 
