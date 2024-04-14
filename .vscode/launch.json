@@ -34,7 +34,7 @@
             "request": "launch",
             "program": "codriver.py",
             "console": "integratedTerminal",
-            "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-ids.csv", "--out", "build/bollinger"]
+            "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-ids.csv", "--merge-sound-dir", "assets/bollinger_sounds", "--out", "build/bollinger"]
         },
         {
             "name": "janne build",

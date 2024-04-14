@@ -253,6 +253,7 @@ class PacenotesIni(IniFile):
 class Pacenote(IniSection):
     def __init__(self, name, ini):
         super().__init__(name, ini)
+        self._sound_dir = ''
         self._merge_queue = []
 
     def parse(self):
@@ -280,6 +281,9 @@ class Pacenote(IniSection):
             return 0
         return int(sounds)
 
+    def get_sound_dir(self):
+        return self._sound_dir
+
     def files(self) -> List[str]:
         _files = []
         for option in self.get_options():
@@ -288,9 +292,10 @@ class Pacenote(IniSection):
                 _files.append(file)
         return _files
 
-    def merge_queue(self, note):
+    def merge_queue(self, note, sound_dir=None):
         # only add the note if it is not already in the queue
         if note['file'] not in [n['file'] for n in self._merge_queue]:
+            self._sound_dir = sound_dir
             self._merge_queue.append(note)
 
     def merge_commit(self):
@@ -412,13 +417,18 @@ class RbrPacenotePlugin:
             for file in pacenote.files():
                 if not file:
                     continue
-                src = os.path.join(sounds_dir, file)
+                pacenote_sound_dir = pacenote.get_sound_dir()
+                if pacenote_sound_dir:
+                    src_dir = pacenote_sound_dir
+                else:
+                    src_dir = sounds_dir
+                src = os.path.join(src_dir, file)
                 dst = os.path.join(out_sounds_dir, file)
                 if not os.path.exists(src):
                     logging.error(f'Not found: {src}')
                 else:
+                    logging.debug(f'Copying: {src} -> {dst}')
                     shutil.copy(src, dst)
-
 
     def pacenotes_with_ini_tree(self) -> Iterable[Tuple[Pacenote, List[IniFile]]]:
         for package_ini in self.packages_ini:
@@ -448,17 +458,17 @@ class RbrPacenotePlugin:
                 return strings_ini.strings[name]
         return ''
 
-    def merge(self, note):
+    def merge(self, note, sound_dir=None):
         id = int(note['id'])
         pacenotes = self.find_pacenotes(id, note['name'])
         for pacenote in pacenotes:
-            pacenote.merge_queue(note)
+            pacenote.merge_queue(note, sound_dir)
 
     def merge_commit(self):
         for pacenote in self.pacenotes():
             pacenote.merge_commit()
 
-    def find_pacenotes(self, id, name):
+    def find_pacenotes(self, id, name) -> List[Pacenote]:
         notes = []
         for pacenote in self.pacenotes():
             if id == -1 and pacenote.name() == name:

@@ -47,12 +47,12 @@ class CoDriver:
         for note in sorted(notes, key=lambda x: [x['id'], x['name']]):
             csv_writer.writerow(note)
 
-    def merge(self, file):
+    def merge(self, file, sound_dir=None):
         # open CSV file
         with open(file) as csvfile:
             csv_reader = csv.DictReader(csvfile)
             for row in csv_reader:
-                self.plugin.merge(row)
+                self.plugin.merge(row, sound_dir)
 
     def merge_commit(self):
         self.plugin.merge_commit()
@@ -77,6 +77,7 @@ if __name__ == '__main__':
     parser.add_argument('--codriver', help='Codriver in config.json', default='janne-v3-numeric')
     parser.add_argument('--list-ids', help='List all ids', action='store_true')
     parser.add_argument('--merge', help='Merge from file', default=None)
+    parser.add_argument('--merge-sound-dir', help='Sound dir for merge', default=None)
     parser.add_argument('--out', help='Write to directory', default=None)
 
     args = parser.parse_args()
@@ -88,7 +89,7 @@ if __name__ == '__main__':
     codriver = CoDriver(config['codrivers'][codriver_name])
 
     if args.merge:
-        codriver.merge(args.merge)
+        codriver.merge(args.merge, args.merge_sound_dir)
         codriver.merge_commit()
 
     if args.list_ids:
