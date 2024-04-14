@@ -385,7 +385,7 @@ class RbrPacenotePlugin:
         basedir = os.path.join(out_path, 'Plugins', 'Pacenote')
         inis = []
         for ini in self.packages_ini + self.inifiles:
-            inis.append(ini)
+            self.write_ini(ini, basedir)
             for linked_ini in self.get_linked_inis(ini):
                 if linked_ini not in inis:
                     inis.append(linked_ini)
