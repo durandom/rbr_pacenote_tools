@@ -5,10 +5,10 @@ import io
 import logging
 import os
 from pathlib import Path
-from typing import Iterable, List, Tuple, Union
+from typing import Dict, Iterable, List, Tuple, Union
 
 class IniFile:
-    def __init__(self, pathname, parent=None):
+    def __init__(self, pathname):
         pathname = pathname.replace('\\', '/')
         # make sure the ini_file exists
         if not os.path.exists(pathname):
@@ -21,9 +21,8 @@ class IniFile:
         self.basename = os.path.basename(self.dirname)
         # file.ini
         self.filename = os.path.basename(pathname)
-        self.sections = {}
-
-        self.parent = parent
+        # dict of section_name -> IniSection
+        self.sections : Dict[str, IniSection] = {}
 
         # logging.debug(f'IniFile: {file_path}')
 
@@ -33,6 +32,9 @@ class IniFile:
         self.parse()
 
     def __str__(self) -> str:
+        return f'{self.filename}'
+
+    def __repr__(self) -> str:
         return f'{self.filename}'
 
     def parse(self):
@@ -106,55 +108,77 @@ class IniFile:
 
         return "\n".join(strings)
 
-    def get_options(self, section):
+    def get_options(self, section) -> List[str]:
         return self.config[section].keys()
 
-    def get_option(self, section, option):
-        return self.config[section][option]
+    def get_option(self, section: str, option: str) -> Union[str, None]:
+        try:
+            return self.config[section][option]
+        except KeyError:
+            return None
+
+    def get_sections(self) -> List[str]:
+        return self.config.sections
+
+    def get_ini_sections(self) -> List["IniSection"]:
+        return list(self.sections.values())
+
+    def add_ini_section(self, section: str, ini_section: "IniSection"):
+        self.sections[section] = ini_section
 
     def file_path(self, file):
         return os.path.join(self.dirname, file)
 
 class IniSection():
-    ini_files = {}
-    def __init__(self, section, ini):
-        self.section = section
-        self._ini = ini
-        self.entries = {}
+    ini_files : Dict[str, IniFile] = {}
+    def __init__(self, name, ini):
+        self._name = name
+        self._ini: IniFile = ini
+        self.options: Dict[str, str] = {}
+        self._linked_inis: Dict[str, IniFile] = {}
         self.parse()
+
+    def __str__(self) -> str:
+        return f'{self._name}'
+
+    def __repr__(self) -> str:
+        return f'{self._name}'
 
     def parse(self):
         pass
 
-    def get_ini_file(self, file_path, parent=None, klass=None):
+    def get_ini_file(self, file_path, klass=None):
         if not klass:
             klass = IniFile
 
         if file_path in self.ini_files:
-            return self.ini_files[file_path]
+            ini_file = self.ini_files[file_path]
+        else:
+            ini_file = klass(file_path)
+            self.ini_files[file_path] = ini_file
 
-        self.ini_files[file_path] = klass(file_path, parent=parent)
-        return self.ini_files[file_path]
+        self._linked_inis[file_path] = ini_file
 
-    def options(self):
-        return self._ini.get_options(self.section)
+        return ini_file
+
+    def get_linked_inis(self) -> List[IniFile]:
+        return list(self._linked_inis.values())
+
+    def get_options(self) -> List[str]:
+        return self._ini.get_options(self._name)
+
+    def get_option(self, option, default = None) -> Union[str, None]:
+        value = self._ini.get_option(self._name, option)
+        if value is None:
+            return default
+        else:
+            return value
 
     def file_path(self, file):
         return self._ini.file_path(file)
 
     def ini(self):
         return self._ini
-
-    def ini_tree(self):
-        ini_file = self.ini()
-        path = [ini_file]
-
-        while ini_file.parent:
-            ini_file = ini_file.parent.ini()
-            path.append(ini_file)
-
-        path.reverse()
-        return path
 
 class PluginIni(IniFile):
     def parse(self):
@@ -169,104 +193,81 @@ class PluginIni(IniFile):
 
 class PackagesIni(IniFile):
     def parse(self):
-        for section in self.config.sections:
+        for section in self.get_sections():
             if section.startswith('PACKAGE'):
-                self.sections[section] = Package(section, self)
+                self.add_ini_section(section, Package(section, self))
             else:
                 raise ValueError(f'Invalid section: {section}')
-
-    def packages(self):
-        return self.sections.values()
 
 class Package(IniSection):
     def parse(self):
-        (_type, name) = self.section.split('::')
-        for option in self.options():
+        for option in self.get_options():
             if option.startswith('file'):
-                file = self._ini.get_option(self.section, option)
+                file = self.get_option(option)
                 file_path = self.file_path(file)
-                self.entries[option] = self.get_ini_file(file_path, parent=self, klass=CategoriesIni)
+                self.get_ini_file(file_path, klass=CategoriesIni)
             else:
                 raise ValueError(f'Invalid option: {option}')
-
-    def categories(self):
-        for categories_ini in self.entries.values():
-            for category in categories_ini.categories():
-                yield category
 
 class CategoriesIni(IniFile):
     def parse(self):
-        for section in self.config.sections:
+        for section in self.get_sections():
             if section.startswith('CATEGORY'):
-                self.sections[section] = Category(section, self)
+                self.add_ini_section(section, Category(section, self))
             else:
                 raise ValueError(f'Invalid section: {section}')
-
-    def categories(self):
-        return self.sections.values()
 
 class Category(IniSection):
     def parse(self):
-        (_type, name) = self.section.split('::')
-        for option in self.options():
+        for option in self.get_options():
             if option.startswith('file'):
-                file = self._ini.get_option(self.section, option)
+                file = self._ini.get_option(self._name, option)
                 file_path = self.file_path(file)
-                self.entries[option] = self.get_ini_file(file_path, parent=self, klass=PacenotesIni)
+                self.get_ini_file(file_path, klass=PacenotesIni)
             else:
                 raise ValueError(f'Invalid option: {option}')
 
-    def pacenotes(self):
-        for pacenotes_ini in self.entries.values():
-            for pacenote in pacenotes_ini.pacenotes():
-                yield pacenote
-
 class PacenotesIni(IniFile):
     def parse(self):
-        for section in self.config.sections:
+        for section in self.get_sections():
             if section.startswith('PACENOTE'):
-                self.sections[section] = Pacenote(section, self)
+                self.add_ini_section(section, Pacenote(section, self))
             elif section.startswith('RANGE'):
-                self.sections[section] = Range(section, self)
+                self.add_ini_section(section, Range(section, self))
             else:
                 raise ValueError(f'Invalid section: {section}')
 
-    def pacenotes(self):
-        for pacenote in self.sections.values():
-            yield pacenote
-
 class Pacenote(IniSection):
     def parse(self):
-        (_type, self._name) = self.section.split('::')
+        pass
+        # (_type, self._name) = self.name.split('::')
         # for option in self.options():
         #     value = self._config.get(self.section, option)
         #     self.entries[option] = value
 
-    def __str__(self):
-        return f'{self.section} - {self.entries}'
-
-    def get(self, key, default=None):
-        return self._config[self.section].dict().get(key, default)
-
     def id(self):
-        _id = self.get('id', None)
+        _id = self.get_option('id', None)
         if _id is None:
             return -1
         return int(_id)
 
     def name(self):
-        return self._name
+        if self._name in self._ini.duplicate_sections:
+            return self._ini.duplicate_sections[self._name].split('::')[1]
+        return self._name.split('::')[1]
 
     def sounds(self):
         # return int(self.entries.get('Sounds', 0))
-        sounds = self.get('Sounds', 0)
+        sounds = self.get_option('Sounds')
+        if sounds is None:
+            return 0
         return int(sounds)
 
     def files(self):
         _files = []
-        for option in self.options():
+        for option in self.get_options():
             if option.startswith('Snd'):
-                file = self.get(option)
+                file = self.get_option(option)
                 _files.append(file)
         return _files
 
@@ -280,18 +281,18 @@ class Pacenote(IniSection):
     def merge_commit(self):
         if hasattr(self, 'queue'):
             # remove all Snd options
-            for option in self.options():
+            for option in self.get_options():
                 if option.startswith('Snd'):
-                    del self._config[self.section][option]
+                    del self._config[self.name][option]
 
             # iterate over queue with index
             for idx, note in enumerate(self.queue):
                 # add Snd options
                 option = f'Snd{idx}'
                 file = note['file']
-                self._config[self.section][option] = file
+                self._config[self.name][option] = file
 
-            self._config[self.section]['Sounds'] = str(len(self.queue))
+            self._config[self.name]['Sounds'] = str(len(self.queue))
 
 class Range(Pacenote):
     pass
@@ -324,7 +325,7 @@ class RbrPacenotePlugin:
         self.pacenote_ini = PluginIni(ini_file)
         self.inifiles.append(self.pacenote_ini)
 
-        self.packages_ini = []
+        self.packages_ini: List[PackagesIni] = []
         for ini_file in ini_files:
             ini_file = os.path.join(self.plugin_dir, 'config', 'pacenotes', ini_file)
             self.packages_ini.append(PackagesIni(ini_file))
@@ -362,9 +363,9 @@ class RbrPacenotePlugin:
     def get_linked_inis(self, ini):
         linked_inis = []
         for section in ini.sections.values():
-            for entry in section.entries.values():
-                linked_inis.append(entry)
-                for linked_ini in self.get_linked_inis(entry):
+            for ini_file in section.get_linked_inis():
+                linked_inis.append(ini_file)
+                for linked_ini in self.get_linked_inis(ini_file):
                     linked_inis.append(linked_ini)
         return linked_inis
 
@@ -386,13 +387,13 @@ class RbrPacenotePlugin:
     def pacenotes(self, with_ini_tree = False) -> Iterable[Union[Pacenote, Tuple[Pacenote, List[IniFile]]]]:
         for package_ini in self.packages_ini:
             ini_tree = [ package_ini, None, None ]
-            for package in package_ini.packages():
-                for category_ini in package.entries.values():
+            for package in package_ini.get_ini_sections():
+                for category_ini in package.get_linked_inis():
                     ini_tree[1] = category_ini
-                    for category in category_ini.categories():
-                        for pacenotes_ini in category.entries.values():
+                    for category in category_ini.get_ini_sections():
+                        for pacenotes_ini in category.get_linked_inis():
                             ini_tree[2] = pacenotes_ini
-                            for pacenote in pacenotes_ini.pacenotes():
+                            for pacenote in pacenotes_ini.get_ini_sections():
                                 if with_ini_tree:
                                     yield pacenote, ini_tree
                                 else:
