@@ -21,7 +21,7 @@
             "args": ["--codriver", "janne-v3-numeric", "--list-ids"]
         },
         {
-            "name": "merge bollinger",
+            "name": "bollinger merge",
             "type": "debugpy",
             "request": "launch",
             "program": "codriver.py",
@@ -29,7 +29,7 @@
             "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-ids.csv", "--list-ids"]
         },
         {
-            "name": "merge write bollinger",
+            "name": "bollinger merge build",
             "type": "debugpy",
             "request": "launch",
             "program": "codriver.py",
@@ -37,7 +37,7 @@
             "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-ids.csv", "--out", "build/bollinger"]
         },
         {
-            "name": "write janne",
+            "name": "janne build",
             "type": "debugpy",
             "request": "launch",
             "program": "codriver.py",

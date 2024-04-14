@@ -410,6 +410,8 @@ class RbrPacenotePlugin:
 
         for pacenote in self.pacenotes():
             for file in pacenote.files():
+                if not file:
+                    continue
                 src = os.path.join(sounds_dir, file)
                 dst = os.path.join(out_sounds_dir, file)
                 if not os.path.exists(src):
