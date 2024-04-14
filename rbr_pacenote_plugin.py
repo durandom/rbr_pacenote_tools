@@ -1,3 +1,4 @@
+import shutil
 from configobj import ConfigObj, ConfigObjError
 import re
 from io import StringIO
@@ -200,6 +201,9 @@ class PluginIni(IniFile):
     def language(self):
         return self.get_option('SETTINGS', 'language')
 
+    def sounds(self) -> str:
+        return str(self.get_option('SETTINGS', 'sounds'))
+
 class PackagesIni(IniFile):
     def parse(self):
         for section in self.get_sections():
@@ -276,7 +280,7 @@ class Pacenote(IniSection):
             return 0
         return int(sounds)
 
-    def files(self):
+    def files(self) -> List[str]:
         _files = []
         for option in self.get_options():
             if option.startswith('Snd'):
@@ -325,6 +329,7 @@ class StringsIni(IniFile):
 class RbrPacenotePlugin:
     def __init__(self, dir = "Pacenote/",
                  ini_files = ["Rbr.ini", "Rbr-Enhanced.ini"]):
+        self.dirname = dir
         self.plugin_dir = os.path.join(dir, 'Plugins', 'Pacenote')
 
         # make sure the plugin_dir is a directory
@@ -395,8 +400,25 @@ class RbrPacenotePlugin:
             for strings in strings_ini:
                 self.write_ini(strings, basedir)
 
+        # copy all sounds
+        sounds = self.pacenote_ini.sounds()
+        sounds_dir = os.path.join(self.dirname, 'Plugins', 'Pacenote', 'sounds', sounds)
+        out_sounds_dir = os.path.join(out_path, 'Plugins', 'Pacenote', 'sounds', sounds)
 
-    def pacenotes(self, with_ini_tree = False) -> Iterable[Union[Pacenote, Tuple[Pacenote, List[IniFile]]]]:
+        if not os.path.exists(out_sounds_dir):
+            os.makedirs(out_sounds_dir)
+
+        for pacenote in self.pacenotes():
+            for file in pacenote.files():
+                src = os.path.join(sounds_dir, file)
+                dst = os.path.join(out_sounds_dir, file)
+                if not os.path.exists(src):
+                    logging.error(f'Not found: {src}')
+                else:
+                    shutil.copy(src, dst)
+
+
+    def pacenotes_with_ini_tree(self) -> Iterable[Tuple[Pacenote, List[IniFile]]]:
         for package_ini in self.packages_ini:
             ini_tree = [ package_ini, None, None ]
             for package in package_ini.get_ini_sections():
@@ -406,10 +428,11 @@ class RbrPacenotePlugin:
                         for pacenotes_ini in category.get_linked_inis():
                             ini_tree[2] = pacenotes_ini
                             for pacenote in pacenotes_ini.get_ini_sections():
-                                if with_ini_tree:
-                                    yield pacenote, ini_tree
-                                else:
-                                    yield pacenote
+                                yield pacenote, ini_tree
+
+    def pacenotes(self) -> Iterable[Pacenote]:
+        for pacenote, _ini_tree in self.pacenotes_with_ini_tree():
+            yield pacenote
 
     def translate(self, name, language=None):
         if not language:

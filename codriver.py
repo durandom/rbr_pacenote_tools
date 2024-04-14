@@ -26,7 +26,7 @@ class CoDriver:
         csv_writer.writeheader()
 
         notes = []
-        for pacenote, ini_tree in self.plugin.pacenotes(with_ini_tree=True):
+        for pacenote, ini_tree in self.plugin.pacenotes_with_ini_tree():
             note = {
                 'id': pacenote.id(),
                 'name': pacenote.name(),
