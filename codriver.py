@@ -33,7 +33,7 @@ class CoDriver:
                 'translation': self.plugin.translate(pacenote.name()),
                 'file': '',
                 'sounds': pacenote.sounds(),
-                'ini': "/".join([f"{x.dirname}/{x.filename}" for x in ini_tree])
+                'ini': "/".join([f"{x.basename}/{x.filename}" for x in ini_tree])
             }
             files = pacenote.files()
             if files:
@@ -64,7 +64,7 @@ class CoDriver:
         else:
             if len(os.listdir(out)) != 0:
                 logging.error(f"Directory {out} is not empty")
-                return
+                # return
 
         self.plugin.write(out)
 

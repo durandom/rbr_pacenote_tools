@@ -20,7 +20,7 @@ build-bollinger-numeric:
 
 build-janne-v3:
 	rm -rf build/janne-v3
-	./codriver.py --codriver janne-v3-numeric --out build/janne-v3
+	pipenv run ./codriver.py --codriver janne-v3-numeric --out build/janne-v3
 	@echo "Done"
 
 smo-v3:

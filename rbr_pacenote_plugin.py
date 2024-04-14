@@ -1,4 +1,6 @@
-import configparser
+from configobj import ConfigObj, ConfigObjError
+import re
+from io import StringIO
 import io
 import logging
 import os
@@ -25,37 +27,90 @@ class IniFile:
 
         # logging.debug(f'IniFile: {file_path}')
 
+        self.duplicate_sections = {}
+
         self.config = self.config_parser(pathname)
         self.parse()
 
     def __str__(self) -> str:
         return f'{self.filename}'
 
-    def config_parser(self, file):
-        config = configparser.ConfigParser(strict=False)
-        # https://stackoverflow.com/questions/19359556/configparser-reads-capital-keys-and-make-them-lower-case
-        config.optionxform = str
-
-        try:
-            config.read(file, encoding='utf-8')
-        except Exception as e:
-            # logging.error(f'Error reading {file}: {e}')
-            # work around for configparser not handling utf-8
-            with open(file, 'r', encoding='utf-8') as f:
-                content = f.read()
-            # remove the BOM
-            content = content.replace('\ufeff', '')
-            config.read_string(content)
-        return config
-
     def parse(self):
         pass
 
+    def config_parser(self, file):
+        try:
+            with open(file, 'r', encoding='utf-8') as file:
+                # strip bom
+                file_contents = file.read()
+                file_contents = file_contents.replace('\ufeff', '')
+
+                # Corrects ";" at the start of any line to "#" throughout the file.
+                # file_contents = re.sub(r'^\s*;', '#', file_contents, flags=re.MULTILINE)
+                file_contents = re.sub(r';', '#', file_contents, flags=re.MULTILINE)
+
+            # Use StringIO to simulate a file object with the modified contents.
+            file_contents = StringIO(file_contents)
+            file_contents = file_contents.readlines()
+
+            # Dictionary to count occurrences of sections
+            sections = {}
+            processed_lines = []
+            for line in file_contents:
+                if line.startswith('['):
+                    new_line = line
+                    section = new_line.strip().strip('[]')
+                    if section in sections:
+                        sections[section] += 1
+                        new_section = f"{section}_{sections[section]}"
+                        processed_lines.append(f"[{new_section}]\n")
+                        self.duplicate_sections[new_section] = section
+                    else:
+                        sections[section] = 0
+                        processed_lines.append(line)
+                else:
+                    processed_lines.append(line)
+
+            # Write the processed content to a temporary file or handle in-memory
+            processed_content = ''.join(processed_lines)
+
+            # Use StringIO to simulate a file object with the modified contents.
+            string_io = StringIO(processed_content)
+            config = ConfigObj(string_io, encoding='utf-8', file_error=True)
+        except ConfigObjError as e:
+            logging.error('Parsing failed with several errors:')
+            for error in e.errors:
+                logging.error(f'Error: {error}')
+            exit(1)  # Or handle the error in a way that suits your application's needs
+        except IOError as e:
+            # This handles cases where the file might not be accessible or found
+            logging.error(f'I/O error({e.errno}): {e.strerror}')
+            exit(1)
+        return config
+
     def content(self):
-        with io.StringIO() as ss:
-            self.config.write(ss, space_around_delimiters=False)
-            ss.seek(0) # rewind
-            return ss.read()
+        content = self.config.write()
+        # Decode each byte string to a regular string (assuming UTF-8 encoding)
+        decoded_strings = [byte.decode('utf-8') for byte in content]
+        # replace # by ;
+        decoded_strings = [re.sub(r'#', ';', line) for line in decoded_strings]
+        # replace " = " by "="
+        decoded_strings = [re.sub(r' = ', '=', line) for line in decoded_strings]
+        # undo the duplicate sections
+        strings = []
+        for line in decoded_strings:
+            for new_section, orig_section in self.duplicate_sections.items():
+                if f"[{new_section}]" in line:
+                    line = line.replace(f"[{new_section}]", f"[{orig_section}]")
+            strings.append(line)
+
+        return "\n".join(strings)
+
+    def get_options(self, section):
+        return self.config[section].keys()
+
+    def get_option(self, section, option):
+        return self.config[section][option]
 
     def file_path(self, file):
         return os.path.join(self.dirname, file)
@@ -65,8 +120,6 @@ class IniSection():
     def __init__(self, section, ini):
         self.section = section
         self._ini = ini
-        self._config = ini.config
-        # self.options = self._config.options(section)
         self.entries = {}
         self.parse()
 
@@ -84,7 +137,7 @@ class IniSection():
         return self.ini_files[file_path]
 
     def options(self):
-        return self._config.options(self.section)
+        return self._ini.get_options(self.section)
 
     def file_path(self, file):
         return self._ini.file_path(file)
@@ -112,11 +165,11 @@ class PluginIni(IniFile):
         #     raise FileNotFoundError(f'Not found: {self.sounds_dir}')
 
     def language(self):
-        return self.config['SETTINGS'].get('language')
+        return self.get_option('SETTINGS', 'language')
 
 class PackagesIni(IniFile):
     def parse(self):
-        for section in self.config.sections():
+        for section in self.config.sections:
             if section.startswith('PACKAGE'):
                 self.sections[section] = Package(section, self)
             else:
@@ -130,7 +183,7 @@ class Package(IniSection):
         (_type, name) = self.section.split('::')
         for option in self.options():
             if option.startswith('file'):
-                file = self._config.get(self.section, option)
+                file = self._ini.get_option(self.section, option)
                 file_path = self.file_path(file)
                 self.entries[option] = self.get_ini_file(file_path, parent=self, klass=CategoriesIni)
             else:
@@ -143,7 +196,7 @@ class Package(IniSection):
 
 class CategoriesIni(IniFile):
     def parse(self):
-        for section in self.config.sections():
+        for section in self.config.sections:
             if section.startswith('CATEGORY'):
                 self.sections[section] = Category(section, self)
             else:
@@ -157,7 +210,7 @@ class Category(IniSection):
         (_type, name) = self.section.split('::')
         for option in self.options():
             if option.startswith('file'):
-                file = self._config.get(self.section, option)
+                file = self._ini.get_option(self.section, option)
                 file_path = self.file_path(file)
                 self.entries[option] = self.get_ini_file(file_path, parent=self, klass=PacenotesIni)
             else:
@@ -170,7 +223,7 @@ class Category(IniSection):
 
 class PacenotesIni(IniFile):
     def parse(self):
-        for section in self.config.sections():
+        for section in self.config.sections:
             if section.startswith('PACENOTE'):
                 self.sections[section] = Pacenote(section, self)
             elif section.startswith('RANGE'):
@@ -192,8 +245,11 @@ class Pacenote(IniSection):
     def __str__(self):
         return f'{self.section} - {self.entries}'
 
+    def get(self, key, default=None):
+        return self._config[self.section].dict().get(key, default)
+
     def id(self):
-        _id = self._config.get(self.section, 'id', fallback=None)
+        _id = self.get('id', None)
         if _id is None:
             return -1
         return int(_id)
@@ -203,14 +259,14 @@ class Pacenote(IniSection):
 
     def sounds(self):
         # return int(self.entries.get('Sounds', 0))
-        sounds = self._config.get(self.section, 'Sounds', fallback=0)
+        sounds = self.get('Sounds', 0)
         return int(sounds)
 
     def files(self):
         _files = []
         for option in self.options():
             if option.startswith('Snd'):
-                file = self._config.get(self.section, option)
+                file = self.get(option)
                 _files.append(file)
         return _files
 
@@ -226,16 +282,16 @@ class Pacenote(IniSection):
             # remove all Snd options
             for option in self.options():
                 if option.startswith('Snd'):
-                    self._config.remove_option(self.section, option)
+                    del self._config[self.section][option]
 
             # iterate over queue with index
             for idx, note in enumerate(self.queue):
                 # add Snd options
                 option = f'Snd{idx}'
                 file = note['file']
-                self._config.set(self.section, option, file)
+                self._config[self.section][option] = file
 
-            self._config.set(self.section, 'Sounds', str(len(self.queue)))
+            self._config[self.section]['Sounds'] = str(len(self.queue))
 
 class Range(Pacenote):
     pass
@@ -244,10 +300,10 @@ class StringsIni(IniFile):
     def parse(self):
         self.strings = {}
 
-        for section in self.config.sections():
+        for section in self.config.sections:
             if section == 'STRINGS':
-                for option in self.config.options(section):
-                    translation = self.config.get(section, option)
+                for option in self.config[section].keys():
+                    translation = self.config[section][option]
                     self.strings[option] = translation
             else:
                 raise ValueError(f'Invalid section: {section}')
@@ -262,8 +318,11 @@ class RbrPacenotePlugin:
         if not os.path.isdir(self.plugin_dir):
             raise NotADirectoryError(f'Not a directory: {self.plugin_dir}')
 
+        self.inifiles = []
+
         ini_file = os.path.join(self.plugin_dir, 'PaceNote.ini')
         self.pacenote_ini = PluginIni(ini_file)
+        self.inifiles.append(self.pacenote_ini)
 
         self.packages_ini = []
         for ini_file in ini_files:
@@ -273,6 +332,11 @@ class RbrPacenotePlugin:
         # add ranges
         ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'Rbr.ini')
         self.packages_ini.append(PackagesIni(ini_file))
+        ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'Extended.ini')
+        self.packages_ini.append(PackagesIni(ini_file))
+
+        ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'packages', 'Rbr.ini')
+        self.inifiles.append(CategoriesIni(ini_file))
 
         language_dir = os.path.join(self.plugin_dir, 'language')
         self.languages = {}
@@ -295,15 +359,24 @@ class RbrPacenotePlugin:
         with open(os.path.join(out_dir, ini_file.filename), 'w', encoding='utf-8') as f:
             f.write(ini_file.content())
 
+    def get_linked_inis(self, ini):
+        linked_inis = []
+        for section in ini.sections.values():
+            for entry in section.entries.values():
+                linked_inis.append(entry)
+                for linked_ini in self.get_linked_inis(entry):
+                    linked_inis.append(linked_ini)
+        return linked_inis
 
     def write(self, out_path):
         basedir = os.path.join(out_path, 'Plugins', 'Pacenote')
         inis = []
-        for pacenote, ini_tree in self.pacenotes(with_ini_tree=True):
-            for ini_file in ini_tree:
-                if ini_file not in inis:
-                    inis.append(ini_file)
-                    self.write_ini(ini_file, basedir)
+        for ini in self.packages_ini + self.inifiles:
+            inis.append(ini)
+            for linked_ini in self.get_linked_inis(ini):
+                if linked_ini not in inis:
+                    inis.append(linked_ini)
+                    self.write_ini(linked_ini, basedir)
 
         for language, strings_ini in self.languages.items():
             for strings in strings_ini:
@@ -400,24 +473,13 @@ class RbrPacenotePlugin:
             # logging.debug(f'Not found: {file}')
             return
 
-        config = configparser.ConfigParser(strict=False)
-        try:
-            config.read(file, encoding='utf-8')
-        except Exception as e:
-            # logging.error(f'Error reading {file}: {e}')
-            # work around for configparser not handling utf-8
-            with open(file, 'r', encoding='utf-8') as f:
-                content = f.read()
-            # remove the BOM
-            content = content.replace('\ufeff', '')
-            config.read_string(content)
-
+        config = ConfigObj(file, encoding='utf-8')
         strings = {}
-        for section in config.sections():
+        for section in config.sections:
             if section == 'STRINGS':
-                for english in config.options(section):
+                for english in config[section].keys():
                     # logging.debug(f'{english} - {config.get(section, english)}')
-                    translation = config.get(section, english, fallback=None)
+                    translation = config[section][english]
                     if translation:
                         strings[english] = translation.strip()
         return strings

@@ -29,12 +29,20 @@
             "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-ids.csv", "--list-ids"]
         },
         {
-            "name": "write bollinger",
+            "name": "merge write bollinger",
             "type": "debugpy",
             "request": "launch",
             "program": "codriver.py",
             "console": "integratedTerminal",
             "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-ids.csv", "--out", "build/bollinger"]
+        },
+        {
+            "name": "write janne",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "codriver.py",
+            "console": "integratedTerminal",
+            "args": ["--codriver", "janne-v3-numeric",  "--out", "build/janne-v3"]
         },
     ]
 }
