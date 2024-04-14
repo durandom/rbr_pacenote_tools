@@ -174,6 +174,15 @@ class IniSection():
         else:
             return value
 
+    def del_option(self, option):
+        del self._ini.config[self._name][option]
+
+    def add_option(self, option, value):
+        self._ini.config[self._name][option] = value
+
+    def set_option(self, option, value):
+        self._ini.config[self._name][option] = value
+
     def file_path(self, file):
         return self._ini.file_path(file)
 
@@ -238,6 +247,10 @@ class PacenotesIni(IniFile):
                 raise ValueError(f'Invalid section: {section}')
 
 class Pacenote(IniSection):
+    def __init__(self, name, ini):
+        super().__init__(name, ini)
+        self._merge_queue = []
+
     def parse(self):
         pass
         # (_type, self._name) = self.name.split('::')
@@ -272,27 +285,26 @@ class Pacenote(IniSection):
         return _files
 
     def merge_queue(self, note):
-        if not hasattr(self, 'queue'):
-            self.queue = []
         # only add the note if it is not already in the queue
-        if note['file'] not in [n['file'] for n in self.queue]:
-            self.queue.append(note)
+        if note['file'] not in [n['file'] for n in self._merge_queue]:
+            self._merge_queue.append(note)
 
     def merge_commit(self):
-        if hasattr(self, 'queue'):
+        if self._merge_queue:
             # remove all Snd options
             for option in self.get_options():
                 if option.startswith('Snd'):
-                    del self._config[self.name][option]
+                    self.del_option(option)
 
             # iterate over queue with index
-            for idx, note in enumerate(self.queue):
+            for idx, note in enumerate(self._merge_queue):
                 # add Snd options
                 option = f'Snd{idx}'
                 file = note['file']
-                self._config[self.name][option] = file
+                self.add_option(option, file)
 
-            self._config[self.name]['Sounds'] = str(len(self.queue))
+            # update the Sounds option
+            self.set_option('Sounds', str(len(self._merge_queue)))
 
 class Range(Pacenote):
     pass
