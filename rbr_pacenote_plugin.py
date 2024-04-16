@@ -361,22 +361,21 @@ class RbrPacenotePlugin:
         if not os.path.isdir(self.plugin_dir):
             raise NotADirectoryError(f'Not a directory: {self.plugin_dir}')
 
-        self.inifiles = []
+        self.inifiles: List[IniFile] = []
 
         ini_file = os.path.join(self.plugin_dir, 'PaceNote.ini')
         self.pacenote_ini = PluginIni(ini_file)
         self.inifiles.append(self.pacenote_ini)
 
-        self.packages_ini: List[PackagesIni] = []
         for ini_file in ini_files:
             ini_file = os.path.join(self.plugin_dir, 'config', 'pacenotes', ini_file)
-            self.packages_ini.append(PackagesIni(ini_file))
+            self.inifiles.append(PackagesIni(ini_file))
 
         # add ranges
         ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'Rbr.ini')
-        self.packages_ini.append(PackagesIni(ini_file))
+        self.inifiles.append(PackagesIni(ini_file))
         ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'Extended.ini')
-        self.packages_ini.append(PackagesIni(ini_file))
+        self.inifiles.append(PackagesIni(ini_file))
 
         ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'packages', 'Rbr.ini')
         self.inifiles.append(CategoriesIni(ini_file))
@@ -425,7 +424,7 @@ class RbrPacenotePlugin:
     def write(self, out_path):
         basedir = os.path.join(out_path, 'Plugins', 'Pacenote')
         inis = []
-        for ini in self.packages_ini + self.inifiles:
+        for ini in self.inifiles:
             self.write_ini(ini, basedir)
             for linked_ini in self.get_linked_inis(ini):
                 if linked_ini not in inis:
@@ -461,21 +460,21 @@ class RbrPacenotePlugin:
                     logging.debug(f'Copying: {src} -> {dst}')
                     shutil.copy(src, dst)
 
-    def pacenotes_with_ini_tree(self) -> Iterable[Tuple[Pacenote, List[IniFile]]]:
-        for package_ini in self.packages_ini:
-            ini_tree = [ package_ini, None, None ]
-            for package in package_ini.get_ini_sections():
-                for category_ini in package.get_linked_inis():
-                    ini_tree[1] = category_ini
-                    for category in category_ini.get_ini_sections():
-                        for pacenotes_ini in category.get_linked_inis():
-                            ini_tree[2] = pacenotes_ini
-                            for pacenote in pacenotes_ini.get_ini_sections():
-                                yield pacenote, ini_tree
+    # def pacenotes_with_ini_tree(self) -> Iterable[Tuple[Pacenote, List[IniFile]]]:
+    #     for package_ini in self.packages_ini:
+    #         ini_tree = [ package_ini, None, None ]
+    #         for package in package_ini.get_ini_sections():
+    #             for category_ini in package.get_linked_inis():
+    #                 ini_tree[1] = category_ini
+    #                 for category in category_ini.get_ini_sections():
+    #                     for pacenotes_ini in category.get_linked_inis():
+    #                         ini_tree[2] = pacenotes_ini
+    #                         for pacenote in pacenotes_ini.get_ini_sections():
+    #                             yield pacenote, ini_tree
 
     def calls_with_ini_tree(self, ini = None, ini_tree = []) -> Iterable[Tuple[Pacenote, List[IniFile]]]:
         if not ini:
-            for ini in self.packages_ini + self.inifiles:
+            for ini in self.inifiles:
                 yield from self.calls_with_ini_tree(ini = ini)
         else:
             ini_tree.append(ini)
@@ -488,7 +487,7 @@ class RbrPacenotePlugin:
             ini_tree.pop()
 
     def pacenotes(self) -> Iterable[Pacenote]:
-        for pacenote, _ini_tree in self.pacenotes_with_ini_tree():
+        for pacenote, _ini_tree in self.calls_with_ini_tree():
             yield pacenote
 
     def translate(self, name, language=None):
