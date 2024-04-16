@@ -460,18 +460,6 @@ class RbrPacenotePlugin:
                     logging.debug(f'Copying: {src} -> {dst}')
                     shutil.copy(src, dst)
 
-    # def pacenotes_with_ini_tree(self) -> Iterable[Tuple[Pacenote, List[IniFile]]]:
-    #     for package_ini in self.packages_ini:
-    #         ini_tree = [ package_ini, None, None ]
-    #         for package in package_ini.get_ini_sections():
-    #             for category_ini in package.get_linked_inis():
-    #                 ini_tree[1] = category_ini
-    #                 for category in category_ini.get_ini_sections():
-    #                     for pacenotes_ini in category.get_linked_inis():
-    #                         ini_tree[2] = pacenotes_ini
-    #                         for pacenote in pacenotes_ini.get_ini_sections():
-    #                             yield pacenote, ini_tree
-
     def calls_with_ini_tree(self, ini = None, ini_tree = []) -> Iterable[Tuple[Pacenote, List[IniFile]]]:
         if not ini:
             for ini in self.inifiles:
@@ -575,13 +563,3 @@ class RbrPacenotePlugin:
                     if translation:
                         strings[english] = translation.strip()
         return strings
-
-
-
-if __name__ == '__main__':
-    logging.basicConfig(level=logging.DEBUG)
-    # logging.basicConfig(level=logging.ERROR)
-    basedir = os.path.dirname(os.path.abspath(__file__))
-    pacenote_dir = os.path.join(basedir, "Pacenote")
-    logging.debug(f'ini_file: {pacenote_dir}')
-    rbr_pacenote_plugin = RbrPacenotePlugin(pacenote_dir)
