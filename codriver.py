@@ -13,9 +13,10 @@ class CoDriver:
         logging.debug(f'package: {config}')
         self.plugin = RbrPacenotePlugin(dir=config['dir'], ini_files=config['ini'])
 
-    def list_ids(self):
+    def list_sounds(self):
         note = {
             'id': 'id',
+            'type': 'type',
             'name': 'name',
             'translation': 'translation',
             'file': 'file',
@@ -26,16 +27,17 @@ class CoDriver:
         csv_writer.writeheader()
 
         notes = []
-        for pacenote, ini_tree in self.plugin.pacenotes_with_ini_tree():
+        for call, ini_tree in self.plugin.calls_with_ini_tree():
             note = {
-                'id': pacenote.id(),
-                'name': pacenote.name(),
-                'translation': self.plugin.translate(pacenote.name()),
+                'id': call.id(),
+                'type': call.type(),
+                'name': call.name(),
+                'translation': self.plugin.translate(call.name()),
                 'file': '',
-                'sounds': pacenote.sounds(),
+                'sounds': call.sounds(),
                 'ini': "/".join([f"{x.basename}/{x.filename}" for x in ini_tree])
             }
-            files = pacenote.files()
+            files = call.files()
             if files:
                 for file in files:
                     new_note = note.copy()
@@ -75,9 +77,10 @@ if __name__ == '__main__':
     # get commandline arguments and parse them
     parser = argparse.ArgumentParser(description='CoDriver')
     parser.add_argument('--codriver', help='Codriver in config.json', default='janne-v3-numeric')
-    parser.add_argument('--list-ids', help='List all ids', action='store_true')
+    parser.add_argument('--list-sounds', help='List all sounds', action='store_true')
     parser.add_argument('--merge', help='Merge from file', default=None)
     parser.add_argument('--merge-sound-dir', help='Sound dir for merge', default=None)
+    parser.add_argument('--language', help='Force new language e.g. english/german/french', default=None)
     parser.add_argument('--out', help='Write to directory', default=None)
 
     args = parser.parse_args()
@@ -92,8 +95,8 @@ if __name__ == '__main__':
         codriver.merge(args.merge, args.merge_sound_dir)
         codriver.merge_commit()
 
-    if args.list_ids:
-        codriver.list_ids()
+    if args.list_sounds:
+        codriver.list_sounds()
 
     if args.out:
         codriver.write(args.out)

@@ -269,6 +269,9 @@ class Pacenote(IniSection):
             return -1
         return int(_id)
 
+    def type(self):
+        return self._name.split('::')[0]
+
     def name(self):
         if self._name in self._ini.duplicate_sections:
             return self._ini.duplicate_sections[self._name].split('::')[1]
@@ -318,6 +321,23 @@ class Pacenote(IniSection):
 class Range(Pacenote):
     pass
 
+class NumbersIni(IniFile):
+    def parse(self):
+        for section in self.get_sections():
+            if section.startswith('PLACE'):
+                self.add_ini_section(section, Place(section, self))
+            elif section.startswith('NUMBER'):
+                self.add_ini_section(section, Number(section, self))
+            elif section.startswith('RANGE'):
+                self.add_ini_section(section, Range(section, self))
+            else:
+                raise ValueError(f'Invalid section: {section}')
+
+class Place(Pacenote):
+    pass
+
+class Number(Pacenote):
+    pass
 class StringsIni(IniFile):
     def parse(self):
         self.strings = {}
@@ -360,6 +380,17 @@ class RbrPacenotePlugin:
 
         ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'packages', 'Rbr.ini')
         self.inifiles.append(CategoriesIni(ini_file))
+
+        # add numbers
+        ini_file = os.path.join(self.dirname, 'Audio', 'Numbers.ini')
+        # check if the ini_file exists
+        if os.path.exists(ini_file):
+            self.inifiles.append(NumbersIni(ini_file))
+
+        ini_file = os.path.join(self.dirname, 'Audio', 'NumOther.ini')
+        # check if the ini_file exists
+        if os.path.exists(ini_file):
+            self.inifiles.append(NumbersIni(ini_file))
 
         language_dir = os.path.join(self.plugin_dir, 'language')
         self.languages = {}
@@ -441,6 +472,20 @@ class RbrPacenotePlugin:
                             ini_tree[2] = pacenotes_ini
                             for pacenote in pacenotes_ini.get_ini_sections():
                                 yield pacenote, ini_tree
+
+    def calls_with_ini_tree(self, ini = None, ini_tree = []) -> Iterable[Tuple[Pacenote, List[IniFile]]]:
+        if not ini:
+            for ini in self.packages_ini + self.inifiles:
+                yield from self.calls_with_ini_tree(ini = ini)
+        else:
+            ini_tree.append(ini)
+            for ini_section in ini.get_ini_sections():
+                if issubclass(type(ini_section), Pacenote):
+                    yield ini_section, ini_tree
+
+            for linked_ini in self.get_linked_inis(ini):
+                yield from self.calls_with_ini_tree(ini = linked_ini, ini_tree = ini_tree)
+            ini_tree.pop()
 
     def pacenotes(self) -> Iterable[Pacenote]:
         for pacenote, _ini_tree in self.pacenotes_with_ini_tree():
