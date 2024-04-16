@@ -2,7 +2,6 @@ import shutil
 from configobj import ConfigObj, ConfigObjError
 import re
 from io import StringIO
-import io
 import logging
 import os
 from pathlib import Path
