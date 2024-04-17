@@ -5,7 +5,7 @@ from io import StringIO
 import logging
 import os
 from pathlib import Path
-from typing import Dict, Iterable, List, Tuple, Union
+from typing import Dict, Iterable, List, Optional, Tuple, Union
 
 class IniFile:
     def __init__(self, pathname):
@@ -252,7 +252,7 @@ class PacenotesIni(IniFile):
 class Pacenote(IniSection):
     def __init__(self, name, ini):
         super().__init__(name, ini)
-        self._sound_dir = ''
+        self._sound_dir = None
         self._merge_queue = []
 
     def parse(self):
@@ -283,7 +283,7 @@ class Pacenote(IniSection):
             return 0
         return int(sounds)
 
-    def get_sound_dir(self):
+    def get_sound_dir(self) -> Optional[Path]:
         return self._sound_dir
 
     def files(self) -> List[str]:
@@ -294,7 +294,7 @@ class Pacenote(IniSection):
                 _files.append(file)
         return _files
 
-    def merge_queue(self, note, sound_dir=None):
+    def merge_queue(self, note, sound_dir: Path):
         # only add the note if it is not already in the queue
         if note['file'] not in [n['file'] for n in self._merge_queue]:
             self._sound_dir = sound_dir
@@ -404,7 +404,7 @@ class RbrPacenotePlugin:
                         self.languages[language].append(StringsIni(ini_file))
 
     def write_ini(self, ini_file, basedir):
-        dir = Path(ini_file.dirname).relative_to(self.plugin_dir)
+        dir = Path(ini_file.dirname).relative_to(self.dirname)
         out_dir = os.path.join(basedir, dir)
         if not os.path.exists(out_dir):
             os.makedirs(out_dir)
@@ -421,41 +421,47 @@ class RbrPacenotePlugin:
         return linked_inis
 
     def write(self, out_path):
-        basedir = os.path.join(out_path, 'Plugins', 'Pacenote')
         inis = []
         for ini in self.inifiles:
-            self.write_ini(ini, basedir)
+            self.write_ini(ini, out_path)
             for linked_ini in self.get_linked_inis(ini):
                 if linked_ini not in inis:
                     inis.append(linked_ini)
-                    self.write_ini(linked_ini, basedir)
+                    self.write_ini(linked_ini, out_path)
 
         for language, strings_ini in self.languages.items():
             for strings in strings_ini:
-                self.write_ini(strings, basedir)
+                self.write_ini(strings, out_path)
 
-        # copy all sounds
-        sounds = self.pacenote_ini.sounds()
-        sounds_dir = os.path.join(self.dirname, 'Plugins', 'Pacenote', 'sounds', sounds)
-        out_sounds_dir = os.path.join(out_path, 'Plugins', 'Pacenote', 'sounds', sounds)
-
-        if not os.path.exists(out_sounds_dir):
-            os.makedirs(out_sounds_dir)
+        directories = {
+            Pacenote: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
+            Number: Path('Audio', 'Speech', 'Number'),
+            Place: Path('Audio', 'Speech', 'Place'),
+            Range: Path('Audio', 'Speech', 'Range'),
+        }
 
         for pacenote in self.pacenotes():
             for file in pacenote.files():
                 if not file:
                     continue
-                pacenote_sound_dir = pacenote.get_sound_dir()
-                if pacenote_sound_dir:
-                    src_dir = pacenote_sound_dir
-                else:
-                    src_dir = sounds_dir
+
+                # check if file has .ogg extension, if not, add it
+                if not file.endswith('.ogg'):
+                    file = f'{file}.ogg'
+
+                src_dir = pacenote.get_sound_dir()
+                if not src_dir:
+                    src_dir = os.path.join(self.dirname, directories[type(pacenote)])
+                dst_dir = os.path.join(out_path, directories[type(pacenote)])
+
                 src = os.path.join(src_dir, file)
-                dst = os.path.join(out_sounds_dir, file)
+                dst = os.path.join(dst_dir, file)
+
                 if not os.path.exists(src):
                     logging.error(f'Not found: {src}')
                 else:
+                    if not os.path.exists(dst_dir):
+                        os.makedirs(dst_dir)
                     logging.debug(f'Copying: {src} -> {dst}')
                     shutil.copy(src, dst)
 
