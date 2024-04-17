@@ -34,7 +34,7 @@
             "request": "launch",
             "program": "codriver.py",
             "console": "integratedTerminal",
-            "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-ids.csv", "--list-sounds"]
+            "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-sounds.csv", "--list-sounds"]
         },
         {
             "name": "bollinger merge build",
@@ -42,7 +42,7 @@
             "request": "launch",
             "program": "codriver.py",
             "console": "integratedTerminal",
-            "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-ids.csv", "--merge-sound-dir", "assets/bollinger_sounds", "--out", "build/bollinger"]
+            "args": ["--codriver", "janne-v3-numeric", "--merge", "out/bollinger-numeric-sounds.csv", "--merge-sound-dir", "assets/bollinger_sounds", "--out", "build/bollinger"]
         },
     ]
 }
