@@ -15,6 +15,10 @@ bollinger-numeric:
 	pipenv run ./codriver.py --codriver bollinger-numeric --list-sounds > out/bollinger-numeric-sounds.csv
 	@echo "Done"
 
+bollinger-numeric-build:
+	pipenv run ./codriver.py --codriver bollinger-numeric --out build/bollinger-numeric
+	@echo "Done"
+
 bollinger-numeric-merge:
 	pipenv run ./codriver.py --codriver janne-v3-numeric --merge out/bollinger-numeric-sounds.csv --list-sounds > out/merge-bollinger-numeric-sounds.csv
 	@echo "Done"
@@ -24,7 +28,7 @@ bollinger-numeric-merge-build:
 	  --codriver janne-v3-numeric \
 	  --merge out/bollinger-numeric-sounds.csv \
 	  --merge-sound-dir assets/bollinger_sounds \
-	  --out build/bollinger
+	  --out build/bollinger-v3
 	@echo "Done"
 
 smo-v3:

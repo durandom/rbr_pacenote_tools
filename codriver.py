@@ -49,8 +49,9 @@ class CoDriver:
         for note in sorted(notes, key=lambda x: [x['id'], x['name']]):
             csv_writer.writerow(note)
 
-    def merge(self, file, sound_dir=None):
+    def merge(self, file, sound_dir=None, language=None):
         # open CSV file
+        self.plugin.merge_language(language)
         with open(file) as csvfile:
             csv_reader = csv.DictReader(csvfile)
             for row in csv_reader:
@@ -80,7 +81,7 @@ if __name__ == '__main__':
     parser.add_argument('--list-sounds', help='List all sounds', action='store_true')
     parser.add_argument('--merge', help='Merge from file', default=None)
     parser.add_argument('--merge-sound-dir', help='Sound dir for merge', default=None)
-    parser.add_argument('--language', help='Force new language e.g. english/german/french', default=None)
+    parser.add_argument('--merge-language', help='Force new language e.g. english/german/french', default=None)
     parser.add_argument('--out', help='Write to directory', default=None)
 
     args = parser.parse_args()
@@ -92,7 +93,7 @@ if __name__ == '__main__':
     codriver = CoDriver(config['codrivers'][codriver_name])
 
     if args.merge:
-        codriver.merge(args.merge, args.merge_sound_dir)
+        codriver.merge(args.merge, args.merge_sound_dir, args.merge_language)
         codriver.merge_commit()
 
     if args.list_sounds:

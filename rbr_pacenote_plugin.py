@@ -197,8 +197,8 @@ class PluginIni(IniFile):
         # if not os.path.exists(self.sounds_dir):
         #     raise FileNotFoundError(f'Not found: {self.sounds_dir}')
 
-    def language(self):
-        return self.get_option('SETTINGS', 'language')
+    def language(self) -> str:
+        return str(self.get_option('SETTINGS', 'language'))
 
     def sounds(self) -> str:
         return str(self.get_option('SETTINGS', 'sounds'))
@@ -355,6 +355,7 @@ class RbrPacenotePlugin:
                  ini_files = ["Rbr.ini", "Rbr-Enhanced.ini"]):
         self.dirname = dir
         self.plugin_dir = os.path.join(dir, 'Plugins', 'Pacenote')
+        self._merge_language = None
 
         # make sure the plugin_dir is a directory
         if not os.path.isdir(self.plugin_dir):
@@ -433,11 +434,26 @@ class RbrPacenotePlugin:
             for strings in strings_ini:
                 self.write_ini(strings, out_path)
 
-        directories = {
+        language_to_dir = {
+            'english': 'Number',
+            'german': 'NumGer',
+            'french': 'NumFre',
+        }
+        src_number_dir = language_to_dir[self.pacenote_ini.language()]
+        dst_number_dir = language_to_dir[self.get_merge_language()]
+
+
+        src_dirs = {
             Pacenote: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
-            Number: Path('Audio', 'Speech', 'Number'),
-            Place: Path('Audio', 'Speech', 'Place'),
-            Range: Path('Audio', 'Speech', 'Range'),
+            Range: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
+            Number: Path('Audio', 'Speech', src_number_dir),
+            Place: Path('Audio', 'Speech', src_number_dir),
+        }
+        dst_dirs = {
+            Pacenote: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
+            Range: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
+            Number: Path('Audio', 'Speech', dst_number_dir),
+            Place: Path('Audio', 'Speech', dst_number_dir),
         }
 
         for pacenote in self.pacenotes():
@@ -451,8 +467,8 @@ class RbrPacenotePlugin:
 
                 src_dir = pacenote.get_sound_dir()
                 if not src_dir:
-                    src_dir = os.path.join(self.dirname, directories[type(pacenote)])
-                dst_dir = os.path.join(out_path, directories[type(pacenote)])
+                    src_dir = os.path.join(self.dirname, src_dirs[type(pacenote)])
+                dst_dir = os.path.join(out_path, dst_dirs[type(pacenote)])
 
                 src = os.path.join(src_dir, file)
                 dst = os.path.join(dst_dir, file)
@@ -504,6 +520,14 @@ class RbrPacenotePlugin:
     def merge_commit(self):
         for pacenote in self.pacenotes():
             pacenote.merge_commit()
+
+    def merge_language(self, language):
+        self._merge_language = language
+
+    def get_merge_language(self):
+        if not self._merge_language:
+            return self.pacenote_ini.language()
+        return self._merge_language
 
     def find_pacenotes(self, id, name) -> List[Pacenote]:
         notes = []
