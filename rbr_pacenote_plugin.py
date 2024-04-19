@@ -309,7 +309,10 @@ class Pacenote(IniSection):
         if not file.endswith('.ogg'):
             file = f'{file}.ogg'
         # check if the file exists
-        pathname = self.plugin().pathname_for(self, file)
+        if self._sound_dir:
+            pathname = os.path.join(self._sound_dir, file)
+        else:
+            pathname = self.plugin().pathname_for(self, file)
         if not os.path.exists(pathname):
             return f'Not found: {file}'
         return ''
