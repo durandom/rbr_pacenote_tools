@@ -151,6 +151,9 @@ class IniSection():
     def file_error(self, file):
         return ''
 
+    def file_src_dir(self):
+        return ''
+
     def parse(self):
         pass
 
@@ -304,6 +307,12 @@ class Pacenote(IniSection):
                 _files.append(file)
         return _files
 
+    def file_src_dir(self) -> Path:
+        if self._sound_dir:
+            return Path(self._sound_dir)
+        else:
+            return self.plugin().pathname_for(self)
+
     def file_error(self, file):
         if not file:
             # internal file
@@ -312,10 +321,7 @@ class Pacenote(IniSection):
         if not file.endswith('.ogg'):
             file = f'{file}.ogg'
         # check if the file exists
-        if self._sound_dir:
-            pathname = os.path.join(self._sound_dir, file)
-        else:
-            pathname = self.plugin().pathname_for(self, file)
+        pathname = self.file_src_dir().joinpath(file)
         if not os.path.exists(pathname):
             return f'Not found: {file}'
         return ''
@@ -432,6 +438,23 @@ class RbrPacenotePlugin:
                         ini_file = os.path.join(root, file)
                         self.languages[language].append(StringsIni(ini_file, self))
 
+        self.init_sound_dirs()
+
+    def init_sound_dirs(self):
+        language_to_dir = {
+            'english': 'Number',
+            'german': 'NumGer',
+            'french': 'NumFre',
+        }
+        src_number_dir = language_to_dir[self.pacenote_ini.language()]
+
+        self.sound_dirs = {
+            Pacenote: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
+            Range: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
+            Number: Path('Audio', 'Speech', src_number_dir),
+            Place: Path('Audio', 'Speech', src_number_dir),
+        }
+
     def copy(self):
         return RbrPacenotePlugin(dir=self.dirname, ini_files=self.root_ini_files)
 
@@ -452,21 +475,8 @@ class RbrPacenotePlugin:
                     linked_inis.append(linked_ini)
         return linked_inis
 
-    def pathname_for(self, call, file):
-        language_to_dir = {
-            'english': 'Number',
-            'german': 'NumGer',
-            'french': 'NumFre',
-        }
-        src_number_dir = language_to_dir[self.pacenote_ini.language()]
-
-        src_dirs = {
-            Pacenote: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
-            Range: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
-            Number: Path('Audio', 'Speech', src_number_dir),
-            Place: Path('Audio', 'Speech', src_number_dir),
-        }
-        return os.path.join(self.dirname, src_dirs[type(call)], file)
+    def pathname_for(self, call):
+        return Path(os.path.join(self.dirname, self.sound_dirs[type(call)]))
 
     def write(self, out_path):
         inis = []
@@ -577,13 +587,23 @@ class RbrPacenotePlugin:
         return self._merge_language
 
     def find_pacenotes(self, id, name) -> List[Pacenote]:
-        notes = []
-        for pacenote in self.pacenotes():
-            if id == -1 and pacenote.name() == name:
-                notes.append(pacenote)
-            elif id != -1 and pacenote.id() == id:
-                notes.append(pacenote)
-        return notes
+        if not hasattr(self, '_lookup_pacenotes_by_name'):
+            self._lookup_pacenotes_by_name = {}
+            self._lookup_pacenotes_by_id = {}
+            for pacenote in self.pacenotes():
+                if pacenote.id == -1:
+                    if pacenote.name() not in self._lookup_pacenotes_by_name:
+                        self._lookup_pacenotes_by_name[pacenote.name()] = []
+                    self._lookup_pacenotes_by_name[pacenote.name()].append(pacenote)
+                else:
+                    if pacenote.id() not in self._lookup_pacenotes_by_id:
+                        self._lookup_pacenotes_by_id[pacenote.id()] = []
+                    self._lookup_pacenotes_by_id[pacenote.id()].append(pacenote)
+
+        if id == -1:
+            return self._lookup_pacenotes_by_name.get(name, [])
+        else:
+            return self._lookup_pacenotes_by_id.get(id, [])
 
     def add_translation(self, note):
         # ; So, if the plugin searches for a string to translate, e.g. ONE_LEFT

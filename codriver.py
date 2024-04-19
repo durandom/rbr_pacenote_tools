@@ -18,7 +18,8 @@ class CoDriver:
             'file': 'file',
             'sounds': 1,
             'error': '',
-            'ini': 'ini_file'
+            'ini': 'ini_file',
+            'file_src_dir': '',
         }
         csv_writer = csv.DictWriter(sys.stdout, note.keys())
         csv_writer.writeheader()
@@ -32,6 +33,7 @@ class CoDriver:
                 'translation': plugin.translate(call.name()),
                 'file': '',
                 'sounds': call.sounds(),
+                'file_src_dir': call.file_src_dir(),
                 'error': call.error(),
                 'ini': "/".join([f"{x.basename}/{x.filename}" for x in ini_tree])
             }
@@ -53,6 +55,7 @@ class CoDriver:
         with open(file) as csvfile:
             csv_reader = csv.DictReader(csvfile)
             for row in csv_reader:
+                # logging.debug(f"Merge: {row}")
                 plugin.merge(row, sound_dir)
         plugin.merge_commit()
 
@@ -91,7 +94,7 @@ if __name__ == '__main__':
     codriver = CoDriver()
 
     if args.merge:
-        dst_plugin = plugin.copy()
+        dst_plugin = RbrPacenotePlugin(dir=plugin_config['dir'], ini_files=plugin_config['ini'])
         codriver.merge(dst_plugin, args.merge, args.merge_sound_dir, args.merge_language)
         plugin = dst_plugin
 

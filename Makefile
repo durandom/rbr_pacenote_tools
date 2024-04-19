@@ -20,10 +20,16 @@ bollinger-numeric-build:
 	@echo "Done"
 
 bollinger-numeric-merge:
-	pipenv run ./codriver.py --codriver janne-v3-numeric --merge out/bollinger-numeric-sounds.csv --list-sounds > out/merge-bollinger-numeric-sounds.csv
+	pipenv run ./codriver.py \
+	  --codriver janne-v3-numeric \
+	  --merge out/bollinger-numeric-sounds.csv \
+	  --merge-sound-dir assets/bollinger_sounds \
+	  --merge-language german \
+	  --list-sounds > out/merge-bollinger-numeric-sounds.csv
 	@echo "Done"
 
 bollinger-numeric-merge-build:
+	rm -rf build/bollinger-v3
 	pipenv run ./codriver.py \
 	  --codriver janne-v3-numeric \
 	  --merge out/bollinger-numeric-sounds.csv \
