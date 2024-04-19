@@ -305,6 +305,9 @@ class Pacenote(IniSection):
         return _files
 
     def file_error(self, file):
+        if not file:
+            # internal file
+            return ''
         # if file does not have .ogg extension, add it
         if not file.endswith('.ogg'):
             file = f'{file}.ogg'

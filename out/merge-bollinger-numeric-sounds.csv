@@ -2,40 +2,40 @@ id,type,name,translation,file,sounds,error,ini
 -1,PLACE,1,,first,1,Not found: first.ogg,Audio/Numbers.ini
 -1,PLACE,10,10,tenth,1,Not found: tenth.ogg,Audio/Numbers.ini
 -1,RANGE,100,,100.ogg,3,Not found: 100.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,100,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,100,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,100,,p100,3,Not found: p100.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,100,,100.ogg,3,Not found: 100.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,100,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,100,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,100,,p100,3,Not found: p100.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,100,,100.ogg,3,Not found: 100.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,100,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,100,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,100,,p100,3,Not found: p100.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,100,,100.ogg,3,Not found: 100.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,100,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,100,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,100,,p100,3,Not found: p100.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,100,,100.ogg,3,Not found: 100.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,100,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,100,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,100,,p100,3,Not found: p100.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,100,,100.ogg,3,Not found: 100.ogg,Audio/Numbers.ini
--1,RANGE,100,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,100,,,3,,Audio/Numbers.ini
 -1,RANGE,100,,p100,3,Not found: p100.ogg,Audio/Numbers.ini
 -1,RANGE,1000,,1000.ogg,3,Not found: 1000.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,1000,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,1000,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,1000,,p1000,3,Not found: p1000.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,1000,,1000.ogg,3,Not found: 1000.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,1000,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,1000,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,1000,,p1000,3,Not found: p1000.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,1000,,1000.ogg,3,Not found: 1000.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,1000,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,1000,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,1000,,p1000,3,Not found: p1000.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,1000,,1000.ogg,3,Not found: 1000.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,1000,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,1000,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,1000,,p1000,3,Not found: p1000.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,1000,,1000.ogg,3,Not found: 1000.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,1000,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,1000,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,1000,,p1000,3,Not found: p1000.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,1000,,1000.ogg,3,Not found: 1000.ogg,Audio/Numbers.ini
--1,RANGE,1000,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,1000,,,3,,Audio/Numbers.ini
 -1,RANGE,1000,,p1000,3,Not found: p1000.ogg,Audio/Numbers.ini
 -1,PLACE,11,,eleventh,1,Not found: eleventh.ogg,Audio/Numbers.ini
 -1,PLACE,12,,twelfth,1,Not found: twelfth.ogg,Audio/Numbers.ini
@@ -51,22 +51,22 @@ id,type,name,translation,file,sounds,error,ini
 -1,RANGE,140,,140.ogg,1,Not found: 140.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,PLACE,15,,fifteenth,1,Not found: fifteenth.ogg,Audio/Numbers.ini
 -1,RANGE,150,,150.ogg,3,Not found: 150.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,150,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,150,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,150,,p150,3,Not found: p150.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,150,,150.ogg,3,Not found: 150.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,150,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,150,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,150,,p150,3,Not found: p150.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,150,,150.ogg,3,Not found: 150.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,150,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,150,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,150,,p150,3,Not found: p150.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,150,,150.ogg,3,Not found: 150.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,150,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,150,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,150,,p150,3,Not found: p150.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,150,,150.ogg,3,Not found: 150.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,150,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,150,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,150,,p150,3,Not found: p150.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,150,,150.ogg,3,Not found: 150.ogg,Audio/Numbers.ini
--1,RANGE,150,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,150,,,3,,Audio/Numbers.ini
 -1,RANGE,150,,p150,3,Not found: p150.ogg,Audio/Numbers.ini
 -1,PLACE,16,,last,1,Not found: last.ogg,Audio/Numbers.ini
 -1,RANGE,160,,160.ogg,1,Not found: 160.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
@@ -79,22 +79,22 @@ id,type,name,translation,file,sounds,error,ini
 -1,RANGE,180,,180.ogg,1,Not found: 180.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,PLACE,2,,second,1,Not found: second.ogg,Audio/Numbers.ini
 -1,RANGE,200,,200.ogg,3,Not found: 200.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,200,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,200,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,200,,p200,3,Not found: p200.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,200,,200.ogg,3,Not found: 200.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,200,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,200,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,200,,p200,3,Not found: p200.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,200,,200.ogg,3,Not found: 200.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,200,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,200,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,200,,p200,3,Not found: p200.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,200,,200.ogg,3,Not found: 200.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,200,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,200,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,200,,p200,3,Not found: p200.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,200,,200.ogg,3,Not found: 200.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,200,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,200,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,200,,p200,3,Not found: p200.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,200,,200.ogg,3,Not found: 200.ogg,Audio/Numbers.ini
--1,RANGE,200,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,200,,,3,,Audio/Numbers.ini
 -1,RANGE,200,,p200,3,Not found: p200.ogg,Audio/Numbers.ini
 -1,RANGE,250,,250.ogg,1,Not found: 250.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,250,,250.ogg,1,Not found: 250.ogg,ranges/Rbr.ini/extended/Extended.ini
@@ -102,40 +102,40 @@ id,type,name,translation,file,sounds,error,ini
 -1,RANGE,250,,250.ogg,1,Not found: 250.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,PLACE,3,,third,1,Not found: third.ogg,Audio/Numbers.ini
 -1,RANGE,30,,30.ogg,3,Not found: 30.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,30,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,30,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,30,,p30,3,Not found: p30.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,30,,30.ogg,3,Not found: 30.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,30,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,30,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,30,,p30,3,Not found: p30.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,30,,30.ogg,3,Not found: 30.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,30,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,30,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,30,,p30,3,Not found: p30.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,30,,30.ogg,3,Not found: 30.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,30,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,30,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,30,,p30,3,Not found: p30.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,30,,30.ogg,3,Not found: 30.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,30,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,30,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,30,,p30,3,Not found: p30.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,30,,30.ogg,3,Not found: 30.ogg,Audio/Numbers.ini
--1,RANGE,30,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,30,,,3,,Audio/Numbers.ini
 -1,RANGE,30,,p30,3,Not found: p30.ogg,Audio/Numbers.ini
 -1,RANGE,300,,300.ogg,3,Not found: 300.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,300,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,300,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,300,,p300,3,Not found: p300.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,300,,300.ogg,3,Not found: 300.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,300,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,300,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,300,,p300,3,Not found: p300.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,300,,300.ogg,3,Not found: 300.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,300,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,300,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,300,,p300,3,Not found: p300.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,300,,300.ogg,3,Not found: 300.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,300,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,300,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,300,,p300,3,Not found: p300.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,300,,300.ogg,3,Not found: 300.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,300,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,300,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,300,,p300,3,Not found: p300.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,300,,300.ogg,3,Not found: 300.ogg,Audio/Numbers.ini
--1,RANGE,300,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,300,,,3,,Audio/Numbers.ini
 -1,RANGE,300,,p300,3,Not found: p300.ogg,Audio/Numbers.ini
 -1,RANGE,350,,350.ogg,1,Not found: 350.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,350,,350.ogg,1,Not found: 350.ogg,ranges/Rbr.ini/extended/Extended.ini
@@ -147,22 +147,22 @@ id,type,name,translation,file,sounds,error,ini
 -1,RANGE,40,,40.ogg,1,Not found: 40.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,40,,40.ogg,1,Not found: 40.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,400,,400.ogg,3,Not found: 400.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,400,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,400,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,400,,p400,3,Not found: p400.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,400,,400.ogg,3,Not found: 400.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,400,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,400,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,400,,p400,3,Not found: p400.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,400,,400.ogg,3,Not found: 400.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,400,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,400,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,400,,p400,3,Not found: p400.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,400,,400.ogg,3,Not found: 400.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,400,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,400,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,400,,p400,3,Not found: p400.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,400,,400.ogg,3,Not found: 400.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,400,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,400,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,400,,p400,3,Not found: p400.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,400,,400.ogg,3,Not found: 400.ogg,Audio/Numbers.ini
--1,RANGE,400,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,400,,,3,,Audio/Numbers.ini
 -1,RANGE,400,,p400,3,Not found: p400.ogg,Audio/Numbers.ini
 -1,RANGE,450,,450.ogg,1,Not found: 450.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,450,,450.ogg,1,Not found: 450.ogg,ranges/Rbr.ini/extended/Extended.ini
@@ -170,40 +170,40 @@ id,type,name,translation,file,sounds,error,ini
 -1,RANGE,450,,450.ogg,1,Not found: 450.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,PLACE,5,,fifth,1,Not found: fifth.ogg,Audio/Numbers.ini
 -1,RANGE,50,,50.ogg,3,Not found: 50.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,50,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,50,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,50,,p50,3,Not found: p50.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,50,,50.ogg,3,Not found: 50.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,50,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,50,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,50,,p50,3,Not found: p50.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,50,,50.ogg,3,Not found: 50.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,50,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,50,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,50,,p50,3,Not found: p50.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,50,,50.ogg,3,Not found: 50.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,50,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,50,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,50,,p50,3,Not found: p50.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,50,,50.ogg,3,Not found: 50.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,50,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,50,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,50,,p50,3,Not found: p50.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,50,,50.ogg,3,Not found: 50.ogg,Audio/Numbers.ini
--1,RANGE,50,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,50,,,3,,Audio/Numbers.ini
 -1,RANGE,50,,p50,3,Not found: p50.ogg,Audio/Numbers.ini
 -1,RANGE,500,,500.ogg,3,Not found: 500.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,500,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,500,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,500,,p500,3,Not found: p500.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,500,,500.ogg,3,Not found: 500.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,500,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,500,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,500,,p500,3,Not found: p500.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,500,,500.ogg,3,Not found: 500.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,500,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,500,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,500,,p500,3,Not found: p500.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,500,,500.ogg,3,Not found: 500.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,500,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,500,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,500,,p500,3,Not found: p500.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,500,,500.ogg,3,Not found: 500.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,500,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,500,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,500,,p500,3,Not found: p500.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,500,,500.ogg,3,Not found: 500.ogg,Audio/Numbers.ini
--1,RANGE,500,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,500,,,3,,Audio/Numbers.ini
 -1,RANGE,500,,p500,3,Not found: p500.ogg,Audio/Numbers.ini
 -1,PLACE,6,,sixth,1,Not found: sixth.ogg,Audio/Numbers.ini
 -1,RANGE,60,,60.ogg,1,Not found: 60.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
@@ -211,59 +211,59 @@ id,type,name,translation,file,sounds,error,ini
 -1,RANGE,60,,60.ogg,1,Not found: 60.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,60,,60.ogg,1,Not found: 60.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,600,,600.ogg,3,Not found: 600.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,600,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,600,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,600,,p600,3,Not found: p600.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,600,,600.ogg,3,Not found: 600.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,600,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,600,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,600,,p600,3,Not found: p600.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,600,,600.ogg,3,Not found: 600.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,600,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,600,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,600,,p600,3,Not found: p600.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,600,,600.ogg,3,Not found: 600.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,600,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,600,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,600,,p600,3,Not found: p600.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,600,,600.ogg,3,Not found: 600.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,600,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,600,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,600,,p600,3,Not found: p600.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,600,,600.ogg,3,Not found: 600.ogg,Audio/Numbers.ini
--1,RANGE,600,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,600,,,3,,Audio/Numbers.ini
 -1,RANGE,600,,p600,3,Not found: p600.ogg,Audio/Numbers.ini
 -1,PLACE,7,,seventh,1,Not found: seventh.ogg,Audio/Numbers.ini
 -1,RANGE,70,,70.ogg,3,Not found: 70.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,70,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,70,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,70,,p70,3,Not found: p70.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,70,,70.ogg,3,Not found: 70.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,70,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,70,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,70,,p70,3,Not found: p70.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,70,,70.ogg,3,Not found: 70.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,70,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,70,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,70,,p70,3,Not found: p70.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,70,,70.ogg,3,Not found: 70.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,70,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,70,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,70,,p70,3,Not found: p70.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,70,,70.ogg,3,Not found: 70.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,70,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,70,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,70,,p70,3,Not found: p70.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,70,,70.ogg,3,Not found: 70.ogg,Audio/Numbers.ini
--1,RANGE,70,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,70,,,3,,Audio/Numbers.ini
 -1,RANGE,70,,p70,3,Not found: p70.ogg,Audio/Numbers.ini
 -1,RANGE,700,,700.ogg,3,Not found: 700.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,700,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,700,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,700,,p700,3,Not found: p700.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,700,,700.ogg,3,Not found: 700.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,700,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,700,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,700,,p700,3,Not found: p700.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,700,,700.ogg,3,Not found: 700.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,700,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,700,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,700,,p700,3,Not found: p700.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,700,,700.ogg,3,Not found: 700.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,700,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,700,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,700,,p700,3,Not found: p700.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,700,,700.ogg,3,Not found: 700.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,700,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,700,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,700,,p700,3,Not found: p700.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,700,,700.ogg,3,Not found: 700.ogg,Audio/Numbers.ini
--1,RANGE,700,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,700,,,3,,Audio/Numbers.ini
 -1,RANGE,700,,p700,3,Not found: p700.ogg,Audio/Numbers.ini
 -1,PLACE,8,,eighth,1,Not found: eighth.ogg,Audio/Numbers.ini
 -1,RANGE,80,,80.ogg,1,Not found: 80.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
@@ -271,58 +271,58 @@ id,type,name,translation,file,sounds,error,ini
 -1,RANGE,80,,80.ogg,1,Not found: 80.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,80,,80.ogg,1,Not found: 80.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,800,,800.ogg,3,Not found: 800.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,800,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,800,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,800,,p800,3,Not found: p800.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,800,,800.ogg,3,Not found: 800.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,800,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,800,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,800,,p800,3,Not found: p800.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,800,,800.ogg,3,Not found: 800.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,800,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,800,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,800,,p800,3,Not found: p800.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,800,,800.ogg,3,Not found: 800.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,800,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,800,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,800,,p800,3,Not found: p800.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,800,,800.ogg,3,Not found: 800.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,800,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,800,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,800,,p800,3,Not found: p800.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,800,,800.ogg,3,Not found: 800.ogg,Audio/Numbers.ini
--1,RANGE,800,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,800,,,3,,Audio/Numbers.ini
 -1,RANGE,800,,p800,3,Not found: p800.ogg,Audio/Numbers.ini
 -1,PLACE,9,,ninth,1,Not found: ninth.ogg,Audio/Numbers.ini
 -1,RANGE,900,,900.ogg,3,Not found: 900.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,900,,,3,Not found: .ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,900,,,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,900,,p900,3,Not found: p900.ogg,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,900,,900.ogg,3,Not found: 900.ogg,ranges/Rbr.ini/extended/Extended.ini
--1,RANGE,900,,,3,Not found: .ogg,ranges/Rbr.ini/extended/Extended.ini
+-1,RANGE,900,,,3,,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,900,,p900,3,Not found: p900.ogg,ranges/Rbr.ini/extended/Extended.ini
 -1,RANGE,900,,900.ogg,3,Not found: 900.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,900,,,3,Not found: .ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,900,,,3,,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,900,,p900,3,Not found: p900.ogg,ranges/Extended.ini/packages/Extended.ini/extended/Extended.ini
 -1,RANGE,900,,900.ogg,3,Not found: 900.ogg,ranges/Extended.ini/extended/Extended.ini
--1,RANGE,900,,,3,Not found: .ogg,ranges/Extended.ini/extended/Extended.ini
+-1,RANGE,900,,,3,,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,900,,p900,3,Not found: p900.ogg,ranges/Extended.ini/extended/Extended.ini
 -1,RANGE,900,,900.ogg,3,Not found: 900.ogg,packages/Rbr.ini/rbr/Rbr.ini
--1,RANGE,900,,,3,Not found: .ogg,packages/Rbr.ini/rbr/Rbr.ini
+-1,RANGE,900,,,3,,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,900,,p900,3,Not found: p900.ogg,packages/Rbr.ini/rbr/Rbr.ini
 -1,RANGE,900,,900.ogg,3,Not found: 900.ogg,Audio/Numbers.ini
--1,RANGE,900,,,3,Not found: .ogg,Audio/Numbers.ini
+-1,RANGE,900,,,3,,Audio/Numbers.ini
 -1,RANGE,900,,p900,3,Not found: p900.ogg,Audio/Numbers.ini
 -1,PACENOTE,AND,And,and.ogg,1,Not found: and.ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
 -1,PACENOTE,AND,And,and.ogg,1,Not found: and.ogg,pacenotes/Rbr.ini/links/Extended.ini
 -1,PACENOTE,AND,And,and.ogg,1,Not found: and.ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
 -1,PACENOTE,AND,And,and.ogg,1,Not found: and.ogg,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,1,Not found: .ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,1,Not found: .ogg,pacenotes/Rbr.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,1,Not found: .ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,1,Not found: .ogg,pacenotes/Rbr.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_TIME,Callout Time,,1,Not found: .ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_TIME,Callout Time,,1,Not found: .ogg,pacenotes/Rbr.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_TIME,Callout Time,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_TIME,Callout Time,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,1,,pacenotes/Rbr.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,1,,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,1,,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,1,,pacenotes/Rbr.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,1,,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,1,,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_TIME,Callout Time,,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_TIME,Callout Time,,1,,pacenotes/Rbr.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_TIME,Callout Time,,1,,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_TIME,Callout Time,,1,,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
 -1,PACENOTE,CAUTION_WATER,Caution Water,caution_water.ogg,1,Not found: caution_water.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
 -1,PACENOTE,CAUTION_WATER,Caution Water,caution_water.ogg,1,Not found: caution_water.ogg,pacenotes/Rbr.ini/cautions/Extended.ini
 -1,PACENOTE,CAUTION_WATER,Caution Water,caution_water.ogg,1,Not found: caution_water.ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/cautions/Extended.ini
@@ -335,10 +335,10 @@ id,type,name,translation,file,sounds,error,ini
 -1,PACENOTE,CUT,Cut,cut.ogg,1,Not found: cut.ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/line/Extended.ini
 -1,PACENOTE,CUT,Cut,cut.ogg,1,Not found: cut.ogg,pacenotes/Rbr-Enhanced.ini/modifier/Extended.ini
 -1,PACENOTE,CUT,Cut,cut.ogg,1,Not found: cut.ogg,pacenotes/Rbr-Enhanced.ini/line/Extended.ini
--1,PACENOTE,DISTANCE_CALL,Distance Call,,1,Not found: .ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,DISTANCE_CALL,Distance Call,,1,Not found: .ogg,pacenotes/Rbr.ini/links/Extended.ini
--1,PACENOTE,DISTANCE_CALL,Distance Call,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,DISTANCE_CALL,Distance Call,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
+-1,PACENOTE,DISTANCE_CALL,Distance Call,,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,DISTANCE_CALL,Distance Call,,1,,pacenotes/Rbr.ini/links/Extended.ini
+-1,PACENOTE,DISTANCE_CALL,Distance Call,,1,,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,DISTANCE_CALL,Distance Call,,1,,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
 -1,PACENOTE,DONTCUT,Don't Cut,dontcut.ogg,1,Not found: dontcut.ogg,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
 -1,PACENOTE,DONTCUT,Don't Cut,dontcut.ogg,1,Not found: dontcut.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
 -1,PACENOTE,DONTCUT,Don't Cut,dontcut.ogg,1,Not found: dontcut.ogg,pacenotes/Rbr.ini/modifier/Extended.ini
@@ -347,10 +347,10 @@ id,type,name,translation,file,sounds,error,ini
 -1,PACENOTE,DONTCUT,Don't Cut,dontcut.ogg,1,Not found: dontcut.ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/line/Extended.ini
 -1,PACENOTE,DONTCUT,Don't Cut,dontcut.ogg,1,Not found: dontcut.ogg,pacenotes/Rbr-Enhanced.ini/modifier/Extended.ini
 -1,PACENOTE,DONTCUT,Don't Cut,dontcut.ogg,1,Not found: dontcut.ogg,pacenotes/Rbr-Enhanced.ini/line/Extended.ini
--1,PACENOTE,EMPTY_CALL,Empty Call,,1,Not found: .ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,EMPTY_CALL,Empty Call,,1,Not found: .ogg,pacenotes/Rbr.ini/links/Extended.ini
--1,PACENOTE,EMPTY_CALL,Empty Call,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,EMPTY_CALL,Empty Call,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
+-1,PACENOTE,EMPTY_CALL,Empty Call,,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,EMPTY_CALL,Empty Call,,1,,pacenotes/Rbr.ini/links/Extended.ini
+-1,PACENOTE,EMPTY_CALL,Empty Call,,1,,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,EMPTY_CALL,Empty Call,,1,,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
 -1,PACENOTE,INTO,Into,into.ogg,1,Not found: into.ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
 -1,PACENOTE,INTO,Into,into.ogg,1,Not found: into.ogg,pacenotes/Rbr.ini/links/Extended.ini
 -1,PACENOTE,INTO,Into,into.ogg,1,Not found: into.ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
@@ -409,22 +409,22 @@ id,type,name,translation,file,sounds,error,ini
 -1,PACENOTE,ONTO,Onto,onto.ogg,1,Not found: onto.ogg,pacenotes/Rbr.ini/links/Extended.ini
 -1,PACENOTE,ONTO,Onto,onto.ogg,1,Not found: onto.ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
 -1,PACENOTE,ONTO,Onto,onto.ogg,1,Not found: onto.ogg,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
--1,PACENOTE,PLACE_HOLDER,Placeholder,,1,Not found: .ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,PLACE_HOLDER,Placeholder,,1,Not found: .ogg,pacenotes/Rbr.ini/links/Extended.ini
--1,PACENOTE,PLACE_HOLDER,Placeholder,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,PLACE_HOLDER,Placeholder,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
--1,PACENOTE,SOUND_FILE,Sound File,,1,Not found: .ogg,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,SOUND_FILE,Sound File,,1,Not found: .ogg,pacenotes/Rbr.ini/modifier/Extended.ini
--1,PACENOTE,SOUND_FILE,Sound File,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,SOUND_FILE,Sound File,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/modifier/Extended.ini
--1,PACENOTE,SOUND_INDEX,Sound Index,,1,Not found: .ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,SOUND_INDEX,Sound Index,,1,Not found: .ogg,pacenotes/Rbr.ini/links/Extended.ini
--1,PACENOTE,SOUND_INDEX,Sound Index,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,SOUND_INDEX,Sound Index,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
--1,PACENOTE,STANDARD_CALL,Standard Call,,1,Not found: .ogg,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,STANDARD_CALL,Standard Call,,1,Not found: .ogg,pacenotes/Rbr.ini/modifier/Extended.ini
--1,PACENOTE,STANDARD_CALL,Standard Call,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,STANDARD_CALL,Standard Call,,1,Not found: .ogg,pacenotes/Rbr-Enhanced.ini/modifier/Extended.ini
+-1,PACENOTE,PLACE_HOLDER,Placeholder,,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,PLACE_HOLDER,Placeholder,,1,,pacenotes/Rbr.ini/links/Extended.ini
+-1,PACENOTE,PLACE_HOLDER,Placeholder,,1,,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,PLACE_HOLDER,Placeholder,,1,,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
+-1,PACENOTE,SOUND_FILE,Sound File,,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,SOUND_FILE,Sound File,,1,,pacenotes/Rbr.ini/modifier/Extended.ini
+-1,PACENOTE,SOUND_FILE,Sound File,,1,,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,SOUND_FILE,Sound File,,1,,pacenotes/Rbr-Enhanced.ini/modifier/Extended.ini
+-1,PACENOTE,SOUND_INDEX,Sound Index,,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,SOUND_INDEX,Sound Index,,1,,pacenotes/Rbr.ini/links/Extended.ini
+-1,PACENOTE,SOUND_INDEX,Sound Index,,1,,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,SOUND_INDEX,Sound Index,,1,,pacenotes/Rbr-Enhanced.ini/links/Extended.ini
+-1,PACENOTE,STANDARD_CALL,Standard Call,,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,STANDARD_CALL,Standard Call,,1,,pacenotes/Rbr.ini/modifier/Extended.ini
+-1,PACENOTE,STANDARD_CALL,Standard Call,,1,,pacenotes/Rbr-Enhanced.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,STANDARD_CALL,Standard Call,,1,,pacenotes/Rbr-Enhanced.ini/modifier/Extended.ini
 -1,PACENOTE,TIGHTENS,Tightens,tightens.ogg,1,Not found: tightens.ogg,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
 -1,PACENOTE,TIGHTENS,Tightens,tightens.ogg,1,Not found: tightens.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
 -1,PACENOTE,TIGHTENS,Tightens,tightens.ogg,1,Not found: tightens.ogg,pacenotes/Rbr.ini/modifier/Extended.ini
