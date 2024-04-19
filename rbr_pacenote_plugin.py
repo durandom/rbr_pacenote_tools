@@ -354,6 +354,8 @@ class RbrPacenotePlugin:
     def __init__(self, dir = "Pacenote/",
                  ini_files = ["Rbr.ini", "Rbr-Enhanced.ini"]):
         self.dirname = dir
+        self.root_ini_files = ini_files
+
         self.plugin_dir = os.path.join(dir, 'Plugins', 'Pacenote')
         self._merge_language = None
 
@@ -403,6 +405,9 @@ class RbrPacenotePlugin:
                     if file.endswith('.ini'):
                         ini_file = os.path.join(root, file)
                         self.languages[language].append(StringsIni(ini_file))
+
+    def copy(self):
+        return RbrPacenotePlugin(dir=self.dirname, ini_files=self.root_ini_files)
 
     def write_ini(self, ini_file, basedir):
         dir = Path(ini_file.dirname).relative_to(self.dirname)

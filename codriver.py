@@ -9,11 +9,7 @@ import sys
 from rbr_pacenote_plugin import RbrPacenotePlugin
 
 class CoDriver:
-    def __init__(self, config):
-        logging.debug(f'package: {config}')
-        self.plugin = RbrPacenotePlugin(dir=config['dir'], ini_files=config['ini'])
-
-    def list_sounds(self):
+    def list_sounds(self, plugin: RbrPacenotePlugin):
         note = {
             'id': 'id',
             'type': 'type',
@@ -27,12 +23,12 @@ class CoDriver:
         csv_writer.writeheader()
 
         notes = []
-        for call, ini_tree in self.plugin.calls_with_ini_tree():
+        for call, ini_tree in plugin.calls_with_ini_tree():
             note = {
                 'id': call.id(),
                 'type': call.type(),
                 'name': call.name(),
-                'translation': self.plugin.translate(call.name()),
+                'translation': plugin.translate(call.name()),
                 'file': '',
                 'sounds': call.sounds(),
                 'ini': "/".join([f"{x.basename}/{x.filename}" for x in ini_tree])
@@ -49,18 +45,15 @@ class CoDriver:
         for note in sorted(notes, key=lambda x: [x['id'], x['name']]):
             csv_writer.writerow(note)
 
-    def merge(self, file, sound_dir=None, language=None):
-        # open CSV file
-        self.plugin.merge_language(language)
+    def merge(self, plugin: RbrPacenotePlugin, file, sound_dir=None, language=None):
+        plugin.merge_language(language)
         with open(file) as csvfile:
             csv_reader = csv.DictReader(csvfile)
             for row in csv_reader:
-                self.plugin.merge(row, sound_dir)
+                plugin.merge(row, sound_dir)
+        plugin.merge_commit()
 
-    def merge_commit(self):
-        self.plugin.merge_commit()
-
-    def write(self, out):
+    def write(self, out, plugin):
         # check if the directory exists and is empty
         if not os.path.exists(out):
             os.makedirs(out)
@@ -69,7 +62,7 @@ class CoDriver:
                 logging.error(f"Directory {out} is not empty")
                 # return
 
-        self.plugin.write(out)
+        plugin.write(out)
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
@@ -88,16 +81,19 @@ if __name__ == '__main__':
 
     # read the configuration file, which is a json file
     config = json.load(open('config.json'))
+    logging.debug(f'package: {config}')
+    plugin_config = config['codrivers'][args.codriver]
 
-    codriver_name = args.codriver
-    codriver = CoDriver(config['codrivers'][codriver_name])
+    plugin = RbrPacenotePlugin(dir=plugin_config['dir'], ini_files=plugin_config['ini'])
+    codriver = CoDriver()
 
     if args.merge:
-        codriver.merge(args.merge, args.merge_sound_dir, args.merge_language)
-        codriver.merge_commit()
+        dst_plugin = plugin.copy()
+        codriver.merge(dst_plugin, args.merge, args.merge_sound_dir, args.merge_language)
+        plugin = dst_plugin
 
     if args.list_sounds:
-        codriver.list_sounds()
+        codriver.list_sounds(plugin)
 
     if args.out:
-        codriver.write(args.out)
+        codriver.write(args.out, plugin)

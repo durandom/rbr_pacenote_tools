@@ -28,6 +28,7 @@ bollinger-numeric-merge-build:
 	  --codriver janne-v3-numeric \
 	  --merge out/bollinger-numeric-sounds.csv \
 	  --merge-sound-dir assets/bollinger_sounds \
+	  --merge-language german \
 	  --out build/bollinger-v3
 	@echo "Done"
 
