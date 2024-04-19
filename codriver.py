@@ -33,7 +33,7 @@ class CoDriver:
                 'translation': plugin.translate(call.name()),
                 'file': '',
                 'sounds': call.sounds(),
-                'file_src_dir': call.file_src_dir(),
+                'file_src_dir': call.get_sound_dir(),
                 'error': call.error(),
                 'ini': "/".join([f"{x.basename}/{x.filename}" for x in ini_tree])
             }
@@ -50,8 +50,7 @@ class CoDriver:
         for note in sorted(notes, key=lambda x: [x['id'], x['name']]):
             csv_writer.writerow(note)
 
-    def merge(self, plugin: RbrPacenotePlugin, file, sound_dir=None, language=None):
-        plugin.merge_language(language)
+    def merge(self, plugin: RbrPacenotePlugin, file, sound_dir=None):
         with open(file) as csvfile:
             csv_reader = csv.DictReader(csvfile)
             for row in csv_reader:
@@ -79,6 +78,7 @@ if __name__ == '__main__':
     parser.add_argument('--codriver', help='Codriver in config.json', default='janne-v3-numeric')
     parser.add_argument('--list-sounds', help='List all sounds', action='store_true')
     parser.add_argument('--merge', help='Merge from file', default=None)
+    parser.add_argument('--merge-sound-src-dir', help='Sound dir for merge', default=None)
     parser.add_argument('--merge-sound-dir', help='Sound dir for merge', default=None)
     parser.add_argument('--merge-language', help='Force new language e.g. english/german/french', default=None)
     parser.add_argument('--out', help='Write to directory', default=None)
@@ -95,7 +95,10 @@ if __name__ == '__main__':
 
     if args.merge:
         dst_plugin = RbrPacenotePlugin(dir=plugin_config['dir'], ini_files=plugin_config['ini'])
-        codriver.merge(dst_plugin, args.merge, args.merge_sound_dir, args.merge_language)
+        codriver.merge(dst_plugin, args.merge, args.merge_sound_src_dir)
+        dst_plugin.set_language(args.merge_language)
+        dst_plugin.set_sound_dir(args.merge_sound_dir)
+
         plugin = dst_plugin
 
     if args.list_sounds:

@@ -264,16 +264,12 @@ class PacenotesIni(IniFile):
 
 class Pacenote(IniSection):
     def __init__(self, name, ini):
+        self._sound_dir = Path()
         super().__init__(name, ini)
-        self._sound_dir = None
         self._merge_queue = []
 
     def parse(self):
-        pass
-        # (_type, self._name) = self.name.split('::')
-        # for option in self.options():
-        #     value = self._config.get(self.section, option)
-        #     self.entries[option] = value
+        self._sound_dir = self.plugin().pathname_for(self)
 
     def id(self):
         _id = self.get_option('id', None)
@@ -296,7 +292,7 @@ class Pacenote(IniSection):
             return 0
         return int(sounds)
 
-    def get_sound_dir(self) -> Optional[Path]:
+    def get_sound_dir(self) -> Path:
         return self._sound_dir
 
     def files(self) -> List[str]:
@@ -307,12 +303,6 @@ class Pacenote(IniSection):
                 _files.append(file)
         return _files
 
-    def file_src_dir(self) -> Path:
-        if self._sound_dir:
-            return Path(self._sound_dir)
-        else:
-            return self.plugin().pathname_for(self)
-
     def file_error(self, file):
         if not file:
             # internal file
@@ -321,7 +311,7 @@ class Pacenote(IniSection):
         if not file.endswith('.ogg'):
             file = f'{file}.ogg'
         # check if the file exists
-        pathname = self.file_src_dir().joinpath(file)
+        pathname = self._sound_dir.joinpath(file)
         if not os.path.exists(pathname):
             return f'Not found: {file}'
         return ''
@@ -329,7 +319,7 @@ class Pacenote(IniSection):
     def merge_queue(self, note, sound_dir: Path):
         # only add the note if it is not already in the queue
         if note['file'] not in [n['file'] for n in self._merge_queue]:
-            self._sound_dir = sound_dir
+            self._sound_dir = Path(sound_dir)
             self._merge_queue.append(note)
 
     def merge_commit(self):
@@ -400,6 +390,7 @@ class RbrPacenotePlugin:
         ini_file = os.path.join(self.plugin_dir, 'PaceNote.ini')
         self.pacenote_ini = PluginIni(ini_file, self)
         self.inifiles.append(self.pacenote_ini)
+        self.init_sound_dirs()
 
         for ini_file in ini_files:
             ini_file = os.path.join(self.plugin_dir, 'config', 'pacenotes', ini_file)
@@ -438,8 +429,6 @@ class RbrPacenotePlugin:
                         ini_file = os.path.join(root, file)
                         self.languages[language].append(StringsIni(ini_file, self))
 
-        self.init_sound_dirs()
-
     def init_sound_dirs(self):
         language_to_dir = {
             'english': 'Number',
@@ -454,9 +443,6 @@ class RbrPacenotePlugin:
             Number: Path('Audio', 'Speech', src_number_dir),
             Place: Path('Audio', 'Speech', src_number_dir),
         }
-
-    def copy(self):
-        return RbrPacenotePlugin(dir=self.dirname, ini_files=self.root_ini_files)
 
     def write_ini(self, ini_file, basedir):
         dir = Path(ini_file.dirname).relative_to(self.dirname)
@@ -561,7 +547,8 @@ class RbrPacenotePlugin:
             language = self.pacenote_ini.language()
 
         if language not in self.languages:
-            raise ValueError(f'Invalid language: {language}')
+            # raise ValueError(f'Invalid language: {language}')
+            return f'Invalid language: {language}'
 
         for strings_ini in self.languages[language]:
             if name in strings_ini.strings:
@@ -578,13 +565,12 @@ class RbrPacenotePlugin:
         for pacenote in self.pacenotes():
             pacenote.merge_commit()
 
-    def merge_language(self, language):
-        self._merge_language = language
+    def set_language(self, language):
+        self.pacenote_ini.config['SETTINGS']['language'] = language
+        self.init_sound_dirs()
 
-    def get_merge_language(self):
-        if not self._merge_language:
-            return self.pacenote_ini.language()
-        return self._merge_language
+    def set_sound_dir(self, sounds):
+        self.pacenote_ini.config['SETTINGS']['sounds'] = sounds
 
     def find_pacenotes(self, id, name) -> List[Pacenote]:
         if not hasattr(self, '_lookup_pacenotes_by_name'):
