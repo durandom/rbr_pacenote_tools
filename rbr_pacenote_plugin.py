@@ -8,7 +8,8 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple, Union
 
 class IniFile:
-    def __init__(self, pathname):
+    def __init__(self, pathname, plugin: "RbrPacenotePlugin"):
+        self.plugin = plugin
         pathname = pathname.replace('\\', '/')
         # make sure the ini_file exists
         if not os.path.exists(pathname):
@@ -144,6 +145,12 @@ class IniSection():
     def __repr__(self) -> str:
         return f'{self._name}'
 
+    def error(self):
+        return ''
+
+    def file_error(self, file):
+        return ''
+
     def parse(self):
         pass
 
@@ -154,7 +161,7 @@ class IniSection():
         if file_path in self.ini_files:
             ini_file = self.ini_files[file_path]
         else:
-            ini_file = klass(file_path)
+            ini_file = klass(file_path, self._ini.plugin)
             self.ini_files[file_path] = ini_file
 
         self._linked_inis[file_path] = ini_file
@@ -188,6 +195,9 @@ class IniSection():
 
     def ini(self):
         return self._ini
+
+    def plugin(self):
+        return self._ini.plugin
 
 class PluginIni(IniFile):
     def parse(self):
@@ -294,6 +304,16 @@ class Pacenote(IniSection):
                 _files.append(file)
         return _files
 
+    def file_error(self, file):
+        # if file does not have .ogg extension, add it
+        if not file.endswith('.ogg'):
+            file = f'{file}.ogg'
+        # check if the file exists
+        pathname = self.plugin().pathname_for(self, file)
+        if not os.path.exists(pathname):
+            return f'Not found: {file}'
+        return ''
+
     def merge_queue(self, note, sound_dir: Path):
         # only add the note if it is not already in the queue
         if note['file'] not in [n['file'] for n in self._merge_queue]:
@@ -366,32 +386,32 @@ class RbrPacenotePlugin:
         self.inifiles: List[IniFile] = []
 
         ini_file = os.path.join(self.plugin_dir, 'PaceNote.ini')
-        self.pacenote_ini = PluginIni(ini_file)
+        self.pacenote_ini = PluginIni(ini_file, self)
         self.inifiles.append(self.pacenote_ini)
 
         for ini_file in ini_files:
             ini_file = os.path.join(self.plugin_dir, 'config', 'pacenotes', ini_file)
-            self.inifiles.append(PackagesIni(ini_file))
+            self.inifiles.append(PackagesIni(ini_file, self))
 
         # add ranges
         ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'Rbr.ini')
-        self.inifiles.append(PackagesIni(ini_file))
+        self.inifiles.append(PackagesIni(ini_file, self))
         ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'Extended.ini')
-        self.inifiles.append(PackagesIni(ini_file))
+        self.inifiles.append(PackagesIni(ini_file, self))
 
         ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'packages', 'Rbr.ini')
-        self.inifiles.append(CategoriesIni(ini_file))
+        self.inifiles.append(CategoriesIni(ini_file, self))
 
         # add numbers
         ini_file = os.path.join(self.dirname, 'Audio', 'Numbers.ini')
         # check if the ini_file exists
         if os.path.exists(ini_file):
-            self.inifiles.append(NumbersIni(ini_file))
+            self.inifiles.append(NumbersIni(ini_file, self))
 
         ini_file = os.path.join(self.dirname, 'Audio', 'NumOther.ini')
         # check if the ini_file exists
         if os.path.exists(ini_file):
-            self.inifiles.append(NumbersIni(ini_file))
+            self.inifiles.append(NumbersIni(ini_file, self))
 
         language_dir = os.path.join(self.plugin_dir, 'language')
         self.languages = {}
@@ -404,7 +424,7 @@ class RbrPacenotePlugin:
                 for file in files:
                     if file.endswith('.ini'):
                         ini_file = os.path.join(root, file)
-                        self.languages[language].append(StringsIni(ini_file))
+                        self.languages[language].append(StringsIni(ini_file, self))
 
     def copy(self):
         return RbrPacenotePlugin(dir=self.dirname, ini_files=self.root_ini_files)
@@ -425,6 +445,22 @@ class RbrPacenotePlugin:
                 for linked_ini in self.get_linked_inis(ini_file):
                     linked_inis.append(linked_ini)
         return linked_inis
+
+    def pathname_for(self, call, file):
+        language_to_dir = {
+            'english': 'Number',
+            'german': 'NumGer',
+            'french': 'NumFre',
+        }
+        src_number_dir = language_to_dir[self.pacenote_ini.language()]
+
+        src_dirs = {
+            Pacenote: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
+            Range: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
+            Number: Path('Audio', 'Speech', src_number_dir),
+            Place: Path('Audio', 'Speech', src_number_dir),
+        }
+        return os.path.join(self.dirname, src_dirs[type(call)], file)
 
     def write(self, out_path):
         inis = []

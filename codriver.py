@@ -17,6 +17,7 @@ class CoDriver:
             'translation': 'translation',
             'file': 'file',
             'sounds': 1,
+            'error': '',
             'ini': 'ini_file'
         }
         csv_writer = csv.DictWriter(sys.stdout, note.keys())
@@ -31,6 +32,7 @@ class CoDriver:
                 'translation': plugin.translate(call.name()),
                 'file': '',
                 'sounds': call.sounds(),
+                'error': call.error(),
                 'ini': "/".join([f"{x.basename}/{x.filename}" for x in ini_tree])
             }
             files = call.files()
@@ -38,6 +40,7 @@ class CoDriver:
                 for file in files:
                     new_note = note.copy()
                     new_note['file'] = file
+                    new_note['error'] = call.file_error(file)
                     notes.append(new_note)
             else:
                 notes.append(note)
