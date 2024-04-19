@@ -1,12 +1,12 @@
 id,type,name,translation,file,sounds,error,ini,file_src_dir
--1,PLACE,1,,first1,4,Not found: first1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,1,,first2,4,Not found: first2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,1,,first3,4,Not found: first3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,1,,first4,4,Not found: first4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,10,10,tenth1,4,Not found: tenth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,10,10,tenth2,4,Not found: tenth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,10,10,tenth3,4,Not found: tenth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,10,10,tenth4,4,Not found: tenth4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,1,,first1,4,Not found: first1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,1,,first2,4,Not found: first2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,1,,first3,4,Not found: first3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,1,,first4,4,Not found: first4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,10,10,tenth1,4,Not found: tenth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,10,10,tenth2,4,Not found: tenth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,10,10,tenth3,4,Not found: tenth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,10,10,tenth4,4,Not found: tenth4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,100,,100_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,100,,100_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,100,,100_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -24,8 +24,8 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,100,,100_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,100,,100_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,100,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,100,,p100_1,2,Not found: p100_1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,100,,p100_2,2,Not found: p100_2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,100,,p100_1,2,Not found: p100_1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,100,,p100_2,2,Not found: p100_2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,1000,,1000_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,1000,,1000_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,1000,,1000_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -43,13 +43,13 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,1000,,1000_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,1000,,1000_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,1000,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,1000,,p1000,1,Not found: p1000.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,11,,eleventh1,3,Not found: eleventh1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,11,,eleventh2,3,Not found: eleventh2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,11,,eleventh3,3,Not found: eleventh3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,12,,twelfth1,3,Not found: twelfth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,12,,twelfth2,3,Not found: twelfth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,12,,twelfth3,3,Not found: twelfth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,1000,,p1000,1,Not found: p1000,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,PLACE,11,,eleventh1,3,Not found: eleventh1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,11,,eleventh2,3,Not found: eleventh2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,11,,eleventh3,3,Not found: eleventh3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,12,,twelfth1,3,Not found: twelfth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,12,,twelfth2,3,Not found: twelfth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,12,,twelfth3,3,Not found: twelfth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,120,,120_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,120,,120_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,120,,120_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -66,12 +66,12 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,120,,120_2.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,120,,120_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,120,,120_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,13,,thirteenth1,0,Not found: thirteenth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,13,,thirteenth2,0,Not found: thirteenth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,13,,thirteenth3,0,Not found: thirteenth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,14,,fourteenth1,3,Not found: fourteenth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,14,,fourteenth2,3,Not found: fourteenth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,14,,fourteenth3,3,Not found: fourteenth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,13,,thirteenth1,0,Not found: thirteenth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,13,,thirteenth2,0,Not found: thirteenth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,13,,thirteenth3,0,Not found: thirteenth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,14,,fourteenth1,3,Not found: fourteenth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,14,,fourteenth2,3,Not found: fourteenth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,14,,fourteenth3,3,Not found: fourteenth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,140,,140_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,140,,140_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,140,,140_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -88,9 +88,9 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,140,,140_2.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,140,,140_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,140,,140_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,15,,fifteenth1,3,Not found: fifteenth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,15,,fifteenth2,3,Not found: fifteenth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,15,,fifteenth3,3,Not found: fifteenth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,15,,fifteenth1,3,Not found: fifteenth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,15,,fifteenth2,3,Not found: fifteenth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,15,,fifteenth3,3,Not found: fifteenth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,150,,150_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,150,,150_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,150,,150_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -108,12 +108,12 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,150,,150_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,150,,150_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,150,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,150,,p150_1,2,Not found: p150_1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,150,,p150_2,2,Not found: p150_2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,16,,last1,4,Not found: last1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,16,,last2,4,Not found: last2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,16,,last3,4,Not found: last3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,16,,last4,4,Not found: last4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,150,,p150_1,2,Not found: p150_1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,150,,p150_2,2,Not found: p150_2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,PLACE,16,,last1,4,Not found: last1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,16,,last2,4,Not found: last2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,16,,last3,4,Not found: last3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,16,,last4,4,Not found: last4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,160,,160_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,160,,160_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,160,,160_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -146,10 +146,10 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,180,,180_2.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,180,,180_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,180,,180_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,2,,second1,4,Not found: second1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,2,,second2,4,Not found: second2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,2,,second3,4,Not found: second3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,2,,second4,4,Not found: second4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,2,,second1,4,Not found: second1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,2,,second2,4,Not found: second2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,2,,second3,4,Not found: second3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,2,,second4,4,Not found: second4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,200,,200_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,200,,200_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,200,,200_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -167,8 +167,8 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,200,,200_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,200,,200_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,200,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,200,,p200_1,2,Not found: p200_1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,200,,p200_2,2,Not found: p200_2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,200,,p200_1,2,Not found: p200_1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,200,,p200_2,2,Not found: p200_2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,250,,250_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,250,,250_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,250,,250_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -185,10 +185,10 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,250,,250_2.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,250,,250_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,250,,250_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,3,,third1,4,Not found: third1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,3,,third2,4,Not found: third2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,3,,third3,4,Not found: third3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,3,,third4,4,Not found: third4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,3,,third1,4,Not found: third1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,3,,third2,4,Not found: third2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,3,,third3,4,Not found: third3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,3,,third4,4,Not found: third4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,30,,30_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,30,,30_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,30,,30_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -206,8 +206,8 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,30,,30_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,30,,30_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,30,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,30,,p30_1,2,Not found: p30_1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,30,,p30_2,2,Not found: p30_2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,30,,p30_1,2,Not found: p30_1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,30,,p30_2,2,Not found: p30_2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,300,,300_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,300,,300_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,300,,300_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -225,7 +225,7 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,300,,300_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,300,,300_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,300,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,300,,p300,1,Not found: p300.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,300,,p300,1,Not found: p300,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,350,,350_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,350,,350_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,350,,350_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -242,10 +242,10 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,350,,350_2.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,350,,350_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,350,,350_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,4,,fourth1,4,Not found: fourth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,4,,fourth2,4,Not found: fourth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,4,,fourth3,4,Not found: fourth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,4,,fourth4,4,Not found: fourth4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,4,,fourth1,4,Not found: fourth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,4,,fourth2,4,Not found: fourth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,4,,fourth3,4,Not found: fourth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,4,,fourth4,4,Not found: fourth4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,40,,40_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,40,,40_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,40,,40_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -279,7 +279,7 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,400,,400_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,400,,400_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,400,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,400,,p400,1,Not found: p400.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,400,,p400,1,Not found: p400,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,450,,450_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,450,,450_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,450,,450_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -296,10 +296,10 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,450,,450_2.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,450,,450_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,450,,450_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,5,,fifth1,4,Not found: fifth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,5,,fifth2,4,Not found: fifth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,5,,fifth3,4,Not found: fifth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,5,,fifth4,4,Not found: fifth4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,5,,fifth1,4,Not found: fifth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,5,,fifth2,4,Not found: fifth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,5,,fifth3,4,Not found: fifth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,5,,fifth4,4,Not found: fifth4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,50,,50_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,50,,50_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,50,,50_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -317,8 +317,8 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,50,,50_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,50,,50_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,50,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,50,,p50_1,2,Not found: p50_1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,50,,p50_2,2,Not found: p50_2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,50,,p50_1,2,Not found: p50_1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,50,,p50_2,2,Not found: p50_2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,500,,500_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,500,,500_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,500,,500_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -336,11 +336,11 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,500,,500_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,500,,500_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,500,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,500,,p500,1,Not found: p500.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,6,,sixth1,4,Not found: sixth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,6,,sixth2,4,Not found: sixth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,6,,sixth3,4,Not found: sixth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,6,,sixth4,4,Not found: sixth4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,500,,p500,1,Not found: p500,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,PLACE,6,,sixth1,4,Not found: sixth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,6,,sixth2,4,Not found: sixth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,6,,sixth3,4,Not found: sixth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,6,,sixth4,4,Not found: sixth4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,60,,60_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,60,,60_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,60,,60_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -374,11 +374,11 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,600,,600_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,600,,600_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,600,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,600,,p600,1,Not found: p600.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,7,,seventh1,4,Not found: seventh1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,7,,seventh2,4,Not found: seventh2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,7,,seventh3,4,Not found: seventh3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,7,,seventh4,4,Not found: seventh4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,600,,p600,1,Not found: p600,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,PLACE,7,,seventh1,4,Not found: seventh1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,7,,seventh2,4,Not found: seventh2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,7,,seventh3,4,Not found: seventh3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,7,,seventh4,4,Not found: seventh4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,70,,70_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,70,,70_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,70,,70_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -396,8 +396,8 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,70,,70_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,70,,70_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,70,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,70,,p70_1,2,Not found: p70_1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,70,,p70_2,2,Not found: p70_2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,70,,p70_1,2,Not found: p70_1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,70,,p70_2,2,Not found: p70_2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,700,,700_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,700,,700_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,700,,700_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -415,11 +415,11 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,700,,700_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,700,,700_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,700,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,700,,p700,1,Not found: p700.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,8,,eighth1,4,Not found: eighth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,8,,eighth2,4,Not found: eighth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,8,,eighth3,4,Not found: eighth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,8,,eighth4,4,Not found: eighth4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,700,,p700,1,Not found: p700,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,PLACE,8,,eighth1,4,Not found: eighth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,8,,eighth2,4,Not found: eighth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,8,,eighth3,4,Not found: eighth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,8,,eighth4,4,Not found: eighth4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,80,,80_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,80,,80_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,80,,80_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -453,11 +453,11 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,800,,800_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,800,,800_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,800,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,800,,p800,1,Not found: p800.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,9,,ninth1,4,Not found: ninth1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,9,,ninth2,4,Not found: ninth2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,9,,ninth3,4,Not found: ninth3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,9,,ninth4,4,Not found: ninth4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,800,,p800,1,Not found: p800,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,PLACE,9,,ninth1,4,Not found: ninth1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,9,,ninth2,4,Not found: ninth2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,9,,ninth3,4,Not found: ninth3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,9,,ninth4,4,Not found: ninth4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,900,,900_1.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,900,,900_2.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,900,,900_3.ogg,4,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -475,7 +475,7 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,RANGE,900,,900_3.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,900,,900_4.ogg,4,,ranges/Extended.ini/extended/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,RANGE,900,,,0,,packages/Rbr.ini/rbr/Rbr.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,RANGE,900,,p900,1,Not found: p900.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+-1,RANGE,900,,p900,1,Not found: p900,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,AND,And,and1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,AND,And,and2.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,AND,And,and3.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -608,21 +608,21 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,PACENOTE,LONG,Long,long1.ogg,3,,pacenotes/Rbr-Enhanced.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,LONG,Long,long2.ogg,3,,pacenotes/Rbr-Enhanced.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,LONG,Long,long3.ogg,3,,pacenotes/Rbr-Enhanced.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PLACE,LOSTPLACES,,p1,15,Not found: p1.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p2,15,Not found: p2.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p3,15,Not found: p3.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p4,15,Not found: p4.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p5,15,Not found: p5.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p6,15,Not found: p6.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p7,15,Not found: p7.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p8,15,Not found: p8.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p9,15,Not found: p9.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p10,15,Not found: p10.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p11,15,Not found: p11.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p12,15,Not found: p12.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p13,15,Not found: p13.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p14,15,Not found: p14.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,PLACE,LOSTPLACES,,p15,15,Not found: p15.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p1,15,Not found: p1,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p2,15,Not found: p2,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p3,15,Not found: p3,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p4,15,Not found: p4,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p5,15,Not found: p5,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p6,15,Not found: p6,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p7,15,Not found: p7,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p8,15,Not found: p8,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p9,15,Not found: p9,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p10,15,Not found: p10,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p11,15,Not found: p11,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p12,15,Not found: p12,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p13,15,Not found: p13,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p14,15,Not found: p14,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,LOSTPLACES,,p15,15,Not found: p15,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,PACENOTE,MAYBE,Maybe,maybe1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,MAYBE,Maybe,maybe2.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,MAYBE,Maybe,maybe3.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -662,18 +662,18 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 -1,NUMBER,NUMBERS,,start1,15,,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,NUMBER,NUMBERS,,start2,15,,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,NUMBER,NUMBERS,,start3,15,,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p4_,15,Not found: p4_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p5_,15,Not found: p5_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p6_,15,Not found: p6_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p7_,15,Not found: p7_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p8_,15,Not found: p8_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p9_,15,Not found: p9_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p10_,15,Not found: p10_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p11_,15,Not found: p11_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p12_,15,Not found: p12_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p13_,15,Not found: p13_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p14_,15,Not found: p14_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
--1,NUMBER,NUMBERS,,p15_,15,Not found: p15_.ogg,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p4_,15,Not found: p4_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p5_,15,Not found: p5_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p6_,15,Not found: p6_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p7_,15,Not found: p7_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p8_,15,Not found: p8_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p9_,15,Not found: p9_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p10_,15,Not found: p10_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p11_,15,Not found: p11_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p12_,15,Not found: p12_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p13_,15,Not found: p13_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p14_,15,Not found: p14_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,NUMBER,NUMBERS,,p15_,15,Not found: p15_,Audio/Numbers.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,PACENOTE,ONTO,Onto,onto1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,ONTO,Onto,onto2.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,ONTO,Onto,onto3.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A

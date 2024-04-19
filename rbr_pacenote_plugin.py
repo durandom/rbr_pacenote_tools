@@ -303,15 +303,17 @@ class Pacenote(IniSection):
                 _files.append(file)
         return _files
 
+    def file_pathname(self, file):
+        if not file.endswith('.ogg'):
+            file = f'{file}.ogg'
+        return self._sound_dir.joinpath(file)
+
     def file_error(self, file):
         if not file:
             # internal file
             return ''
-        # if file does not have .ogg extension, add it
-        if not file.endswith('.ogg'):
-            file = f'{file}.ogg'
         # check if the file exists
-        pathname = self._sound_dir.joinpath(file)
+        pathname = self.file_pathname(file)
         if not os.path.exists(pathname):
             return f'Not found: {file}'
         return ''
@@ -335,9 +337,13 @@ class Pacenote(IniSection):
                 option = f'Snd{idx}'
                 file = note['file']
                 self.add_option(option, file)
+                # update the translation
+                if note['translation']:
+                    self.plugin().update_translation(self, note['translation'])
 
             # update the Sounds option
             self.set_option('Sounds', str(len(self._merge_queue)))
+
 
 class Range(Pacenote):
     pass
@@ -371,6 +377,14 @@ class StringsIni(IniFile):
             else:
                 raise ValueError(f'Invalid section: {section}')
 
+    def update_language(self, current_language, language):
+        # update the language in pathname
+        self.dirname = self.dirname.replace(current_language, language)
+        self.pathname = self.pathname.replace(current_language, language)
+
+    def update(self, name, translation):
+        self.strings[name] = translation
+        self.config['STRINGS'][name] = translation
 
 class RbrPacenotePlugin:
     def __init__(self, dir = "Pacenote/",
@@ -477,43 +491,13 @@ class RbrPacenotePlugin:
             for strings in strings_ini:
                 self.write_ini(strings, out_path)
 
-        language_to_dir = {
-            'english': 'Number',
-            'german': 'NumGer',
-            'french': 'NumFre',
-        }
-        src_number_dir = language_to_dir[self.pacenote_ini.language()]
-        dst_number_dir = language_to_dir[self.get_merge_language()]
-
-
-        src_dirs = {
-            Pacenote: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
-            Range: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
-            Number: Path('Audio', 'Speech', src_number_dir),
-            Place: Path('Audio', 'Speech', src_number_dir),
-        }
-        dst_dirs = {
-            Pacenote: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
-            Range: Path('Plugins', 'Pacenote', 'sounds', self.pacenote_ini.sounds()),
-            Number: Path('Audio', 'Speech', dst_number_dir),
-            Place: Path('Audio', 'Speech', dst_number_dir),
-        }
-
-        for pacenote in self.pacenotes():
-            for file in pacenote.files():
+        for call in self.pacenotes():
+            for file in call.files():
                 if not file:
                     continue
 
-                # check if file has .ogg extension, if not, add it
-                if not file.endswith('.ogg'):
-                    file = f'{file}.ogg'
-
-                src_dir = pacenote.get_sound_dir()
-                if not src_dir:
-                    src_dir = os.path.join(self.dirname, src_dirs[type(pacenote)])
-                dst_dir = os.path.join(out_path, dst_dirs[type(pacenote)])
-
-                src = os.path.join(src_dir, file)
+                src = call.file_pathname(file)
+                dst_dir = os.path.join(out_path, self.sound_dirs[type(call)])
                 dst = os.path.join(dst_dir, file)
 
                 if not os.path.exists(src):
@@ -542,6 +526,13 @@ class RbrPacenotePlugin:
         for pacenote, _ini_tree in self.calls_with_ini_tree():
             yield pacenote
 
+    def update_translation(self, call, translation):
+        language = self.pacenote_ini.language()
+        name = call.name()
+        for strings_ini in self.languages[language]:
+            if name in strings_ini.strings:
+                strings_ini.update(name, translation)
+
     def translate(self, name, language=None):
         if not language:
             language = self.pacenote_ini.language()
@@ -566,11 +557,21 @@ class RbrPacenotePlugin:
             pacenote.merge_commit()
 
     def set_language(self, language):
+        if not language:
+            return
+        current_language = self.pacenote_ini.language()
         self.pacenote_ini.config['SETTINGS']['language'] = language
         self.init_sound_dirs()
 
+        if language not in self.languages:
+            self.languages[language] = self.languages[current_language]
+            del self.languages[current_language]
+            for strings_ini in self.languages[language]:
+                strings_ini.update_language(current_language, language)
+
     def set_sound_dir(self, sounds):
         self.pacenote_ini.config['SETTINGS']['sounds'] = sounds
+        self.init_sound_dirs()
 
     def find_pacenotes(self, id, name) -> List[Pacenote]:
         if not hasattr(self, '_lookup_pacenotes_by_name'):
@@ -591,57 +592,57 @@ class RbrPacenotePlugin:
         else:
             return self._lookup_pacenotes_by_id.get(id, [])
 
-    def add_translation(self, note):
-        # ; So, if the plugin searches for a string to translate, e.g. ONE_LEFT
-        # ; initially defined in the "cat1.ini" file in the "packages/category1"
-        # ; directory, it searches for a file with an identical name, "cat1.ini", in
-        # ; the parallel folder located beneath the language specific directory.
-        # ; If that file is not found, the "strings.ini" in that same directory is
-        # ; searched.
-        # ; If none applies, the search continues one level above the current folder.
-        # ; Again, the search starts with the original file name ("cat1.ini").
-        # ; And so on, until the top-level directory has been reached.
-        # ;
-        # ; Note:
-        # ; The translation should only be defined in one file, preferably in the
-        # ; category specific file ("cat1.ini"). The strings.ini file serves as an
-        # ; alternative or for convenience.
-        # ; The above structure should be seen as an example. No need to create all
-        # ; those files.
-        files = [
-            os.path.join('pacenotes', 'packages', note.category.lower(), f'{note.ini}'),
-            os.path.join('pacenotes', 'packages', note.category.lower(), 'strings.ini'),
-            os.path.join('pacenotes', 'packages', 'strings.ini'),
-            os.path.join('pacenotes', 'strings.ini'),
-        ]
-        for file in files:
-            file = os.path.join(self.plugin_dir, 'language', self.language, file)
-            strings = self.strings(file)
-            if strings and note.name in strings:
-                note.translation = strings[note.name]
-                # logging.debug(f'Translation: {note.name} -> {note.translation}')
-                return
+    # def add_translation(self, note):
+    #     # ; So, if the plugin searches for a string to translate, e.g. ONE_LEFT
+    #     # ; initially defined in the "cat1.ini" file in the "packages/category1"
+    #     # ; directory, it searches for a file with an identical name, "cat1.ini", in
+    #     # ; the parallel folder located beneath the language specific directory.
+    #     # ; If that file is not found, the "strings.ini" in that same directory is
+    #     # ; searched.
+    #     # ; If none applies, the search continues one level above the current folder.
+    #     # ; Again, the search starts with the original file name ("cat1.ini").
+    #     # ; And so on, until the top-level directory has been reached.
+    #     # ;
+    #     # ; Note:
+    #     # ; The translation should only be defined in one file, preferably in the
+    #     # ; category specific file ("cat1.ini"). The strings.ini file serves as an
+    #     # ; alternative or for convenience.
+    #     # ; The above structure should be seen as an example. No need to create all
+    #     # ; those files.
+    #     files = [
+    #         os.path.join('pacenotes', 'packages', note.category.lower(), f'{note.ini}'),
+    #         os.path.join('pacenotes', 'packages', note.category.lower(), 'strings.ini'),
+    #         os.path.join('pacenotes', 'packages', 'strings.ini'),
+    #         os.path.join('pacenotes', 'strings.ini'),
+    #     ]
+    #     for file in files:
+    #         file = os.path.join(self.plugin_dir, 'language', self.language, file)
+    #         strings = self.strings(file)
+    #         if strings and note.name in strings:
+    #             note.translation = strings[note.name]
+    #             # logging.debug(f'Translation: {note.name} -> {note.translation}')
+    #             return
 
-        if not note.translation:
-            if note.name.isnumeric():
-                note.translation = note.name
-            else:
-                logging.error(f'No translation for: {note.name}')
-            # exit(1)
-        # logging.debug(f'add_translation: {note}')
+    #     if not note.translation:
+    #         if note.name.isnumeric():
+    #             note.translation = note.name
+    #         else:
+    #             logging.error(f'No translation for: {note.name}')
+    #         # exit(1)
+    #     # logging.debug(f'add_translation: {note}')
 
-    def strings(self, file):
-        if not os.path.exists(file):
-            # logging.debug(f'Not found: {file}')
-            return
+    # def strings(self, file):
+    #     if not os.path.exists(file):
+    #         # logging.debug(f'Not found: {file}')
+    #         return
 
-        config = ConfigObj(file, encoding='utf-8')
-        strings = {}
-        for section in config.sections:
-            if section == 'STRINGS':
-                for english in config[section].keys():
-                    # logging.debug(f'{english} - {config.get(section, english)}')
-                    translation = config[section][english]
-                    if translation:
-                        strings[english] = translation.strip()
-        return strings
+    #     config = ConfigObj(file, encoding='utf-8')
+    #     strings = {}
+    #     for section in config.sections:
+    #         if section == 'STRINGS':
+    #             for english in config[section].keys():
+    #                 # logging.debug(f'{english} - {config.get(section, english)}')
+    #                 translation = config[section][english]
+    #                 if translation:
+    #                     strings[english] = translation.strip()
+    #     return strings

@@ -95,8 +95,8 @@ if __name__ == '__main__':
 
     if args.merge:
         dst_plugin = RbrPacenotePlugin(dir=plugin_config['dir'], ini_files=plugin_config['ini'])
-        codriver.merge(dst_plugin, args.merge, args.merge_sound_src_dir)
         dst_plugin.set_language(args.merge_language)
+        codriver.merge(dst_plugin, args.merge, args.merge_sound_src_dir)
         dst_plugin.set_sound_dir(args.merge_sound_dir)
 
         plugin = dst_plugin

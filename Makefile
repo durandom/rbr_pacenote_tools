@@ -34,7 +34,7 @@ bollinger-numeric-merge-build:
 	  --codriver janne-v3-numeric \
 	  --merge out/bollinger-numeric-sounds.csv \
 	  --merge-sound-src-dir assets/bollinger_sounds \
-	  --merge-sound-dir bollinger \
+	  --merge-sound-dir DavidBollinger \
 	  --merge-language german \
 	  --out build/bollinger-v3
 	@echo "Done"
