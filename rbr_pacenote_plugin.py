@@ -592,7 +592,7 @@ class RbrPacenotePlugin:
             self._lookup_pacenotes_by_name = {}
             self._lookup_pacenotes_by_id = {}
             for pacenote in self.pacenotes():
-                if pacenote.id == -1:
+                if pacenote.id() == -1:
                     if pacenote.name() not in self._lookup_pacenotes_by_name:
                         self._lookup_pacenotes_by_name[pacenote.name()] = []
                     self._lookup_pacenotes_by_name[pacenote.name()].append(pacenote)

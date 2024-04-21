@@ -29,6 +29,7 @@ bollinger-numeric-merge:
 	  --merge out/bollinger-numeric-sounds.csv \
 	  --merge-sound-src-dir assets/bollinger_sounds \
 	  --merge-language german \
+	  --list-sounds-unique \
 	  --list-sounds > out/merge-bollinger-numeric-sounds.csv
 	@echo "Done"
 
