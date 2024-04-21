@@ -6,6 +6,10 @@ janne-v3:
 	pipenv run ./codriver.py --codriver janne-v3-numeric --list-sounds > out/janne-v3-numeric-sounds.csv
 	@echo "Done"
 
+janne-v3-unique:
+	pipenv run ./codriver.py --codriver janne-v3-numeric --list-sounds --list-sounds-unique > out/janne-v3-numeric-sounds-unique.csv
+	@echo "Done"
+
 janne-v3-build:
 	rm -rf build/janne-v3
 	pipenv run ./codriver.py --codriver janne-v3-numeric --out build/janne-v3

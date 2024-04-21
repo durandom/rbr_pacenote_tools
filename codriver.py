@@ -9,7 +9,7 @@ import sys
 from rbr_pacenote_plugin import RbrPacenotePlugin
 
 class CoDriver:
-    def list_sounds(self, plugin: RbrPacenotePlugin):
+    def list_sounds(self, plugin: RbrPacenotePlugin, unique=False):
         note = {
             'id': 'id',
             'type': 'type',
@@ -47,6 +47,14 @@ class CoDriver:
             else:
                 notes.append(note)
 
+        if unique:
+            unique_notes = {}
+            for note in notes:
+                key = f"{note['id']}-{note['type']}-{note['name']}"
+                if key not in unique_notes:
+                    unique_notes[key] = note
+            notes = list(unique_notes.values())
+
         for note in sorted(notes, key=lambda x: [x['id'], x['name']]):
             csv_writer.writerow(note)
 
@@ -77,6 +85,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='CoDriver')
     parser.add_argument('--codriver', help='Codriver in config.json', default='janne-v3-numeric')
     parser.add_argument('--list-sounds', help='List all sounds', action='store_true')
+    parser.add_argument('--list-sounds-unique', help='List all sounds only one', action='store_true')
     parser.add_argument('--merge', help='Merge from file', default=None)
     parser.add_argument('--merge-sound-src-dir', help='Sound dir for merge', default=None)
     parser.add_argument('--merge-sound-dir', help='Sound dir for merge', default=None)
@@ -102,7 +111,7 @@ if __name__ == '__main__':
         plugin = dst_plugin
 
     if args.list_sounds:
-        codriver.list_sounds(plugin)
+        codriver.list_sounds(plugin, args.list_sounds_unique)
 
     if args.out:
         codriver.write(args.out, plugin)
