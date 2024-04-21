@@ -563,6 +563,20 @@ class RbrPacenotePlugin:
         self.pacenote_ini.config['SETTINGS']['language'] = language
         self.init_sound_dirs()
 
+        numbers_inis = []
+        for ini in self.inifiles:
+            if isinstance(ini, NumbersIni):
+                numbers_inis.append(ini)
+
+        if len(numbers_inis) == 1:
+            ini = numbers_inis[0]
+            if language == 'english':
+                ini.pathname = ini.pathname.replace('NumOther.ini', 'Numbers.ini')
+                ini.filename = ini.filename.replace('NumOther.ini', 'Numbers.ini')
+            else:
+                ini.pathname = ini.pathname.replace('Numbers.ini', 'NumOther.ini')
+                ini.filename = ini.filename.replace('Numbers.ini', 'NumOther.ini')
+
         if language not in self.languages:
             self.languages[language] = self.languages[current_language]
             del self.languages[current_language]
