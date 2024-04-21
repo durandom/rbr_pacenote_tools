@@ -1,302 +1,302 @@
 id,type,name,translation,file,sounds,error,ini,file_src_dir
--1,PLACE,1,,first,1,Not found: first,Audio/NumOther.ini,assets/bollinger_sounds
--1,PLACE,10,10,tenth,1,Not found: tenth,Audio/NumOther.ini,assets/bollinger_sounds
--1,RANGE,100,,100.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,RANGE,1000,,1000.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,11,,eleventh,1,Not found: eleventh,Audio/NumOther.ini,assets/bollinger_sounds
--1,PLACE,12,,twelfth,1,Not found: twelfth,Audio/NumOther.ini,assets/bollinger_sounds
+-1,PLACE,1,,first1,4,Not found: first1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,10,10,tenth1,4,Not found: tenth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,100,,100.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,RANGE,1000,,1000.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,PLACE,11,,eleventh1,3,Not found: eleventh1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,12,,twelfth1,3,Not found: twelfth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,120,,120.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,13,,thirteenth,1,Not found: thirteenth,Audio/NumOther.ini,assets/bollinger_sounds
--1,PLACE,14,,fourteenth,1,Not found: fourteenth,Audio/NumOther.ini,assets/bollinger_sounds
+-1,PLACE,13,,thirteenth1,0,Not found: thirteenth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PLACE,14,,fourteenth1,3,Not found: fourteenth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,140,,140.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,15,,fifteenth,1,Not found: fifteenth,Audio/NumOther.ini,assets/bollinger_sounds
--1,RANGE,150,,150.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,16,,last,1,Not found: last,Audio/NumOther.ini,assets/bollinger_sounds
+-1,PLACE,15,,fifteenth1,3,Not found: fifteenth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,150,,150.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,PLACE,16,,last1,4,Not found: last1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,160,,160.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
 -1,RANGE,180,,180.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,2,,second,1,Not found: second,Audio/NumOther.ini,assets/bollinger_sounds
--1,RANGE,200,,200.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,PLACE,2,,second1,4,Not found: second1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,200,,200.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
 -1,RANGE,250,,250.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,3,,third,1,Not found: third,Audio/NumOther.ini,assets/bollinger_sounds
--1,RANGE,30,,30.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,RANGE,300,,300.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,PLACE,3,,third1,4,Not found: third1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,30,,30.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,RANGE,300,,300.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
 -1,RANGE,350,,350.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,4,,fourth,1,Not found: fourth,Audio/NumOther.ini,assets/bollinger_sounds
+-1,PLACE,4,,fourth1,4,Not found: fourth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,40,,40.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,RANGE,400,,400.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,RANGE,400,,400.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
 -1,RANGE,450,,450.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,5,,fifth,1,Not found: fifth,Audio/NumOther.ini,assets/bollinger_sounds
--1,RANGE,50,,50.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,RANGE,500,,500.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,6,,sixth,1,Not found: sixth,Audio/NumOther.ini,assets/bollinger_sounds
+-1,PLACE,5,,fifth1,4,Not found: fifth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,50,,50.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,RANGE,500,,500.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,PLACE,6,,sixth1,4,Not found: sixth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,60,,60.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,RANGE,600,,600.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,7,,seventh,1,Not found: seventh,Audio/NumOther.ini,assets/bollinger_sounds
--1,RANGE,70,,70.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,RANGE,700,,700.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,8,,eighth,1,Not found: eighth,Audio/NumOther.ini,assets/bollinger_sounds
+-1,RANGE,600,,600.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,PLACE,7,,seventh1,4,Not found: seventh1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,70,,70.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,RANGE,700,,700.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,PLACE,8,,eighth1,4,Not found: eighth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
 -1,RANGE,80,,80.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,RANGE,800,,800.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PLACE,9,,ninth,1,Not found: ninth,Audio/NumOther.ini,assets/bollinger_sounds
--1,RANGE,900,,900.ogg,2,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
--1,PACENOTE,AND,And,and.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
+-1,RANGE,800,,800.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,PLACE,9,,ninth1,4,Not found: ninth1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,RANGE,900,,900.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/bollinger_sounds
+-1,PACENOTE,AND,Und,and.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
 -1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,CALLOUT_TIME,Callout Time,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PACENOTE,CAUTION_WATER,Caution Water,caution_water.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
--1,PACENOTE,CUT,Cut,cut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
+-1,PACENOTE,CAUTION_WATER,Vorsicht Wasser,caution_water.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+-1,PACENOTE,CUT,Schneiden,cut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
 -1,PACENOTE,DISTANCE_CALL,Distance Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PACENOTE,DONTCUT,Don't Cut,dontcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
+-1,PACENOTE,DONTCUT,Nicht Schneiden,dontcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
 -1,PACENOTE,EMPTY_CALL,Empty Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PACENOTE,INTO,Into,into.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
--1,PACENOTE,LONG,Long,long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
--1,PLACE,LOSTPLACES,,p1,15,Not found: p1,Audio/NumOther.ini,assets/bollinger_sounds
--1,PACENOTE,MAYBE,Maybe,maybe.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
--1,PACENOTE,NARROWS,Narrows,narrows.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
--1,NUMBER,NUMBERS,,start1,15,Not found: start1,Audio/NumOther.ini,assets/bollinger_sounds
--1,PACENOTE,ONTO,Onto,onto.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
+-1,PACENOTE,INTO,Hinein,into.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
+-1,PACENOTE,LONG,Lang,long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
+-1,PLACE,LOSTPLACES,,p1,15,Not found: p1,Audio/NumOther.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Audio/Speech/Number
+-1,PACENOTE,MAYBE,Vielleicht,maybe.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
+-1,PACENOTE,NARROWS,Verengung (Straße),narrows.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
+-1,NUMBER,NUMBERS,,start1,1,,Audio/NumOther.ini,assets/bollinger_sounds
+-1,PACENOTE,ONTO,Hinein,onto.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
 -1,PACENOTE,PLACE_HOLDER,Placeholder,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,SOUND_FILE,Sound File,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,SOUND_INDEX,Sound Index,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 -1,PACENOTE,STANDARD_CALL,Standard Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
--1,PACENOTE,TIGHTENS,Tightens,tightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
--1,PACENOTE,TIGHTENSBAD,Double Tightens,tightensbad.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
--1,PACENOTE,WIDEOUT,Wide Out,wideout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
-0,PACENOTE,HAIRPINLEFT,Hairpin Left,hairpin_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-1,PACENOTE,90_LEFT,90 Left,two_left_de.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-2,PACENOTE,KLEFT,K Left,three_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-3,PACENOTE,MEDIUMLEFT,Medium Left,four_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-4,PACENOTE,FASTLEFT,Fast Left,five_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-5,PACENOTE,EASYLEFT,Easy Left,six_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-6,PACENOTE,EASYRIGHT,Easy Right,six_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-7,PACENOTE,FASTRIGHT,Fast Right,five_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-8,PACENOTE,MEDIUMRIGHT,Medium Right,four_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-9,PACENOTE,KRIGHT,K Right,three_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-10,PACENOTE,90_RIGHT,90 Right,two_right_de.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-11,PACENOTE,HAIRPINRIGHT,Hairpin Right,hairpin_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-12,PACENOTE,TWISTY,Twisty,twisty.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-14,PACENOTE,NARROWS,Narrows,narrows.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-15,PACENOTE,WIDEOUT,Wide Out,wideout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-16,PACENOTE,OVERCREST,Over Crest,overcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-17,PACENOTE,FORD,Ford,ford.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-18,PACENOTE,CARE,Care,care.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-19,PACENOTE,BUMP,Bump,bump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-20,PACENOTE,JUMP,Jump,jump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-22,PACENOTE,FINISH,Finish,finish.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
-25,PACENOTE,FLATRIGHT,Flat Right,flat_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-26,PACENOTE,FLATLEFT,Flat Left,flat_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-27,PACENOTE,BRIDGE,Bridge,bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-28,PACENOTE,GOSTRAIGHT,Go Straight,gostraight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-29,PACENOTE,KEEPRIGHT,Keep Right,keepright.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-30,PACENOTE,KEEPLEFT,Keep Left,keepleft.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-31,PACENOTE,KEEPMIDDLE,Keep Middle,keepmiddle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-32,PACENOTE,CAUTION,Caution,caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-102,PACENOTE,TWO_LEFT,1 Left,one_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-112,PACENOTE,TWO_RIGHT,1 Right,one_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-120,PACENOTE,LEFT,Left,left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-121,PACENOTE,RIGHT,Right,right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+-1,PACENOTE,TIGHTENS,Verengung,tightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
+-1,PACENOTE,TIGHTENSBAD,Starke Verengung,tightensbad.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
+-1,PACENOTE,WIDEOUT,Verbreiterung,wideout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/bollinger_sounds
+0,PACENOTE,HAIRPINLEFT,Kehre Links,hairpin_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+1,PACENOTE,90_LEFT,2 Links,two_left_de.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+2,PACENOTE,KLEFT,3 Links,three_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+3,PACENOTE,MEDIUMLEFT,4 Links,four_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+4,PACENOTE,FASTLEFT,5 Links,five_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+5,PACENOTE,EASYLEFT,6 Links,six_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+6,PACENOTE,EASYRIGHT,6 Rechts,six_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+7,PACENOTE,FASTRIGHT,5 Rechts,five_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+8,PACENOTE,MEDIUMRIGHT,4 Rechts,four_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+9,PACENOTE,KRIGHT,3 Rechts,three_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+10,PACENOTE,90_RIGHT,2 Rechts,two_right_de.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+11,PACENOTE,HAIRPINRIGHT,Kehre Rechts,hairpin_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+12,PACENOTE,TWISTY,Kurvenreich,twisty.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+14,PACENOTE,NARROWS,Verengung (Straße),narrows.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+15,PACENOTE,WIDEOUT,Verbreiterung,wideout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+16,PACENOTE,OVERCREST,Über Hügel,overcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+17,PACENOTE,FORD,Furt,ford.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+18,PACENOTE,CARE,Vorsicht,care.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+19,PACENOTE,BUMP,Unebenheit,bump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+20,PACENOTE,JUMP,Sprung,jump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+22,PACENOTE,FINISH,Ziel,finish.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
+25,PACENOTE,FLATRIGHT,Voll Rechts,flat_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+26,PACENOTE,FLATLEFT,Voll Links,flat_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+27,PACENOTE,BRIDGE,Brücke,bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+28,PACENOTE,GOSTRAIGHT,Geradeaus,gostraight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+29,PACENOTE,KEEPRIGHT,Rechts halten,keepright.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+30,PACENOTE,KEEPLEFT,Links halten,keepleft.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+31,PACENOTE,KEEPMIDDLE,Mittig halten,keepmiddle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+32,PACENOTE,CAUTION,Achtung,caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+102,PACENOTE,TWO_LEFT,1 Links,one_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+112,PACENOTE,TWO_RIGHT,1 Rechts,one_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+120,PACENOTE,LEFT,Links,left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+121,PACENOTE,RIGHT,Rechts,right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 122,PACENOTE,NIU_RIGHT_INTO,,right_into.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 123,PACENOTE,NIU_LEFT_INTO,,left_into.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-124,PACENOTE,RIGHT_LEFT,Right-Left,right_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-125,PACENOTE,LEFT_RIGHT,Left-Right,left_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-126,PACENOTE,RIGHT_AROUND,Right Around,right_around.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-127,PACENOTE,LEFT_AROUND,Left Around,left_around.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+124,PACENOTE,RIGHT_LEFT,Rechts-Links,right_left.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+125,PACENOTE,LEFT_RIGHT,Links-Rechts,left_right.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+126,PACENOTE,RIGHT_AROUND,Rechts Herum,right_around.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+127,PACENOTE,LEFT_AROUND,Links Herum,left_around.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 149,PACENOTE,10,10,10_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 150,PACENOTE,20,20,20_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-200,PACENOTE,OVER_BRIDGE,Over Bridge,over_bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-201,PACENOTE,NIU_OVER_RAILS,Raiteet (NIU),over_rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-202,PACENOTE,NIU_OVER_RAILWAY,Raiteet (NIU),over_railway.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-211,PACENOTE,NIU_DEEPCUT,Ahne (NIU),deepcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-212,PACENOTE,FULLCUT,Full Cut,fullcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-213,PACENOTE,NA_KEEP_CENTRE,Keskeltä (N/A),keskelta.ogg,1,Not found: keskelta.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-215,PACENOTE,GO_FULL,Go,go_full.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
-216,PACENOTE,FLATOUT,Flat,flatout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-217,PACENOTE,BRAKE,Brake,brake.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-218,PACENOTE,LIGHT_CUT,Small Cut,light_cut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-219,PACENOTE,HANDBRAKE,Handbrake,handbrake.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
-220,PACENOTE,KEEP_IN,Keep In,keep_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-221,PACENOTE,KEEP_OUT,Keep Out,keep_out.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-223,PACENOTE,CLIP,Clip,clip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+200,PACENOTE,OVER_BRIDGE,Über Brücke,over_bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+201,PACENOTE,NIU_OVER_RAILS,Über Gleis,over_rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+202,PACENOTE,NIU_OVER_RAILWAY,Über Schienenstrang,over_railway.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+211,PACENOTE,NIU_DEEPCUT,Cut Tief,deepcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+212,PACENOTE,FULLCUT,Cut Voll,fullcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+213,PACENOTE,NA_KEEP_CENTRE,Keskeltä (N/A),keep_middle1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+215,PACENOTE,GO_FULL,Vollgas,go_full.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
+216,PACENOTE,FLATOUT,Flatout,flatout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+217,PACENOTE,BRAKE,Bremsen,brake.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+218,PACENOTE,LIGHT_CUT,Cut Leicht,light_cut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+219,PACENOTE,HANDBRAKE,Handbremse,handbrake.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
+220,PACENOTE,KEEP_IN,Innen bleiben,keep_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+221,PACENOTE,KEEP_OUT,Aussen bleiben,keep_out.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+223,PACENOTE,CLIP,Einhängen,clip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
 230,PACENOTE,MINUS,Minus,minus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-231,PACENOTE,NA_MINUSMINUS,Miius Minus (N/A),minusminus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+231,PACENOTE,NA_MINUSMINUS,MinusMinus,minusminus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
 232,PACENOTE,PLUS,Plus,plus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-233,PACENOTE,NA_PLUSPLUS,Plus Plus (N/A),plusplus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-234,PACENOTE,EARLY,Early,early.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-235,PACENOTE,LATE,Late,late.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-236,PACENOTE,EASY,Easy,easy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-237,PACENOTE,NA_MUCH,Much (N/A),much.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-238,PACENOTE,NA_MANY,Many (N/A),many.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-239,PACENOTE,NA_VERY,Very (N/A),very.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-240,PACENOTE,HARD,Hard,hard.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-241,PACENOTE,FAST,Fast,fast.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-242,PACENOTE,SLOW,Slow,slow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-243,PACENOTE,NA_EXACT,Exact (N/A),exact.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-243,PACENOTE,NIU_EXACT,Precise (NIU),exact.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-244,PACENOTE,SLOWING,Slowing,slowing.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
-245,PACENOTE,NA_DIRECTLY,Directly (N/A),directly.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-246,PACENOTE,NA_LIGHT,Light (N/A),light.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-247,PACENOTE,NA_BIG,Big (N/A),big.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-248,PACENOTE,NA_SMALL,Small (N/A),small.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-249,PACENOTE,SHARP,Sharp,sharp.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-250,PACENOTE,ROUND,Round,round.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-251,PACENOTE,TIGHT,Tight,tight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-252,PACENOTE,NA_SLIGHT,Slight (N/A),slight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-253,PACENOTE,NA_GOOD,Good (N/A),good.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-254,PACENOTE,BAD,Bad,bad.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-255,PACENOTE,NARROW,Narrow,narrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-256,PACENOTE,WIDE,Wide,wide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-257,PACENOTE,NA_STRAIGHT,Straight (N/A),straight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-260,PACENOTE,UPHILL,Up,uphill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-261,PACENOTE,DOWNHILL,Down,downhill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-263,PACENOTE,NIU_LONGLONG,Very Long (NIU),longlong.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-264,PACENOTE,SHORT,Short,short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-265,PACENOTE,NA_SHORTSHORT,Short Short (N/A),shortshort.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-266,PACENOTE,NA_GONARROW,Go Narrow (N/A),gonarrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-267,PACENOTE,GOWIDE,Go Wide,gowide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-268,PACENOTE,SLIPPERY,Slippery,slippery.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-270,PACENOTE,NA_UNDERSTEER,Understeer (N/A),understeer.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
-271,PACENOTE,SIDEWAYS,Rotate,sideways.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
-272,PACENOTE,HOOK,Hook,hook.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-273,PACENOTE,NA_DRAWS_IN,Draws In (N/A),draws_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
-274,PACENOTE,VERY_LONG,Very Long,very_long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-275,PACENOTE,NA_VERY_SHORT,Very Short (N/A),very_short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-277,PACENOTE,NIU_SLIPPY,Slippy (NIU),slippy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-291,PACENOTE,DIRTY,Shit,dirty.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-292,PACENOTE,NIU_BUMPY,Bumps (NIU),bumpy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-293,PACENOTE,CRAMPED,Cramped,cramped.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-294,PACENOTE,NA_POSITIVE,Positive (N/A),positive.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-295,PACENOTE,NA_NEGATIVE,Negative (N/A),negative.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-298,PACENOTE,OPENS,Opens,opens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-299,PACENOTE,FAKES,Deceptive,fakes.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-300,PACENOTE,BUMPS,Bumps,bumps.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-301,PACENOTE,HIDDEN,Unseen,hidden.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-302,PACENOTE,NIU_BLIND,Unseen (NIU),blind.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-303,PACENOTE,DOUBLE_CAUTION,Double Caution,double_caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-304,PACENOTE,NA_TRIPLE_CAUTION,Triple Caution (N/A),triple_caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-320,PACENOTE,GRAVEL,Gravel,gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-321,PACENOTE,TARMAC,Tarmac,tarmac.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-322,PACENOTE,CONCRETE,Concrete,concrete.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-323,PACENOTE,COBBLES,Cobbles,cobbles.ogg,1,Not found: cobbles.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-324,PACENOTE,NA_GRIT,Grit (N/A),grit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-325,PACENOTE,SNOW,Snow,snow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-326,PACENOTE,NA_ONSPLIT,On Split (N/A),onsplit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-327,PACENOTE,ICY,Icy,icy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-328,PACENOTE,NA_RUBBLE,Rubble (N/A),rubble.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-329,PACENOTE,NIU_ICE,Icy (NIU),ice.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-330,PACENOTE,NA_LOOSE_GRAVEL,Loose Gravel (N/A),loose_gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-340,PACENOTE,CREST,Crest,crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-342,PACENOTE,CAMBER,Camber,camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-343,PACENOTE,NIU_REVERSE_CAMBER,Bad Camber (NIU),reverse_camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-344,PACENOTE,HOLE,Hole,hole.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-345,PACENOTE,RUTS,Ruts,ruts.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-346,PACENOTE,DEEPRUTS,Deep Ruts,deepruts.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-347,PACENOTE,NA_BORDER,Border (N/A),border.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-348,PACENOTE,NA_EDGE,Edge (N/A),edge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-349,PACENOTE,NA_CURB,Curb (N/A),curb.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-350,PACENOTE,NA_DITCH,Ditch (N/A),ditch.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-351,PACENOTE,JUNCTION,Junction,junction.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-353,PACENOTE,TURN,Turn,turn.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-354,PACENOTE,NIU_STEEP_DROP,Drops (NIU),steep_drop.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-355,PACENOTE,BADCAMBER,Bad Camber,bad_camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-356,PACENOTE,NA_SHOULDER,Shoulder (N/A),shoulder.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-357,PACENOTE,NA_STEEP_HILL,Steep Hill (N/A),steep_hill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-358,PACENOTE,NA_STEEP_INCLINE,Steep Incline (N/A),steep_incline.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-359,PACENOTE,NA_STEEP_SLOPE,Steep Slope (N/A),steep_slope.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-361,PACENOTE,DIP,Dip,dip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-362,PACENOTE,DROPS,Drops,drops.ogg,1,Not found: drops.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-367,PACENOTE,NIU_NEGATIVE_CAMBER,Bad Camber (NIU),negative_camber.ogg,1,Not found: negative_camber.ogg,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-368,PACENOTE,NIU_POSITIVE_CAMBER,Camber (NIU),positive_camber.ogg,1,Not found: positive_camber.ogg,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+233,PACENOTE,NA_PLUSPLUS,PlusPlus,plusplus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+234,PACENOTE,EARLY,Früh,early.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+235,PACENOTE,LATE,Spät,late.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+236,PACENOTE,EASY,Wenig,easy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+237,PACENOTE,NA_MUCH,Viel,much.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+238,PACENOTE,NA_MANY,Viele,many.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+239,PACENOTE,NA_VERY,Sehr,very.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+240,PACENOTE,HARD,Stark,hard.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+241,PACENOTE,FAST,Schnell,fast.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+242,PACENOTE,SLOW,Langsam,slow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+243,PACENOTE,NA_EXACT,Genau,exact.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+243,PACENOTE,NIU_EXACT,Genau,exact.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+244,PACENOTE,SLOWING,Langsamer,slowing.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
+245,PACENOTE,NA_DIRECTLY,Sofort,directly.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+246,PACENOTE,NA_LIGHT,Leicht,light.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+247,PACENOTE,NA_BIG,Groß,big.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+248,PACENOTE,NA_SMALL,Klein,small.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+249,PACENOTE,SHARP,Spitz,sharp.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+250,PACENOTE,ROUND,Rund,round.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+251,PACENOTE,TIGHT,Eng,tight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+252,PACENOTE,NA_SLIGHT,Etwas,slight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+253,PACENOTE,NA_GOOD,Gut,good.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+254,PACENOTE,BAD,Schlecht,bad.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+255,PACENOTE,NARROW,Eng,narrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+256,PACENOTE,WIDE,Breit,wide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+257,PACENOTE,NA_STRAIGHT,Gerade,straight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+260,PACENOTE,UPHILL,Bergauf,uphill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+261,PACENOTE,DOWNHILL,Bergab,downhill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+263,PACENOTE,NIU_LONGLONG,LangLang,longlong.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+264,PACENOTE,SHORT,Kurz,short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+265,PACENOTE,NA_SHORTSHORT,KurzKurz,shortshort.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+266,PACENOTE,NA_GONARROW,Wird Enger,gonarrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+267,PACENOTE,GOWIDE,Wird Breiter,gowide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+268,PACENOTE,SLIPPERY,Schmiert,slippery.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+270,PACENOTE,NA_UNDERSTEER,Schiebt,understeer.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
+271,PACENOTE,SIDEWAYS,Versetzt,sideways.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
+272,PACENOTE,HOOK,Einhängen,hook.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+273,PACENOTE,NA_DRAWS_IN,Dreht Ein,draws_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
+274,PACENOTE,VERY_LONG,Sehr Lang,very_long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+275,PACENOTE,NA_VERY_SHORT,Sehr Kurz,very_short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+277,PACENOTE,NIU_SLIPPY,Rutschig,slippy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+291,PACENOTE,DIRTY,Schmutzig,dirty.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+292,PACENOTE,NIU_BUMPY,Bucklig,bumpy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+293,PACENOTE,CRAMPED,Verengt,cramped.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+294,PACENOTE,NA_POSITIVE,Positiv,positive.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+295,PACENOTE,NA_NEGATIVE,Negativ,negative.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+298,PACENOTE,OPENS,Macht Auf,opens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+299,PACENOTE,FAKES,Täuscht,fakes.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+300,PACENOTE,BUMPS,Schwellen,bumps.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+301,PACENOTE,HIDDEN,Versteckt,hidden.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+302,PACENOTE,NIU_BLIND,Blind,blind.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+303,PACENOTE,DOUBLE_CAUTION,Gut Aufpassen,double_caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+304,PACENOTE,NA_TRIPLE_CAUTION,Höchste Vorsicht,triple_caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+320,PACENOTE,GRAVEL,Schotter,gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+321,PACENOTE,TARMAC,Asphalt,tarmac.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+322,PACENOTE,CONCRETE,Beton,concrete.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+323,PACENOTE,COBBLES,Cobbles,cobbles1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+324,PACENOTE,NA_GRIT,Kies,grit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+325,PACENOTE,SNOW,Schnee,snow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+326,PACENOTE,NA_ONSPLIT,Splitt,onsplit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+327,PACENOTE,ICY,Eisig,icy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+328,PACENOTE,NA_RUBBLE,Geröll,rubble.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+329,PACENOTE,NIU_ICE,Eis,ice.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+330,PACENOTE,NA_LOOSE_GRAVEL,Loser Schotter,loose_gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+340,PACENOTE,CREST,Kuppe,crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+342,PACENOTE,CAMBER,Wölbung,camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+343,PACENOTE,NIU_REVERSE_CAMBER,Wanne,reverse_camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+344,PACENOTE,HOLE,Loch,hole.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+345,PACENOTE,RUTS,Rillen,ruts.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+346,PACENOTE,DEEPRUTS,Tiefe Rillen,deepruts.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+347,PACENOTE,NA_BORDER,Rand,border.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+348,PACENOTE,NA_EDGE,Kante,edge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+349,PACENOTE,NA_CURB,Bordstein,curb.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+350,PACENOTE,NA_DITCH,Graben,ditch.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+351,PACENOTE,JUNCTION,Abzweig,junction.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+353,PACENOTE,TURN,Abbiegen,turn.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+354,PACENOTE,NIU_STEEP_DROP,Steiler Abhang,steep_drop.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+355,PACENOTE,BADCAMBER,Starke Wölbung,bad_camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+356,PACENOTE,NA_SHOULDER,Bankett,shoulder.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+357,PACENOTE,NA_STEEP_HILL,Steiles Gefälle,steep_hill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+358,PACENOTE,NA_STEEP_INCLINE,Steiler Anstieg,steep_incline.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+359,PACENOTE,NA_STEEP_SLOPE,Steilhang,steep_slope.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+361,PACENOTE,DIP,Abhang,dip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+362,PACENOTE,DROPS,Drops,drops1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+367,PACENOTE,NIU_NEGATIVE_CAMBER,Bad Camber (NIU),badcamber1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+368,PACENOTE,NIU_POSITIVE_CAMBER,Camber (NIU),camber1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 369,PACENOTE,NIU_COMPRESSION,Dip (NIU),dip1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-370,PACENOTE,NA_FENCE,Fence (N/A),fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-371,PACENOTE,NA_WALL,Wall (N/A),wall.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-372,PACENOTE,NA_HOUSE,House (N/A),house.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-373,PACENOTE,NA_TREE,Tree (N/A),tree.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-374,PACENOTE,NA_STUMP,Stump (N/A),stump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-375,PACENOTE,NA_MAST,Mast (N/A),mast.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-376,PACENOTE,NIU_POST,Post (NIU),post.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-377,PACENOTE,NA_ISLAND,Island (N/A),island.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-378,PACENOTE,CHICANE,Chicane,chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-379,PACENOTE,NA_STONE,Stone (N/A),stone.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-380,PACENOTE,NA_ROCK,Rock (N/A),rock.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+370,PACENOTE,NA_FENCE,Zaun,fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+371,PACENOTE,NA_WALL,Mauer,wall.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+372,PACENOTE,NA_HOUSE,Haus,house.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+373,PACENOTE,NA_TREE,Baum,tree.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+374,PACENOTE,NA_STUMP,Stumpf,stump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+375,PACENOTE,NA_MAST,Mast,mast.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+376,PACENOTE,NIU_POST,Pfosten,post.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+377,PACENOTE,NA_ISLAND,Kreisel,island.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+378,PACENOTE,CHICANE,Schikane,chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+379,PACENOTE,NA_STONE,Stein,stone.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+380,PACENOTE,NA_ROCK,Fels,rock.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 381,PACENOTE,TUNNEL,Tunnel,tunnel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-382,PACENOTE,NA_ROAD,Road (N/A),road.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-384,PACENOTE,RAILS,Rails,rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-385,PACENOTE,NA_SIGN,Sign (N/A),sign.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-386,PACENOTE,NA_BUSH,Bush (N/A),bush.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-387,PACENOTE,NA_PATH,Path (N/A),path.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-388,PACENOTE,NIU_WATER,Water (NIU),water.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-389,PACENOTE,NIU_PUDDLE,Water (NIU),puddle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+382,PACENOTE,NA_ROAD,Straße,road.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+384,PACENOTE,RAILS,Gleis,rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+385,PACENOTE,NA_SIGN,Schild,sign.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+386,PACENOTE,NA_BUSH,Busch,bush.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+387,PACENOTE,NA_PATH,Weg,path.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+388,PACENOTE,NIU_WATER,Wasser,water.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+389,PACENOTE,NIU_PUDDLE,Pfütze,puddle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 390,PACENOTE,NA_NETTING,Netting (N/A),netting.ogg,1,Not found: netting.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 391,PACENOTE,NA_TAPE,Tape (N/A),tape.ogg,1,Not found: tape.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-392,PACENOTE,LEFT_ENTRY_CHICANE,Chicane Left Entry,left_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-393,PACENOTE,RIGHT_ENTRY_CHICANE,Chicane Right Entry,right_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+392,PACENOTE,LEFT_ENTRY_CHICANE,Schikane Eingang Links,left_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
+393,PACENOTE,RIGHT_ENTRY_CHICANE,Schikane Eingang Rechts,right_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 394,PACENOTE,NA_TYRES,Tyres (N/A),tyres.ogg,1,Not found: tyres.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 395,PACENOTE,NA_SPECTATORS,Spectators (N/A),spectators.ogg,1,Not found: spectators.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 396,PACENOTE,NA_MARSHALLS,Marshalls (N/A),marshalls.ogg,1,Not found: marshalls.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-397,PACENOTE,NA_BARRELS,Barrels (N/A),barrels.ogg,1,Not found: barrels.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-399,PACENOTE,NA_ROUNDABOUT,Roundabout (N/A),roundabout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-400,PACENOTE,NA_THROUGH,Through (N/A),through.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-401,PACENOTE,NA_AFTER,After (N/A),after.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-402,PACENOTE,NA_NEAR,Near (N/A),near.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-403,PACENOTE,NA_ON,On (N/A),on.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-404,PACENOTE,NA_UNTIL,Until (N/A),until.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-405,PACENOTE,NA_AT,At (N/A),at.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-406,PACENOTE,NA_BEFORE,Before (N/A),before.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-407,PACENOTE,NA_OVER,Over (N/A),over.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-408,PACENOTE,NIU_IN,In (NIU),in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-409,PACENOTE,NA_BEHIND,Behind (N/A),behind.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-410,PACENOTE,NA_FOR,For (N/A),for.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-411,PACENOTE,INSIDE,In,inside.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-412,PACENOTE,OUTSIDE,Out,outside.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-413,PACENOTE,NA_THEN,Then (N/A),then.ogg,1,Not found: then.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-414,PACENOTE,NA_OFF,Off (N/A),off.ogg,1,Not found: off.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-430,PACENOTE,DONE,Done,done.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
+397,PACENOTE,NA_BARRELS,Barrels (N/A),barrels.ogg,1,Not found: barrels.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+399,PACENOTE,NA_ROUNDABOUT,Kreisverkehr,roundabout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+400,PACENOTE,NA_THROUGH,Durch,through.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+401,PACENOTE,NA_AFTER,Nach,after.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+402,PACENOTE,NA_NEAR,Nahe,near.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+403,PACENOTE,NA_ON,Auf,on.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+404,PACENOTE,NA_UNTIL,Bis,until.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+405,PACENOTE,NA_AT,Bei,at.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+406,PACENOTE,NA_BEFORE,Vor,before.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+407,PACENOTE,NA_OVER,Über,over.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+408,PACENOTE,NIU_IN,In,in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+409,PACENOTE,NA_BEHIND,Hinter,behind.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+410,PACENOTE,NA_FOR,Für,for.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+411,PACENOTE,INSIDE,Innen,inside.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+412,PACENOTE,OUTSIDE,Außen,outside.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+413,PACENOTE,NA_THEN,Then (N/A),then.ogg,1,Not found: then.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+414,PACENOTE,NA_OFF,Off (N/A),off.ogg,1,Not found: off.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+430,PACENOTE,DONE,Ende,done.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
 431,PACENOTE,STOP,Stop,stop.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
-432,PACENOTE,LINE_NOTE,Line,line.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+432,PACENOTE,LINE_NOTE,Linie,line.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
 435,PACENOTE,NEXT_LAP,Onto Next Lap,onto_nextlap1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 436,PACENOTE,TAKE_EXIT,Onto Finish,onto_finish1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-443,PACENOTE,NA_WOODEN_FENCE,Wooden Fence (N/A),wooden_fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
-540,PACENOTE,ONTO_GRAVEL,Onto Gravel,onto_gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-541,PACENOTE,ONTO_TARMAC,Onto Tarmac,onto_tarmac.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-542,PACENOTE,ONTO_CONCRETE,Onto Concrete,onto_concrete.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-543,PACENOTE,ONTO_COBBLES,Onto Cobbles,onto_cobbles.ogg,1,Not found: onto_cobbles.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-544,PACENOTE,NA_ONTO_GRIT,Onto Grit (N/A),onto_grit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-545,PACENOTE,ONTO_SNOW,Onto Snow,onto_snow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
-549,PACENOTE,NIU_HOLD,Hold (NIU),hold.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-550,PACENOTE,NA_TAKE_SPEED,Take Speed (N/A),take_speed.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
-551,PACENOTE,L_FOOT_BRAKING,Dab,l_foot_braking.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
-555,PACENOTE,NA_TO_SIGHT_DISTANCE,To Sight Distance (N/A),to_sight_distance.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
-556,PACENOTE,SPLIT_TIME,Split Time,split_time.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
-557,PACENOTE,ENTRY,At Entry,entry.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
-2001,PACENOTE,TIGHTENSTOSIX,Tightens 6,tightens6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2002,PACENOTE,TIGHTENSTOFIVE,Tightens 5,tightens5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2003,PACENOTE,TIGHTENSTOFOUR,Tightens 4,tightens4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2004,PACENOTE,TIGHTENSTOTHREE,Tightens 3,tightens3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2005,PACENOTE,TIGHTENSTOTWO,Tightens 2,tightens2.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2006,PACENOTE,TIGHTENSTOONE,Tightens 1,tightens1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2007,PACENOTE,TIGHTENSTOHP,Tightens Hairpin,tightenshp.ogg,1,Not found: tightenshp.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2008,PACENOTE,TOSIX,_6,6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2009,PACENOTE,TOFIVE,_5,5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2010,PACENOTE,TOFOUR,_4,4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2011,PACENOTE,TOTHREE,_3,3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2012,PACENOTE,TOTWO,_2,two_de.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2013,PACENOTE,TOONE,_1,1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2014,PACENOTE,TOHP,_Hairpin,hairpin.ogg,1,Not found: hairpin.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2015,PACENOTE,TIGHTENSLATE,Tightens Late,tightenslate.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+443,PACENOTE,NA_WOODEN_FENCE,Holzzaun,wooden_fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/bollinger_sounds
+540,PACENOTE,ONTO_GRAVEL,Auf Schotter,onto_gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+541,PACENOTE,ONTO_TARMAC,Auf Asphalt,onto_tarmac.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+542,PACENOTE,ONTO_CONCRETE,Auf Beton,onto_concrete.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+543,PACENOTE,ONTO_COBBLES,Onto Cobbles,onto_cobbles1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+544,PACENOTE,NA_ONTO_GRIT,Auf Kies,onto_grit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+545,PACENOTE,ONTO_SNOW,Auf Schnee,onto_snow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/bollinger_sounds
+549,PACENOTE,NIU_HOLD,Halten,hold.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+550,PACENOTE,NA_TAKE_SPEED,Speed Mit,take_speed.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
+551,PACENOTE,L_FOOT_BRAKING,LinksFussBremsen,l_foot_braking.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/bollinger_sounds
+555,PACENOTE,NA_TO_SIGHT_DISTANCE,Bis Sicht,to_sight_distance.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
+556,PACENOTE,SPLIT_TIME,Zeit,split_time.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
+557,PACENOTE,ENTRY,Eingang,entry.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/bollinger_sounds
+2001,PACENOTE,TIGHTENSTOSIX,Macht zu 6*,tightens6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2002,PACENOTE,TIGHTENSTOFIVE,Macht zu 5*,tightens5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2003,PACENOTE,TIGHTENSTOFOUR,Macht zu 4*,tightens4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2004,PACENOTE,TIGHTENSTOTHREE,Macht zu 3*,tightens3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2005,PACENOTE,TIGHTENSTOTWO,Macht zu 2*,tightens2.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2006,PACENOTE,TIGHTENSTOONE,Macht zu 1*,tightens1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2007,PACENOTE,TIGHTENSTOHP,Tightens Hairpin,tightens_hp1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2008,PACENOTE,TOSIX,6*,6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2009,PACENOTE,TOFIVE,5*,5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2010,PACENOTE,TOFOUR,4*,4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2011,PACENOTE,TOTHREE,3*,3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2012,PACENOTE,TOTWO,2*,two_de.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2013,PACENOTE,TOONE,1*,1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2014,PACENOTE,TOHP,_Hairpin,_hp1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2015,PACENOTE,TIGHTENSLATE,Macht Spät Zu,tightenslate.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
 2016,PACENOTE,DONTCUTEARLY,Don't Early,dont_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2017,PACENOTE,DONTCUTLATE,Don't Late,dont_late1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2018,PACENOTE,OPENSTIGHTENS,Opens Tightens,openstightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2019,PACENOTE,TIGHTENSOPENS,Tightens Opens,tightensopens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2018,PACENOTE,OPENSTIGHTENS,Macht Auf und Zu,openstightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
+2019,PACENOTE,TIGHTENSOPENS,Macht Zu und Auf,tightensopens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
 2020,PACENOTE,NIU_HANG,,keep_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2021,PACENOTE,CAREIN,Care In,carein.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
-2022,PACENOTE,CAREOUT,Care Out,careout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+2021,PACENOTE,CAREIN,Vorsicht Innen*,carein.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
+2022,PACENOTE,CAREOUT,Vorsicht Außen*,careout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
 2023,PACENOTE,NIU_HAE,Hae (NIU),line1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2024,PACENOTE,TODIP,To Dip,to_dip1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2025,PACENOTE,NIU_JATKUU,And (NIU),and1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2026,PACENOTE,FLAT_SCALE,Flat,flat_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2027,PACENOTE,TIGHTENSTOACUTE,Tightens Acute,tightens_acute1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2028,PACENOTE,TOACUTE,_Acute,_acute1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2029,PACENOTE,CONTINUESOVERCREST,Continues Over Crest,continuesovercrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+2029,PACENOTE,CONTINUESOVERCREST,Halten über Kuppe,continuesovercrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 2030,PACENOTE,IMMEDIATE,Immediate,immediate1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2031,PACENOTE,NIPS,Nips,nips1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2032,PACENOTE,OPENSLITTLE,Opens A Bit,opens_abit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -370,13 +370,13 @@ id,type,name,translation,file,sounds,error,ini,file_src_dir
 2100,PACENOTE,FROM_LEFT,From Left,from_left1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2101,PACENOTE,FROM_RIGHT,From Right,from_right1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2102,PACENOTE,DOUBLE,Double,double1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2103,PACENOTE,HALF_LONG,Halflong,half_long.ogg,1,Not found: half_long.ogg,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+2103,PACENOTE,HALF_LONG,Halflong,halflong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2104,PACENOTE,NIU_LOIVA_ALKU,Late (NIU),late1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2105,PACENOTE,TO_FINISH,To Finish,tofinish1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2106,PACENOTE,FLAT_JUMP,Flat Jump,jumpfull.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+2106,PACENOTE,FLAT_JUMP,Sprung Voll,jumpfull.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 2107,PACENOTE,JUMP_DAB,Jump Dab,jump_dab1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2108,PACENOTE,OVER_JUMP,Over Jump,overjump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-2109,PACENOTE,SMALL_CREST,Small Crest,smallcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+2108,PACENOTE,OVER_JUMP,Über Sprung,overjump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+2109,PACENOTE,SMALL_CREST,Kuppe Klein,smallcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 2110,PACENOTE,DIST21,21,21_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2111,PACENOTE,DIST31,31,31_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2112,PACENOTE,DIST41,41,41_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A

@@ -63,7 +63,8 @@ class CoDriver:
             csv_reader = csv.DictReader(csvfile)
             for row in csv_reader:
                 # logging.debug(f"Merge: {row}")
-                plugin.merge(row, sound_dir)
+                if row['file']:
+                    plugin.merge(row, sound_dir)
         plugin.merge_commit()
 
     def write(self, out, plugin):
@@ -103,12 +104,10 @@ if __name__ == '__main__':
     codriver = CoDriver()
 
     if args.merge:
-        dst_plugin = RbrPacenotePlugin(dir=plugin_config['dir'], ini_files=plugin_config['ini'])
-        dst_plugin.set_language(args.merge_language)
-        codriver.merge(dst_plugin, args.merge, args.merge_sound_src_dir)
-        dst_plugin.set_sound_dir(args.merge_sound_dir)
-
-        plugin = dst_plugin
+        # dst_plugin = RbrPacenotePlugin(dir=plugin_config['dir'], ini_files=plugin_config['ini'])
+        plugin.set_language(args.merge_language)
+        codriver.merge(plugin, args.merge, args.merge_sound_src_dir)
+        plugin.set_sound_dir(args.merge_sound_dir)
 
     if args.list_sounds:
         codriver.list_sounds(plugin, args.list_sounds_unique)

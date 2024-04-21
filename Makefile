@@ -19,6 +19,10 @@ bollinger-numeric:
 	pipenv run ./codriver.py --codriver bollinger-numeric --list-sounds > out/bollinger-numeric-sounds.csv
 	@echo "Done"
 
+bollinger-numeric-unique:
+	pipenv run ./codriver.py --codriver bollinger-numeric --list-sounds-unique --list-sounds > out/bollinger-numeric-sounds-unique.csv
+	@echo "Done"
+
 bollinger-numeric-build:
 	pipenv run ./codriver.py --codriver bollinger-numeric --out build/bollinger-numeric
 	@echo "Done"
@@ -33,16 +37,36 @@ bollinger-numeric-merge:
 	  --list-sounds > out/merge-bollinger-numeric-sounds.csv
 	@echo "Done"
 
-bollinger-numeric-merge-build:
+# bollinger-numeric-merge-build:
+# 	rm -rf build/bollinger-v3
+# 	pipenv run ./codriver.py \
+# 	  --codriver janne-v3-numeric \
+# 	  --merge out/bollinger-numeric-sounds.csv \
+# 	  --merge-sound-src-dir assets/bollinger_sounds \
+# 	  --merge-sound-dir DavidBollinger \
+# 	  --merge-language german \
+# 	  --out build/bollinger-v3
+# 	@echo "Done"
+
+bollinger-v3: bollinger-numeric-unique
+	grep -v "Not found" out/bollinger-numeric-sounds-unique.csv > out/bollinger-numeric-sounds-unique-no-error.csv
+	pipenv run ./codriver.py \
+	  --codriver janne-v3-numeric \
+	  --merge out/bollinger-numeric-sounds-unique-no-error.csv \
+	  --merge-sound-src-dir assets/bollinger_sounds \
+	  --merge-language german \
+	  --list-sounds-unique \
+	  --list-sounds > out/merge-bollinger-numeric-sounds-unique.csv
 	rm -rf build/bollinger-v3
 	pipenv run ./codriver.py \
 	  --codriver janne-v3-numeric \
-	  --merge out/bollinger-numeric-sounds.csv \
+	  --merge out/bollinger-numeric-sounds-unique-no-error.csv \
 	  --merge-sound-src-dir assets/bollinger_sounds \
 	  --merge-sound-dir DavidBollinger \
 	  --merge-language german \
 	  --out build/bollinger-v3
 	@echo "Done"
+
 
 smo-v3:
 	pipenv run ./codriver.py --codriver smo-v3 --list-sounds > out/smo-v3-sounds.csv
