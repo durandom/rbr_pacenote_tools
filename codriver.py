@@ -64,7 +64,18 @@ class CoDriver:
             for row in csv_reader:
                 # logging.debug(f"Merge: {row}")
                 if row['file']:
-                    plugin.merge(row, sound_dir)
+                    base_file = row['file']
+                    for index in range(9):
+                        file = base_file
+                        if not file.endswith('.ogg'):
+                            file = file + '.ogg'
+                        (basename, ext) = os.path.splitext(file)
+                        if index > 0:
+                            file = f"{basename}_{index}{ext}"
+                        pathname = os.path.join(sound_dir, file)
+                        if os.path.exists(pathname):
+                            row['file'] = file
+                            plugin.merge(row, sound_dir)
         plugin.merge_commit()
 
     def write(self, out, plugin):

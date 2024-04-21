@@ -547,6 +547,7 @@ class RbrPacenotePlugin:
         return ''
 
     def merge(self, note, sound_dir=None):
+        note = dict(note)
         id = int(note['id'])
         pacenotes = self.find_pacenotes(id, note['name'])
         for pacenote in pacenotes:
