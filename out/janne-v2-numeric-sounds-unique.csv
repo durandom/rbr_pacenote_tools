@@ -1,0 +1,256 @@
+id,type,name,translation,file,sounds,error,ini
+-1,PLACE,1,,first,1,Not found: first,Audio/NumOther.ini
+-1,PLACE,10,,tenth,1,Not found: tenth,Audio/NumOther.ini
+-1,RANGE,100,,100_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,1000,,1000.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,11,,eleventh,1,Not found: eleventh,Audio/NumOther.ini
+-1,PLACE,12,,twelfth,1,Not found: twelfth,Audio/NumOther.ini
+-1,RANGE,120,,120_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,13,,thirteenth,0,Not found: thirteenth,Audio/NumOther.ini
+-1,PLACE,14,,fourteenth,1,Not found: fourteenth,Audio/NumOther.ini
+-1,RANGE,140,,140_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,15,,fifteenth,1,Not found: fifteenth,Audio/NumOther.ini
+-1,RANGE,150,,150_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,16,,last,1,Not found: last,Audio/NumOther.ini
+-1,RANGE,160,,160_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,180,,180_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,2,,second,1,Not found: second,Audio/NumOther.ini
+-1,RANGE,200,,200_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,250,,250_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,3,,third,1,Not found: third,Audio/NumOther.ini
+-1,RANGE,30,,30_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,300,,300_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,350,,350_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,4,,fourth,1,Not found: fourth,Audio/NumOther.ini
+-1,RANGE,40,,40_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,400,,400_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,450,,450_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,5,,fifth,1,Not found: fifth,Audio/NumOther.ini
+-1,RANGE,50,,50_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,500,,500_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,6,,sixth,1,Not found: sixth,Audio/NumOther.ini
+-1,RANGE,60,,60_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,600,,600.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,7,,seventh,1,Not found: seventh,Audio/NumOther.ini
+-1,RANGE,70,,70_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,700,,700.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,8,,eighth,1,Not found: eighth,Audio/NumOther.ini
+-1,RANGE,80,,80_1.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,800,,800.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PLACE,9,,ninth,1,Not found: ninth,Audio/NumOther.ini
+-1,RANGE,900,,900.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PACENOTE,AND,And,jatkuu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CALLOUT_TIME,Callout Time,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CAUTION_WATER,Caution Water,huomio_vetta.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+-1,PACENOTE,CUT,Cut,sisalta.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,DISTANCE_CALL,Distance Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,DONTCUT,Don't Cut,ala.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,EMPTY_CALL,Empty Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,INTO,Into,into1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,LONG,Long,pitka.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PLACE,LOSTPLACES,,p1,15,Not found: p1,Audio/NumOther.ini
+-1,PACENOTE,MAYBE,Maybe,ehka1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,NARROWS,Narrows,sumppu.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,NUMBER,NUMBERS,,start1,15,Not found: start1,Audio/NumOther.ini
+-1,PACENOTE,ONTO,Onto,onto.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,PLACE_HOLDER,Placeholder,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,SOUND_FILE,Sound File,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,SOUND_INDEX,Sound Index,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,STANDARD_CALL,Standard Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,TIGHTENS,Tightens,kirraa1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,TIGHTENSBAD,Tightens Bad,kirraa_kirraa.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,WIDEOUT,Wide Out,levenee.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+0,PACENOTE,ONE_LEFT,HP Left,vasen_tiukka1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+1,PACENOTE,SQUARE_LEFT,2 Left,vasen_kaks1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+2,PACENOTE,THREE_LEFT,3 Left,vasen_kolme1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+3,PACENOTE,FOUR_LEFT,4 Left,vasen_nelja1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+4,PACENOTE,FIVE_LEFT,5 Left,vasen_viis1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+5,PACENOTE,SIX_LEFT,6 Left,vasen_kuus1.ogg,3,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+6,PACENOTE,SIX_RIGHT,6 Right,oikee_kuus1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+7,PACENOTE,FIVE_RIGHT,5 Right,oikee_viis1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+8,PACENOTE,FOUR_RIGHT,4 Right,oikee_nelja1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+9,PACENOTE,THREE_RIGHT,3 Right,oikee_kolme1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+10,PACENOTE,SQUARE_RIGHT,2 Right,oikee_kaks1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+11,PACENOTE,ONE_RIGHT,HP Right,oikee_tiukka1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+12,PACENOTE,TWISTY,Twisty,suoraksi.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+14,PACENOTE,NARROWS,Narrows,sumppu.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+15,PACENOTE,WIDEOUT,Wide Out,levenee.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+16,PACENOTE,OVERCREST,Over Crest,yli_nypyn.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+17,PACENOTE,FORD,Ford,vetta.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+18,PACENOTE,CARE,Care,varo1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+19,PACENOTE,BUMP,Bump,pomppu.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+20,PACENOTE,JUMP,Jump,hyppy1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+22,PACENOTE,FINISH,Finish,maali.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+25,PACENOTE,FLAT_RIGHT,Flat Right,oikee_tays1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+26,PACENOTE,FLAT_LEFT,Flat Left,vasen_tays1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+27,PACENOTE,BRIDGE,Bridge,silta.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+28,PACENOTE,GOSTRAIGHT,Go Straight,suoraan.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+29,PACENOTE,KEEPRIGHT,Keep Right,oikee_laita.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+30,PACENOTE,KEEPLEFT,Keep Left,vasen_laita.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+31,PACENOTE,KEEPMIDDLE,Keep Middle,keskelta1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+32,PACENOTE,CAUTION,Caution,huomio.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+102,PACENOTE,TWO_LEFT,1 Left,vasen_yks1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+112,PACENOTE,TWO_RIGHT,1 Right,oikee_yks1.ogg,2,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+120,PACENOTE,LEFT,Left,left.ogg,1,Not found: left.ogg,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+121,PACENOTE,RIGHT,Right,right.ogg,1,Not found: right.ogg,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+122,PACENOTE,RIGHT_INTO,Right Into,right_into.ogg,1,Not found: right_into.ogg,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+123,PACENOTE,LEFT_INTO,Left Into,left_into.ogg,1,Not found: left_into.ogg,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+124,PACENOTE,RIGHT_LEFT,Right-Left,right_left.ogg,1,Not found: right_left.ogg,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+125,PACENOTE,LEFT_RIGHT,Left-Right,left_right.ogg,1,Not found: left_right.ogg,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+126,PACENOTE,RIGHT_AROUND,Right Around,right_around.ogg,1,Not found: right_around.ogg,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+127,PACENOTE,LEFT_AROUND,Left Around,left_around.ogg,1,Not found: left_around.ogg,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+200,PACENOTE,OVER_BRIDGE,SILLAN YLI,silta.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+201,PACENOTE,OVER_RAILS,RAITEIDEN YLI,raiteet.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+202,PACENOTE,OVER_RAILWAY,RAITEIDEN YLI,raiteet.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+211,PACENOTE,DEEPCUT,DEEP CUT,deepcut.ogg,1,Not found: deepcut.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+212,PACENOTE,FULLCUT,Full Cut,leikkaa.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+213,PACENOTE,KEEP_CENTRE,Keep Centre,keskelta.ogg,1,Not found: keskelta.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+217,PACENOTE,BRAKE,Brake,jarru1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+218,PACENOTE,LIGHT_CUT,LIGHTCUT,light_cut.ogg,1,Not found: light_cut.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+220,PACENOTE,KEEP_IN,Keep In,pida1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+221,PACENOTE,KEEP_OUT,Keep Out,ulkoo.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+223,PACENOTE,CLIP,Clip,clip.ogg,1,Not found: clip.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+230,PACENOTE,MINUS,Minus,miinus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+231,PACENOTE,MINUSMINUS,MIINUS MIINUS,minusminus.ogg,1,Not found: minusminus.ogg,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+232,PACENOTE,PLUS,Plus,plus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+233,PACENOTE,PLUSPLUS,PLUS PLUS,plusplus.ogg,1,Not found: plusplus.ogg,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+234,PACENOTE,EARLY,Early,alussa.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+235,PACENOTE,LATE,Late,lopussa.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+236,PACENOTE,EASY,Easy,helppo1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+237,PACENOTE,MUCH,Much,much.ogg,1,Not found: much.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+238,PACENOTE,MANY,Many,many.ogg,1,Not found: many.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+239,PACENOTE,VERY,Very,very.ogg,1,Not found: very.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+240,PACENOTE,HARD,Hard,paha1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+241,PACENOTE,FAST,Fast,fast.ogg,1,Not found: fast.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+242,PACENOTE,SLOW,Slow,slow.ogg,1,Not found: slow.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+243,PACENOTE,EXACT,Exact,exact.ogg,1,Not found: exact.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+245,PACENOTE,DIRECTLY,Directly,directly.ogg,1,Not found: directly.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+246,PACENOTE,LIGHT,Light,light.ogg,1,Not found: light.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+247,PACENOTE,BIG,Big,big.ogg,1,Not found: big.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+248,PACENOTE,SMALL,Small,small.ogg,1,Not found: small.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+249,PACENOTE,SHARP,Sharp,terava1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+250,PACENOTE,ROUND,Round,pyoree.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+251,PACENOTE,TIGHT,Tight,ahdas.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+252,PACENOTE,SLIGHT,Slight,slight.ogg,1,Not found: slight.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+253,PACENOTE,GOOD,Good,good.ogg,1,Not found: good.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+254,PACENOTE,BAD,Bad,bad.ogg,1,Not found: bad.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+257,PACENOTE,STRAIGHT,Straight,straight.ogg,1,Not found: straight.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+260,PACENOTE,UPHILL,Up,ylos1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+261,PACENOTE,DOWNHILL,Down,alas1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+263,PACENOTE,LONGLONG,Very Long,tosi_pitka.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+264,PACENOTE,SHORT,Short,lyhyt.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+265,PACENOTE,SHORTSHORT,LYHYT LYHYT,shortshort.ogg,1,Not found: shortshort.ogg,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+266,PACENOTE,GONARROW,Go Narrow,gonarrow.ogg,1,Not found: gonarrow.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+267,PACENOTE,GOWIDE,Go Wide,gowide.ogg,1,Not found: gowide.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+268,PACENOTE,SLIPPERY,Slippy,liukas.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+271,PACENOTE,SIDEWAYS,Sideways,sideways.ogg,1,Not found: sideways.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+272,PACENOTE,HOOK,HOOK,hook.ogg,1,Not found: hook.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+274,PACENOTE,VERY_LONG,Very Long,tosi_pitka.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+275,PACENOTE,VERY_SHORT,TOSI LYHYT,very_short.ogg,1,Not found: very_short.ogg,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+277,PACENOTE,SLIPPY,Slippy,liukas.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+294,PACENOTE,POSITIVE,Positive,positive.ogg,1,Not found: positive.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+295,PACENOTE,NEGATIVE,Negative,negative.ogg,1,Not found: negative.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+298,PACENOTE,OPENS,Opens,aukee1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+299,PACENOTE,FAKES,Deceptive,hamaa.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+300,PACENOTE,BUMPS,Bumps,pomppuja1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+301,PACENOTE,HIDDEN,HIDDEN,hidden.ogg,1,Not found: hidden.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+302,PACENOTE,BLIND,BLIND,blind.ogg,1,Not found: blind.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+303,PACENOTE,DOUBLE_CAUTION,Danger,huomio_huomio.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+304,PACENOTE,TRIPLE_CAUTION,TRIPLE CAUTION,huomio_huomio.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+320,PACENOTE,GRAVEL,Gravel,soralle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+321,PACENOTE,TARMAC,Tarmac,asfaltille.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+322,PACENOTE,CONCRETE,Concrete,betonille.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+323,PACENOTE,COBBLES,Cobbles,cobbles.ogg,1,Not found: cobbles.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+324,PACENOTE,GRIT,Grit,grit.ogg,1,Not found: grit.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+325,PACENOTE,SNOW,Snow,lumelle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+326,PACENOTE,ONSPLIT,Split,onsplit.ogg,1,Not found: onsplit.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+327,PACENOTE,ICY,Icy,icy.ogg,1,Not found: icy.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+328,PACENOTE,RUBBLE,Rubble,rubble.ogg,1,Not found: rubble.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+329,PACENOTE,ICE,Ice,jaalle.ogg,1,Not found: jaalle.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+330,PACENOTE,LOOSE_GRAVEL,Loose Gravel,loose_gravel.ogg,1,Not found: loose_gravel.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+340,PACENOTE,CREST,Crest,nyppy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+344,PACENOTE,HOLE,Hole,reika1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+345,PACENOTE,RUTS,Ruts,urat.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+346,PACENOTE,DEEPRUTS,DEEP RUTS,urat.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+347,PACENOTE,BORDER,BORDER,border.ogg,1,Not found: border.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+348,PACENOTE,EDGE,EDGE,edge.ogg,1,Not found: edge.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+349,PACENOTE,CURB,CURB,curb.ogg,1,Not found: curb.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+350,PACENOTE,DITCH,DITCH,ditch.ogg,1,Not found: ditch.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+351,PACENOTE,JUNCTION,Junction,risteys1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+354,PACENOTE,STEEP_DROP,STEEP DROP,steep_drop.ogg,1,Not found: steep_drop.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+356,PACENOTE,SHOULDER,SHOULDER,shoulder.ogg,1,Not found: shoulder.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+357,PACENOTE,STEEP_HILL,STEEP HILL,steep_hill.ogg,1,Not found: steep_hill.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+358,PACENOTE,STEEP_INCLINE,STEEP INCLINE,steep_incline.ogg,1,Not found: steep_incline.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+359,PACENOTE,STEEP_SLOPE,STEEP SLOPE,steep_slope.ogg,1,Not found: steep_slope.ogg,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+361,PACENOTE,DIP,Dip,notko.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+373,PACENOTE,TREE,PUU,tree.ogg,1,Not found: tree.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+374,PACENOTE,STUMP,KANTO,stump.ogg,1,Not found: stump.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+379,PACENOTE,STONE,KIVI,stone.ogg,1,Not found: stone.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+380,PACENOTE,ROCK,KIVI,rock.ogg,1,Not found: rock.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+381,PACENOTE,TUNNEL,Tunnel,tunneli.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+384,PACENOTE,RAILS,Rails,raiteet.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+385,PACENOTE,SIGN,KYLTTI,sign.ogg,1,Not found: sign.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+386,PACENOTE,BUSH,PUSKA,bush.ogg,1,Not found: bush.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+388,PACENOTE,WATER,VETTÄ,vetta.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+389,PACENOTE,PUDDLE,LÄTÄKKÖ,vetta.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+390,PACENOTE,NETTING,VERKKO,netting.ogg,1,Not found: netting.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+391,PACENOTE,TAPE,TEIPPI,tape.ogg,1,Not found: tape.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+392,PACENOTE,LEFT_ENTRY_CHICANE,Left Entry Chicane,shikaani_vasemmalta.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+393,PACENOTE,RIGHT_ENTRY_CHICANE,Right Entry Chicane,shikaani_oikeelta.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+394,PACENOTE,TYRES,RENKAITA,tyres.ogg,1,Not found: tyres.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+395,PACENOTE,SPECTATORS,KATSOJIA,spectators.ogg,1,Not found: spectators.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+396,PACENOTE,MARSHALLS,JÄRJESTYKSENVALVOJIA,marshalls.ogg,1,Not found: marshalls.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+397,PACENOTE,BARRELS,TYNNYRIT,barrels.ogg,1,Not found: barrels.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+411,PACENOTE,INSIDE,Inside,sisalla.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+412,PACENOTE,OUTSIDE,Outside,ulkona.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+430,PACENOTE,DONE,Done,done.ogg,1,Not found: done.ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+431,PACENOTE,STOP,Stop,stop.ogg,1,Not found: stop.ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+432,PACENOTE,LINE,Line,line.ogg,1,Not found: line.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+540,PACENOTE,ONTO_GRAVEL,On Gravel,soralle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+541,PACENOTE,ONTO_TARMAC,On Tarmac,asfaltille.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+542,PACENOTE,ONTO_CONCRETE,On Concrete,betonille.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+543,PACENOTE,ONTO_COBBLES,Onto Cobbles,onto_cobbles.ogg,1,Not found: onto_cobbles.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+544,PACENOTE,ONTO_GRIT,Onto Grit,onto_grit.ogg,1,Not found: onto_grit.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+545,PACENOTE,ONTO_SNOW,On Snow,lumelle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+549,PACENOTE,HOLD,Hold,pida1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+551,PACENOTE,L_FOOT_BRAKING,Tie,sido.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+555,PACENOTE,TO_SIGHT_DISTANCE,To Sight Distance,to_sight_distance.ogg,1,Not found: to_sight_distance.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+556,PACENOTE,SPLIT_TIME,Split Time,split_time.ogg,1,Not found: split_time.ogg,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+557,PACENOTE,ENTRY,Entry,entry.ogg,1,Not found: entry.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2001,PACENOTE,TIGHTENSTOSIX,Tightens 6,kirraa_kuueks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2002,PACENOTE,TIGHTENSTOFIVE,Tightens 5,kirraa_viieks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2003,PACENOTE,TIGHTENSTOFOUR,Tightens 4,kirraa_neljaks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2004,PACENOTE,TIGHTENSTOTHREE,Tightens 3,kirraa_kolmeks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2005,PACENOTE,TIGHTENSTOTWO,Tightens 2,kirraa_kaheks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2006,PACENOTE,TIGHTENSTOONE,Tightens 1,kirraa_yheks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2007,PACENOTE,TIGHTENSTOACUTE,Tightens HP,kirraa_tiukaks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2008,PACENOTE,TOSIX,6,_kuueks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2009,PACENOTE,TOFIVE,5,_viieks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2010,PACENOTE,TOFOUR,4,_neljaks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2011,PACENOTE,TOTHREE,3,_kolmeks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2012,PACENOTE,TOTWO,2,_kaheks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2013,PACENOTE,TOONE,1,_yheks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2014,PACENOTE,TOACUTE,HP,_tiukaks.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2015,PACENOTE,TIGHTENSLATE,Tightens Late,kirraa_lopussa.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2016,PACENOTE,DONTCUTEARLY,Don't Cut Early,ala_alussa.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2017,PACENOTE,DONTCUTLATE,Don't Cut Late,ala_lopussa.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2018,PACENOTE,OPENSTIGHTENS,Opens Tightens,aukee_kirraa.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2019,PACENOTE,TIGHTENSOPENS,Tightens Opens,kirraa_aukee.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2020,PACENOTE,ROIKU,Hang,roiku.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2021,PACENOTE,CAREIN,Care Inside,varo_sisalla.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2022,PACENOTE,CAREOUT,Care Outside,varo_ulkona.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2023,PACENOTE,HAE,Line,hae1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2024,PACENOTE,TODIP,TODIP,notko.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2029,PACENOTE,CONTINUESOVERCREST,Continues Over Crest,jatkuu_yli_nypyn.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2030,PACENOTE,IMMEDIATE,Immediate,heti1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2100,PACENOTE,VASEMMALTA,Keep Left,vasen_laita.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2101,PACENOTE,OIKEELTA,Keep Right,oikee_laita.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2102,PACENOTE,DOUBLE,Double,tupla1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2103,PACENOTE,HALF_LONG,Half Long,puolipitka1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2105,PACENOTE,TO_FINISH,To Finish,maaliin1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2106,PACENOTE,JUMP_FLAT,Jump Flat,hyppytays1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2107,PACENOTE,JUMP_BIND,Jump Tie,hyppysido1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2108,PACENOTE,OVER_JUMP,Over Jump,hypynyli1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2109,PACENOTE,SMALL_CREST,Small Crest,pikkunyppy1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini

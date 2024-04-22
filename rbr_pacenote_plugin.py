@@ -29,6 +29,8 @@ class IniFile:
 
         self.duplicate_sections = {}
 
+        self._category = ''
+
         self.config = self.config_parser(pathname)
         self.parse()
 
@@ -81,7 +83,7 @@ class IniFile:
             string_io = StringIO(processed_content)
             config = ConfigObj(string_io, encoding='utf-8', file_error=True)
         except ConfigObjError as e:
-            logging.error('Parsing failed with several errors:')
+            logging.error(f'{file}: Parsing failed with several errors:')
             for error in e.errors:
                 logging.error(f'Error: {error}')
             exit(1)  # Or handle the error in a way that suits your application's needs
@@ -129,6 +131,12 @@ class IniFile:
 
     def file_path(self, file):
         return os.path.join(self.dirname, file)
+
+    def set_category(self, category):
+        self._category = category
+
+    def get_category(self):
+        return self._category
 
 class IniSection():
     ini_files : Dict[str, IniFile] = {}
@@ -248,7 +256,8 @@ class Category(IniSection):
             if option.startswith('file'):
                 file = self._ini.get_option(self._name, option)
                 file_path = self.file_path(file)
-                self.get_ini_file(file_path, klass=PacenotesIni)
+                ini = self.get_ini_file(file_path, klass=PacenotesIni)
+                ini.set_category(self._name)
             else:
                 raise ValueError(f'Invalid option: {option}')
 
@@ -279,6 +288,12 @@ class Pacenote(IniSection):
 
     def type(self):
         return self._name.split('::')[0]
+
+    def category(self):
+        _cat = self.ini().get_category()
+        if _cat:
+            return _cat.split('::')[1]
+        return _cat
 
     def name(self):
         if self._name in self._ini.duplicate_sections:
@@ -419,16 +434,18 @@ class RbrPacenotePlugin:
         ini_file = os.path.join(self.plugin_dir, 'config', 'ranges', 'packages', 'Rbr.ini')
         self.inifiles.append(CategoriesIni(ini_file, self))
 
-        # add numbers
-        ini_file = os.path.join(self.dirname, 'Audio', 'Numbers.ini')
-        # check if the ini_file exists
-        if os.path.exists(ini_file):
-            self.inifiles.append(NumbersIni(ini_file, self))
+        process_numbers_ini = False
+        if process_numbers_ini:
+            # add numbers
+            ini_file = os.path.join(self.dirname, 'Audio', 'Numbers.ini')
+            # check if the ini_file exists
+            if os.path.exists(ini_file):
+                self.inifiles.append(NumbersIni(ini_file, self))
 
-        ini_file = os.path.join(self.dirname, 'Audio', 'NumOther.ini')
-        # check if the ini_file exists
-        if os.path.exists(ini_file):
-            self.inifiles.append(NumbersIni(ini_file, self))
+            ini_file = os.path.join(self.dirname, 'Audio', 'NumOther.ini')
+            # check if the ini_file exists
+            if os.path.exists(ini_file):
+                self.inifiles.append(NumbersIni(ini_file, self))
 
         language_dir = os.path.join(self.plugin_dir, 'language')
         self.languages = {}

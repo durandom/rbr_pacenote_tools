@@ -9,10 +9,11 @@ import sys
 from rbr_pacenote_plugin import RbrPacenotePlugin
 
 class CoDriver:
-    def list_sounds(self, plugin: RbrPacenotePlugin, unique=False):
+    def list_sounds(self, plugin: RbrPacenotePlugin, unique=False, fields=''):
         note = {
             'id': 'id',
             'type': 'type',
+            'category': 'category',
             'name': 'name',
             'translation': 'translation',
             'file': 'file',
@@ -21,6 +22,16 @@ class CoDriver:
             'ini': 'ini_file',
             'file_src_dir': '',
         }
+        all_fields = list(note.keys())
+        if fields:
+            fields = fields.split(',')
+        else:
+            fields = list(note.keys())
+
+        for key in all_fields:
+            if key not in fields:
+                note.pop(key)
+
         csv_writer = csv.DictWriter(sys.stdout, note.keys())
         csv_writer.writeheader()
 
@@ -29,6 +40,7 @@ class CoDriver:
             note = {
                 'id': call.id(),
                 'type': call.type(),
+                'category': call.category(),
                 'name': call.name(),
                 'translation': plugin.translate(call.name()),
                 'file': '',
@@ -56,6 +68,9 @@ class CoDriver:
             notes = list(unique_notes.values())
 
         for note in sorted(notes, key=lambda x: [x['id'], x['name']]):
+            for key in all_fields:
+                if key not in fields:
+                    note.pop(key)
             csv_writer.writerow(note)
 
     def merge(self, plugin: RbrPacenotePlugin, file, sound_dir=None):
@@ -96,6 +111,7 @@ if __name__ == '__main__':
     # get commandline arguments and parse them
     parser = argparse.ArgumentParser(description='CoDriver')
     parser.add_argument('--codriver', help='Codriver in config.json', default='janne-v3-numeric')
+    parser.add_argument('--list-fields', help='Only list fields', default='id,type,category,name,translation,file,sounds,error,ini')
     parser.add_argument('--list-sounds', help='List all sounds', action='store_true')
     parser.add_argument('--list-sounds-unique', help='List all sounds only one', action='store_true')
     parser.add_argument('--merge', help='Merge from file', default=None)
@@ -121,7 +137,7 @@ if __name__ == '__main__':
         plugin.set_sound_dir(args.merge_sound_dir)
 
     if args.list_sounds:
-        codriver.list_sounds(plugin, args.list_sounds_unique)
+        codriver.list_sounds(plugin, args.list_sounds_unique, args.list_fields)
 
     if args.out:
         codriver.write(args.out, plugin)

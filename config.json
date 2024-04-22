@@ -1,5 +1,10 @@
 {
   "codrivers": {
+    "janne-v2-numeric": {
+      "name": "Numeric",
+      "dir": "assets/Janne's Note Pack v2.0/English Numeric - Number First",
+      "ini": ["Rbr.ini", "Rbr-Enhanced.ini"]
+    },
     "janne-v3-numeric": {
       "name": "Numeric A",
       "dir": "assets/Jannemod V3 - Public test_v1.1/English/English Numeric A",

@@ -18,3 +18,4 @@ For other languages, they go to \Audio\Speech\Num[Xxx] (recommended!).
 Numbers.ini - English
 NumOther.ini - Other languages
 
+> Not sure, mainly in compatibility with notes made with not Jannemod V3. Those notes with NIU prefix are duplicates of the notes, added to improve combatibility with notes made in V2 Jannemod. NIU == Not In Use.
