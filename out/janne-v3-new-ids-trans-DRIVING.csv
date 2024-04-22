@@ -1,0 +1,12 @@
+id,type,category,name,translation,file,translation-new
+215,PACENOTE,DRIVING,GO_FULL,Go,go1.ogg,Vollgas
+219,PACENOTE,DRIVING,HANDBRAKE,Handbrake,handbrake1.ogg,Handbremse
+244,PACENOTE,DRIVING,SLOWING,Slowing,slowing1.ogg,Langsamer
+270,PACENOTE,DRIVING,NA_UNDERSTEER,Understeer (N/A),understeer.ogg,Untersteuert
+273,PACENOTE,DRIVING,NA_DRAWS_IN,Draws In (N/A),draws_in.ogg,Zieht Rein
+550,PACENOTE,DRIVING,NA_TAKE_SPEED,Take Speed (N/A),take_speed.ogg,Gib Gas
+2048,PACENOTE,DRIVING,WALK,Walk,walk1.ogg,Schritt Fahren
+2049,PACENOTE,DRIVING,NEAT,Neat,neat1.ogg,Vorsichtig
+2223,PACENOTE,DRIVING,LIFT,Lift,lift1.ogg,Runter Vom Gas
+2600,PACENOTE,DRIVING,BE_BRAVE,Be Brave,be_brave1.ogg,Trau Dich
+2615,PACENOTE,DRIVING,NIU_DAB,Dab (NIU),dab1.ogg,Nicht Springen

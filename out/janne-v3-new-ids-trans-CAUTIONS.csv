@@ -1,0 +1,19 @@
+id,type,category,name,translation,file,translation-new
+2176,PACENOTE,CAUTIONS,BRAKE_INTO,Brake Into,brake_into1.ogg,Bremsen In
+2177,PACENOTE,CAUTIONS,BRAKE_AND,Brake And,brake_and1.ogg,Bremsen Und
+2178,PACENOTE,CAUTIONS,BRAKE_20,Brake 20,brake_20_1.ogg,Bremsen In zwanzig
+2179,PACENOTE,CAUTIONS,BRAKE_30,Brake 30,brake_30_1.ogg,Bremsen In dreißig
+2180,PACENOTE,CAUTIONS,BRAKE_40,Brake 40,brake_40_1.ogg,Bremsen In vierzig
+2181,PACENOTE,CAUTIONS,BRAKE_50,Brake 50,brake_50_1.ogg,Bremsen In fünfzig
+2182,PACENOTE,CAUTIONS,SLIPPY_BRAKING,Slippy Braking,slippy_braking1.ogg,Glatte Bremszone
+2183,PACENOTE,CAUTIONS,SLIPPY_ENTRY,Slippy Entry,slippy_entry1.ogg,Einfahrt Glatt
+2184,PACENOTE,CAUTIONS,SLIPPY_EXIT,Slippy Exit,slippy_exit1.ogg,Ausfahrt Glatt
+2204,PACENOTE,CAUTIONS,SLIPPERY_MAYBE,Maybe Slippy,maybe_slippy1.ogg,Wahrscheinlich Glatt
+2217,PACENOTE,CAUTIONS,VERY_SLIPPY,Very Slippy,very_slippy1.ogg,Sehr Glatt
+2228,PACENOTE,CAUTIONS,PRECISE,Precise,precise1.ogg,Präzise
+2230,PACENOTE,CAUTIONS,BUMPY_BRAKING,Bumpy Braking,bumpy_braking1.ogg,Schläge Beim Bremsen
+2259,PACENOTE,CAUTIONS,BRAKE_10,Brake 10,brake_10_1.ogg,Bremsen In zehn
+2270,PACENOTE,CAUTIONS,CARE_NOLINK,Care,care1.ogg,Vorsicht
+2271,PACENOTE,CAUTIONS,CAUTION_NOLINK,Caution,caution1.ogg,Achtung
+2275,PACENOTE,CAUTIONS,NIU_BRAKE_JATKUU,Brake And (NIU),brake_and1.ogg,Bremsen Und
+2604,PACENOTE,CAUTIONS,NIU_WATCH,Precise (NIU),precise1.ogg,

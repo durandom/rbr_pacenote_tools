@@ -1,0 +1,46 @@
+id,type,category,name,translation,file,translation-new
+292,PACENOTE,OBSTACLES,NIU_BUMPY,Bumps (NIU),bumps1.ogg,Schläge
+362,PACENOTE,OBSTACLES,DROPS,Drops,drops1.ogg,Fällt ab
+369,PACENOTE,OBSTACLES,NIU_COMPRESSION,Dip (NIU),dip1.ogg,Kompression
+2087,PACENOTE,OBSTACLES,SMALL_JUMP,Small Jump,small_jump1.ogg,Kleiner Sprung
+2088,PACENOTE,OBSTACLES,OVER_BIG_JUMP,Over Big Jump,over_big_jump1.ogg,Über Großen Sprung
+2089,PACENOTE,OBSTACLES,CONTINUESOVERSMALLCREST,Continues Over Small Crest,continues_over_small_crest1.ogg,Zieht Über Kleine Kuppe
+2090,PACENOTE,OBSTACLES,LONGCREST,Long Crest,long_crest1.ogg,Lange Kuppe
+2091,PACENOTE,OBSTACLES,RUT,Rut,rut1.ogg,Rille
+2092,PACENOTE,OBSTACLES,TO_BUMP,(Jump) To Bump,to_bump1.ogg,Auf Schlag
+2188,PACENOTE,OBSTACLES,JUMP_MAYBE,Jump Maybe,jump_maybe1.ogg,Sprung Vielleicht
+2189,PACENOTE,OBSTACLES,OVER_SMALL_JUMP,Over Small Jump,over_small_jump1.ogg,Über Kleinen Sprung
+2190,PACENOTE,OBSTACLES,OVER_JUMP_DAB,Over Jump Dab,over_jump_dab1.ogg,Bremsen im Sprung
+2191,PACENOTE,OBSTACLES,OVERSMALLCREST,Over Small Crest,over_small_crest1.ogg,Über Kleine Kuppe
+2192,PACENOTE,OBSTACLES,OVERLONGCREST,Over Long Crest,over_long_crest1.ogg,Über Lange Kuppe
+2193,PACENOTE,OBSTACLES,OVERTWOCRESTS,Over Two Crests,over_two_crests1.ogg,Über Zwei Kuppen
+2194,PACENOTE,OBSTACLES,OVERTHREECRESTS,Over Three Crests,over_three_crests1.ogg,Über Drei Kuppen
+2195,PACENOTE,OBSTACLES,DOUBLECREST,Double Crest,double_crest1.ogg,Doppelte Kuppe
+2196,PACENOTE,OBSTACLES,DOUBLE_JUMP,Double Jump,double_jump1.ogg,Doppelter Sprung
+2210,PACENOTE,OBSTACLES,ONTO_BRIDGE,Onto Bridge,onto_bridge1.ogg,Auf Brücke
+2211,PACENOTE,OBSTACLES,NARROW_BRIDGE,Narrow Bridge,narrow_bridge1.ogg,Schmale Brücke
+2212,PACENOTE,OBSTACLES,ONTO_NARROW_BRIDGE,Onto Narrow Bridge,onto_narrow_bridge1.ogg,Aus Schmale Brücke
+2213,PACENOTE,OBSTACLES,THROUGH_GATE,Through Gate,through_gate1.ogg,Durch Tor
+2214,PACENOTE,OBSTACLES,NARROW_GATE,Narrow Gate,narrow_gate1.ogg,Schmales Tor
+2215,PACENOTE,OBSTACLES,THROUGH_NARROW_GATE,Through Narrow Gate,through_narrow_gate1.ogg,Durch Schmales Tor
+2225,PACENOTE,OBSTACLES,TO_CREST,To Crest,to_crest1.ogg,Auf Kuppe
+2231,PACENOTE,OBSTACLES,OVER_NARROW_BRIDGE,Over Narrow Bridge,over_narrow_bridge1.ogg,Über Schmale Brücke
+2237,PACENOTE,OBSTACLES,BUMPS_OVER,Bumps Over_(dist.),bumps_over1.ogg,Über Schläge
+2238,PACENOTE,OBSTACLES,OVER_ROCKS,Over Rocks,over_rocks1.ogg,Über Steine
+2241,PACENOTE,OBSTACLES,TO_JUMP,To Jump,to_jump1.ogg,Auf Sprung
+2245,PACENOTE,OBSTACLES,CREST_TO_LEFT,Crest To Left,crest_to_left1.ogg,Kuppe läuft Links
+2246,PACENOTE,OBSTACLES,CREST_TO_RIGHT,Crest To Right,crest_to_right1.ogg,Kuppe läuft Rechts
+2257,PACENOTE,OBSTACLES,OVER_EARLY_CREST,Over Early Crest,over_early_crest1.ogg,Früh Über Kuppe
+2258,PACENOTE,OBSTACLES,OVER_LATE_CREST,Over Late Crest,over_late_crest1.ogg,Spät Über Kuppe
+2269,PACENOTE,OBSTACLES,OVERCREST_NOLINK,Over Crest,over_crest1.ogg,Über Kuppe
+2501,PACENOTE,OBSTACLES,NIU_SMALL_CREST_FABZ,Small Crest (NIU),small_crest1.ogg,Kleine Kuppe
+2503,PACENOTE,OBSTACLES,NIU_BROW,Crest (NIU),crest1.ogg,Buckel
+2507,PACENOTE,OBSTACLES,TWO_BALES,Two Bales,two_bales1.ogg,zwei Ballen
+2508,PACENOTE,OBSTACLES,THREE_BALES,Three Bales,three_bales1.ogg,drei Ballen
+2509,PACENOTE,OBSTACLES,FOUR_BALES,Four Bales,four_bales1.ogg,vier Ballen
+2512,PACENOTE,OBSTACLES,LOGS,Logs,logs1.ogg,Stämme
+2515,PACENOTE,OBSTACLES,GATE,Gate,gate1.ogg,Tor
+2516,PACENOTE,OBSTACLES,BIG_JUMP,Big Jump,big_jump1.ogg,Großer Sprung
+2521,PACENOTE,OBSTACLES,BALES,Bales,bales1.ogg,Ballen
+2611,PACENOTE,OBSTACLES,BALE,Bale,bale1.ogg,Ballen
+2626,PACENOTE,OBSTACLES,FIVE_BALES,Five Bales,five_bales1.ogg,fünf Ballen

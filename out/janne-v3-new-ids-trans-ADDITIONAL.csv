@@ -1,0 +1,35 @@
+id,type,category,name,translation,file,translation-new
+216,PACENOTE,ADDITIONAL,FLATOUT,Flat,flat1.ogg,Vollgas
+255,PACENOTE,ADDITIONAL,NARROW,Narrow,narrow1.ogg,Schmal
+256,PACENOTE,ADDITIONAL,WIDE,Wide,wide1.ogg,Breit
+293,PACENOTE,ADDITIONAL,CRAMPED,Cramped,cramped1.ogg,Eingeengt
+342,PACENOTE,ADDITIONAL,CAMBER,Camber,camber1.ogg,Fällt Innen
+343,PACENOTE,ADDITIONAL,NIU_REVERSE_CAMBER,Bad Camber (NIU),WC1.ogg,Fällt Außen
+353,PACENOTE,ADDITIONAL,TURN,Turn,turn1.ogg,Wende
+355,PACENOTE,ADDITIONAL,BADCAMBER,Bad Camber,badcamber1.ogg,Fällt Außen
+367,PACENOTE,ADDITIONAL,NIU_NEGATIVE_CAMBER,Bad Camber (NIU),badcamber1.ogg,
+368,PACENOTE,ADDITIONAL,NIU_POSITIVE_CAMBER,Camber (NIU),camber1.ogg,Fällt Innen
+408,PACENOTE,ADDITIONAL,NIU_IN,In (NIU),in1.ogg,In
+2038,PACENOTE,ADDITIONAL,SCALEPLUS,Scale Plus,scale_plus1.ogg,Skala Plus
+2039,PACENOTE,ADDITIONAL,SCALEMINUS,Scale Minus,scale_minus1.ogg,Skala Minus
+2085,PACENOTE,ADDITIONAL,REMEMBER,Remember,remember1.ogg,Merken
+2086,PACENOTE,ADDITIONAL,PATIENT,Patient,patient1.ogg,Geduld
+2185,PACENOTE,ADDITIONAL,SUMPPU,Sumppu,sumppu1.ogg,Quetscht
+2186,PACENOTE,ADDITIONAL,WIDENS,Widens,widens1.ogg,Weitet Sich
+2209,PACENOTE,ADDITIONAL,PAST_JUNCTION,Past Junction,past_junction1.ogg,Nach Kreuzung
+2216,PACENOTE,ADDITIONAL,EXTRAEXTRALONG,Very Very Long,veryverylong1.ogg,Sehr Sehr Lang
+2219,PACENOTE,ADDITIONAL,BIG_SUMPPU,Big Sumppu,big_sumppu1.ogg,Quetscht Stark
+2220,PACENOTE,ADDITIONAL,SMALL_SUMPPU,Small Sumppu,small_sumppu1.ogg,Quetscht Leicht
+2221,PACENOTE,ADDITIONAL,ONTO_NARROWER_ROAD,Onto Narrower,onto_narrower1.ogg,schmale Straße
+2222,PACENOTE,ADDITIONAL,ONTO_WIDER_ROAD,Onto Wider,onto_wider1.ogg,breite Straße
+2234,PACENOTE,ADDITIONAL,GETS_FASTER,Gets Faster,gets_faster1.ogg,Wird Schneller
+2235,PACENOTE,ADDITIONAL,GETS_SLOWER,Gets Slower,gets_slower1.ogg,Wird Langsamer
+2240,PACENOTE,ADDITIONAL,FICKLE,Fickle,fickle1.ogg,Unklar
+2244,PACENOTE,ADDITIONAL,IMPORTANT,Important,important1.ogg,Wichtig
+2248,PACENOTE,ADDITIONAL,FUCKINGLONG,Fucking Long,fuckinglong1.ogg,Beschissen Lang
+2276,PACENOTE,ADDITIONAL,DEEP,Deep,deep1.ogg,Tief
+2277,PACENOTE,ADDITIONAL,TRUST,Trust,trust1.ogg,Vertrauen
+2622,PACENOTE,ADDITIONAL,TWO_PARTS,Two Parts,two_parts1.ogg,Zwei Mal
+2623,PACENOTE,ADDITIONAL,THREE_PARTS,Three Parts,three_parts1.ogg,Drei Mal
+2624,PACENOTE,ADDITIONAL,FOUR_PARTS,Four Parts,four_parts1.ogg,Vier Mal
+2625,PACENOTE,ADDITIONAL,FIVE_PARTS,Five Parts,five_parts1.ogg,Fünf Mal

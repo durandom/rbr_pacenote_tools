@@ -1,0 +1,40 @@
+id,type,category,name,translation,file,translation-new
+2027,PACENOTE,ADJECTIVES,TIGHTENSTOACUTE,Tightens Acute,tightens_acute1.ogg,Schliesst auf Spitz
+2028,PACENOTE,ADJECTIVES,TOACUTE,_Acute,_acute1.ogg,In Spitz
+2031,PACENOTE,ADJECTIVES,NIPS,Nips,nips1.ogg,Schliesst Spät Hart
+2032,PACENOTE,ADJECTIVES,OPENSLITTLE,Opens A Bit,opens_abit1.ogg,Öffnet Leicht
+2033,PACENOTE,ADJECTIVES,OPENSLONG,Opens Long,opens_long1.ogg,Öffnet Lang
+2034,PACENOTE,ADJECTIVES,OPENSVERYLONG,Opens Very Long,opens_verylong1.ogg,Öffnet Sehr Spät
+2035,PACENOTE,ADJECTIVES,OPENSEARLY,Opens Early,opens_early1.ogg,Öffnet Früh
+2036,PACENOTE,ADJECTIVES,OPENSATJUNCTION,Opens At Junction,opens_at_junction1.ogg,Öffnet An Kreuzung
+2037,PACENOTE,ADJECTIVES,OPENSOVERCREST,Opens Over Crest,opens_overcrest1.ogg,Öffnet Über Kuppe
+2042,PACENOTE,ADJECTIVES,TIGHTENSEARLY,Tightens Early,tightens_early1.ogg,Schliesst Früh
+2043,PACENOTE,ADJECTIVES,TIGHTENSLITTLE,Tightens A Bit,tightens_abit1.ogg,Schliesst Leicht
+2044,PACENOTE,ADJECTIVES,TIGHTENSLONG,Tightens Long,tightens_long1.ogg,Schliesst Spät
+2045,PACENOTE,ADJECTIVES,TIGHTENSVERYLONG,Tightens Very Long,tightens_verylong1.ogg,Schliesst Sehr Spät
+2046,PACENOTE,ADJECTIVES,TIGHTENSATJUNCTION,Tightens At Junction,tightens_at_junction1.ogg,Schliesst An Kreuzung
+2047,PACENOTE,ADJECTIVES,TIGHTENSOVERCREST,Tightens Over Crest,tightens_overcrest1.ogg,Schliesst Über Kuppe
+2062,PACENOTE,ADJECTIVES,TIGHTENSTOFLATMINUS,Tightens 6+,tightens_six_plus1.ogg,Schliesst auf sechs+
+2063,PACENOTE,ADJECTIVES,TIGHTENSTOQUICK,Tightens 5+,tightens_five_plus1.ogg,Schliesst auf fünf+
+2064,PACENOTE,ADJECTIVES,TIGHTENSTOEM,Tightens 4+,tightens_four_plus1.ogg,Schliesst auf vier+
+2065,PACENOTE,ADJECTIVES,TIGHTENSTOPLUS,Tightens 3+,tightens_three_plus1.ogg,Schliesst auf drei+
+2066,PACENOTE,ADJECTIVES,TIGHTENSTOMINUS,Tightens 1+,tightens_one_plus1.ogg,Schliesst auf eins+
+2067,PACENOTE,ADJECTIVES,TIGHTENSTOVERYSLOW,Tightens Hairpin+,tightens_hp_plus1.ogg,Schliesst auf Kehre+
+2068,PACENOTE,ADJECTIVES,TOFLATMINUS,_6+,_six_plus1.ogg,In sechs+
+2069,PACENOTE,ADJECTIVES,TOQUICK,_5+,_five_plus1.ogg,In fünf+
+2070,PACENOTE,ADJECTIVES,TOEM,_4+,_four_plus1.ogg,In vier+
+2071,PACENOTE,ADJECTIVES,TOPLUS,_3+,_three_plus1.ogg,In drei+
+2072,PACENOTE,ADJECTIVES,TOMINUS,_1+,_one_plus1.ogg,In eins+
+2073,PACENOTE,ADJECTIVES,TOVERYSLOW,_Hairpin+,_hp_plus1.ogg,In Kehre+
+2104,PACENOTE,ADJECTIVES,NIU_LOIVA_ALKU,Late (NIU),late1.ogg,Spät
+2187,PACENOTE,ADJECTIVES,TIGHTENSSUMPPU,Tightens Sumppu,tightens_sumppu1.ogg,Quetscht
+2249,PACENOTE,ADJECTIVES,TIGHTENSVERYVERYLONG,Tightens Very Very Long,tightens_veryverylong1.ogg,Schliesst Sehr Sehr Spät
+2250,PACENOTE,ADJECTIVES,TIGHTENSFUCKINGLONG,Tightens Fucking Long,tightens_fuckinglong1.ogg,Schliesst Verdammt Spät
+2251,PACENOTE,ADJECTIVES,OPENSVERYVERYLONG,Opens Very Very Long,opens_veryverylong1.ogg,Öffnet Sehr Sehr Spät
+2252,PACENOTE,ADJECTIVES,OPENSFUCKINGLONG,Opens Fucking Long,opens_fuckinglong1.ogg,Öffnet Verdammt Spät
+2253,PACENOTE,ADJECTIVES,TIGHTENSSHARP,Tightens Sharp,tightens_sharp1.ogg,Schliesst Scharf
+2254,PACENOTE,ADJECTIVES,TIGHTENSROUND,Tightens Round,tightens_round1.ogg,Schliesst Rund
+2255,PACENOTE,ADJECTIVES,OPENSSHARP,Opens Sharp,opens_sharp1.ogg,Öffnet Scharf
+2256,PACENOTE,ADJECTIVES,OPENSROUND,Opens Round,opens_round1.ogg,Öffnet Rund
+2264,PACENOTE,ADJECTIVES,TIGHTENSTOSQUARE_PLUS,Tightens 2+,tightens_two_plus1.ogg,Schliesst auf zwei+
+2265,PACENOTE,ADJECTIVES,TOSQUARE_PLUS,_2+,_two_plus1.ogg,In zwei+

@@ -1,0 +1,19 @@
+id,type,category,name,translation,file,translation-new
+2093,PACENOTE,LINE,TWISTY_FROMLEFT,Twisty From Left,twisty_from_left1.ogg,Schlenker Von Links
+2094,PACENOTE,LINE,TWISTY_FROMRIGHT,Twisty From Right,twisty_from_right1.ogg,Schlenker Von Rechts
+2095,PACENOTE,LINE,DONTBLOCK,Post,post1.ogg,Pfosten
+2096,PACENOTE,LINE,GRIP_MIDDLE,Grip Middle,grip_middle1.ogg,Grip Mittig
+2097,PACENOTE,LINE,GRIP_IN,Grip In,grip_in1.ogg,Grip Innen
+2098,PACENOTE,LINE,GRIP_OUT,Grip Out,grip_out1.ogg,Grip Außen
+2099,PACENOTE,LINE,GO_ROUND,Go Round,go_round1.ogg,Rund Fahren
+2159,PACENOTE,LINE,CUT_THROUGH,Cut Through,cut_through1.ogg,Durchschneiden
+2197,PACENOTE,LINE,ONTO_STRAIGHT,Onto Straight,onto_straight1.ogg,Gerade
+2229,PACENOTE,LINE,STAY_OUT,Stay Out,stay_out1.ogg,Bleib Außen
+2242,PACENOTE,LINE,DOUBLE_DONT,Double Don't,double_dont1.ogg,zwei Risiken innen
+2243,PACENOTE,LINE,TRIPLE_DONT,Triple Don't,triple_dont1.ogg,drei Risiken innen
+2266,PACENOTE,LINE,POST_EARLY,Post Early,post_early1.ogg,Pfosten Früh
+2267,PACENOTE,LINE,POST_LATE,Post Late,post_late1.ogg,Pfosten Spät
+2268,PACENOTE,LINE,POSTS,Posts,posts1.ogg,Pfähle
+2273,PACENOTE,LINE,LATE_CUT,Late Cut,late_cut1.ogg,Spät Schneiden
+2405,PACENOTE,LINE,LEFTISH,Leftish,leftish1.ogg,Eher Links
+2406,PACENOTE,LINE,RIGHTISH,Rightish,rightish1.ogg,Eher Rechts

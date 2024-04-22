@@ -1,0 +1,37 @@
+id,type,category,name,translation,file,translation-new
+370,PACENOTE,CONSTRUCTION,NA_FENCE,Fence (N/A),fence.ogg,Zaun
+371,PACENOTE,CONSTRUCTION,NA_WALL,Wall (N/A),wall.ogg,Mauer
+372,PACENOTE,CONSTRUCTION,NA_HOUSE,House (N/A),house.ogg,Haus
+375,PACENOTE,CONSTRUCTION,NA_MAST,Mast (N/A),mast.ogg,Mast
+376,PACENOTE,CONSTRUCTION,NIU_POST,Post (NIU),post1.ogg,Pfosten
+377,PACENOTE,CONSTRUCTION,NA_ISLAND,Island (N/A),island.ogg,Insel
+382,PACENOTE,CONSTRUCTION,NA_ROAD,Road (N/A),road.ogg,Straße
+387,PACENOTE,CONSTRUCTION,NA_PATH,Path (N/A),path.ogg,Weg
+399,PACENOTE,CONSTRUCTION,NA_ROUNDABOUT,Roundabout (N/A),roundabout.ogg,Kreisverkehr
+443,PACENOTE,CONSTRUCTION,NA_WOODEN_FENCE,Wooden Fence (N/A),wooden_fence.ogg,Holzzaun
+2135,PACENOTE,CONSTRUCTION,BALE_IN,Bale In,bale_in1.ogg,Ballen Innen
+2136,PACENOTE,CONSTRUCTION,BALE_OUT,Bale Out,bale_out1.ogg,Ballen Außen
+2137,PACENOTE,CONSTRUCTION,TIRES_IN,Tires In,tires_in1.ogg,Reifen Innen
+2138,PACENOTE,CONSTRUCTION,TIRES_OUT,Tires Out,tires_out1.ogg,Reifen Außen
+2139,PACENOTE,CONSTRUCTION,ROCK_IN,Stone In,rock_in1.ogg,Stein Innen
+2140,PACENOTE,CONSTRUCTION,ROCK_OUT,Stone Out,rock_out1.ogg,Stein Außen
+2141,PACENOTE,CONSTRUCTION,FENCE_IN,Fence In,fence_in1.ogg,Zaun Innen
+2142,PACENOTE,CONSTRUCTION,FENCE_OUT,Fence Out,fence_out1.ogg,Zaun Außen
+2143,PACENOTE,CONSTRUCTION,TREE_IN,Tree In,tree_in1.ogg,Baum Innen
+2144,PACENOTE,CONSTRUCTION,TREE_OUT,Tree Out,tree_out1.ogg,Baum Außen
+2145,PACENOTE,CONSTRUCTION,DITCH_IN,Ditch In,ditch_in1.ogg,Graben Innen
+2146,PACENOTE,CONSTRUCTION,DITCH_OUT,Ditch Out,ditch_out1.ogg,Graben Außen
+2147,PACENOTE,CONSTRUCTION,DROP_IN,Drop In,drop_in1.ogg,Uneben Innen
+2148,PACENOTE,CONSTRUCTION,DROP_OUT,Drop Out,drop_out1.ogg,Uneben Außen
+2149,PACENOTE,CONSTRUCTION,HOUSE_IN,House In,house_in1.ogg,Haus Innen
+2150,PACENOTE,CONSTRUCTION,HOUSE_OUT,House Out,house_out1.ogg,Haus Außen
+2151,PACENOTE,CONSTRUCTION,NIU_BARRIER_IN,Fence In (NIU),fence_in1.ogg,Schranke Innen
+2152,PACENOTE,CONSTRUCTION,NIU_BARRIER_OUT,Fence Out (NIU),fence_out1.ogg,Schranke Außen
+2153,PACENOTE,CONSTRUCTION,SIGN_IN,Sign In,sign_in1.ogg,Schild Innen
+2154,PACENOTE,CONSTRUCTION,SIGN_OUT,Sign Out,sign_out1.ogg,Schild Außen
+2155,PACENOTE,CONSTRUCTION,POST_IN,Post In,post_in1.ogg,Pfosten Innen
+2156,PACENOTE,CONSTRUCTION,POST_OUT,Post Out,post_out1.ogg,Pfosten Außen
+2157,PACENOTE,CONSTRUCTION,LOG_IN,Log In,log_in1.ogg,Stamm Innen
+2158,PACENOTE,CONSTRUCTION,LOG_OUT,Log Out,log_out1.ogg,Stamm Außen
+2200,PACENOTE,CONSTRUCTION,LOGS_IN,Logs In,logs_in1.ogg,Stämme Innen
+2201,PACENOTE,CONSTRUCTION,LOGS_OUT,Logs Out,logs_out1.ogg,Stämme Außen

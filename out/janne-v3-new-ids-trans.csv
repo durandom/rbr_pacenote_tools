@@ -1,0 +1,313 @@
+id,type,category,name,translation,file,translation-new
+149,PACENOTE,LINKS,10,10,10_1.ogg,zehn
+150,PACENOTE,LINKS,20,20,20_1.ogg,zwanzig
+215,PACENOTE,DRIVING,GO_FULL,Go,go1.ogg,Vollgas
+216,PACENOTE,ADDITIONAL,FLATOUT,Flat,flat1.ogg,Vollgas
+219,PACENOTE,DRIVING,HANDBRAKE,Handbrake,handbrake1.ogg,Handbremse
+244,PACENOTE,DRIVING,SLOWING,Slowing,slowing1.ogg,Langsamer
+255,PACENOTE,ADDITIONAL,NARROW,Narrow,narrow1.ogg,Schmal
+256,PACENOTE,ADDITIONAL,WIDE,Wide,wide1.ogg,Breit
+270,PACENOTE,DRIVING,NA_UNDERSTEER,Understeer (N/A),understeer.ogg,Untersteuert
+273,PACENOTE,DRIVING,NA_DRAWS_IN,Draws In (N/A),draws_in.ogg,Zieht Rein
+291,PACENOTE,SURFACE,DIRTY,Shit,shit1.ogg,Verschmutzt
+292,PACENOTE,OBSTACLES,NIU_BUMPY,Bumps (NIU),bumps1.ogg,Schläge
+293,PACENOTE,ADDITIONAL,CRAMPED,Cramped,cramped1.ogg,Eingeengt
+342,PACENOTE,ADDITIONAL,CAMBER,Camber,camber1.ogg,Fällt Innen
+343,PACENOTE,ADDITIONAL,NIU_REVERSE_CAMBER,Bad Camber (NIU),WC1.ogg,Fällt Außen
+353,PACENOTE,ADDITIONAL,TURN,Turn,turn1.ogg,Wende
+355,PACENOTE,ADDITIONAL,BADCAMBER,Bad Camber,badcamber1.ogg,Fällt Außen
+362,PACENOTE,OBSTACLES,DROPS,Drops,drops1.ogg,Fällt ab
+367,PACENOTE,ADDITIONAL,NIU_NEGATIVE_CAMBER,Bad Camber (NIU),badcamber1.ogg,
+368,PACENOTE,ADDITIONAL,NIU_POSITIVE_CAMBER,Camber (NIU),camber1.ogg,Fällt Innen
+369,PACENOTE,OBSTACLES,NIU_COMPRESSION,Dip (NIU),dip1.ogg,Kompression
+370,PACENOTE,CONSTRUCTION,NA_FENCE,Fence (N/A),fence.ogg,Zaun
+371,PACENOTE,CONSTRUCTION,NA_WALL,Wall (N/A),wall.ogg,Mauer
+372,PACENOTE,CONSTRUCTION,NA_HOUSE,House (N/A),house.ogg,Haus
+375,PACENOTE,CONSTRUCTION,NA_MAST,Mast (N/A),mast.ogg,Mast
+376,PACENOTE,CONSTRUCTION,NIU_POST,Post (NIU),post1.ogg,Pfosten
+377,PACENOTE,CONSTRUCTION,NA_ISLAND,Island (N/A),island.ogg,Insel
+378,PACENOTE,CORNERS,CHICANE,Chicane,chicane1.ogg,Schikane
+382,PACENOTE,CONSTRUCTION,NA_ROAD,Road (N/A),road.ogg,Straße
+387,PACENOTE,CONSTRUCTION,NA_PATH,Path (N/A),path.ogg,Weg
+399,PACENOTE,CONSTRUCTION,NA_ROUNDABOUT,Roundabout (N/A),roundabout.ogg,Kreisverkehr
+400,PACENOTE,PREPOSITIONS,NA_THROUGH,Through (N/A),through.ogg,Durch
+401,PACENOTE,PREPOSITIONS,NA_AFTER,After (N/A),after.ogg,Nach
+402,PACENOTE,PREPOSITIONS,NA_NEAR,Near (N/A),near.ogg,nähe
+403,PACENOTE,PREPOSITIONS,NA_ON,On (N/A),on.ogg,Auf
+404,PACENOTE,PREPOSITIONS,NA_UNTIL,Until (N/A),until.ogg,Bis
+405,PACENOTE,PREPOSITIONS,NA_AT,At (N/A),at.ogg,Bei
+406,PACENOTE,PREPOSITIONS,NA_BEFORE,Before (N/A),before.ogg,Vor
+407,PACENOTE,PREPOSITIONS,NA_OVER,Over (N/A),over.ogg,Über
+408,PACENOTE,ADDITIONAL,NIU_IN,In (NIU),in1.ogg,In
+409,PACENOTE,PREPOSITIONS,NA_BEHIND,Behind (N/A),behind.ogg,Hinter
+410,PACENOTE,PREPOSITIONS,NA_FOR,For (N/A),for.ogg,Für
+413,PACENOTE,PREPOSITIONS,NA_THEN,Then (N/A),then.ogg,
+414,PACENOTE,PREPOSITIONS,NA_OFF,Off (N/A),off.ogg,Aus
+435,PACENOTE,LINKS,NEXT_LAP,Onto Next Lap,onto_nextlap1.ogg,Nächste Runde
+436,PACENOTE,LINKS,TAKE_EXIT,Onto Finish,onto_finish1.ogg,Zum Ziel
+443,PACENOTE,CONSTRUCTION,NA_WOODEN_FENCE,Wooden Fence (N/A),wooden_fence.ogg,Holzzaun
+550,PACENOTE,DRIVING,NA_TAKE_SPEED,Take Speed (N/A),take_speed.ogg,Gib Gas
+2025,PACENOTE,LINKS,NIU_JATKUU,And (NIU),and1.ogg,Und
+2026,PACENOTE,CORNERS,FLAT_SCALE,Flat,flat_scale1.ogg,Voll
+2027,PACENOTE,ADJECTIVES,TIGHTENSTOACUTE,Tightens Acute,tightens_acute1.ogg,Schliesst auf Spitz
+2028,PACENOTE,ADJECTIVES,TOACUTE,_Acute,_acute1.ogg,In Spitz
+2031,PACENOTE,ADJECTIVES,NIPS,Nips,nips1.ogg,Schliesst Spät Hart
+2032,PACENOTE,ADJECTIVES,OPENSLITTLE,Opens A Bit,opens_abit1.ogg,Öffnet Leicht
+2033,PACENOTE,ADJECTIVES,OPENSLONG,Opens Long,opens_long1.ogg,Öffnet Lang
+2034,PACENOTE,ADJECTIVES,OPENSVERYLONG,Opens Very Long,opens_verylong1.ogg,Öffnet Sehr Spät
+2035,PACENOTE,ADJECTIVES,OPENSEARLY,Opens Early,opens_early1.ogg,Öffnet Früh
+2036,PACENOTE,ADJECTIVES,OPENSATJUNCTION,Opens At Junction,opens_at_junction1.ogg,Öffnet An Kreuzung
+2037,PACENOTE,ADJECTIVES,OPENSOVERCREST,Opens Over Crest,opens_overcrest1.ogg,Öffnet Über Kuppe
+2038,PACENOTE,ADDITIONAL,SCALEPLUS,Scale Plus,scale_plus1.ogg,Skala Plus
+2039,PACENOTE,ADDITIONAL,SCALEMINUS,Scale Minus,scale_minus1.ogg,Skala Minus
+2040,PACENOTE,CORNERS,ACUTE_LEFT,Acute Left,acute_left1.ogg,Spitz Links
+2041,PACENOTE,CORNERS,ACUTE_RIGHT,Acute Right,acute_right1.ogg,Spitz Rechts
+2042,PACENOTE,ADJECTIVES,TIGHTENSEARLY,Tightens Early,tightens_early1.ogg,Schliesst Früh
+2043,PACENOTE,ADJECTIVES,TIGHTENSLITTLE,Tightens A Bit,tightens_abit1.ogg,Schliesst Leicht
+2044,PACENOTE,ADJECTIVES,TIGHTENSLONG,Tightens Long,tightens_long1.ogg,Schliesst Spät
+2045,PACENOTE,ADJECTIVES,TIGHTENSVERYLONG,Tightens Very Long,tightens_verylong1.ogg,Schliesst Sehr Spät
+2046,PACENOTE,ADJECTIVES,TIGHTENSATJUNCTION,Tightens At Junction,tightens_at_junction1.ogg,Schliesst An Kreuzung
+2047,PACENOTE,ADJECTIVES,TIGHTENSOVERCREST,Tightens Over Crest,tightens_overcrest1.ogg,Schliesst Über Kuppe
+2048,PACENOTE,DRIVING,WALK,Walk,walk1.ogg,Schritt Fahren
+2049,PACENOTE,DRIVING,NEAT,Neat,neat1.ogg,Vorsichtig
+2050,PACENOTE,CORNERS,FLATRIGHTMINUS,6 Right+,six_right_plus1.ogg,sechs Rechts+
+2051,PACENOTE,CORNERS,QUICKRIGHT,5 Right+,five_right_plus1.ogg,fünf Rechts+
+2052,PACENOTE,CORNERS,EMRIGHT,4 Right+,four_right_plus1.ogg,vier Rechts+
+2053,PACENOTE,CORNERS,PLUSRIGHT,3 Right+,three_right_plus1.ogg,drei Rechts+
+2054,PACENOTE,CORNERS,MINUSRIGHT,1 Right+,one_right_plus1.ogg,eins Rechts+
+2055,PACENOTE,CORNERS,VERYSLOWRIGHT,Hairpin Right+,hp_right_plus1.ogg,Kehre Rechts+
+2056,PACENOTE,CORNERS,FLATLEFTMINUS,6 Left+,six_left_plus1.ogg,sechs Links+
+2057,PACENOTE,CORNERS,QUICKLEFT,5 Left+,five_left_plus1.ogg,fünf Links+
+2058,PACENOTE,CORNERS,EMLEFT,4 Left+,four_left_plus1.ogg,vier Links+
+2059,PACENOTE,CORNERS,PLUSLEFT,3 Left+,three_left_plus1.ogg,drei Links+
+2060,PACENOTE,CORNERS,MINUSLEFT,1 Left+,one_left_plus1.ogg,eins Links+
+2061,PACENOTE,CORNERS,VERYSLOWLEFT,Hairpin Left+,hp_left_plus1.ogg,Kehre Links+
+2062,PACENOTE,ADJECTIVES,TIGHTENSTOFLATMINUS,Tightens 6+,tightens_six_plus1.ogg,Schliesst auf sechs+
+2063,PACENOTE,ADJECTIVES,TIGHTENSTOQUICK,Tightens 5+,tightens_five_plus1.ogg,Schliesst auf fünf+
+2064,PACENOTE,ADJECTIVES,TIGHTENSTOEM,Tightens 4+,tightens_four_plus1.ogg,Schliesst auf vier+
+2065,PACENOTE,ADJECTIVES,TIGHTENSTOPLUS,Tightens 3+,tightens_three_plus1.ogg,Schliesst auf drei+
+2066,PACENOTE,ADJECTIVES,TIGHTENSTOMINUS,Tightens 1+,tightens_one_plus1.ogg,Schliesst auf eins+
+2067,PACENOTE,ADJECTIVES,TIGHTENSTOVERYSLOW,Tightens Hairpin+,tightens_hp_plus1.ogg,Schliesst auf Kehre+
+2068,PACENOTE,ADJECTIVES,TOFLATMINUS,_6+,_six_plus1.ogg,In sechs+
+2069,PACENOTE,ADJECTIVES,TOQUICK,_5+,_five_plus1.ogg,In fünf+
+2070,PACENOTE,ADJECTIVES,TOEM,_4+,_four_plus1.ogg,In vier+
+2071,PACENOTE,ADJECTIVES,TOPLUS,_3+,_three_plus1.ogg,In drei+
+2072,PACENOTE,ADJECTIVES,TOMINUS,_1+,_one_plus1.ogg,In eins+
+2073,PACENOTE,ADJECTIVES,TOVERYSLOW,_Hairpin+,_hp_plus1.ogg,In Kehre+
+2074,PACENOTE,CORNERS,FLATMINUS_SCALE,6+,six_plus_scale1.ogg,sechs+
+2075,PACENOTE,CORNERS,EASY_SCALE,6,six_scale1.ogg,sechs
+2076,PACENOTE,CORNERS,QUICK_SCALE,5+,five_plus_scale1.ogg,fünf+
+2077,PACENOTE,CORNERS,FAST_SCALE,5,five_scale1.ogg,fünf
+2078,PACENOTE,CORNERS,EM_SCALE,4+,four_plus_scale1.ogg,vier+
+2079,PACENOTE,CORNERS,PLUS_SCALE,3+,three_plus_scale1.ogg,drei+
+2080,PACENOTE,CORNERS,K_SCALE,3,three_scale1.ogg,drei
+2081,PACENOTE,CORNERS,SQUARE_SCALE,2,two_scale1.ogg,zwei
+2082,PACENOTE,CORNERS,MINUS_SCALE,1+,one_plus_scale1.ogg,eins+
+2083,PACENOTE,CORNERS,SLOW_SCALE,1,one_scale1.ogg,eins
+2084,PACENOTE,CORNERS,VERYSLOW_SCALE,Hairpin+,hp_plus_scale1.ogg,Kehre+
+2085,PACENOTE,ADDITIONAL,REMEMBER,Remember,remember1.ogg,Merken
+2086,PACENOTE,ADDITIONAL,PATIENT,Patient,patient1.ogg,Geduld
+2087,PACENOTE,OBSTACLES,SMALL_JUMP,Small Jump,small_jump1.ogg,Kleiner Sprung
+2088,PACENOTE,OBSTACLES,OVER_BIG_JUMP,Over Big Jump,over_big_jump1.ogg,Über Großen Sprung
+2089,PACENOTE,OBSTACLES,CONTINUESOVERSMALLCREST,Continues Over Small Crest,continues_over_small_crest1.ogg,Zieht Über Kleine Kuppe
+2090,PACENOTE,OBSTACLES,LONGCREST,Long Crest,long_crest1.ogg,Lange Kuppe
+2091,PACENOTE,OBSTACLES,RUT,Rut,rut1.ogg,Rille
+2092,PACENOTE,OBSTACLES,TO_BUMP,(Jump) To Bump,to_bump1.ogg,Auf Schlag
+2093,PACENOTE,LINE,TWISTY_FROMLEFT,Twisty From Left,twisty_from_left1.ogg,Schlenker Von Links
+2094,PACENOTE,LINE,TWISTY_FROMRIGHT,Twisty From Right,twisty_from_right1.ogg,Schlenker Von Rechts
+2095,PACENOTE,LINE,DONTBLOCK,Post,post1.ogg,Pfosten
+2096,PACENOTE,LINE,GRIP_MIDDLE,Grip Middle,grip_middle1.ogg,Grip Mittig
+2097,PACENOTE,LINE,GRIP_IN,Grip In,grip_in1.ogg,Grip Innen
+2098,PACENOTE,LINE,GRIP_OUT,Grip Out,grip_out1.ogg,Grip Außen
+2099,PACENOTE,LINE,GO_ROUND,Go Round,go_round1.ogg,Rund Fahren
+2104,PACENOTE,ADJECTIVES,NIU_LOIVA_ALKU,Late (NIU),late1.ogg,Spät
+2110,PACENOTE,LINKS,DIST21,21,21_1.ogg,einundzwanzig
+2111,PACENOTE,LINKS,DIST31,31,31_1.ogg,einunddreißig
+2112,PACENOTE,LINKS,DIST41,41,41_1.ogg,einundvierzig
+2113,PACENOTE,LINKS,DIST51,51,51_1.ogg,einundfünfzig
+2114,PACENOTE,LINKS,DIST61,61,61_1.ogg,einundsechzig
+2115,PACENOTE,LINKS,DIST71,71,71_1.ogg,einundsiebzig
+2116,PACENOTE,LINKS,DIST81,81,81_1.ogg,einundachtzig
+2117,PACENOTE,LINKS,DIST101,101,101_1.ogg,einhunderteins
+2118,PACENOTE,LINKS,DIST121,121,121_1.ogg,einhunderteinundzwanzig
+2119,PACENOTE,LINKS,DIST141,141,141_1.ogg,einhunderteinundvierzig
+2120,PACENOTE,LINKS,DIST151,151,151_1.ogg,einhunderteinundfünfzig
+2121,PACENOTE,LINKS,DIST161,161,161_1.ogg,einhunderteinundsechzig
+2122,PACENOTE,LINKS,DIST181,181,181_1.ogg,einhunderteinundachtzig
+2123,PACENOTE,LINKS,DIST201,201,201_1.ogg,zweihunderteins
+2124,PACENOTE,LINKS,DIST251,251,251_1.ogg,zweihunderteinundfünfzig
+2125,PACENOTE,LINKS,DIST301,301,301_1.ogg,dreihunderteins
+2126,PACENOTE,LINKS,DIST351,351,351_1.ogg,dreihunderteinundfünfzig
+2127,PACENOTE,LINKS,DIST401,401,401_1.ogg,vierhunderteins
+2128,PACENOTE,LINKS,DIST451,451,451_1.ogg,vierhunderteinundfünfzig
+2129,PACENOTE,LINKS,DIST501,501,501_1.ogg,fünfhunderteins
+2130,PACENOTE,LINKS,DIST601,601,601_1.ogg,sechshunderteins
+2131,PACENOTE,LINKS,DIST701,701,701_1.ogg,siebenhunderteins
+2132,PACENOTE,LINKS,DIST801,801,801_1.ogg,achthunderteins
+2133,PACENOTE,LINKS,DIST901,901,901_1.ogg,neunhunderteins
+2134,PACENOTE,LINKS,DIST1001,1001,1001_1.ogg,eintausendeins
+2135,PACENOTE,CONSTRUCTION,BALE_IN,Bale In,bale_in1.ogg,Ballen Innen
+2136,PACENOTE,CONSTRUCTION,BALE_OUT,Bale Out,bale_out1.ogg,Ballen Außen
+2137,PACENOTE,CONSTRUCTION,TIRES_IN,Tires In,tires_in1.ogg,Reifen Innen
+2138,PACENOTE,CONSTRUCTION,TIRES_OUT,Tires Out,tires_out1.ogg,Reifen Außen
+2139,PACENOTE,CONSTRUCTION,ROCK_IN,Stone In,rock_in1.ogg,Stein Innen
+2140,PACENOTE,CONSTRUCTION,ROCK_OUT,Stone Out,rock_out1.ogg,Stein Außen
+2141,PACENOTE,CONSTRUCTION,FENCE_IN,Fence In,fence_in1.ogg,Zaun Innen
+2142,PACENOTE,CONSTRUCTION,FENCE_OUT,Fence Out,fence_out1.ogg,Zaun Außen
+2143,PACENOTE,CONSTRUCTION,TREE_IN,Tree In,tree_in1.ogg,Baum Innen
+2144,PACENOTE,CONSTRUCTION,TREE_OUT,Tree Out,tree_out1.ogg,Baum Außen
+2145,PACENOTE,CONSTRUCTION,DITCH_IN,Ditch In,ditch_in1.ogg,Graben Innen
+2146,PACENOTE,CONSTRUCTION,DITCH_OUT,Ditch Out,ditch_out1.ogg,Graben Außen
+2147,PACENOTE,CONSTRUCTION,DROP_IN,Drop In,drop_in1.ogg,Uneben Innen
+2148,PACENOTE,CONSTRUCTION,DROP_OUT,Drop Out,drop_out1.ogg,Uneben Außen
+2149,PACENOTE,CONSTRUCTION,HOUSE_IN,House In,house_in1.ogg,Haus Innen
+2150,PACENOTE,CONSTRUCTION,HOUSE_OUT,House Out,house_out1.ogg,Haus Außen
+2151,PACENOTE,CONSTRUCTION,NIU_BARRIER_IN,Fence In (NIU),fence_in1.ogg,Schranke Innen
+2152,PACENOTE,CONSTRUCTION,NIU_BARRIER_OUT,Fence Out (NIU),fence_out1.ogg,Schranke Außen
+2153,PACENOTE,CONSTRUCTION,SIGN_IN,Sign In,sign_in1.ogg,Schild Innen
+2154,PACENOTE,CONSTRUCTION,SIGN_OUT,Sign Out,sign_out1.ogg,Schild Außen
+2155,PACENOTE,CONSTRUCTION,POST_IN,Post In,post_in1.ogg,Pfosten Innen
+2156,PACENOTE,CONSTRUCTION,POST_OUT,Post Out,post_out1.ogg,Pfosten Außen
+2157,PACENOTE,CONSTRUCTION,LOG_IN,Log In,log_in1.ogg,Stamm Innen
+2158,PACENOTE,CONSTRUCTION,LOG_OUT,Log Out,log_out1.ogg,Stamm Außen
+2159,PACENOTE,LINE,CUT_THROUGH,Cut Through,cut_through1.ogg,Durchschneiden
+2160,PACENOTE,PREPOSITIONS,AT_TREE,At Tree,at_tree1.ogg,Bei Baum
+2161,PACENOTE,PREPOSITIONS,AT_TREES,At Trees,at_trees1.ogg,Bei Bäumen
+2162,PACENOTE,PREPOSITIONS,AT_BALE,At Bale,at_bale1.ogg,Bei Ballen
+2163,PACENOTE,PREPOSITIONS,AT_ROCK,At Rock,at_rock1.ogg,Bei Fels
+2164,PACENOTE,PREPOSITIONS,AT_GUARDRAIL,At Guardrail,at_guardrail1.ogg,Bei Leitplanke
+2165,PACENOTE,PREPOSITIONS,AT_BANNER,At Banner,at_banner1.ogg,Bei Banner
+2166,PACENOTE,PREPOSITIONS,AT_TAPE,At Tape,at_tape1.ogg,Bei Band
+2167,PACENOTE,PREPOSITIONS,AT_FENCE,At Fence,at_fence1.ogg,Bei Zaun
+2168,PACENOTE,PREPOSITIONS,AT_FLAG,At Flag,at_flag1.ogg,Bei Flagge
+2169,PACENOTE,PREPOSITIONS,AT_HOUSE,At House,at_house1.ogg,Bei Haus
+2170,PACENOTE,PREPOSITIONS,AT_SIGN,At Sign,at_sign1.ogg,Bei Schild
+2171,PACENOTE,PREPOSITIONS,AT_POST,At Post,at_post1.ogg,Bei Pfahl
+2172,PACENOTE,PREPOSITIONS,AT_JUNCTION,At Junction,at_junction1.ogg,Bei Kreuzung
+2173,PACENOTE,PREPOSITIONS,AT_CREST,At Crest,at_crest1.ogg,Bei Kuppe
+2174,PACENOTE,PREPOSITIONS,AT_GATE,At Gate,at_gate1.ogg,Bei Tor
+2175,PACENOTE,PREPOSITIONS,AT_BRIDGE,At Bridge,at_bridge1.ogg,Bei Brücke
+2176,PACENOTE,CAUTIONS,BRAKE_INTO,Brake Into,brake_into1.ogg,Bremsen In
+2177,PACENOTE,CAUTIONS,BRAKE_AND,Brake And,brake_and1.ogg,Bremsen Und
+2178,PACENOTE,CAUTIONS,BRAKE_20,Brake 20,brake_20_1.ogg,Bremsen In zwanzig
+2179,PACENOTE,CAUTIONS,BRAKE_30,Brake 30,brake_30_1.ogg,Bremsen In dreißig
+2180,PACENOTE,CAUTIONS,BRAKE_40,Brake 40,brake_40_1.ogg,Bremsen In vierzig
+2181,PACENOTE,CAUTIONS,BRAKE_50,Brake 50,brake_50_1.ogg,Bremsen In fünfzig
+2182,PACENOTE,CAUTIONS,SLIPPY_BRAKING,Slippy Braking,slippy_braking1.ogg,Glatte Bremszone
+2183,PACENOTE,CAUTIONS,SLIPPY_ENTRY,Slippy Entry,slippy_entry1.ogg,Einfahrt Glatt
+2184,PACENOTE,CAUTIONS,SLIPPY_EXIT,Slippy Exit,slippy_exit1.ogg,Ausfahrt Glatt
+2185,PACENOTE,ADDITIONAL,SUMPPU,Sumppu,sumppu1.ogg,Quetscht
+2186,PACENOTE,ADDITIONAL,WIDENS,Widens,widens1.ogg,Weitet Sich
+2187,PACENOTE,ADJECTIVES,TIGHTENSSUMPPU,Tightens Sumppu,tightens_sumppu1.ogg,Quetscht
+2188,PACENOTE,OBSTACLES,JUMP_MAYBE,Jump Maybe,jump_maybe1.ogg,Sprung Vielleicht
+2189,PACENOTE,OBSTACLES,OVER_SMALL_JUMP,Over Small Jump,over_small_jump1.ogg,Über Kleinen Sprung
+2190,PACENOTE,OBSTACLES,OVER_JUMP_DAB,Over Jump Dab,over_jump_dab1.ogg,Bremsen im Sprung
+2191,PACENOTE,OBSTACLES,OVERSMALLCREST,Over Small Crest,over_small_crest1.ogg,Über Kleine Kuppe
+2192,PACENOTE,OBSTACLES,OVERLONGCREST,Over Long Crest,over_long_crest1.ogg,Über Lange Kuppe
+2193,PACENOTE,OBSTACLES,OVERTWOCRESTS,Over Two Crests,over_two_crests1.ogg,Über Zwei Kuppen
+2194,PACENOTE,OBSTACLES,OVERTHREECRESTS,Over Three Crests,over_three_crests1.ogg,Über Drei Kuppen
+2195,PACENOTE,OBSTACLES,DOUBLECREST,Double Crest,double_crest1.ogg,Doppelte Kuppe
+2196,PACENOTE,OBSTACLES,DOUBLE_JUMP,Double Jump,double_jump1.ogg,Doppelter Sprung
+2197,PACENOTE,LINE,ONTO_STRAIGHT,Onto Straight,onto_straight1.ogg,Gerade
+2198,PACENOTE,PREPOSITIONS,AT_EXIT,At Exit,at_exit1.ogg,Bei Ausfahrt
+2199,PACENOTE,PREPOSITIONS,AT_OPENING,At Opening,at_opening1.ogg,Wenn öffnet
+2200,PACENOTE,CONSTRUCTION,LOGS_IN,Logs In,logs_in1.ogg,Stämme Innen
+2201,PACENOTE,CONSTRUCTION,LOGS_OUT,Logs Out,logs_out1.ogg,Stämme Außen
+2202,PACENOTE,CORNERS,SHORT_LEFT,Short Left,short_left1.ogg,Kurz Links
+2203,PACENOTE,CORNERS,SHORT_RIGHT,Short Right,short_right1.ogg,Kurz Rechts
+2204,PACENOTE,CAUTIONS,SLIPPERY_MAYBE,Maybe Slippy,maybe_slippy1.ogg,Wahrscheinlich Glatt
+2205,PACENOTE,CORNERS,DONUT_RIGHT,Donut Right,donut_right1.ogg,Donut Rechts
+2206,PACENOTE,CORNERS,DONUT_LEFT,Donut Left,donut_left1.ogg,Donut Links
+2207,PACENOTE,CORNERS,HP_SCALE,Hairpin,hp_scale1.ogg,Kehre
+2208,PACENOTE,CORNERS,ACUTE_SCALE,Acute,acute_scale1.ogg,Spitz
+2209,PACENOTE,ADDITIONAL,PAST_JUNCTION,Past Junction,past_junction1.ogg,Nach Kreuzung
+2210,PACENOTE,OBSTACLES,ONTO_BRIDGE,Onto Bridge,onto_bridge1.ogg,Auf Brücke
+2211,PACENOTE,OBSTACLES,NARROW_BRIDGE,Narrow Bridge,narrow_bridge1.ogg,Schmale Brücke
+2212,PACENOTE,OBSTACLES,ONTO_NARROW_BRIDGE,Onto Narrow Bridge,onto_narrow_bridge1.ogg,Aus Schmale Brücke
+2213,PACENOTE,OBSTACLES,THROUGH_GATE,Through Gate,through_gate1.ogg,Durch Tor
+2214,PACENOTE,OBSTACLES,NARROW_GATE,Narrow Gate,narrow_gate1.ogg,Schmales Tor
+2215,PACENOTE,OBSTACLES,THROUGH_NARROW_GATE,Through Narrow Gate,through_narrow_gate1.ogg,Durch Schmales Tor
+2216,PACENOTE,ADDITIONAL,EXTRAEXTRALONG,Very Very Long,veryverylong1.ogg,Sehr Sehr Lang
+2217,PACENOTE,CAUTIONS,VERY_SLIPPY,Very Slippy,very_slippy1.ogg,Sehr Glatt
+2218,PACENOTE,PREPOSITIONS,AT_BUSH,At Bush,at_bush1.ogg,Bei Busch
+2219,PACENOTE,ADDITIONAL,BIG_SUMPPU,Big Sumppu,big_sumppu1.ogg,Quetscht Stark
+2220,PACENOTE,ADDITIONAL,SMALL_SUMPPU,Small Sumppu,small_sumppu1.ogg,Quetscht Leicht
+2221,PACENOTE,ADDITIONAL,ONTO_NARROWER_ROAD,Onto Narrower,onto_narrower1.ogg,schmale Straße
+2222,PACENOTE,ADDITIONAL,ONTO_WIDER_ROAD,Onto Wider,onto_wider1.ogg,breite Straße
+2223,PACENOTE,DRIVING,LIFT,Lift,lift1.ogg,Runter Vom Gas
+2224,PACENOTE,LINKS,AGAIN,Again,again1.ogg,Wieder
+2225,PACENOTE,OBSTACLES,TO_CREST,To Crest,to_crest1.ogg,Auf Kuppe
+2226,PACENOTE,CORNERS,LEFT_OVER,Left Over_(dist.),left_over1.ogg,Links Über
+2227,PACENOTE,CORNERS,RIGHT_OVER,Right Over_(dist.),right_over1.ogg,Rechts Über
+2228,PACENOTE,CAUTIONS,PRECISE,Precise,precise1.ogg,Präzise
+2229,PACENOTE,LINE,STAY_OUT,Stay Out,stay_out1.ogg,Bleib Außen
+2230,PACENOTE,CAUTIONS,BUMPY_BRAKING,Bumpy Braking,bumpy_braking1.ogg,Schläge Beim Bremsen
+2231,PACENOTE,OBSTACLES,OVER_NARROW_BRIDGE,Over Narrow Bridge,over_narrow_bridge1.ogg,Über Schmale Brücke
+2232,PACENOTE,SURFACE,GETS_ROUGHER,Gets Rougher,gets_rougher1.ogg,Wird Ruppiger
+2233,PACENOTE,SURFACE,GETS_SMOOTHER,Gets Smoother,gets_smoother1.ogg,Wird Glatter
+2234,PACENOTE,ADDITIONAL,GETS_FASTER,Gets Faster,gets_faster1.ogg,Wird Schneller
+2235,PACENOTE,ADDITIONAL,GETS_SLOWER,Gets Slower,gets_slower1.ogg,Wird Langsamer
+2236,PACENOTE,SURFACE,SURFACE_CHANGE,Surface Change,surface_change1.ogg,Belagwechsel
+2237,PACENOTE,OBSTACLES,BUMPS_OVER,Bumps Over_(dist.),bumps_over1.ogg,Über Schläge
+2238,PACENOTE,OBSTACLES,OVER_ROCKS,Over Rocks,over_rocks1.ogg,Über Steine
+2239,PACENOTE,SURFACE,ONTO_FIELD,Onto Field,onto_field1.ogg,Auf Feld
+2240,PACENOTE,ADDITIONAL,FICKLE,Fickle,fickle1.ogg,Unklar
+2241,PACENOTE,OBSTACLES,TO_JUMP,To Jump,to_jump1.ogg,Auf Sprung
+2242,PACENOTE,LINE,DOUBLE_DONT,Double Don't,double_dont1.ogg,zwei Risiken innen
+2243,PACENOTE,LINE,TRIPLE_DONT,Triple Don't,triple_dont1.ogg,drei Risiken innen
+2244,PACENOTE,ADDITIONAL,IMPORTANT,Important,important1.ogg,Wichtig
+2245,PACENOTE,OBSTACLES,CREST_TO_LEFT,Crest To Left,crest_to_left1.ogg,Kuppe läuft Links
+2246,PACENOTE,OBSTACLES,CREST_TO_RIGHT,Crest To Right,crest_to_right1.ogg,Kuppe läuft Rechts
+2247,PACENOTE,CORNERS,MEDIUM_SCALE,4,four_scale1.ogg,vier
+2248,PACENOTE,ADDITIONAL,FUCKINGLONG,Fucking Long,fuckinglong1.ogg,Beschissen Lang
+2249,PACENOTE,ADJECTIVES,TIGHTENSVERYVERYLONG,Tightens Very Very Long,tightens_veryverylong1.ogg,Schliesst Sehr Sehr Spät
+2250,PACENOTE,ADJECTIVES,TIGHTENSFUCKINGLONG,Tightens Fucking Long,tightens_fuckinglong1.ogg,Schliesst Verdammt Spät
+2251,PACENOTE,ADJECTIVES,OPENSVERYVERYLONG,Opens Very Very Long,opens_veryverylong1.ogg,Öffnet Sehr Sehr Spät
+2252,PACENOTE,ADJECTIVES,OPENSFUCKINGLONG,Opens Fucking Long,opens_fuckinglong1.ogg,Öffnet Verdammt Spät
+2253,PACENOTE,ADJECTIVES,TIGHTENSSHARP,Tightens Sharp,tightens_sharp1.ogg,Schliesst Scharf
+2254,PACENOTE,ADJECTIVES,TIGHTENSROUND,Tightens Round,tightens_round1.ogg,Schliesst Rund
+2255,PACENOTE,ADJECTIVES,OPENSSHARP,Opens Sharp,opens_sharp1.ogg,Öffnet Scharf
+2256,PACENOTE,ADJECTIVES,OPENSROUND,Opens Round,opens_round1.ogg,Öffnet Rund
+2257,PACENOTE,OBSTACLES,OVER_EARLY_CREST,Over Early Crest,over_early_crest1.ogg,Früh Über Kuppe
+2258,PACENOTE,OBSTACLES,OVER_LATE_CREST,Over Late Crest,over_late_crest1.ogg,Spät Über Kuppe
+2259,PACENOTE,CAUTIONS,BRAKE_10,Brake 10,brake_10_1.ogg,Bremsen In zehn
+2260,PACENOTE,SURFACE,BLACK_ICE,Black Ice,black_ice1.ogg,Spiegeleis
+2261,PACENOTE,PREPOSITIONS,AT_LOG,At Log,at_log1.ogg,Bei Stamm
+2262,PACENOTE,CORNERS,SQUARE_RIGHT_PLUS,2 Right+,two_right_plus1.ogg,zwei Rechts+
+2263,PACENOTE,CORNERS,SQUARE_LEFT_PLUS,2 Left+,two_left_plus1.ogg,zwei Links+
+2264,PACENOTE,ADJECTIVES,TIGHTENSTOSQUARE_PLUS,Tightens 2+,tightens_two_plus1.ogg,Schliesst auf zwei+
+2265,PACENOTE,ADJECTIVES,TOSQUARE_PLUS,_2+,_two_plus1.ogg,In zwei+
+2266,PACENOTE,LINE,POST_EARLY,Post Early,post_early1.ogg,Pfosten Früh
+2267,PACENOTE,LINE,POST_LATE,Post Late,post_late1.ogg,Pfosten Spät
+2268,PACENOTE,LINE,POSTS,Posts,posts1.ogg,Pfähle
+2269,PACENOTE,OBSTACLES,OVERCREST_NOLINK,Over Crest,over_crest1.ogg,Über Kuppe
+2270,PACENOTE,CAUTIONS,CARE_NOLINK,Care,care1.ogg,Vorsicht
+2271,PACENOTE,CAUTIONS,CAUTION_NOLINK,Caution,caution1.ogg,Achtung
+2272,PACENOTE,CORNERS,SQUARE_PLUS_SCALE,2+,two_plus_scale1.ogg,zwei+
+2273,PACENOTE,LINE,LATE_CUT,Late Cut,late_cut1.ogg,Spät Schneiden
+2274,PACENOTE,PREPOSITIONS,AT_LOGS,At Logs,at_logs1.ogg,Bei Stämmen
+2275,PACENOTE,CAUTIONS,NIU_BRAKE_JATKUU,Brake And (NIU),brake_and1.ogg,Bremsen Und
+2276,PACENOTE,ADDITIONAL,DEEP,Deep,deep1.ogg,Tief
+2277,PACENOTE,ADDITIONAL,TRUST,Trust,trust1.ogg,Vertrauen
+2405,PACENOTE,LINE,LEFTISH,Leftish,leftish1.ogg,Eher Links
+2406,PACENOTE,LINE,RIGHTISH,Rightish,rightish1.ogg,Eher Rechts
+2501,PACENOTE,OBSTACLES,NIU_SMALL_CREST_FABZ,Small Crest (NIU),small_crest1.ogg,Kleine Kuppe
+2503,PACENOTE,OBSTACLES,NIU_BROW,Crest (NIU),crest1.ogg,Buckel
+2507,PACENOTE,OBSTACLES,TWO_BALES,Two Bales,two_bales1.ogg,zwei Ballen
+2508,PACENOTE,OBSTACLES,THREE_BALES,Three Bales,three_bales1.ogg,drei Ballen
+2509,PACENOTE,OBSTACLES,FOUR_BALES,Four Bales,four_bales1.ogg,vier Ballen
+2512,PACENOTE,OBSTACLES,LOGS,Logs,logs1.ogg,Stämme
+2515,PACENOTE,OBSTACLES,GATE,Gate,gate1.ogg,Tor
+2516,PACENOTE,OBSTACLES,BIG_JUMP,Big Jump,big_jump1.ogg,Großer Sprung
+2521,PACENOTE,OBSTACLES,BALES,Bales,bales1.ogg,Ballen
+2571,PACENOTE,SURFACE,SURFACE_NOTE,Surface,surface1.ogg,Belag
+2600,PACENOTE,DRIVING,BE_BRAVE,Be Brave,be_brave1.ogg,Trau Dich
+2604,PACENOTE,CAUTIONS,NIU_WATCH,Precise (NIU),precise1.ogg,
+2611,PACENOTE,OBSTACLES,BALE,Bale,bale1.ogg,Ballen
+2615,PACENOTE,DRIVING,NIU_DAB,Dab (NIU),dab1.ogg,Nicht Springen
+2622,PACENOTE,ADDITIONAL,TWO_PARTS,Two Parts,two_parts1.ogg,Zwei Mal
+2623,PACENOTE,ADDITIONAL,THREE_PARTS,Three Parts,three_parts1.ogg,Drei Mal
+2624,PACENOTE,ADDITIONAL,FOUR_PARTS,Four Parts,four_parts1.ogg,Vier Mal
+2625,PACENOTE,ADDITIONAL,FIVE_PARTS,Five Parts,five_parts1.ogg,Fünf Mal
+2626,PACENOTE,OBSTACLES,FIVE_BALES,Five Bales,five_bales1.ogg,fünf Ballen
+9999,PACENOTE,CORNERS,LINE_CHANGE,,,

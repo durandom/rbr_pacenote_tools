@@ -1,0 +1,32 @@
+id,type,category,name,translation,file,translation-new
+149,PACENOTE,LINKS,10,10,10_1.ogg,zehn
+150,PACENOTE,LINKS,20,20,20_1.ogg,zwanzig
+435,PACENOTE,LINKS,NEXT_LAP,Onto Next Lap,onto_nextlap1.ogg,Nächste Runde
+436,PACENOTE,LINKS,TAKE_EXIT,Onto Finish,onto_finish1.ogg,Zum Ziel
+2025,PACENOTE,LINKS,NIU_JATKUU,And (NIU),and1.ogg,Und
+2110,PACENOTE,LINKS,DIST21,21,21_1.ogg,einundzwanzig
+2111,PACENOTE,LINKS,DIST31,31,31_1.ogg,einunddreißig
+2112,PACENOTE,LINKS,DIST41,41,41_1.ogg,einundvierzig
+2113,PACENOTE,LINKS,DIST51,51,51_1.ogg,einundfünfzig
+2114,PACENOTE,LINKS,DIST61,61,61_1.ogg,einundsechzig
+2115,PACENOTE,LINKS,DIST71,71,71_1.ogg,einundsiebzig
+2116,PACENOTE,LINKS,DIST81,81,81_1.ogg,einundachtzig
+2117,PACENOTE,LINKS,DIST101,101,101_1.ogg,einhunderteins
+2118,PACENOTE,LINKS,DIST121,121,121_1.ogg,einhunderteinundzwanzig
+2119,PACENOTE,LINKS,DIST141,141,141_1.ogg,einhunderteinundvierzig
+2120,PACENOTE,LINKS,DIST151,151,151_1.ogg,einhunderteinundfünfzig
+2121,PACENOTE,LINKS,DIST161,161,161_1.ogg,einhunderteinundsechzig
+2122,PACENOTE,LINKS,DIST181,181,181_1.ogg,einhunderteinundachtzig
+2123,PACENOTE,LINKS,DIST201,201,201_1.ogg,zweihunderteins
+2124,PACENOTE,LINKS,DIST251,251,251_1.ogg,zweihunderteinundfünfzig
+2125,PACENOTE,LINKS,DIST301,301,301_1.ogg,dreihunderteins
+2126,PACENOTE,LINKS,DIST351,351,351_1.ogg,dreihunderteinundfünfzig
+2127,PACENOTE,LINKS,DIST401,401,401_1.ogg,vierhunderteins
+2128,PACENOTE,LINKS,DIST451,451,451_1.ogg,vierhunderteinundfünfzig
+2129,PACENOTE,LINKS,DIST501,501,501_1.ogg,fünfhunderteins
+2130,PACENOTE,LINKS,DIST601,601,601_1.ogg,sechshunderteins
+2131,PACENOTE,LINKS,DIST701,701,701_1.ogg,siebenhunderteins
+2132,PACENOTE,LINKS,DIST801,801,801_1.ogg,achthunderteins
+2133,PACENOTE,LINKS,DIST901,901,901_1.ogg,neunhunderteins
+2134,PACENOTE,LINKS,DIST1001,1001,1001_1.ogg,eintausendeins
+2224,PACENOTE,LINKS,AGAIN,Again,again1.ogg,Wieder
