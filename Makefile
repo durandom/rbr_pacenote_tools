@@ -1,6 +1,10 @@
 .PHONY: all
 
-all: janne-v3 bollinger-numeric smo-v3
+all: all-janne
+all-janne: all-janne-v2 all-janne-v3 janne-v3-new-ids janne-v3-split-sounds
+all-janne-v2: janne-v2 janne-v2-unique janne-v2-unique-id-name
+all-janne-v3: janne-v3 janne-v3-unique janne-v3-unique-id-name
+
 
 janne-v2:
 	pipenv run ./codriver.py --codriver janne-v2-numeric --list-sounds > out/janne-v2-numeric-sounds.csv
@@ -11,7 +15,7 @@ janne-v2-unique:
 	@echo "Done"
 
 janne-v2-unique-id-name:
-	pipenv run ./codriver.py --codriver janne-v2-numeric --list-sounds --list-sounds-unique --list-fields id,type,category,name > out/janne-v2-numeric-sounds-unique-id.csv
+	pipenv run ./codriver.py --codriver janne-v2-numeric --list-sounds --list-sounds-unique --list-fields id,type,category,name,translation > out/janne-v2-numeric-sounds-unique-id.csv
 	@echo "Done"
 
 janne-v3:
@@ -23,7 +27,7 @@ janne-v3-unique:
 	@echo "Done"
 
 janne-v3-unique-id-name:
-	pipenv run ./codriver.py --codriver janne-v3-numeric --list-sounds --list-sounds-unique --list-fields id,type,category,name > out/janne-v3-numeric-sounds-unique-id.csv
+	pipenv run ./codriver.py --codriver janne-v3-numeric --list-sounds --list-sounds-unique --list-fields id,type,category,name,translation > out/janne-v3-numeric-sounds-unique-id.csv
 	@echo "Done"
 
 janne-v3-build:
@@ -90,3 +94,9 @@ smo-v3:
 
 janne-v3-new-ids:
 	pipenv run ./scripts/new_ids.py out/janne-v2-numeric-sounds-unique-id.csv out/janne-v3-numeric-sounds-unique-id.csv > out/janne-v3-new-ids.csv
+
+bollinger-merge-sounds:
+	pipenv run ./scripts/new_bollinger_sounds.py assets/bollinger_sounds
+
+janne-v3-split-sounds:
+	pipenv run ./scripts/split_by_category.py out/janne-v3-new-ids.csv
