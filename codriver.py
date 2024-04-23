@@ -9,7 +9,12 @@ import sys
 from rbr_pacenote_plugin import RbrPacenotePlugin
 
 class CoDriver:
-    def list_sounds(self, plugin: RbrPacenotePlugin, unique=False, fields=''):
+    def list_sounds(self, plugin: RbrPacenotePlugin, file='', unique=False, fields=''):
+        if not file:
+            file = sys.stdout
+        else:
+            file = open(file, 'w')
+
         note = {
             'id': 'id',
             'type': 'type',
@@ -32,7 +37,7 @@ class CoDriver:
             if key not in fields:
                 note.pop(key)
 
-        csv_writer = csv.DictWriter(sys.stdout, note.keys())
+        csv_writer = csv.DictWriter(file, note.keys())
         csv_writer.writeheader()
 
         notes = []
@@ -112,8 +117,8 @@ if __name__ == '__main__':
     # get commandline arguments and parse them
     parser = argparse.ArgumentParser(description='CoDriver')
     parser.add_argument('--codriver', help='Codriver in config.json', default='janne-v3-numeric')
-    parser.add_argument('--list-fields', help='Only list fields', default='id,type,category,name,translation,file,sounds,error,ini')
-    parser.add_argument('--list-sounds', help='List all sounds', action='store_true')
+    parser.add_argument('--list-fields', help='Only list fields', default='id,type,category,name,translation,file,sounds,error,ini,file_src_dir')
+    parser.add_argument('--list-sounds', help='List all sounds', default=None)
     parser.add_argument('--list-sounds-unique', help='List all sounds only one', action='store_true')
     parser.add_argument('--merge', help='Merge from file', default=None, nargs='+')
     parser.add_argument('--merge-sound-src-dir', help='Sound dir for merge', default=None)
@@ -138,7 +143,7 @@ if __name__ == '__main__':
         plugin.set_sound_dir(args.merge_sound_dir)
 
     if args.list_sounds:
-        codriver.list_sounds(plugin, args.list_sounds_unique, args.list_fields)
+        codriver.list_sounds(plugin, args.list_sounds, args.list_sounds_unique, args.list_fields)
 
     if args.out:
         codriver.write(args.out, plugin)

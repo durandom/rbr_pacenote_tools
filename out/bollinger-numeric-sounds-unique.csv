@@ -1,284 +1,284 @@
-id,type,category,name,translation,file,sounds,error,ini
--1,RANGE,EXTENDED,100,,100.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,1000,,1000.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,120,,120.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,140,,140.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,150,,150.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,160,,160.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,180,,180.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,200,,200.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,250,,250.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,30,,30.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,300,,300.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,350,,350.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,40,,40.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,400,,400.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,450,,450.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,50,,50.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,500,,500.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,60,,60.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,600,,600.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,70,,70.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,700,,700.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,80,,80.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,800,,800.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,EXTENDED,900,,900.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,PACENOTE,LINKS,AND,Und,and.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,LINKS,CALLOUT_ADJUST,Ansageberichtigung,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,LINKS,CALLOUT_DISTANCE,Ansageentfernung,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,LINKS,CALLOUT_TIME,Ansagezeit,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CAUTIONS,CAUTION_WATER,Vorsicht Wasser,caution_water.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
--1,PACENOTE,MODIFIER,CUT,Schneiden,cut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,LINKS,DISTANCE_CALL,Entfernung,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,MODIFIER,DONTCUT,Nicht Schneiden,dontcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,LINKS,EMPTY_CALL,Leere Ansage,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,LINKS,INTO,Hinein,into.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,MODIFIER,LONG,Lang,long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,MODIFIER,MAYBE,Vielleicht,maybe.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,MODIFIER,NARROWS,Verengung (Straße),narrows.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,LINKS,ONTO,Hinein,onto.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,LINKS,PLACE_HOLDER,Platzhalter,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,MODIFIER,SOUND_FILE,Sound Datei,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,LINKS,SOUND_INDEX,Sound Index,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,MODIFIER,STANDARD_CALL,Standardansage,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,MODIFIER,TIGHTENS,Verengung,tightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,MODIFIER,TIGHTENSBAD,Starke Verengung,tightensbad.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,MODIFIER,WIDEOUT,Verbreiterung,wideout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
-0,PACENOTE,CORNERS,ONE_LEFT,Kehre Links,hairpin_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-1,PACENOTE,CORNERS,SQUARE_LEFT,2 Links,two_left_de.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-2,PACENOTE,CORNERS,THREE_LEFT,3 Links,three_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-3,PACENOTE,CORNERS,FOUR_LEFT,4 Links,four_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-4,PACENOTE,CORNERS,FIVE_LEFT,5 Links,five_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-5,PACENOTE,CORNERS,SIX_LEFT,6 Links,six_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-6,PACENOTE,CORNERS,SIX_RIGHT,6 Rechts,six_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-7,PACENOTE,CORNERS,FIVE_RIGHT,5 Rechts,five_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-8,PACENOTE,CORNERS,FOUR_RIGHT,4 Rechts,four_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-9,PACENOTE,CORNERS,THREE_RIGHT,3 Rechts,three_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-10,PACENOTE,CORNERS,SQUARE_RIGHT,2 Rechts,two_right_de.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-11,PACENOTE,CORNERS,ONE_RIGHT,Kehre Rechts,hairpin_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-12,PACENOTE,LINE,TWISTY,Kurvenreich,twisty.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-14,PACENOTE,ADDITIONAL,NARROWS,Verengung (Straße),narrows.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-15,PACENOTE,ADDITIONAL,WIDEOUT,Verbreiterung,wideout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-16,PACENOTE,OBSTACLES,OVERCREST,Über Hügel,overcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-17,PACENOTE,OBSTACLES,FORD,Furt,ford.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-18,PACENOTE,CAUTIONS,CARE,Vorsicht,care.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-19,PACENOTE,OBSTACLES,BUMP,Unebenheit,bump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-20,PACENOTE,OBSTACLES,JUMP,Sprung,jump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-22,PACENOTE,LINKS,FINISH,Ziel,finish.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-25,PACENOTE,CORNERS,FLAT_RIGHT,Voll Rechts,flat_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-26,PACENOTE,CORNERS,FLAT_LEFT,Voll Links,flat_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-27,PACENOTE,OBSTACLES,BRIDGE,Brücke,bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-28,PACENOTE,LINE,GOSTRAIGHT,Geradeaus,gostraight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-29,PACENOTE,LINE,KEEPRIGHT,Rechts halten,keepright.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-30,PACENOTE,LINE,KEEPLEFT,Links halten,keepleft.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-31,PACENOTE,LINE,KEEPMIDDLE,Mittig halten,keepmiddle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-32,PACENOTE,CAUTIONS,CAUTION,Achtung,caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-102,PACENOTE,CORNERS,TWO_LEFT,1 Links,one_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-112,PACENOTE,CORNERS,TWO_RIGHT,1 Rechts,one_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-120,PACENOTE,CORNERS,LEFT,Links,left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-121,PACENOTE,CORNERS,RIGHT,Rechts,right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-122,PACENOTE,CORNERS,RIGHT_INTO,Rechts In,right_into.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-123,PACENOTE,CORNERS,LEFT_INTO,Links In,left_into.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-124,PACENOTE,CORNERS,RIGHT_LEFT,Rechts-Links,right_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-125,PACENOTE,CORNERS,LEFT_RIGHT,Links-Rechts,left_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-126,PACENOTE,CORNERS,RIGHT_AROUND,Rechts Herum,right_around.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-127,PACENOTE,CORNERS,LEFT_AROUND,Links Herum,left_around.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-200,PACENOTE,OBSTACLES,OVER_BRIDGE,Über Brücke,over_bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-201,PACENOTE,OBSTACLES,OVER_RAILS,Über Gleis,over_rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-202,PACENOTE,OBSTACLES,OVER_RAILWAY,Über Schienenstrang,over_railway.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-211,PACENOTE,LINE,DEEPCUT,Cut Tief,deepcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-212,PACENOTE,LINE,FULLCUT,Cut Voll,fullcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-213,PACENOTE,LINE,KEEP_CENTRE,Mittig Bleiben,keskelta.ogg,1,Not found: keskelta.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-214,PACENOTE,DRIVING,FULL,Voll,full.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-215,PACENOTE,DRIVING,GO_FULL,Vollgas,go_full.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-216,PACENOTE,DRIVING,FLATOUT,Flatout,flatout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-217,PACENOTE,CAUTIONS,BRAKE,Bremsen,brake.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-218,PACENOTE,LINE,LIGHT_CUT,Cut Leicht,light_cut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-219,PACENOTE,DRIVING,HANDBRAKE,Handbremse,handbrake.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-220,PACENOTE,LINE,KEEP_IN,Innen bleiben,keep_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-221,PACENOTE,LINE,KEEP_OUT,Aussen bleiben,keep_out.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-223,PACENOTE,LINE,CLIP,Einhängen,clip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-230,PACENOTE,ADDITIONAL,MINUS,Minus,minus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-231,PACENOTE,ADDITIONAL,MINUSMINUS,MinusMinus,minusminus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-232,PACENOTE,ADDITIONAL,PLUS,Plus,plus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-233,PACENOTE,ADDITIONAL,PLUSPLUS,PlusPlus,plusplus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-234,PACENOTE,ADDITIONAL,EARLY,Früh,early.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-235,PACENOTE,ADDITIONAL,LATE,Spät,late.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-236,PACENOTE,ADDITIONAL,EASY,Wenig,easy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-237,PACENOTE,ADDITIONAL,MUCH,Viel,much.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-238,PACENOTE,ADJECTIVES,MANY,Viele,many.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-239,PACENOTE,ADJECTIVES,VERY,Sehr,very.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-240,PACENOTE,ADDITIONAL,HARD,Stark,hard.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-241,PACENOTE,ADJECTIVES,FAST,Schnell,fast.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-242,PACENOTE,ADJECTIVES,SLOW,Langsam,slow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-243,PACENOTE,ADJECTIVES,EXACT,Genau,exact.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-244,PACENOTE,DRIVING,SLOWING,Langsamer,slowing.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-245,PACENOTE,ADJECTIVES,DIRECTLY,Sofort,directly.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-246,PACENOTE,ADJECTIVES,LIGHT,Leicht,light.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-247,PACENOTE,ADJECTIVES,BIG,Groß,big.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-248,PACENOTE,ADJECTIVES,SMALL,Klein,small.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-249,PACENOTE,ADDITIONAL,SHARP,Spitz,sharp.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-250,PACENOTE,ADDITIONAL,ROUND,Rund,round.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-251,PACENOTE,ADDITIONAL,TIGHT,Eng,tight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-252,PACENOTE,ADJECTIVES,SLIGHT,Etwas,slight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-253,PACENOTE,ADJECTIVES,GOOD,Gut,good.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-254,PACENOTE,ADJECTIVES,BAD,Schlecht,bad.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-255,PACENOTE,ROAD,NARROW,Eng,narrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-256,PACENOTE,ROAD,WIDE,Breit,wide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-257,PACENOTE,ADJECTIVES,STRAIGHT,Gerade,straight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-260,PACENOTE,LINE,UPHILL,Bergauf,uphill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-261,PACENOTE,LINE,DOWNHILL,Bergab,downhill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-263,PACENOTE,ADDITIONAL,LONGLONG,LangLang,longlong.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-264,PACENOTE,ADDITIONAL,SHORT,Kurz,short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-265,PACENOTE,ADDITIONAL,SHORTSHORT,KurzKurz,shortshort.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-266,PACENOTE,LINE,GONARROW,Wird Enger,gonarrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-267,PACENOTE,LINE,GOWIDE,Wird Breiter,gowide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-268,PACENOTE,CAUTIONS,SLIPPERY,Schmiert,slippery.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-269,PACENOTE,CONDITION,SLIDE,Gleiten,slide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-270,PACENOTE,DRIVING,UNDERSTEER,Schiebt,understeer.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-271,PACENOTE,LINE,SIDEWAYS,Versetzt,sideways.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-272,PACENOTE,LINE,HOOK,Einhängen,hook.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-273,PACENOTE,DRIVING,DRAWS_IN,Dreht Ein,draws_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-274,PACENOTE,ADDITIONAL,VERY_LONG,Sehr Lang,very_long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-275,PACENOTE,ADDITIONAL,VERY_SHORT,Sehr Kurz,very_short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-277,PACENOTE,CAUTIONS,SLIPPY,Rutschig,slippy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-290,PACENOTE,CONDITION,MUDDY,Matsch,muddy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-291,PACENOTE,CONDITION,DIRTY,Schmutzig,dirty.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-292,PACENOTE,CONDITION,BUMPY,Bucklig,bumpy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-293,PACENOTE,CONDITION,CRAMPED,Verengt,cramped.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-294,PACENOTE,ADJECTIVES,POSITIVE,Positiv,positive.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-295,PACENOTE,ADJECTIVES,NEGATIVE,Negativ,negative.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-296,PACENOTE,CONDITION,DIRT,Schmutz,dirt.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-298,PACENOTE,ADJECTIVES,OPENS,Macht Auf,opens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-299,PACENOTE,CAUTIONS,FAKES,Täuscht,fakes.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-300,PACENOTE,OBSTACLES,BUMPS,Schwellen,bumps.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-301,PACENOTE,CAUTIONS,HIDDEN,Versteckt,hidden.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-302,PACENOTE,CAUTIONS,BLIND,Blind,blind.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-303,PACENOTE,CAUTIONS,DOUBLE_CAUTION,Gut Aufpassen,double_caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-304,PACENOTE,CAUTIONS,TRIPLE_CAUTION,Höchste Vorsicht,triple_caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-320,PACENOTE,SURFACE,GRAVEL,Schotter,gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-321,PACENOTE,SURFACE,TARMAC,Asphalt,tarmac.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-322,PACENOTE,SURFACE,CONCRETE,Beton,concrete.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-323,PACENOTE,SURFACE,COBBLES,Pflaster,cobbles.ogg,1,Not found: cobbles.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-324,PACENOTE,SURFACE,GRIT,Kies,grit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-325,PACENOTE,SURFACE,SNOW,Schnee,snow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-326,PACENOTE,SURFACE,ONSPLIT,Splitt,onsplit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-327,PACENOTE,SURFACE,ICY,Eisig,icy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-328,PACENOTE,SURFACE,RUBBLE,Geröll,rubble.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-329,PACENOTE,SURFACE,ICE,Eis,ice.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-330,PACENOTE,SURFACE,LOOSE_GRAVEL,Loser Schotter,loose_gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-340,PACENOTE,OBSTACLES,CREST,Kuppe,crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-341,PACENOTE,ROAD,HOLLOW,Senke,hollow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-342,PACENOTE,ROAD,CAMBER,Wölbung,camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-343,PACENOTE,ROAD,REVERSE_CAMBER,Wanne,reverse_camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-344,PACENOTE,OBSTACLES,HOLE,Loch,hole.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-345,PACENOTE,CAUTIONS,RUTS,Rillen,ruts.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-346,PACENOTE,CAUTIONS,DEEPRUTS,Tiefe Rillen,deepruts.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-347,PACENOTE,CAUTIONS,BORDER,Rand,border.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-348,PACENOTE,CAUTIONS,EDGE,Kante,edge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-349,PACENOTE,CAUTIONS,CURB,Bordstein,curb.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-350,PACENOTE,CAUTIONS,DITCH,Graben,ditch.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-351,PACENOTE,LINE,JUNCTION,Abzweig,junction.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-352,PACENOTE,ROAD,CURVE,Kurve,curve.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-353,PACENOTE,ROAD,TURN,Abbiegen,turn.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-354,PACENOTE,CAUTIONS,STEEP_DROP,Steiler Abhang,steep_drop.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-355,PACENOTE,ROAD,BAD_CAMBER,Starke Wölbung,bad_camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-356,PACENOTE,CAUTIONS,SHOULDER,Bankett,shoulder.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-357,PACENOTE,CAUTIONS,STEEP_HILL,Steiles Gefälle,steep_hill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-358,PACENOTE,CAUTIONS,STEEP_INCLINE,Steiler Anstieg,steep_incline.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-359,PACENOTE,CAUTIONS,STEEP_SLOPE,Steilhang,steep_slope.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-361,PACENOTE,OBSTACLES,DIP,Abhang,dip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-362,PACENOTE,ROAD,DROPS,,drops.ogg,1,Not found: drops.ogg,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-363,PACENOTE,ROAD,DROPS_LEFT,Hängt Links,drops_left.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-364,PACENOTE,ROAD,DROPS_RIGHT,Hängt Rechts,drops_right.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-365,PACENOTE,ROAD,FORK_LEFT,Abzweig Links,fork_left.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-366,PACENOTE,ROAD,FORK_RIGHT,Abzweig Rechts,fork_right.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-367,PACENOTE,ROAD,NEGATIVE_CAMBER,,negative_camber.ogg,1,Not found: negative_camber.ogg,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-368,PACENOTE,ROAD,POSITIVE_CAMBER,,positive_camber.ogg,1,Not found: positive_camber.ogg,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini
-370,PACENOTE,CONSTRUCTION,FENCE,Zaun,fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-371,PACENOTE,CONSTRUCTION,WALL,Mauer,wall.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-372,PACENOTE,CONSTRUCTION,HOUSE,Haus,house.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-373,PACENOTE,OBSTACLES,TREE,Baum,tree.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-374,PACENOTE,OBSTACLES,STUMP,Stumpf,stump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-375,PACENOTE,CONSTRUCTION,MAST,Mast,mast.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-376,PACENOTE,CONSTRUCTION,POST,Pfosten,post.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-377,PACENOTE,CONSTRUCTION,ISLAND,Kreisel,island.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-378,PACENOTE,CONSTRUCTION,CHICANE,Schikane,chicane.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-379,PACENOTE,OBSTACLES,STONE,Stein,stone.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-380,PACENOTE,OBSTACLES,ROCK,Fels,rock.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-381,PACENOTE,OBSTACLES,TUNNEL,Tunnel,tunnel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-382,PACENOTE,CONSTRUCTION,ROAD,Straße,road.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-383,PACENOTE,CONSTRUCTION,WALK,Weg,walk.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-384,PACENOTE,OBSTACLES,RAILS,Gleis,rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-385,PACENOTE,OBSTACLES,SIGN,Schild,sign.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-386,PACENOTE,OBSTACLES,BUSH,Busch,bush.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-387,PACENOTE,CONSTRUCTION,PATH,Weg,path.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-388,PACENOTE,OBSTACLES,WATER,Wasser,water.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-389,PACENOTE,OBSTACLES,PUDDLE,Pfütze,puddle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-392,PACENOTE,LINE,LEFT_ENTRY_CHICANE,Schikane Eingang Links,left_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-393,PACENOTE,LINE,RIGHT_ENTRY_CHICANE,Schikane Eingang Rechts,right_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-397,PACENOTE,OBSTACLES,BARRELS,Fässer,barrels.ogg,1,Not found: barrels.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-399,PACENOTE,CONSTRUCTION,ROUNDABOUT,Kreisverkehr,roundabout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-400,PACENOTE,PREPOSITIONS,THROUGH,Durch,through.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-401,PACENOTE,PREPOSITIONS,AFTER,Nach,after.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-402,PACENOTE,PREPOSITIONS,NEAR,Nahe,near.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-403,PACENOTE,PREPOSITIONS,ON,Auf,on.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-404,PACENOTE,PREPOSITIONS,UNTIL,Bis,until.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-405,PACENOTE,PREPOSITIONS,AT,Bei,at.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-406,PACENOTE,PREPOSITIONS,BEFORE,Vor,before.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-407,PACENOTE,PREPOSITIONS,OVER,Über,over.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-408,PACENOTE,PREPOSITIONS,IN,In,in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-409,PACENOTE,PREPOSITIONS,BEHIND,Hinter,behind.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-410,PACENOTE,PREPOSITIONS,FOR,Für,for.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-411,PACENOTE,PREPOSITIONS,INSIDE,Innen,inside.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-412,PACENOTE,PREPOSITIONS,OUTSIDE,Außen,outside.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-413,PACENOTE,PREPOSITIONS,THEN,,then.ogg,1,Not found: then.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-414,PACENOTE,PREPOSITIONS,OFF,,off.ogg,1,Not found: off.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-430,PACENOTE,LINKS,DONE,Ende,done.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-431,PACENOTE,LINKS,STOP,Stop,stop.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-432,PACENOTE,LINE,LINE,Linie,line.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-443,PACENOTE,CONSTRUCTION,WOODEN_FENCE,Holzzaun,wooden_fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-540,PACENOTE,SURFACE,ONTO_GRAVEL,Auf Schotter,onto_gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-541,PACENOTE,SURFACE,ONTO_TARMAC,Auf Asphalt,onto_tarmac.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-542,PACENOTE,SURFACE,ONTO_CONCRETE,Auf Beton,onto_concrete.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-543,PACENOTE,SURFACE,ONTO_COBBLES,Auf Pflaster,onto_cobbles.ogg,1,Not found: onto_cobbles.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-544,PACENOTE,SURFACE,ONTO_GRIT,Auf Kies,onto_grit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-545,PACENOTE,SURFACE,ONTO_SNOW,Auf Schnee,onto_snow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-546,PACENOTE,CONDITION,WET,Nass,wet.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-547,PACENOTE,CONDITION,DRY,Trocken,dry.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-548,PACENOTE,CONDITION,DAMP,Feucht,damp.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-549,PACENOTE,LINE,HOLD,Halten,hold.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-550,PACENOTE,DRIVING,TAKE_SPEED,Speed Mit,take_speed.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-551,PACENOTE,ADDITIONAL,L_FOOT_BRAKING,LinksFussBremsen,l_foot_braking.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-552,PACENOTE,CONDITION,GRIP_OFF,Reißt Ab,grip_off.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-553,PACENOTE,CONDITION,GRIP,Grip,grip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-554,PACENOTE,CONDITION,GOOD_GRIP,Viel Grip,good_grip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini
-555,PACENOTE,LINE,TO_SIGHT_DISTANCE,Bis Sicht,to_sight_distance.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-556,PACENOTE,LINKS,SPLIT_TIME,Zeit,split_time.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-557,PACENOTE,LINE,ENTRY,Eingang,entry.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2001,PACENOTE,ADJECTIVES,TIGHTENS6,Macht zu 6*,tightens6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2002,PACENOTE,ADJECTIVES,TIGHTENS5,Macht zu 5*,tightens5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2003,PACENOTE,ADJECTIVES,TIGHTENS4,Macht zu 4*,tightens4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2004,PACENOTE,ADJECTIVES,TIGHTENS3,Macht zu 3*,tightens3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2005,PACENOTE,ADJECTIVES,TIGHTENS2,Macht zu 2*,tightens2.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2006,PACENOTE,ADJECTIVES,TIGHTENS1,Macht zu 1*,tightens1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2007,PACENOTE,ADJECTIVES,TIGHTENSHP,Macht zu Kehre*,tightenshp.ogg,1,Not found: tightenshp.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2008,PACENOTE,ADJECTIVES,TOSIX,6*,6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2009,PACENOTE,ADJECTIVES,TOFIVE,5*,5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2010,PACENOTE,ADJECTIVES,TOFOUR,4*,4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2011,PACENOTE,ADJECTIVES,TOTHREE,3*,3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2012,PACENOTE,ADJECTIVES,TOTWO,2*,two_de.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2013,PACENOTE,ADJECTIVES,TOONE,1*,1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2014,PACENOTE,ADJECTIVES,TOHP,Kehre*,hairpin.ogg,1,Not found: hairpin.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2015,PACENOTE,ADJECTIVES,TIGHTENSLATE,Macht Spät Zu,tightenslate.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2018,PACENOTE,ADJECTIVES,OPENSTIGHTENS,Macht Auf und Zu,openstightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2019,PACENOTE,ADJECTIVES,TIGHTENSOPENS,Macht Zu und Auf,tightensopens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2021,PACENOTE,CAUTIONS,CARE_IN,Vorsicht Innen*,carein.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2022,PACENOTE,CAUTIONS,CARE_OUT,Vorsicht Außen*,careout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2029,PACENOTE,OBSTACLES,CONTINUESOVERCREST,Halten über Kuppe,continuesovercrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2103,PACENOTE,ADDITIONAL,HALF_LONG,HalbLang,half_long.ogg,1,Not found: half_long.ogg,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2106,PACENOTE,OBSTACLES,JUMPFULL,Sprung Voll,jumpfull.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2108,PACENOTE,OBSTACLES,OVERJUMP,Über Sprung,overjump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2109,PACENOTE,OBSTACLES,SMALLCREST,Kuppe Klein,smallcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-3001,PACENOTE,CORNERS,90_LINKS,90 Links*,90_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
-3010,PACENOTE,CORNERS,90_RECHTS,90 Rechts*,90_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini
+id,type,category,name,translation,file,sounds,error,ini,file_src_dir
+-1,RANGE,EXTENDED,100,,100.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,1000,,1000.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,120,,120.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,140,,140.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,150,,150.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,160,,160.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,180,,180.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,200,,200.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,250,,250.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,30,,30.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,300,,300.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,350,,350.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,40,,40.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,400,,400.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,450,,450.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,50,,50.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,500,,500.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,60,,60.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,600,,600.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,70,,70.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,700,,700.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,80,,80.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,800,,800.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,RANGE,EXTENDED,900,,900.ogg,1,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,AND,Und,and.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,CALLOUT_ADJUST,Ansageberichtigung,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,CALLOUT_DISTANCE,Ansageentfernung,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,CALLOUT_TIME,Ansagezeit,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,CAUTIONS,CAUTION_WATER,Vorsicht Wasser,caution_water.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,CUT,Schneiden,cut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,DISTANCE_CALL,Entfernung,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,DONTCUT,Nicht Schneiden,dontcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,EMPTY_CALL,Leere Ansage,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,INTO,Hinein,into.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,LONG,Lang,long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,MAYBE,Vielleicht,maybe.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,NARROWS,Verengung (Straße),narrows.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,ONTO,Hinein,onto.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,PLACE_HOLDER,Platzhalter,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,SOUND_FILE,Sound Datei,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,LINKS,SOUND_INDEX,Sound Index,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,STANDARD_CALL,Standardansage,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,TIGHTENS,Verengung,tightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,TIGHTENSBAD,Starke Verengung,tightensbad.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+-1,PACENOTE,MODIFIER,WIDEOUT,Verbreiterung,wideout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+0,PACENOTE,CORNERS,ONE_LEFT,Kehre Links,hairpin_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+1,PACENOTE,CORNERS,SQUARE_LEFT,2 Links,two_left_de.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2,PACENOTE,CORNERS,THREE_LEFT,3 Links,three_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+3,PACENOTE,CORNERS,FOUR_LEFT,4 Links,four_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+4,PACENOTE,CORNERS,FIVE_LEFT,5 Links,five_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+5,PACENOTE,CORNERS,SIX_LEFT,6 Links,six_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+6,PACENOTE,CORNERS,SIX_RIGHT,6 Rechts,six_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+7,PACENOTE,CORNERS,FIVE_RIGHT,5 Rechts,five_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+8,PACENOTE,CORNERS,FOUR_RIGHT,4 Rechts,four_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+9,PACENOTE,CORNERS,THREE_RIGHT,3 Rechts,three_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+10,PACENOTE,CORNERS,SQUARE_RIGHT,2 Rechts,two_right_de.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+11,PACENOTE,CORNERS,ONE_RIGHT,Kehre Rechts,hairpin_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+12,PACENOTE,LINE,TWISTY,Kurvenreich,twisty.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+14,PACENOTE,ADDITIONAL,NARROWS,Verengung (Straße),narrows.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+15,PACENOTE,ADDITIONAL,WIDEOUT,Verbreiterung,wideout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+16,PACENOTE,OBSTACLES,OVERCREST,Über Hügel,overcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+17,PACENOTE,OBSTACLES,FORD,Furt,ford.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+18,PACENOTE,CAUTIONS,CARE,Vorsicht,care.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+19,PACENOTE,OBSTACLES,BUMP,Unebenheit,bump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+20,PACENOTE,OBSTACLES,JUMP,Sprung,jump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+22,PACENOTE,LINKS,FINISH,Ziel,finish.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+25,PACENOTE,CORNERS,FLAT_RIGHT,Voll Rechts,flat_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+26,PACENOTE,CORNERS,FLAT_LEFT,Voll Links,flat_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+27,PACENOTE,OBSTACLES,BRIDGE,Brücke,bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+28,PACENOTE,LINE,GOSTRAIGHT,Geradeaus,gostraight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+29,PACENOTE,LINE,KEEPRIGHT,Rechts halten,keepright.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+30,PACENOTE,LINE,KEEPLEFT,Links halten,keepleft.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+31,PACENOTE,LINE,KEEPMIDDLE,Mittig halten,keepmiddle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+32,PACENOTE,CAUTIONS,CAUTION,Achtung,caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+102,PACENOTE,CORNERS,TWO_LEFT,1 Links,one_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+112,PACENOTE,CORNERS,TWO_RIGHT,1 Rechts,one_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+120,PACENOTE,CORNERS,LEFT,Links,left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+121,PACENOTE,CORNERS,RIGHT,Rechts,right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+122,PACENOTE,CORNERS,RIGHT_INTO,Rechts In,right_into.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+123,PACENOTE,CORNERS,LEFT_INTO,Links In,left_into.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+124,PACENOTE,CORNERS,RIGHT_LEFT,Rechts-Links,right_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+125,PACENOTE,CORNERS,LEFT_RIGHT,Links-Rechts,left_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+126,PACENOTE,CORNERS,RIGHT_AROUND,Rechts Herum,right_around.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+127,PACENOTE,CORNERS,LEFT_AROUND,Links Herum,left_around.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+200,PACENOTE,OBSTACLES,OVER_BRIDGE,Über Brücke,over_bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+201,PACENOTE,OBSTACLES,OVER_RAILS,Über Gleis,over_rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+202,PACENOTE,OBSTACLES,OVER_RAILWAY,Über Schienenstrang,over_railway.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+211,PACENOTE,LINE,DEEPCUT,Cut Tief,deepcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+212,PACENOTE,LINE,FULLCUT,Cut Voll,fullcut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+213,PACENOTE,LINE,KEEP_CENTRE,Mittig Bleiben,keskelta.ogg,1,Not found: keskelta.ogg,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+214,PACENOTE,DRIVING,FULL,Voll,full.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+215,PACENOTE,DRIVING,GO_FULL,Vollgas,go_full.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+216,PACENOTE,DRIVING,FLATOUT,Flatout,flatout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+217,PACENOTE,CAUTIONS,BRAKE,Bremsen,brake.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+218,PACENOTE,LINE,LIGHT_CUT,Cut Leicht,light_cut.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+219,PACENOTE,DRIVING,HANDBRAKE,Handbremse,handbrake.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+220,PACENOTE,LINE,KEEP_IN,Innen bleiben,keep_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+221,PACENOTE,LINE,KEEP_OUT,Aussen bleiben,keep_out.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+223,PACENOTE,LINE,CLIP,Einhängen,clip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+230,PACENOTE,ADDITIONAL,MINUS,Minus,minus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+231,PACENOTE,ADDITIONAL,MINUSMINUS,MinusMinus,minusminus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+232,PACENOTE,ADDITIONAL,PLUS,Plus,plus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+233,PACENOTE,ADDITIONAL,PLUSPLUS,PlusPlus,plusplus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+234,PACENOTE,ADDITIONAL,EARLY,Früh,early.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+235,PACENOTE,ADDITIONAL,LATE,Spät,late.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+236,PACENOTE,ADDITIONAL,EASY,Wenig,easy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+237,PACENOTE,ADDITIONAL,MUCH,Viel,much.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+238,PACENOTE,ADJECTIVES,MANY,Viele,many.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+239,PACENOTE,ADJECTIVES,VERY,Sehr,very.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+240,PACENOTE,ADDITIONAL,HARD,Stark,hard.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+241,PACENOTE,ADJECTIVES,FAST,Schnell,fast.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+242,PACENOTE,ADJECTIVES,SLOW,Langsam,slow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+243,PACENOTE,ADJECTIVES,EXACT,Genau,exact.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+244,PACENOTE,DRIVING,SLOWING,Langsamer,slowing.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+245,PACENOTE,ADJECTIVES,DIRECTLY,Sofort,directly.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+246,PACENOTE,ADJECTIVES,LIGHT,Leicht,light.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+247,PACENOTE,ADJECTIVES,BIG,Groß,big.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+248,PACENOTE,ADJECTIVES,SMALL,Klein,small.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+249,PACENOTE,ADDITIONAL,SHARP,Spitz,sharp.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+250,PACENOTE,ADDITIONAL,ROUND,Rund,round.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+251,PACENOTE,ADDITIONAL,TIGHT,Eng,tight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+252,PACENOTE,ADJECTIVES,SLIGHT,Etwas,slight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+253,PACENOTE,ADJECTIVES,GOOD,Gut,good.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+254,PACENOTE,ADJECTIVES,BAD,Schlecht,bad.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+255,PACENOTE,ROAD,NARROW,Eng,narrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+256,PACENOTE,ROAD,WIDE,Breit,wide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+257,PACENOTE,ADJECTIVES,STRAIGHT,Gerade,straight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+260,PACENOTE,LINE,UPHILL,Bergauf,uphill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+261,PACENOTE,LINE,DOWNHILL,Bergab,downhill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+263,PACENOTE,ADDITIONAL,LONGLONG,LangLang,longlong.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+264,PACENOTE,ADDITIONAL,SHORT,Kurz,short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+265,PACENOTE,ADDITIONAL,SHORTSHORT,KurzKurz,shortshort.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+266,PACENOTE,LINE,GONARROW,Wird Enger,gonarrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+267,PACENOTE,LINE,GOWIDE,Wird Breiter,gowide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+268,PACENOTE,CAUTIONS,SLIPPERY,Schmiert,slippery.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+269,PACENOTE,CONDITION,SLIDE,Gleiten,slide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+270,PACENOTE,DRIVING,UNDERSTEER,Schiebt,understeer.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+271,PACENOTE,LINE,SIDEWAYS,Versetzt,sideways.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+272,PACENOTE,LINE,HOOK,Einhängen,hook.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+273,PACENOTE,DRIVING,DRAWS_IN,Dreht Ein,draws_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+274,PACENOTE,ADDITIONAL,VERY_LONG,Sehr Lang,very_long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+275,PACENOTE,ADDITIONAL,VERY_SHORT,Sehr Kurz,very_short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+277,PACENOTE,CAUTIONS,SLIPPY,Rutschig,slippy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+290,PACENOTE,CONDITION,MUDDY,Matsch,muddy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+291,PACENOTE,CONDITION,DIRTY,Schmutzig,dirty.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+292,PACENOTE,CONDITION,BUMPY,Bucklig,bumpy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+293,PACENOTE,CONDITION,CRAMPED,Verengt,cramped.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+294,PACENOTE,ADJECTIVES,POSITIVE,Positiv,positive.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+295,PACENOTE,ADJECTIVES,NEGATIVE,Negativ,negative.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+296,PACENOTE,CONDITION,DIRT,Schmutz,dirt.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+298,PACENOTE,ADJECTIVES,OPENS,Macht Auf,opens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+299,PACENOTE,CAUTIONS,FAKES,Täuscht,fakes.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+300,PACENOTE,OBSTACLES,BUMPS,Schwellen,bumps.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+301,PACENOTE,CAUTIONS,HIDDEN,Versteckt,hidden.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+302,PACENOTE,CAUTIONS,BLIND,Blind,blind.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+303,PACENOTE,CAUTIONS,DOUBLE_CAUTION,Gut Aufpassen,double_caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+304,PACENOTE,CAUTIONS,TRIPLE_CAUTION,Höchste Vorsicht,triple_caution.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+320,PACENOTE,SURFACE,GRAVEL,Schotter,gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+321,PACENOTE,SURFACE,TARMAC,Asphalt,tarmac.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+322,PACENOTE,SURFACE,CONCRETE,Beton,concrete.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+323,PACENOTE,SURFACE,COBBLES,Pflaster,cobbles.ogg,1,Not found: cobbles.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+324,PACENOTE,SURFACE,GRIT,Kies,grit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+325,PACENOTE,SURFACE,SNOW,Schnee,snow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+326,PACENOTE,SURFACE,ONSPLIT,Splitt,onsplit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+327,PACENOTE,SURFACE,ICY,Eisig,icy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+328,PACENOTE,SURFACE,RUBBLE,Geröll,rubble.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+329,PACENOTE,SURFACE,ICE,Eis,ice.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+330,PACENOTE,SURFACE,LOOSE_GRAVEL,Loser Schotter,loose_gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+340,PACENOTE,OBSTACLES,CREST,Kuppe,crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+341,PACENOTE,ROAD,HOLLOW,Senke,hollow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+342,PACENOTE,ROAD,CAMBER,Wölbung,camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+343,PACENOTE,ROAD,REVERSE_CAMBER,Wanne,reverse_camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+344,PACENOTE,OBSTACLES,HOLE,Loch,hole.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+345,PACENOTE,CAUTIONS,RUTS,Rillen,ruts.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+346,PACENOTE,CAUTIONS,DEEPRUTS,Tiefe Rillen,deepruts.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+347,PACENOTE,CAUTIONS,BORDER,Rand,border.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+348,PACENOTE,CAUTIONS,EDGE,Kante,edge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+349,PACENOTE,CAUTIONS,CURB,Bordstein,curb.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+350,PACENOTE,CAUTIONS,DITCH,Graben,ditch.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+351,PACENOTE,LINE,JUNCTION,Abzweig,junction.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+352,PACENOTE,ROAD,CURVE,Kurve,curve.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+353,PACENOTE,ROAD,TURN,Abbiegen,turn.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+354,PACENOTE,CAUTIONS,STEEP_DROP,Steiler Abhang,steep_drop.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+355,PACENOTE,ROAD,BAD_CAMBER,Starke Wölbung,bad_camber.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+356,PACENOTE,CAUTIONS,SHOULDER,Bankett,shoulder.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+357,PACENOTE,CAUTIONS,STEEP_HILL,Steiles Gefälle,steep_hill.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+358,PACENOTE,CAUTIONS,STEEP_INCLINE,Steiler Anstieg,steep_incline.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+359,PACENOTE,CAUTIONS,STEEP_SLOPE,Steilhang,steep_slope.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+361,PACENOTE,OBSTACLES,DIP,Abhang,dip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+362,PACENOTE,ROAD,DROPS,,drops.ogg,1,Not found: drops.ogg,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+363,PACENOTE,ROAD,DROPS_LEFT,Hängt Links,drops_left.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+364,PACENOTE,ROAD,DROPS_RIGHT,Hängt Rechts,drops_right.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+365,PACENOTE,ROAD,FORK_LEFT,Abzweig Links,fork_left.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+366,PACENOTE,ROAD,FORK_RIGHT,Abzweig Rechts,fork_right.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+367,PACENOTE,ROAD,NEGATIVE_CAMBER,,negative_camber.ogg,1,Not found: negative_camber.ogg,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+368,PACENOTE,ROAD,POSITIVE_CAMBER,,positive_camber.ogg,1,Not found: positive_camber.ogg,pacenotes/Rbr.ini/packages/Extended.ini/road/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+370,PACENOTE,CONSTRUCTION,FENCE,Zaun,fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+371,PACENOTE,CONSTRUCTION,WALL,Mauer,wall.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+372,PACENOTE,CONSTRUCTION,HOUSE,Haus,house.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+373,PACENOTE,OBSTACLES,TREE,Baum,tree.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+374,PACENOTE,OBSTACLES,STUMP,Stumpf,stump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+375,PACENOTE,CONSTRUCTION,MAST,Mast,mast.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+376,PACENOTE,CONSTRUCTION,POST,Pfosten,post.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+377,PACENOTE,CONSTRUCTION,ISLAND,Kreisel,island.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+378,PACENOTE,CONSTRUCTION,CHICANE,Schikane,chicane.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+379,PACENOTE,OBSTACLES,STONE,Stein,stone.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+380,PACENOTE,OBSTACLES,ROCK,Fels,rock.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+381,PACENOTE,OBSTACLES,TUNNEL,Tunnel,tunnel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+382,PACENOTE,CONSTRUCTION,ROAD,Straße,road.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+383,PACENOTE,CONSTRUCTION,WALK,Weg,walk.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+384,PACENOTE,OBSTACLES,RAILS,Gleis,rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+385,PACENOTE,OBSTACLES,SIGN,Schild,sign.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+386,PACENOTE,OBSTACLES,BUSH,Busch,bush.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+387,PACENOTE,CONSTRUCTION,PATH,Weg,path.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+388,PACENOTE,OBSTACLES,WATER,Wasser,water.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+389,PACENOTE,OBSTACLES,PUDDLE,Pfütze,puddle.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+392,PACENOTE,LINE,LEFT_ENTRY_CHICANE,Schikane Eingang Links,left_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+393,PACENOTE,LINE,RIGHT_ENTRY_CHICANE,Schikane Eingang Rechts,right_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+397,PACENOTE,OBSTACLES,BARRELS,Fässer,barrels.ogg,1,Not found: barrels.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+399,PACENOTE,CONSTRUCTION,ROUNDABOUT,Kreisverkehr,roundabout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+400,PACENOTE,PREPOSITIONS,THROUGH,Durch,through.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+401,PACENOTE,PREPOSITIONS,AFTER,Nach,after.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+402,PACENOTE,PREPOSITIONS,NEAR,Nahe,near.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+403,PACENOTE,PREPOSITIONS,ON,Auf,on.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+404,PACENOTE,PREPOSITIONS,UNTIL,Bis,until.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+405,PACENOTE,PREPOSITIONS,AT,Bei,at.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+406,PACENOTE,PREPOSITIONS,BEFORE,Vor,before.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+407,PACENOTE,PREPOSITIONS,OVER,Über,over.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+408,PACENOTE,PREPOSITIONS,IN,In,in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+409,PACENOTE,PREPOSITIONS,BEHIND,Hinter,behind.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+410,PACENOTE,PREPOSITIONS,FOR,Für,for.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+411,PACENOTE,PREPOSITIONS,INSIDE,Innen,inside.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+412,PACENOTE,PREPOSITIONS,OUTSIDE,Außen,outside.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+413,PACENOTE,PREPOSITIONS,THEN,,then.ogg,1,Not found: then.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+414,PACENOTE,PREPOSITIONS,OFF,,off.ogg,1,Not found: off.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+430,PACENOTE,LINKS,DONE,Ende,done.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+431,PACENOTE,LINKS,STOP,Stop,stop.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+432,PACENOTE,LINE,LINE,Linie,line.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+443,PACENOTE,CONSTRUCTION,WOODEN_FENCE,Holzzaun,wooden_fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+540,PACENOTE,SURFACE,ONTO_GRAVEL,Auf Schotter,onto_gravel.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+541,PACENOTE,SURFACE,ONTO_TARMAC,Auf Asphalt,onto_tarmac.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+542,PACENOTE,SURFACE,ONTO_CONCRETE,Auf Beton,onto_concrete.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+543,PACENOTE,SURFACE,ONTO_COBBLES,Auf Pflaster,onto_cobbles.ogg,1,Not found: onto_cobbles.ogg,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+544,PACENOTE,SURFACE,ONTO_GRIT,Auf Kies,onto_grit.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+545,PACENOTE,SURFACE,ONTO_SNOW,Auf Schnee,onto_snow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+546,PACENOTE,CONDITION,WET,Nass,wet.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+547,PACENOTE,CONDITION,DRY,Trocken,dry.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+548,PACENOTE,CONDITION,DAMP,Feucht,damp.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+549,PACENOTE,LINE,HOLD,Halten,hold.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+550,PACENOTE,DRIVING,TAKE_SPEED,Speed Mit,take_speed.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+551,PACENOTE,ADDITIONAL,L_FOOT_BRAKING,LinksFussBremsen,l_foot_braking.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+552,PACENOTE,CONDITION,GRIP_OFF,Reißt Ab,grip_off.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+553,PACENOTE,CONDITION,GRIP,Grip,grip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+554,PACENOTE,CONDITION,GOOD_GRIP,Viel Grip,good_grip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/condition/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+555,PACENOTE,LINE,TO_SIGHT_DISTANCE,Bis Sicht,to_sight_distance.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+556,PACENOTE,LINKS,SPLIT_TIME,Zeit,split_time.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+557,PACENOTE,LINE,ENTRY,Eingang,entry.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2001,PACENOTE,ADJECTIVES,TIGHTENS6,Macht zu 6*,tightens6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2002,PACENOTE,ADJECTIVES,TIGHTENS5,Macht zu 5*,tightens5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2003,PACENOTE,ADJECTIVES,TIGHTENS4,Macht zu 4*,tightens4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2004,PACENOTE,ADJECTIVES,TIGHTENS3,Macht zu 3*,tightens3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2005,PACENOTE,ADJECTIVES,TIGHTENS2,Macht zu 2*,tightens2.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2006,PACENOTE,ADJECTIVES,TIGHTENS1,Macht zu 1*,tightens1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2007,PACENOTE,ADJECTIVES,TIGHTENSHP,Macht zu Kehre*,tightenshp.ogg,1,Not found: tightenshp.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2008,PACENOTE,ADJECTIVES,TOSIX,6*,6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2009,PACENOTE,ADJECTIVES,TOFIVE,5*,5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2010,PACENOTE,ADJECTIVES,TOFOUR,4*,4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2011,PACENOTE,ADJECTIVES,TOTHREE,3*,3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2012,PACENOTE,ADJECTIVES,TOTWO,2*,two_de.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2013,PACENOTE,ADJECTIVES,TOONE,1*,1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2014,PACENOTE,ADJECTIVES,TOHP,Kehre*,hairpin.ogg,1,Not found: hairpin.ogg,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2015,PACENOTE,ADJECTIVES,TIGHTENSLATE,Macht Spät Zu,tightenslate.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2018,PACENOTE,ADJECTIVES,OPENSTIGHTENS,Macht Auf und Zu,openstightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2019,PACENOTE,ADJECTIVES,TIGHTENSOPENS,Macht Zu und Auf,tightensopens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2021,PACENOTE,CAUTIONS,CARE_IN,Vorsicht Innen*,carein.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2022,PACENOTE,CAUTIONS,CARE_OUT,Vorsicht Außen*,careout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2029,PACENOTE,OBSTACLES,CONTINUESOVERCREST,Halten über Kuppe,continuesovercrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2103,PACENOTE,ADDITIONAL,HALF_LONG,HalbLang,half_long.ogg,1,Not found: half_long.ogg,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2106,PACENOTE,OBSTACLES,JUMPFULL,Sprung Voll,jumpfull.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2108,PACENOTE,OBSTACLES,OVERJUMP,Über Sprung,overjump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+2109,PACENOTE,OBSTACLES,SMALLCREST,Kuppe Klein,smallcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+3001,PACENOTE,CORNERS,90_LINKS,90 Links*,90_left.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
+3010,PACENOTE,CORNERS,90_RECHTS,90 Rechts*,90_right.ogg,1,,pacenotes/Rbr.ini/packages/Numeric.ini/corners/Numeric.ini,assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst/Plugins/Pacenote/sounds/DavidBollinger
