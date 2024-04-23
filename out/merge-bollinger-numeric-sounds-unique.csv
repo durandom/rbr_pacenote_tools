@@ -1,551 +1,551 @@
-id,type,name,translation,file,sounds,error,ini
--1,RANGE,100,,100.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,1000,,1000.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,120,,120.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,140,,140.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,150,,150.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,160,,160.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,180,,180.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,200,,200.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,250,,250.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,30,,30.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,300,,300.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,350,,350.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,40,,40.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,400,,400.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,450,,450.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,50,,50.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,500,,500.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,60,,60.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,600,,600.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,70,,70.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,700,,700.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,80,,80.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,800,,800.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,RANGE,900,,900.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
--1,PACENOTE,AND,Und,and.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_ADJUST,Callout Adjust,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_DISTANCE,Callout Distance,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CALLOUT_TIME,Callout Time,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,CAUTION_WATER,Vorsicht Wasser,caution_water.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
--1,PACENOTE,CUT,Schneiden,cut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,DISTANCE_CALL,Distance Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,DONTCUT,Nicht Schneiden,dontcut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,EMPTY_CALL,Empty Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,INTO,Hinein,into.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,LONG,Lang,long.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,MAYBE,Vielleicht,maybe.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,NARROWS,Verengung (Straße),narrows.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,ONTO,Hinein,onto.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,PLACE_HOLDER,Placeholder,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,SOUND_FILE,Sound File,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,SOUND_INDEX,Sound Index,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
--1,PACENOTE,STANDARD_CALL,Standard Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,TIGHTENS,Verengung,tightens.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,TIGHTENSBAD,Starke Verengung,tightensbad.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
--1,PACENOTE,WIDEOUT,Verbreiterung,wideout.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
-0,PACENOTE,HAIRPINLEFT,Kehre Links,hairpin_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-1,PACENOTE,90_LEFT,2 Links,two_left_de.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2,PACENOTE,KLEFT,3 Links,three_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-3,PACENOTE,MEDIUMLEFT,4 Links,four_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-4,PACENOTE,FASTLEFT,5 Links,five_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-5,PACENOTE,EASYLEFT,6 Links,six_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-6,PACENOTE,EASYRIGHT,6 Rechts,six_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-7,PACENOTE,FASTRIGHT,5 Rechts,five_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-8,PACENOTE,MEDIUMRIGHT,4 Rechts,four_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-9,PACENOTE,KRIGHT,3 Rechts,three_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-10,PACENOTE,90_RIGHT,2 Rechts,two_right_de.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-11,PACENOTE,HAIRPINRIGHT,Kehre Rechts,hairpin_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-12,PACENOTE,TWISTY,Kurvenreich,twisty.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-14,PACENOTE,NARROWS,Verengung (Straße),narrows.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-15,PACENOTE,WIDEOUT,Verbreiterung,wideout.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-16,PACENOTE,OVERCREST,Über Hügel,overcrest.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-17,PACENOTE,FORD,Furt,ford.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-18,PACENOTE,CARE,Vorsicht,care.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-19,PACENOTE,BUMP,Unebenheit,bump.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-20,PACENOTE,JUMP,Sprung,jump.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-22,PACENOTE,FINISH,Ziel,finish.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-25,PACENOTE,FLATRIGHT,Voll Rechts,flat_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-26,PACENOTE,FLATLEFT,Voll Links,flat_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-27,PACENOTE,BRIDGE,Brücke,bridge.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-28,PACENOTE,GOSTRAIGHT,Geradeaus,gostraight.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-29,PACENOTE,KEEPRIGHT,Rechts halten,keepright.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-30,PACENOTE,KEEPLEFT,Links halten,keepleft.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-31,PACENOTE,KEEPMIDDLE,Mittig halten,keepmiddle.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-32,PACENOTE,CAUTION,Achtung,caution.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-102,PACENOTE,TWO_LEFT,1 Links,one_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-112,PACENOTE,TWO_RIGHT,1 Rechts,one_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-120,PACENOTE,LEFT,Links,left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-121,PACENOTE,RIGHT,Rechts,right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-122,PACENOTE,NIU_RIGHT_INTO,,right_into.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-123,PACENOTE,NIU_LEFT_INTO,,left_into.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-124,PACENOTE,RIGHT_LEFT,Rechts-Links,right_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-125,PACENOTE,LEFT_RIGHT,Links-Rechts,left_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-126,PACENOTE,RIGHT_AROUND,Rechts Herum,right_around.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-127,PACENOTE,LEFT_AROUND,Links Herum,left_around.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-149,PACENOTE,10,10,10_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-150,PACENOTE,20,20,20_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-200,PACENOTE,OVER_BRIDGE,Über Brücke,over_bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-201,PACENOTE,NIU_OVER_RAILS,Über Gleis,over_rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-202,PACENOTE,NIU_OVER_RAILWAY,Über Schienenstrang,over_railway.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-211,PACENOTE,NIU_DEEPCUT,Cut Tief,deepcut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-212,PACENOTE,FULLCUT,Cut Voll,fullcut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-213,PACENOTE,NA_KEEP_CENTRE,Keskeltä (N/A),keep_middle1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-215,PACENOTE,GO_FULL,Vollgas,go_full.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-216,PACENOTE,FLATOUT,Flatout,flatout.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-217,PACENOTE,BRAKE,Bremsen,brake.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-218,PACENOTE,LIGHT_CUT,Cut Leicht,light_cut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-219,PACENOTE,HANDBRAKE,Handbremse,handbrake.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-220,PACENOTE,KEEP_IN,Innen bleiben,keep_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-221,PACENOTE,KEEP_OUT,Aussen bleiben,keep_out.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-223,PACENOTE,CLIP,Einhängen,clip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-230,PACENOTE,MINUS,Minus,minus.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-231,PACENOTE,NA_MINUSMINUS,MinusMinus,minusminus.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-232,PACENOTE,PLUS,Plus,plus.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-233,PACENOTE,NA_PLUSPLUS,PlusPlus,plusplus.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-234,PACENOTE,EARLY,Früh,early.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-235,PACENOTE,LATE,Spät,late.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-236,PACENOTE,EASY,Wenig,easy.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-237,PACENOTE,NA_MUCH,Viel,much.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-238,PACENOTE,NA_MANY,Viele,many.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-239,PACENOTE,NA_VERY,Sehr,very.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-240,PACENOTE,HARD,Stark,hard.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-241,PACENOTE,FAST,Schnell,fast.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-242,PACENOTE,SLOW,Langsam,slow.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-243,PACENOTE,NA_EXACT,Genau,exact.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-243,PACENOTE,NIU_EXACT,Genau,exact.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-244,PACENOTE,SLOWING,Langsamer,slowing.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-245,PACENOTE,NA_DIRECTLY,Sofort,directly.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-246,PACENOTE,NA_LIGHT,Leicht,light.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-247,PACENOTE,NA_BIG,Groß,big.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-248,PACENOTE,NA_SMALL,Klein,small.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-249,PACENOTE,SHARP,Spitz,sharp.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-250,PACENOTE,ROUND,Rund,round.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-251,PACENOTE,TIGHT,Eng,tight.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-252,PACENOTE,NA_SLIGHT,Etwas,slight.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-253,PACENOTE,NA_GOOD,Gut,good.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-254,PACENOTE,BAD,Schlecht,bad.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-255,PACENOTE,NARROW,Eng,narrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-256,PACENOTE,WIDE,Breit,wide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-257,PACENOTE,NA_STRAIGHT,Gerade,straight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-260,PACENOTE,UPHILL,Bergauf,uphill.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-261,PACENOTE,DOWNHILL,Bergab,downhill.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-263,PACENOTE,NIU_LONGLONG,LangLang,longlong.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-264,PACENOTE,SHORT,Kurz,short.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-265,PACENOTE,NA_SHORTSHORT,KurzKurz,shortshort.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-266,PACENOTE,NA_GONARROW,Wird Enger,gonarrow.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-267,PACENOTE,GOWIDE,Wird Breiter,gowide.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-268,PACENOTE,SLIPPERY,Schmiert,slippery.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-270,PACENOTE,NA_UNDERSTEER,Schiebt,understeer.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-271,PACENOTE,SIDEWAYS,Versetzt,sideways.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-272,PACENOTE,HOOK,Einhängen,hook.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-273,PACENOTE,NA_DRAWS_IN,Dreht Ein,draws_in.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-274,PACENOTE,VERY_LONG,Sehr Lang,very_long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-275,PACENOTE,NA_VERY_SHORT,Sehr Kurz,very_short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-277,PACENOTE,NIU_SLIPPY,Rutschig,slippy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-291,PACENOTE,DIRTY,Schmutzig,dirty.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-292,PACENOTE,NIU_BUMPY,Bucklig,bumpy.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-293,PACENOTE,CRAMPED,Verengt,cramped.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-294,PACENOTE,NA_POSITIVE,Positiv,positive.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-295,PACENOTE,NA_NEGATIVE,Negativ,negative.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-298,PACENOTE,OPENS,Macht Auf,opens.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-299,PACENOTE,FAKES,Täuscht,fakes.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-300,PACENOTE,BUMPS,Schwellen,bumps.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-301,PACENOTE,HIDDEN,Versteckt,hidden.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-302,PACENOTE,NIU_BLIND,Blind,blind.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-303,PACENOTE,DOUBLE_CAUTION,Gut Aufpassen,double_caution.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-304,PACENOTE,NA_TRIPLE_CAUTION,Höchste Vorsicht,triple_caution.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-320,PACENOTE,GRAVEL,Schotter,gravel.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-321,PACENOTE,TARMAC,Asphalt,tarmac.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-322,PACENOTE,CONCRETE,Beton,concrete.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-323,PACENOTE,COBBLES,Cobbles,cobbles1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-324,PACENOTE,NA_GRIT,Kies,grit.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-325,PACENOTE,SNOW,Schnee,snow.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-326,PACENOTE,NA_ONSPLIT,Splitt,onsplit.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-327,PACENOTE,ICY,Eisig,icy.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-328,PACENOTE,NA_RUBBLE,Geröll,rubble.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-329,PACENOTE,NIU_ICE,Eis,ice.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-330,PACENOTE,NA_LOOSE_GRAVEL,Loser Schotter,loose_gravel.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-340,PACENOTE,CREST,Kuppe,crest.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-342,PACENOTE,CAMBER,Wölbung,camber.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-343,PACENOTE,NIU_REVERSE_CAMBER,Wanne,reverse_camber.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-344,PACENOTE,HOLE,Loch,hole.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-345,PACENOTE,RUTS,Rillen,ruts.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-346,PACENOTE,DEEPRUTS,Tiefe Rillen,deepruts.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-347,PACENOTE,NA_BORDER,Rand,border.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-348,PACENOTE,NA_EDGE,Kante,edge.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-349,PACENOTE,NA_CURB,Bordstein,curb.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-350,PACENOTE,NA_DITCH,Graben,ditch.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-351,PACENOTE,JUNCTION,Abzweig,junction.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-353,PACENOTE,TURN,Abbiegen,turn.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-354,PACENOTE,NIU_STEEP_DROP,Steiler Abhang,steep_drop.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-355,PACENOTE,BADCAMBER,Starke Wölbung,bad_camber.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-356,PACENOTE,NA_SHOULDER,Bankett,shoulder.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-357,PACENOTE,NA_STEEP_HILL,Steiles Gefälle,steep_hill.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-358,PACENOTE,NA_STEEP_INCLINE,Steiler Anstieg,steep_incline.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-359,PACENOTE,NA_STEEP_SLOPE,Steilhang,steep_slope.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-361,PACENOTE,DIP,Abhang,dip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-362,PACENOTE,DROPS,Drops,drops1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-367,PACENOTE,NIU_NEGATIVE_CAMBER,Bad Camber (NIU),badcamber1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-368,PACENOTE,NIU_POSITIVE_CAMBER,Camber (NIU),camber1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-369,PACENOTE,NIU_COMPRESSION,Dip (NIU),dip1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-370,PACENOTE,NA_FENCE,Zaun,fence.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-371,PACENOTE,NA_WALL,Mauer,wall.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-372,PACENOTE,NA_HOUSE,Haus,house.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-373,PACENOTE,NA_TREE,Baum,tree.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-374,PACENOTE,NA_STUMP,Stumpf,stump.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-375,PACENOTE,NA_MAST,Mast,mast.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-376,PACENOTE,NIU_POST,Pfosten,post.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-377,PACENOTE,NA_ISLAND,Kreisel,island.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-378,PACENOTE,CHICANE,Schikane,chicane.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-379,PACENOTE,NA_STONE,Stein,stone.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-380,PACENOTE,NA_ROCK,Fels,rock.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-381,PACENOTE,TUNNEL,Tunnel,tunnel.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-382,PACENOTE,NA_ROAD,Straße,road.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-384,PACENOTE,RAILS,Gleis,rails.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-385,PACENOTE,NA_SIGN,Schild,sign.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-386,PACENOTE,NA_BUSH,Busch,bush.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-387,PACENOTE,NA_PATH,Weg,path.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-388,PACENOTE,NIU_WATER,Wasser,water.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-389,PACENOTE,NIU_PUDDLE,Pfütze,puddle.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-390,PACENOTE,NA_NETTING,Netting (N/A),netting.ogg,1,Not found: netting.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-391,PACENOTE,NA_TAPE,Tape (N/A),tape.ogg,1,Not found: tape.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-392,PACENOTE,LEFT_ENTRY_CHICANE,Schikane Eingang Links,left_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-393,PACENOTE,RIGHT_ENTRY_CHICANE,Schikane Eingang Rechts,right_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-394,PACENOTE,NA_TYRES,Tyres (N/A),tyres.ogg,1,Not found: tyres.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-395,PACENOTE,NA_SPECTATORS,Spectators (N/A),spectators.ogg,1,Not found: spectators.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-396,PACENOTE,NA_MARSHALLS,Marshalls (N/A),marshalls.ogg,1,Not found: marshalls.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-397,PACENOTE,NA_BARRELS,Barrels (N/A),barrels.ogg,1,Not found: barrels.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-399,PACENOTE,NA_ROUNDABOUT,Kreisverkehr,roundabout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-400,PACENOTE,NA_THROUGH,Durch,through.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-401,PACENOTE,NA_AFTER,Nach,after.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-402,PACENOTE,NA_NEAR,Nahe,near.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-403,PACENOTE,NA_ON,Auf,on.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-404,PACENOTE,NA_UNTIL,Bis,until.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-405,PACENOTE,NA_AT,Bei,at.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-406,PACENOTE,NA_BEFORE,Vor,before.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-407,PACENOTE,NA_OVER,Über,over.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-408,PACENOTE,NIU_IN,In,in.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-409,PACENOTE,NA_BEHIND,Hinter,behind.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-410,PACENOTE,NA_FOR,Für,for.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-411,PACENOTE,INSIDE,Innen,inside.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-412,PACENOTE,OUTSIDE,Außen,outside.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-413,PACENOTE,NA_THEN,Then (N/A),then.ogg,1,Not found: then.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-414,PACENOTE,NA_OFF,Off (N/A),off.ogg,1,Not found: off.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-430,PACENOTE,DONE,Ende,done.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-431,PACENOTE,STOP,Stop,stop.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-432,PACENOTE,LINE_NOTE,Linie,line.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-435,PACENOTE,NEXT_LAP,Onto Next Lap,onto_nextlap1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-436,PACENOTE,TAKE_EXIT,Onto Finish,onto_finish1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-443,PACENOTE,NA_WOODEN_FENCE,Holzzaun,wooden_fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-540,PACENOTE,ONTO_GRAVEL,Auf Schotter,onto_gravel.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-541,PACENOTE,ONTO_TARMAC,Auf Asphalt,onto_tarmac.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-542,PACENOTE,ONTO_CONCRETE,Auf Beton,onto_concrete.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-543,PACENOTE,ONTO_COBBLES,Onto Cobbles,onto_cobbles1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-544,PACENOTE,NA_ONTO_GRIT,Auf Kies,onto_grit.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-545,PACENOTE,ONTO_SNOW,Auf Schnee,onto_snow.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-549,PACENOTE,NIU_HOLD,Halten,hold.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-550,PACENOTE,NA_TAKE_SPEED,Speed Mit,take_speed.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-551,PACENOTE,L_FOOT_BRAKING,LinksFussBremsen,l_foot_braking.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-555,PACENOTE,NA_TO_SIGHT_DISTANCE,Bis Sicht,to_sight_distance.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-556,PACENOTE,SPLIT_TIME,Zeit,split_time.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-557,PACENOTE,ENTRY,Eingang,entry.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2001,PACENOTE,TIGHTENSTOSIX,Macht zu 6*,tightens6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2002,PACENOTE,TIGHTENSTOFIVE,Macht zu 5*,tightens5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2003,PACENOTE,TIGHTENSTOFOUR,Macht zu 4*,tightens4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2004,PACENOTE,TIGHTENSTOTHREE,Macht zu 3*,tightens3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2005,PACENOTE,TIGHTENSTOTWO,Macht zu 2*,tightens2.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2006,PACENOTE,TIGHTENSTOONE,Macht zu 1*,tightens1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2007,PACENOTE,TIGHTENSTOHP,Tightens Hairpin,tightens_hp1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2008,PACENOTE,TOSIX,6*,6.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2009,PACENOTE,TOFIVE,5*,5.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2010,PACENOTE,TOFOUR,4*,4.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2011,PACENOTE,TOTHREE,3*,3.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2012,PACENOTE,TOTWO,2*,two_de.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2013,PACENOTE,TOONE,1*,1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2014,PACENOTE,TOHP,_Hairpin,_hp1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2015,PACENOTE,TIGHTENSLATE,Macht Spät Zu,tightenslate.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2016,PACENOTE,DONTCUTEARLY,Don't Early,dont_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2017,PACENOTE,DONTCUTLATE,Don't Late,dont_late1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2018,PACENOTE,OPENSTIGHTENS,Macht Auf und Zu,openstightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2019,PACENOTE,TIGHTENSOPENS,Macht Zu und Auf,tightensopens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2020,PACENOTE,NIU_HANG,,keep_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2021,PACENOTE,CAREIN,Vorsicht Innen*,carein.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2022,PACENOTE,CAREOUT,Vorsicht Außen*,careout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2023,PACENOTE,NIU_HAE,Hae (NIU),line1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2024,PACENOTE,TODIP,To Dip,to_dip1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2025,PACENOTE,NIU_JATKUU,And (NIU),and1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2026,PACENOTE,FLAT_SCALE,Flat,flat_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2027,PACENOTE,TIGHTENSTOACUTE,Tightens Acute,tightens_acute1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2028,PACENOTE,TOACUTE,_Acute,_acute1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2029,PACENOTE,CONTINUESOVERCREST,Halten über Kuppe,continuesovercrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2030,PACENOTE,IMMEDIATE,Immediate,immediate1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2031,PACENOTE,NIPS,Nips,nips1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2032,PACENOTE,OPENSLITTLE,Opens A Bit,opens_abit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2033,PACENOTE,OPENSLONG,Opens Long,opens_long1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2034,PACENOTE,OPENSVERYLONG,Opens Very Long,opens_verylong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2035,PACENOTE,OPENSEARLY,Opens Early,opens_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2036,PACENOTE,OPENSATJUNCTION,Opens At Junction,opens_at_junction1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2037,PACENOTE,OPENSOVERCREST,Opens Over Crest,opens_overcrest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2038,PACENOTE,SCALEPLUS,Scale Plus,scale_plus1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2039,PACENOTE,SCALEMINUS,Scale Minus,scale_minus1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2040,PACENOTE,ACUTE_LEFT,Acute Left,acute_left1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2041,PACENOTE,ACUTE_RIGHT,Acute Right,acute_right1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2042,PACENOTE,TIGHTENSEARLY,Tightens Early,tightens_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2043,PACENOTE,TIGHTENSLITTLE,Tightens A Bit,tightens_abit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2044,PACENOTE,TIGHTENSLONG,Tightens Long,tightens_long1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2045,PACENOTE,TIGHTENSVERYLONG,Tightens Very Long,tightens_verylong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2046,PACENOTE,TIGHTENSATJUNCTION,Tightens At Junction,tightens_at_junction1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2047,PACENOTE,TIGHTENSOVERCREST,Tightens Over Crest,tightens_overcrest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2048,PACENOTE,WALK,Walk,walk1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-2049,PACENOTE,NEAT,Neat,neat1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-2050,PACENOTE,FLATRIGHTMINUS,6 Right+,six_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2051,PACENOTE,QUICKRIGHT,5 Right+,five_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2052,PACENOTE,EMRIGHT,4 Right+,four_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2053,PACENOTE,PLUSRIGHT,3 Right+,three_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2054,PACENOTE,MINUSRIGHT,1 Right+,one_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2055,PACENOTE,VERYSLOWRIGHT,Hairpin Right+,hp_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2056,PACENOTE,FLATLEFTMINUS,6 Left+,six_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2057,PACENOTE,QUICKLEFT,5 Left+,five_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2058,PACENOTE,EMLEFT,4 Left+,four_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2059,PACENOTE,PLUSLEFT,3 Left+,three_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2060,PACENOTE,MINUSLEFT,1 Left+,one_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2061,PACENOTE,VERYSLOWLEFT,Hairpin Left+,hp_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2062,PACENOTE,TIGHTENSTOFLATMINUS,Tightens 6+,tightens_six_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2063,PACENOTE,TIGHTENSTOQUICK,Tightens 5+,tightens_five_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2064,PACENOTE,TIGHTENSTOEM,Tightens 4+,tightens_four_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2065,PACENOTE,TIGHTENSTOPLUS,Tightens 3+,tightens_three_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2066,PACENOTE,TIGHTENSTOMINUS,Tightens 1+,tightens_one_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2067,PACENOTE,TIGHTENSTOVERYSLOW,Tightens Hairpin+,tightens_hp_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2068,PACENOTE,TOFLATMINUS,_6+,_six_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2069,PACENOTE,TOQUICK,_5+,_five_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2070,PACENOTE,TOEM,_4+,_four_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2071,PACENOTE,TOPLUS,_3+,_three_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2072,PACENOTE,TOMINUS,_1+,_one_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2073,PACENOTE,TOVERYSLOW,_Hairpin+,_hp_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2074,PACENOTE,FLATMINUS_SCALE,6+,six_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2075,PACENOTE,EASY_SCALE,6,six_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2076,PACENOTE,QUICK_SCALE,5+,five_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2077,PACENOTE,FAST_SCALE,5,five_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2078,PACENOTE,EM_SCALE,4+,four_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2079,PACENOTE,PLUS_SCALE,3+,three_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2080,PACENOTE,K_SCALE,3,three_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2081,PACENOTE,SQUARE_SCALE,2,two_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2082,PACENOTE,MINUS_SCALE,1+,one_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2083,PACENOTE,SLOW_SCALE,1,one_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2084,PACENOTE,VERYSLOW_SCALE,Hairpin+,hp_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2085,PACENOTE,REMEMBER,Remember,remember1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2086,PACENOTE,PATIENT,Patient,patient1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2087,PACENOTE,SMALL_JUMP,Small Jump,small_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2088,PACENOTE,OVER_BIG_JUMP,Over Big Jump,over_big_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2089,PACENOTE,CONTINUESOVERSMALLCREST,Continues Over Small Crest,continues_over_small_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2090,PACENOTE,LONGCREST,Long Crest,long_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2091,PACENOTE,RUT,Rut,rut1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2092,PACENOTE,TO_BUMP,(Jump) To Bump,to_bump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2093,PACENOTE,TWISTY_FROMLEFT,Twisty From Left,twisty_from_left1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2094,PACENOTE,TWISTY_FROMRIGHT,Twisty From Right,twisty_from_right1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2095,PACENOTE,DONTBLOCK,Post,post1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2096,PACENOTE,GRIP_MIDDLE,Grip Middle,grip_middle1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2097,PACENOTE,GRIP_IN,Grip In,grip_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2098,PACENOTE,GRIP_OUT,Grip Out,grip_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2099,PACENOTE,GO_ROUND,Go Round,go_round1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2100,PACENOTE,FROM_LEFT,From Left,from_left1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2101,PACENOTE,FROM_RIGHT,From Right,from_right1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2102,PACENOTE,DOUBLE,Double,double1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2103,PACENOTE,HALF_LONG,Halflong,halflong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2104,PACENOTE,NIU_LOIVA_ALKU,Late (NIU),late1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2105,PACENOTE,TO_FINISH,To Finish,tofinish1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2106,PACENOTE,FLAT_JUMP,Sprung Voll,jumpfull.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2107,PACENOTE,JUMP_DAB,Jump Dab,jump_dab1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2108,PACENOTE,OVER_JUMP,Über Sprung,overjump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2109,PACENOTE,SMALL_CREST,Kuppe Klein,smallcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2110,PACENOTE,DIST21,21,21_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2111,PACENOTE,DIST31,31,31_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2112,PACENOTE,DIST41,41,41_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2113,PACENOTE,DIST51,51,51_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2114,PACENOTE,DIST61,61,61_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2115,PACENOTE,DIST71,71,71_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2116,PACENOTE,DIST81,81,81_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2117,PACENOTE,DIST101,101,101_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2118,PACENOTE,DIST121,121,121_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2119,PACENOTE,DIST141,141,141_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2120,PACENOTE,DIST151,151,151_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2121,PACENOTE,DIST161,161,161_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2122,PACENOTE,DIST181,181,181_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2123,PACENOTE,DIST201,201,201_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2124,PACENOTE,DIST251,251,251_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2125,PACENOTE,DIST301,301,301_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2126,PACENOTE,DIST351,351,351_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2127,PACENOTE,DIST401,401,401_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2128,PACENOTE,DIST451,451,451_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2129,PACENOTE,DIST501,501,501_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2130,PACENOTE,DIST601,601,601_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2131,PACENOTE,DIST701,701,701_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2132,PACENOTE,DIST801,801,801_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2133,PACENOTE,DIST901,901,901_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2134,PACENOTE,DIST1001,1001,1001_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2135,PACENOTE,BALE_IN,Bale In,bale_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2136,PACENOTE,BALE_OUT,Bale Out,bale_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2137,PACENOTE,TIRES_IN,Tires In,tires_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2138,PACENOTE,TIRES_OUT,Tires Out,tires_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2139,PACENOTE,ROCK_IN,Stone In,rock_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2140,PACENOTE,ROCK_OUT,Stone Out,rock_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2141,PACENOTE,FENCE_IN,Fence In,fence_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2142,PACENOTE,FENCE_OUT,Fence Out,fence_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2143,PACENOTE,TREE_IN,Tree In,tree_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2144,PACENOTE,TREE_OUT,Tree Out,tree_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2145,PACENOTE,DITCH_IN,Ditch In,ditch_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2146,PACENOTE,DITCH_OUT,Ditch Out,ditch_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2147,PACENOTE,DROP_IN,Drop In,drop_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2148,PACENOTE,DROP_OUT,Drop Out,drop_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2149,PACENOTE,HOUSE_IN,House In,house_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2150,PACENOTE,HOUSE_OUT,House Out,house_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2151,PACENOTE,NIU_BARRIER_IN,Fence In (NIU),fence_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2152,PACENOTE,NIU_BARRIER_OUT,Fence Out (NIU),fence_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2153,PACENOTE,SIGN_IN,Sign In,sign_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2154,PACENOTE,SIGN_OUT,Sign Out,sign_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2155,PACENOTE,POST_IN,Post In,post_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2156,PACENOTE,POST_OUT,Post Out,post_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2157,PACENOTE,LOG_IN,Log In,log_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2158,PACENOTE,LOG_OUT,Log Out,log_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2159,PACENOTE,CUT_THROUGH,Cut Through,cut_through1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2160,PACENOTE,AT_TREE,At Tree,at_tree1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2161,PACENOTE,AT_TREES,At Trees,at_trees1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2162,PACENOTE,AT_BALE,At Bale,at_bale1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2163,PACENOTE,AT_ROCK,At Rock,at_rock1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2164,PACENOTE,AT_GUARDRAIL,At Guardrail,at_guardrail1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2165,PACENOTE,AT_BANNER,At Banner,at_banner1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2166,PACENOTE,AT_TAPE,At Tape,at_tape1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2167,PACENOTE,AT_FENCE,At Fence,at_fence1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2168,PACENOTE,AT_FLAG,At Flag,at_flag1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2169,PACENOTE,AT_HOUSE,At House,at_house1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2170,PACENOTE,AT_SIGN,At Sign,at_sign1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2171,PACENOTE,AT_POST,At Post,at_post1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2172,PACENOTE,AT_JUNCTION,At Junction,at_junction1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2173,PACENOTE,AT_CREST,At Crest,at_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2174,PACENOTE,AT_GATE,At Gate,at_gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2175,PACENOTE,AT_BRIDGE,At Bridge,at_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2176,PACENOTE,BRAKE_INTO,Brake Into,brake_into1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2177,PACENOTE,BRAKE_AND,Brake And,brake_and1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2178,PACENOTE,BRAKE_20,Brake 20,brake_20_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2179,PACENOTE,BRAKE_30,Brake 30,brake_30_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2180,PACENOTE,BRAKE_40,Brake 40,brake_40_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2181,PACENOTE,BRAKE_50,Brake 50,brake_50_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2182,PACENOTE,SLIPPY_BRAKING,Slippy Braking,slippy_braking1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2183,PACENOTE,SLIPPY_ENTRY,Slippy Entry,slippy_entry1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2184,PACENOTE,SLIPPY_EXIT,Slippy Exit,slippy_exit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2185,PACENOTE,SUMPPU,Sumppu,sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2186,PACENOTE,WIDENS,Widens,widens1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2187,PACENOTE,TIGHTENSSUMPPU,Tightens Sumppu,tightens_sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2188,PACENOTE,JUMP_MAYBE,Jump Maybe,jump_maybe1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2189,PACENOTE,OVER_SMALL_JUMP,Over Small Jump,over_small_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2190,PACENOTE,OVER_JUMP_DAB,Over Jump Dab,over_jump_dab1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2191,PACENOTE,OVERSMALLCREST,Over Small Crest,over_small_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2192,PACENOTE,OVERLONGCREST,Over Long Crest,over_long_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2193,PACENOTE,OVERTWOCRESTS,Over Two Crests,over_two_crests1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2194,PACENOTE,OVERTHREECRESTS,Over Three Crests,over_three_crests1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2195,PACENOTE,DOUBLECREST,Double Crest,double_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2196,PACENOTE,DOUBLE_JUMP,Double Jump,double_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2197,PACENOTE,ONTO_STRAIGHT,Onto Straight,onto_straight1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2198,PACENOTE,AT_EXIT,At Exit,at_exit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2199,PACENOTE,AT_OPENING,At Opening,at_opening1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2200,PACENOTE,LOGS_IN,Logs In,logs_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2201,PACENOTE,LOGS_OUT,Logs Out,logs_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
-2202,PACENOTE,SHORT_LEFT,Short Left,short_left1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2203,PACENOTE,SHORT_RIGHT,Short Right,short_right1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2204,PACENOTE,SLIPPERY_MAYBE,Maybe Slippy,maybe_slippy1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2205,PACENOTE,DONUT_RIGHT,Donut Right,donut_right1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2206,PACENOTE,DONUT_LEFT,Donut Left,donut_left1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2207,PACENOTE,HP_SCALE,Hairpin,hp_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2208,PACENOTE,ACUTE_SCALE,Acute,acute_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2209,PACENOTE,PAST_JUNCTION,Past Junction,past_junction1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2210,PACENOTE,ONTO_BRIDGE,Onto Bridge,onto_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2211,PACENOTE,NARROW_BRIDGE,Narrow Bridge,narrow_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2212,PACENOTE,ONTO_NARROW_BRIDGE,Onto Narrow Bridge,onto_narrow_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2213,PACENOTE,THROUGH_GATE,Through Gate,through_gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2214,PACENOTE,NARROW_GATE,Narrow Gate,narrow_gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2215,PACENOTE,THROUGH_NARROW_GATE,Through Narrow Gate,through_narrow_gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2216,PACENOTE,EXTRAEXTRALONG,Very Very Long,veryverylong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2217,PACENOTE,VERY_SLIPPY,Very Slippy,very_slippy1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2218,PACENOTE,AT_BUSH,At Bush,at_bush1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2219,PACENOTE,BIG_SUMPPU,Big Sumppu,big_sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2220,PACENOTE,SMALL_SUMPPU,Small Sumppu,small_sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2221,PACENOTE,ONTO_NARROWER_ROAD,Onto Narrower,onto_narrower1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2222,PACENOTE,ONTO_WIDER_ROAD,Onto Wider,onto_wider1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2223,PACENOTE,LIFT,Lift,lift1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-2224,PACENOTE,AGAIN,Again,again1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
-2225,PACENOTE,TO_CREST,To Crest,to_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2226,PACENOTE,LEFT_OVER,Left Over_(dist.),left_over1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2227,PACENOTE,RIGHT_OVER,Right Over_(dist.),right_over1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2228,PACENOTE,PRECISE,Precise,precise1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2229,PACENOTE,STAY_OUT,Stay Out,stay_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2230,PACENOTE,BUMPY_BRAKING,Bumpy Braking,bumpy_braking1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2231,PACENOTE,OVER_NARROW_BRIDGE,Over Narrow Bridge,over_narrow_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2232,PACENOTE,GETS_ROUGHER,Gets Rougher,gets_rougher1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-2233,PACENOTE,GETS_SMOOTHER,Gets Smoother,gets_smoother1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-2234,PACENOTE,GETS_FASTER,Gets Faster,gets_faster1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2235,PACENOTE,GETS_SLOWER,Gets Slower,gets_slower1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2236,PACENOTE,SURFACE_CHANGE,Surface Change,surface_change1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-2237,PACENOTE,BUMPS_OVER,Bumps Over_(dist.),bumps_over1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2238,PACENOTE,OVER_ROCKS,Over Rocks,over_rocks1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2239,PACENOTE,ONTO_FIELD,Onto Field,onto_field1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-2240,PACENOTE,FICKLE,Fickle,fickle1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2241,PACENOTE,TO_JUMP,To Jump,to_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2242,PACENOTE,DOUBLE_DONT,Double Don't,double_dont1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2243,PACENOTE,TRIPLE_DONT,Triple Don't,triple_dont1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2244,PACENOTE,IMPORTANT,Important,important1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2245,PACENOTE,CREST_TO_LEFT,Crest To Left,crest_to_left1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2246,PACENOTE,CREST_TO_RIGHT,Crest To Right,crest_to_right1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2247,PACENOTE,MEDIUM_SCALE,4,four_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2248,PACENOTE,FUCKINGLONG,Fucking Long,fuckinglong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2249,PACENOTE,TIGHTENSVERYVERYLONG,Tightens Very Very Long,tightens_veryverylong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2250,PACENOTE,TIGHTENSFUCKINGLONG,Tightens Fucking Long,tightens_fuckinglong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2251,PACENOTE,OPENSVERYVERYLONG,Opens Very Very Long,opens_veryverylong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2252,PACENOTE,OPENSFUCKINGLONG,Opens Fucking Long,opens_fuckinglong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2253,PACENOTE,TIGHTENSSHARP,Tightens Sharp,tightens_sharp1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2254,PACENOTE,TIGHTENSROUND,Tightens Round,tightens_round1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2255,PACENOTE,OPENSSHARP,Opens Sharp,opens_sharp1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2256,PACENOTE,OPENSROUND,Opens Round,opens_round1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2257,PACENOTE,OVER_EARLY_CREST,Over Early Crest,over_early_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2258,PACENOTE,OVER_LATE_CREST,Over Late Crest,over_late_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2259,PACENOTE,BRAKE_10,Brake 10,brake_10_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2260,PACENOTE,BLACK_ICE,Black Ice,black_ice1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-2261,PACENOTE,AT_LOG,At Log,at_log1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2262,PACENOTE,SQUARE_RIGHT_PLUS,2 Right+,two_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2263,PACENOTE,SQUARE_LEFT_PLUS,2 Left+,two_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2264,PACENOTE,TIGHTENSTOSQUARE_PLUS,Tightens 2+,tightens_two_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2265,PACENOTE,TOSQUARE_PLUS,_2+,_two_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
-2266,PACENOTE,POST_EARLY,Post Early,post_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2267,PACENOTE,POST_LATE,Post Late,post_late1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2268,PACENOTE,POSTS,Posts,posts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2269,PACENOTE,OVERCREST_NOLINK,Over Crest,over_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2270,PACENOTE,CARE_NOLINK,Care,care1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2271,PACENOTE,CAUTION_NOLINK,Caution,caution1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2272,PACENOTE,SQUARE_PLUS_SCALE,2+,two_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
-2273,PACENOTE,LATE_CUT,Late Cut,late_cut1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2274,PACENOTE,AT_LOGS,At Logs,at_logs1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
-2275,PACENOTE,NIU_BRAKE_JATKUU,Brake And (NIU),brake_and1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2276,PACENOTE,DEEP,Deep,deep1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2277,PACENOTE,TRUST,Trust,trust1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2405,PACENOTE,LEFTISH,Leftish,leftish1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2406,PACENOTE,RIGHTISH,Rightish,rightish1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
-2501,PACENOTE,NIU_SMALL_CREST_FABZ,Small Crest (NIU),small_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2503,PACENOTE,NIU_BROW,Crest (NIU),crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2507,PACENOTE,TWO_BALES,Two Bales,two_bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2508,PACENOTE,THREE_BALES,Three Bales,three_bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2509,PACENOTE,FOUR_BALES,Four Bales,four_bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2512,PACENOTE,LOGS,Logs,logs1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2515,PACENOTE,GATE,Gate,gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2516,PACENOTE,BIG_JUMP,Big Jump,big_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2521,PACENOTE,BALES,Bales,bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2571,PACENOTE,SURFACE_NOTE,Surface,surface1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
-2600,PACENOTE,BE_BRAVE,Be Brave,be_brave1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-2604,PACENOTE,NIU_WATCH,Precise (NIU),precise1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
-2611,PACENOTE,BALE,Bale,bale1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-2615,PACENOTE,NIU_DAB,Dab (NIU),dab1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
-2622,PACENOTE,TWO_PARTS,Two Parts,two_parts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2623,PACENOTE,THREE_PARTS,Three Parts,three_parts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2624,PACENOTE,FOUR_PARTS,Four Parts,four_parts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2625,PACENOTE,FIVE_PARTS,Five Parts,five_parts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
-2626,PACENOTE,FIVE_BALES,Five Bales,five_bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
-9999,PACENOTE,LINE_CHANGE,,,0,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+id,type,category,name,translation,file,sounds,error,ini
+-1,RANGE,EXTENDED,100,,100.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,1000,,1000.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,120,,120.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,140,,140.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,150,,150.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,160,,160.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,180,,180.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,200,,200.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,250,,250.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,30,,30.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,300,,300.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,350,,350.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,40,,40.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,400,,400.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,450,,450.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,50,,50.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,500,,500.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,60,,60.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,600,,600.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,70,,70.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,700,,700.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,80,,80.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,800,,800.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,RANGE,EXTENDED,900,,900.ogg,3,,ranges/Rbr.ini/packages/Extended.ini/extended/Extended.ini
+-1,PACENOTE,LINKS,AND,Und,and.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,LINKS,CALLOUT_ADJUST,Callout Adjust,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,LINKS,CALLOUT_DISTANCE,Callout Distance,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,LINKS,CALLOUT_TIME,Callout Time,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,CAUTIONS,CAUTION_WATER,Vorsicht Wasser,caution_water.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+-1,PACENOTE,MODIFIER,CUT,Schneiden,cut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,LINKS,DISTANCE_CALL,Distance Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,MODIFIER,DONTCUT,Nicht Schneiden,dontcut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,LINKS,EMPTY_CALL,Empty Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,LINKS,INTO,Hinein,into.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,MODIFIER,LONG,Lang,long.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,MODIFIER,MAYBE,Vielleicht,maybe.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,MODIFIER,NARROWS,Verengung (Straße),narrows.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,LINKS,ONTO,Hinein,onto.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,LINKS,PLACE_HOLDER,Placeholder,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,MODIFIER,SOUND_FILE,Sound File,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,LINKS,SOUND_INDEX,Sound Index,,0,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+-1,PACENOTE,MODIFIER,STANDARD_CALL,Standard Call,,0,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,MODIFIER,TIGHTENS,Verengung,tightens.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,MODIFIER,TIGHTENSBAD,Starke Verengung,tightensbad.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+-1,PACENOTE,MODIFIER,WIDEOUT,Verbreiterung,wideout.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/modifier/Extended.ini
+0,PACENOTE,CORNERS,HAIRPINLEFT,Kehre Links,hairpin_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+1,PACENOTE,CORNERS,90_LEFT,2 Links,two_left_de.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2,PACENOTE,CORNERS,KLEFT,3 Links,three_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+3,PACENOTE,CORNERS,MEDIUMLEFT,4 Links,four_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+4,PACENOTE,CORNERS,FASTLEFT,5 Links,five_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+5,PACENOTE,CORNERS,EASYLEFT,6 Links,six_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+6,PACENOTE,CORNERS,EASYRIGHT,6 Rechts,six_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+7,PACENOTE,CORNERS,FASTRIGHT,5 Rechts,five_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+8,PACENOTE,CORNERS,MEDIUMRIGHT,4 Rechts,four_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+9,PACENOTE,CORNERS,KRIGHT,3 Rechts,three_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+10,PACENOTE,CORNERS,90_RIGHT,2 Rechts,two_right_de.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+11,PACENOTE,CORNERS,HAIRPINRIGHT,Kehre Rechts,hairpin_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+12,PACENOTE,LINE,TWISTY,Kurvenreich,twisty.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+14,PACENOTE,ADDITIONAL,NARROWS,Verengung (Straße),narrows.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+15,PACENOTE,ADDITIONAL,WIDEOUT,Verbreiterung,wideout.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+16,PACENOTE,OBSTACLES,OVERCREST,Über Hügel,overcrest.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+17,PACENOTE,OBSTACLES,FORD,Furt,ford.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+18,PACENOTE,CAUTIONS,CARE,Vorsicht,care.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+19,PACENOTE,OBSTACLES,BUMP,Unebenheit,bump.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+20,PACENOTE,OBSTACLES,JUMP,Sprung,jump.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+22,PACENOTE,LINKS,FINISH,Ziel,finish.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+25,PACENOTE,CORNERS,FLATRIGHT,Voll Rechts,flat_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+26,PACENOTE,CORNERS,FLATLEFT,Voll Links,flat_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+27,PACENOTE,OBSTACLES,BRIDGE,Brücke,bridge.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+28,PACENOTE,LINE,GOSTRAIGHT,Geradeaus,gostraight.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+29,PACENOTE,LINE,KEEPRIGHT,Rechts halten,keepright.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+30,PACENOTE,LINE,KEEPLEFT,Links halten,keepleft.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+31,PACENOTE,LINE,KEEPMIDDLE,Mittig halten,keepmiddle.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+32,PACENOTE,CAUTIONS,CAUTION,Achtung,caution.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+102,PACENOTE,CORNERS,TWO_LEFT,1 Links,one_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+112,PACENOTE,CORNERS,TWO_RIGHT,1 Rechts,one_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+120,PACENOTE,CORNERS,LEFT,Links,left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+121,PACENOTE,CORNERS,RIGHT,Rechts,right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+122,PACENOTE,CORNERS,NIU_RIGHT_INTO,,right_into.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+123,PACENOTE,CORNERS,NIU_LEFT_INTO,,left_into.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+124,PACENOTE,CORNERS,RIGHT_LEFT,Rechts-Links,right_left.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+125,PACENOTE,CORNERS,LEFT_RIGHT,Links-Rechts,left_right.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+126,PACENOTE,CORNERS,RIGHT_AROUND,Rechts Herum,right_around.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+127,PACENOTE,CORNERS,LEFT_AROUND,Links Herum,left_around.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+149,PACENOTE,LINKS,10,10,10_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+150,PACENOTE,LINKS,20,20,20_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+200,PACENOTE,OBSTACLES,OVER_BRIDGE,Über Brücke,over_bridge.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+201,PACENOTE,OBSTACLES,NIU_OVER_RAILS,Über Gleis,over_rails.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+202,PACENOTE,OBSTACLES,NIU_OVER_RAILWAY,Über Schienenstrang,over_railway.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+211,PACENOTE,LINE,NIU_DEEPCUT,Cut Tief,deepcut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+212,PACENOTE,LINE,FULLCUT,Cut Voll,fullcut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+213,PACENOTE,LINE,NA_KEEP_CENTRE,Keskeltä (N/A),keep_middle1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+215,PACENOTE,DRIVING,GO_FULL,Vollgas,go_full.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+216,PACENOTE,ADDITIONAL,FLATOUT,Flatout,flatout.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+217,PACENOTE,CAUTIONS,BRAKE,Bremsen,brake.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+218,PACENOTE,LINE,LIGHT_CUT,Cut Leicht,light_cut.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+219,PACENOTE,DRIVING,HANDBRAKE,Handbremse,handbrake.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+220,PACENOTE,LINE,KEEP_IN,Innen bleiben,keep_in.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+221,PACENOTE,LINE,KEEP_OUT,Aussen bleiben,keep_out.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+223,PACENOTE,LINE,CLIP,Einhängen,clip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+230,PACENOTE,ADDITIONAL,MINUS,Minus,minus.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+231,PACENOTE,ADDITIONAL,NA_MINUSMINUS,MinusMinus,minusminus.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+232,PACENOTE,ADDITIONAL,PLUS,Plus,plus.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+233,PACENOTE,ADDITIONAL,NA_PLUSPLUS,PlusPlus,plusplus.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+234,PACENOTE,LINE,EARLY,Früh,early.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+235,PACENOTE,LINE,LATE,Spät,late.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+236,PACENOTE,ADDITIONAL,EASY,Wenig,easy.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+237,PACENOTE,ADJECTIVES,NA_MUCH,Viel,much.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+238,PACENOTE,ADJECTIVES,NA_MANY,Viele,many.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+239,PACENOTE,ADJECTIVES,NA_VERY,Sehr,very.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+240,PACENOTE,ADDITIONAL,HARD,Stark,hard.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+241,PACENOTE,ADDITIONAL,FAST,Schnell,fast.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+242,PACENOTE,ADDITIONAL,SLOW,Langsam,slow.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+243,PACENOTE,ADJECTIVES,NA_EXACT,Genau,exact.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+243,PACENOTE,CAUTIONS,NIU_EXACT,Genau,exact.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+244,PACENOTE,DRIVING,SLOWING,Langsamer,slowing.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+245,PACENOTE,ADJECTIVES,NA_DIRECTLY,Sofort,directly.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+246,PACENOTE,ADJECTIVES,NA_LIGHT,Leicht,light.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+247,PACENOTE,ADJECTIVES,NA_BIG,Groß,big.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+248,PACENOTE,ADJECTIVES,NA_SMALL,Klein,small.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+249,PACENOTE,ADDITIONAL,SHARP,Spitz,sharp.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+250,PACENOTE,ADDITIONAL,ROUND,Rund,round.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+251,PACENOTE,ADDITIONAL,TIGHT,Eng,tight.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+252,PACENOTE,ADJECTIVES,NA_SLIGHT,Etwas,slight.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+253,PACENOTE,ADJECTIVES,NA_GOOD,Gut,good.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+254,PACENOTE,ADDITIONAL,BAD,Schlecht,bad.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+255,PACENOTE,ADDITIONAL,NARROW,Eng,narrow.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+256,PACENOTE,ADDITIONAL,WIDE,Breit,wide.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+257,PACENOTE,ADJECTIVES,NA_STRAIGHT,Gerade,straight.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+260,PACENOTE,ADDITIONAL,UPHILL,Bergauf,uphill.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+261,PACENOTE,ADDITIONAL,DOWNHILL,Bergab,downhill.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+263,PACENOTE,ADDITIONAL,NIU_LONGLONG,LangLang,longlong.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+264,PACENOTE,ADDITIONAL,SHORT,Kurz,short.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+265,PACENOTE,ADDITIONAL,NA_SHORTSHORT,KurzKurz,shortshort.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+266,PACENOTE,LINE,NA_GONARROW,Wird Enger,gonarrow.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+267,PACENOTE,LINE,GOWIDE,Wird Breiter,gowide.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+268,PACENOTE,CAUTIONS,SLIPPERY,Schmiert,slippery.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+270,PACENOTE,DRIVING,NA_UNDERSTEER,Schiebt,understeer.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+271,PACENOTE,DRIVING,SIDEWAYS,Versetzt,sideways.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+272,PACENOTE,LINE,HOOK,Einhängen,hook.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+273,PACENOTE,DRIVING,NA_DRAWS_IN,Dreht Ein,draws_in.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+274,PACENOTE,ADDITIONAL,VERY_LONG,Sehr Lang,very_long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+275,PACENOTE,ADDITIONAL,NA_VERY_SHORT,Sehr Kurz,very_short.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+277,PACENOTE,CAUTIONS,NIU_SLIPPY,Rutschig,slippy.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+291,PACENOTE,SURFACE,DIRTY,Schmutzig,dirty.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+292,PACENOTE,OBSTACLES,NIU_BUMPY,Bucklig,bumpy.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+293,PACENOTE,ADDITIONAL,CRAMPED,Verengt,cramped.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+294,PACENOTE,ADJECTIVES,NA_POSITIVE,Positiv,positive.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+295,PACENOTE,ADJECTIVES,NA_NEGATIVE,Negativ,negative.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+298,PACENOTE,ADJECTIVES,OPENS,Macht Auf,opens.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+299,PACENOTE,CAUTIONS,FAKES,Täuscht,fakes.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+300,PACENOTE,OBSTACLES,BUMPS,Schwellen,bumps.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+301,PACENOTE,ADDITIONAL,HIDDEN,Versteckt,hidden.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+302,PACENOTE,ADDITIONAL,NIU_BLIND,Blind,blind.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+303,PACENOTE,CAUTIONS,DOUBLE_CAUTION,Gut Aufpassen,double_caution.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+304,PACENOTE,CAUTIONS,NA_TRIPLE_CAUTION,Höchste Vorsicht,triple_caution.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+320,PACENOTE,SURFACE,GRAVEL,Schotter,gravel.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+321,PACENOTE,SURFACE,TARMAC,Asphalt,tarmac.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+322,PACENOTE,SURFACE,CONCRETE,Beton,concrete.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+323,PACENOTE,SURFACE,COBBLES,Cobbles,cobbles1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+324,PACENOTE,SURFACE,NA_GRIT,Kies,grit.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+325,PACENOTE,SURFACE,SNOW,Schnee,snow.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+326,PACENOTE,SURFACE,NA_ONSPLIT,Splitt,onsplit.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+327,PACENOTE,SURFACE,ICY,Eisig,icy.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+328,PACENOTE,SURFACE,NA_RUBBLE,Geröll,rubble.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+329,PACENOTE,SURFACE,NIU_ICE,Eis,ice.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+330,PACENOTE,SURFACE,NA_LOOSE_GRAVEL,Loser Schotter,loose_gravel.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+340,PACENOTE,OBSTACLES,CREST,Kuppe,crest.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+342,PACENOTE,ADDITIONAL,CAMBER,Wölbung,camber.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+343,PACENOTE,ADDITIONAL,NIU_REVERSE_CAMBER,Wanne,reverse_camber.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+344,PACENOTE,OBSTACLES,HOLE,Loch,hole.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+345,PACENOTE,OBSTACLES,RUTS,Rillen,ruts.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+346,PACENOTE,OBSTACLES,DEEPRUTS,Tiefe Rillen,deepruts.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+347,PACENOTE,CAUTIONS,NA_BORDER,Rand,border.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+348,PACENOTE,CAUTIONS,NA_EDGE,Kante,edge.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+349,PACENOTE,CAUTIONS,NA_CURB,Bordstein,curb.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+350,PACENOTE,CAUTIONS,NA_DITCH,Graben,ditch.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+351,PACENOTE,ADDITIONAL,JUNCTION,Abzweig,junction.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+353,PACENOTE,ADDITIONAL,TURN,Abbiegen,turn.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+354,PACENOTE,OBSTACLES,NIU_STEEP_DROP,Steiler Abhang,steep_drop.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+355,PACENOTE,ADDITIONAL,BADCAMBER,Starke Wölbung,bad_camber.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+356,PACENOTE,CAUTIONS,NA_SHOULDER,Bankett,shoulder.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+357,PACENOTE,CAUTIONS,NA_STEEP_HILL,Steiles Gefälle,steep_hill.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+358,PACENOTE,CAUTIONS,NA_STEEP_INCLINE,Steiler Anstieg,steep_incline.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+359,PACENOTE,CAUTIONS,NA_STEEP_SLOPE,Steilhang,steep_slope.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+361,PACENOTE,OBSTACLES,DIP,Abhang,dip.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+362,PACENOTE,OBSTACLES,DROPS,Drops,drops1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+367,PACENOTE,ADDITIONAL,NIU_NEGATIVE_CAMBER,Bad Camber (NIU),badcamber1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+368,PACENOTE,ADDITIONAL,NIU_POSITIVE_CAMBER,Camber (NIU),camber1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+369,PACENOTE,OBSTACLES,NIU_COMPRESSION,Dip (NIU),dip1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+370,PACENOTE,CONSTRUCTION,NA_FENCE,Zaun,fence.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+371,PACENOTE,CONSTRUCTION,NA_WALL,Mauer,wall.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+372,PACENOTE,CONSTRUCTION,NA_HOUSE,Haus,house.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+373,PACENOTE,OBSTACLES,NA_TREE,Baum,tree.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+374,PACENOTE,OBSTACLES,NA_STUMP,Stumpf,stump.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+375,PACENOTE,CONSTRUCTION,NA_MAST,Mast,mast.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+376,PACENOTE,CONSTRUCTION,NIU_POST,Pfosten,post.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+377,PACENOTE,CONSTRUCTION,NA_ISLAND,Kreisel,island.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+378,PACENOTE,CORNERS,CHICANE,Schikane,chicane.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+379,PACENOTE,OBSTACLES,NA_STONE,Stein,stone.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+380,PACENOTE,OBSTACLES,NA_ROCK,Fels,rock.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+381,PACENOTE,OBSTACLES,TUNNEL,Tunnel,tunnel.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+382,PACENOTE,CONSTRUCTION,NA_ROAD,Straße,road.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+384,PACENOTE,OBSTACLES,RAILS,Gleis,rails.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+385,PACENOTE,OBSTACLES,NA_SIGN,Schild,sign.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+386,PACENOTE,OBSTACLES,NA_BUSH,Busch,bush.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+387,PACENOTE,CONSTRUCTION,NA_PATH,Weg,path.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+388,PACENOTE,OBSTACLES,NIU_WATER,Wasser,water.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+389,PACENOTE,OBSTACLES,NIU_PUDDLE,Pfütze,puddle.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+390,PACENOTE,OBSTACLES,NA_NETTING,Netting (N/A),netting.ogg,1,Not found: netting.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+391,PACENOTE,OBSTACLES,NA_TAPE,Tape (N/A),tape.ogg,1,Not found: tape.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+392,PACENOTE,CORNERS,LEFT_ENTRY_CHICANE,Schikane Eingang Links,left_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+393,PACENOTE,CORNERS,RIGHT_ENTRY_CHICANE,Schikane Eingang Rechts,right_entry_chicane.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+394,PACENOTE,OBSTACLES,NA_TYRES,Tyres (N/A),tyres.ogg,1,Not found: tyres.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+395,PACENOTE,OBSTACLES,NA_SPECTATORS,Spectators (N/A),spectators.ogg,1,Not found: spectators.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+396,PACENOTE,OBSTACLES,NA_MARSHALLS,Marshalls (N/A),marshalls.ogg,1,Not found: marshalls.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+397,PACENOTE,OBSTACLES,NA_BARRELS,Barrels (N/A),barrels.ogg,1,Not found: barrels.ogg,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+399,PACENOTE,CONSTRUCTION,NA_ROUNDABOUT,Kreisverkehr,roundabout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+400,PACENOTE,PREPOSITIONS,NA_THROUGH,Durch,through.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+401,PACENOTE,PREPOSITIONS,NA_AFTER,Nach,after.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+402,PACENOTE,PREPOSITIONS,NA_NEAR,Nahe,near.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+403,PACENOTE,PREPOSITIONS,NA_ON,Auf,on.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+404,PACENOTE,PREPOSITIONS,NA_UNTIL,Bis,until.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+405,PACENOTE,PREPOSITIONS,NA_AT,Bei,at.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+406,PACENOTE,PREPOSITIONS,NA_BEFORE,Vor,before.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+407,PACENOTE,PREPOSITIONS,NA_OVER,Über,over.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+408,PACENOTE,ADDITIONAL,NIU_IN,In,in.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+409,PACENOTE,PREPOSITIONS,NA_BEHIND,Hinter,behind.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+410,PACENOTE,PREPOSITIONS,NA_FOR,Für,for.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+411,PACENOTE,ADDITIONAL,INSIDE,Innen,inside.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+412,PACENOTE,ADDITIONAL,OUTSIDE,Außen,outside.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+413,PACENOTE,PREPOSITIONS,NA_THEN,Then (N/A),then.ogg,1,Not found: then.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+414,PACENOTE,PREPOSITIONS,NA_OFF,Off (N/A),off.ogg,1,Not found: off.ogg,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+430,PACENOTE,LINKS,DONE,Ende,done.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+431,PACENOTE,DRIVING,STOP,Stop,stop.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+432,PACENOTE,LINE,LINE_NOTE,Linie,line.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+435,PACENOTE,LINKS,NEXT_LAP,Onto Next Lap,onto_nextlap1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+436,PACENOTE,LINKS,TAKE_EXIT,Onto Finish,onto_finish1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+443,PACENOTE,CONSTRUCTION,NA_WOODEN_FENCE,Holzzaun,wooden_fence.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+540,PACENOTE,SURFACE,ONTO_GRAVEL,Auf Schotter,onto_gravel.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+541,PACENOTE,SURFACE,ONTO_TARMAC,Auf Asphalt,onto_tarmac.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+542,PACENOTE,SURFACE,ONTO_CONCRETE,Auf Beton,onto_concrete.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+543,PACENOTE,SURFACE,ONTO_COBBLES,Onto Cobbles,onto_cobbles1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+544,PACENOTE,SURFACE,NA_ONTO_GRIT,Auf Kies,onto_grit.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+545,PACENOTE,SURFACE,ONTO_SNOW,Auf Schnee,onto_snow.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+549,PACENOTE,LINE,NIU_HOLD,Halten,hold.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+550,PACENOTE,DRIVING,NA_TAKE_SPEED,Speed Mit,take_speed.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+551,PACENOTE,DRIVING,L_FOOT_BRAKING,LinksFussBremsen,l_foot_braking.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+555,PACENOTE,LINE,NA_TO_SIGHT_DISTANCE,Bis Sicht,to_sight_distance.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+556,PACENOTE,LINKS,SPLIT_TIME,Zeit,split_time.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+557,PACENOTE,PREPOSITIONS,ENTRY,Eingang,entry.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2001,PACENOTE,ADJECTIVES,TIGHTENSTOSIX,Macht zu 6*,tightens6.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2002,PACENOTE,ADJECTIVES,TIGHTENSTOFIVE,Macht zu 5*,tightens5.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2003,PACENOTE,ADJECTIVES,TIGHTENSTOFOUR,Macht zu 4*,tightens4.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2004,PACENOTE,ADJECTIVES,TIGHTENSTOTHREE,Macht zu 3*,tightens3.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2005,PACENOTE,ADJECTIVES,TIGHTENSTOTWO,Macht zu 2*,tightens2.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2006,PACENOTE,ADJECTIVES,TIGHTENSTOONE,Macht zu 1*,tightens1.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2007,PACENOTE,ADJECTIVES,TIGHTENSTOHP,Tightens Hairpin,tightens_hp1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2008,PACENOTE,ADJECTIVES,TOSIX,6*,6.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2009,PACENOTE,ADJECTIVES,TOFIVE,5*,5.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2010,PACENOTE,ADJECTIVES,TOFOUR,4*,4.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2011,PACENOTE,ADJECTIVES,TOTHREE,3*,3.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2012,PACENOTE,ADJECTIVES,TOTWO,2*,two_de.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2013,PACENOTE,ADJECTIVES,TOONE,1*,1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2014,PACENOTE,ADJECTIVES,TOHP,_Hairpin,_hp1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2015,PACENOTE,ADJECTIVES,TIGHTENSLATE,Macht Spät Zu,tightenslate.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2016,PACENOTE,LINE,DONTCUTEARLY,Don't Early,dont_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2017,PACENOTE,LINE,DONTCUTLATE,Don't Late,dont_late1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2018,PACENOTE,ADJECTIVES,OPENSTIGHTENS,Macht Auf und Zu,openstightens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2019,PACENOTE,ADJECTIVES,TIGHTENSOPENS,Macht Zu und Auf,tightensopens.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2020,PACENOTE,LINE,NIU_HANG,,keep_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2021,PACENOTE,CAUTIONS,CAREIN,Vorsicht Innen*,carein.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2022,PACENOTE,CAUTIONS,CAREOUT,Vorsicht Außen*,careout.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2023,PACENOTE,LINE,NIU_HAE,Hae (NIU),line1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2024,PACENOTE,OBSTACLES,TODIP,To Dip,to_dip1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2025,PACENOTE,LINKS,NIU_JATKUU,And (NIU),and1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2026,PACENOTE,CORNERS,FLAT_SCALE,Flat,flat_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2027,PACENOTE,ADJECTIVES,TIGHTENSTOACUTE,Tightens Acute,tightens_acute1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2028,PACENOTE,ADJECTIVES,TOACUTE,_Acute,_acute1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2029,PACENOTE,OBSTACLES,CONTINUESOVERCREST,Halten über Kuppe,continuesovercrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2030,PACENOTE,LINKS,IMMEDIATE,Immediate,immediate1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2031,PACENOTE,ADJECTIVES,NIPS,Nips,nips1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2032,PACENOTE,ADJECTIVES,OPENSLITTLE,Opens A Bit,opens_abit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2033,PACENOTE,ADJECTIVES,OPENSLONG,Opens Long,opens_long1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2034,PACENOTE,ADJECTIVES,OPENSVERYLONG,Opens Very Long,opens_verylong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2035,PACENOTE,ADJECTIVES,OPENSEARLY,Opens Early,opens_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2036,PACENOTE,ADJECTIVES,OPENSATJUNCTION,Opens At Junction,opens_at_junction1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2037,PACENOTE,ADJECTIVES,OPENSOVERCREST,Opens Over Crest,opens_overcrest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2038,PACENOTE,ADDITIONAL,SCALEPLUS,Scale Plus,scale_plus1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2039,PACENOTE,ADDITIONAL,SCALEMINUS,Scale Minus,scale_minus1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2040,PACENOTE,CORNERS,ACUTE_LEFT,Acute Left,acute_left1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2041,PACENOTE,CORNERS,ACUTE_RIGHT,Acute Right,acute_right1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2042,PACENOTE,ADJECTIVES,TIGHTENSEARLY,Tightens Early,tightens_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2043,PACENOTE,ADJECTIVES,TIGHTENSLITTLE,Tightens A Bit,tightens_abit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2044,PACENOTE,ADJECTIVES,TIGHTENSLONG,Tightens Long,tightens_long1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2045,PACENOTE,ADJECTIVES,TIGHTENSVERYLONG,Tightens Very Long,tightens_verylong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2046,PACENOTE,ADJECTIVES,TIGHTENSATJUNCTION,Tightens At Junction,tightens_at_junction1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2047,PACENOTE,ADJECTIVES,TIGHTENSOVERCREST,Tightens Over Crest,tightens_overcrest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2048,PACENOTE,DRIVING,WALK,Walk,walk1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+2049,PACENOTE,DRIVING,NEAT,Neat,neat1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+2050,PACENOTE,CORNERS,FLATRIGHTMINUS,6 Right+,six_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2051,PACENOTE,CORNERS,QUICKRIGHT,5 Right+,five_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2052,PACENOTE,CORNERS,EMRIGHT,4 Right+,four_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2053,PACENOTE,CORNERS,PLUSRIGHT,3 Right+,three_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2054,PACENOTE,CORNERS,MINUSRIGHT,1 Right+,one_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2055,PACENOTE,CORNERS,VERYSLOWRIGHT,Hairpin Right+,hp_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2056,PACENOTE,CORNERS,FLATLEFTMINUS,6 Left+,six_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2057,PACENOTE,CORNERS,QUICKLEFT,5 Left+,five_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2058,PACENOTE,CORNERS,EMLEFT,4 Left+,four_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2059,PACENOTE,CORNERS,PLUSLEFT,3 Left+,three_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2060,PACENOTE,CORNERS,MINUSLEFT,1 Left+,one_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2061,PACENOTE,CORNERS,VERYSLOWLEFT,Hairpin Left+,hp_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2062,PACENOTE,ADJECTIVES,TIGHTENSTOFLATMINUS,Tightens 6+,tightens_six_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2063,PACENOTE,ADJECTIVES,TIGHTENSTOQUICK,Tightens 5+,tightens_five_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2064,PACENOTE,ADJECTIVES,TIGHTENSTOEM,Tightens 4+,tightens_four_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2065,PACENOTE,ADJECTIVES,TIGHTENSTOPLUS,Tightens 3+,tightens_three_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2066,PACENOTE,ADJECTIVES,TIGHTENSTOMINUS,Tightens 1+,tightens_one_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2067,PACENOTE,ADJECTIVES,TIGHTENSTOVERYSLOW,Tightens Hairpin+,tightens_hp_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2068,PACENOTE,ADJECTIVES,TOFLATMINUS,_6+,_six_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2069,PACENOTE,ADJECTIVES,TOQUICK,_5+,_five_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2070,PACENOTE,ADJECTIVES,TOEM,_4+,_four_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2071,PACENOTE,ADJECTIVES,TOPLUS,_3+,_three_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2072,PACENOTE,ADJECTIVES,TOMINUS,_1+,_one_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2073,PACENOTE,ADJECTIVES,TOVERYSLOW,_Hairpin+,_hp_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2074,PACENOTE,CORNERS,FLATMINUS_SCALE,6+,six_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2075,PACENOTE,CORNERS,EASY_SCALE,6,six_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2076,PACENOTE,CORNERS,QUICK_SCALE,5+,five_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2077,PACENOTE,CORNERS,FAST_SCALE,5,five_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2078,PACENOTE,CORNERS,EM_SCALE,4+,four_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2079,PACENOTE,CORNERS,PLUS_SCALE,3+,three_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2080,PACENOTE,CORNERS,K_SCALE,3,three_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2081,PACENOTE,CORNERS,SQUARE_SCALE,2,two_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2082,PACENOTE,CORNERS,MINUS_SCALE,1+,one_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2083,PACENOTE,CORNERS,SLOW_SCALE,1,one_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2084,PACENOTE,CORNERS,VERYSLOW_SCALE,Hairpin+,hp_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2085,PACENOTE,ADDITIONAL,REMEMBER,Remember,remember1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2086,PACENOTE,ADDITIONAL,PATIENT,Patient,patient1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2087,PACENOTE,OBSTACLES,SMALL_JUMP,Small Jump,small_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2088,PACENOTE,OBSTACLES,OVER_BIG_JUMP,Over Big Jump,over_big_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2089,PACENOTE,OBSTACLES,CONTINUESOVERSMALLCREST,Continues Over Small Crest,continues_over_small_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2090,PACENOTE,OBSTACLES,LONGCREST,Long Crest,long_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2091,PACENOTE,OBSTACLES,RUT,Rut,rut1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2092,PACENOTE,OBSTACLES,TO_BUMP,(Jump) To Bump,to_bump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2093,PACENOTE,LINE,TWISTY_FROMLEFT,Twisty From Left,twisty_from_left1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2094,PACENOTE,LINE,TWISTY_FROMRIGHT,Twisty From Right,twisty_from_right1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2095,PACENOTE,LINE,DONTBLOCK,Post,post1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2096,PACENOTE,LINE,GRIP_MIDDLE,Grip Middle,grip_middle1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2097,PACENOTE,LINE,GRIP_IN,Grip In,grip_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2098,PACENOTE,LINE,GRIP_OUT,Grip Out,grip_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2099,PACENOTE,LINE,GO_ROUND,Go Round,go_round1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2100,PACENOTE,LINE,FROM_LEFT,From Left,from_left1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2101,PACENOTE,LINE,FROM_RIGHT,From Right,from_right1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2102,PACENOTE,ADDITIONAL,DOUBLE,Double,double1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2103,PACENOTE,ADDITIONAL,HALF_LONG,Halflong,halflong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2104,PACENOTE,ADJECTIVES,NIU_LOIVA_ALKU,Late (NIU),late1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2105,PACENOTE,LINKS,TO_FINISH,To Finish,tofinish1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2106,PACENOTE,OBSTACLES,FLAT_JUMP,Sprung Voll,jumpfull.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2107,PACENOTE,OBSTACLES,JUMP_DAB,Jump Dab,jump_dab1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2108,PACENOTE,OBSTACLES,OVER_JUMP,Über Sprung,overjump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2109,PACENOTE,OBSTACLES,SMALL_CREST,Kuppe Klein,smallcrest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2110,PACENOTE,LINKS,DIST21,21,21_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2111,PACENOTE,LINKS,DIST31,31,31_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2112,PACENOTE,LINKS,DIST41,41,41_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2113,PACENOTE,LINKS,DIST51,51,51_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2114,PACENOTE,LINKS,DIST61,61,61_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2115,PACENOTE,LINKS,DIST71,71,71_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2116,PACENOTE,LINKS,DIST81,81,81_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2117,PACENOTE,LINKS,DIST101,101,101_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2118,PACENOTE,LINKS,DIST121,121,121_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2119,PACENOTE,LINKS,DIST141,141,141_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2120,PACENOTE,LINKS,DIST151,151,151_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2121,PACENOTE,LINKS,DIST161,161,161_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2122,PACENOTE,LINKS,DIST181,181,181_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2123,PACENOTE,LINKS,DIST201,201,201_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2124,PACENOTE,LINKS,DIST251,251,251_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2125,PACENOTE,LINKS,DIST301,301,301_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2126,PACENOTE,LINKS,DIST351,351,351_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2127,PACENOTE,LINKS,DIST401,401,401_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2128,PACENOTE,LINKS,DIST451,451,451_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2129,PACENOTE,LINKS,DIST501,501,501_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2130,PACENOTE,LINKS,DIST601,601,601_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2131,PACENOTE,LINKS,DIST701,701,701_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2132,PACENOTE,LINKS,DIST801,801,801_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2133,PACENOTE,LINKS,DIST901,901,901_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2134,PACENOTE,LINKS,DIST1001,1001,1001_1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2135,PACENOTE,CONSTRUCTION,BALE_IN,Bale In,bale_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2136,PACENOTE,CONSTRUCTION,BALE_OUT,Bale Out,bale_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2137,PACENOTE,CONSTRUCTION,TIRES_IN,Tires In,tires_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2138,PACENOTE,CONSTRUCTION,TIRES_OUT,Tires Out,tires_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2139,PACENOTE,CONSTRUCTION,ROCK_IN,Stone In,rock_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2140,PACENOTE,CONSTRUCTION,ROCK_OUT,Stone Out,rock_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2141,PACENOTE,CONSTRUCTION,FENCE_IN,Fence In,fence_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2142,PACENOTE,CONSTRUCTION,FENCE_OUT,Fence Out,fence_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2143,PACENOTE,CONSTRUCTION,TREE_IN,Tree In,tree_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2144,PACENOTE,CONSTRUCTION,TREE_OUT,Tree Out,tree_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2145,PACENOTE,CONSTRUCTION,DITCH_IN,Ditch In,ditch_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2146,PACENOTE,CONSTRUCTION,DITCH_OUT,Ditch Out,ditch_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2147,PACENOTE,CONSTRUCTION,DROP_IN,Drop In,drop_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2148,PACENOTE,CONSTRUCTION,DROP_OUT,Drop Out,drop_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2149,PACENOTE,CONSTRUCTION,HOUSE_IN,House In,house_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2150,PACENOTE,CONSTRUCTION,HOUSE_OUT,House Out,house_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2151,PACENOTE,CONSTRUCTION,NIU_BARRIER_IN,Fence In (NIU),fence_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2152,PACENOTE,CONSTRUCTION,NIU_BARRIER_OUT,Fence Out (NIU),fence_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2153,PACENOTE,CONSTRUCTION,SIGN_IN,Sign In,sign_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2154,PACENOTE,CONSTRUCTION,SIGN_OUT,Sign Out,sign_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2155,PACENOTE,CONSTRUCTION,POST_IN,Post In,post_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2156,PACENOTE,CONSTRUCTION,POST_OUT,Post Out,post_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2157,PACENOTE,CONSTRUCTION,LOG_IN,Log In,log_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2158,PACENOTE,CONSTRUCTION,LOG_OUT,Log Out,log_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2159,PACENOTE,LINE,CUT_THROUGH,Cut Through,cut_through1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2160,PACENOTE,PREPOSITIONS,AT_TREE,At Tree,at_tree1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2161,PACENOTE,PREPOSITIONS,AT_TREES,At Trees,at_trees1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2162,PACENOTE,PREPOSITIONS,AT_BALE,At Bale,at_bale1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2163,PACENOTE,PREPOSITIONS,AT_ROCK,At Rock,at_rock1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2164,PACENOTE,PREPOSITIONS,AT_GUARDRAIL,At Guardrail,at_guardrail1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2165,PACENOTE,PREPOSITIONS,AT_BANNER,At Banner,at_banner1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2166,PACENOTE,PREPOSITIONS,AT_TAPE,At Tape,at_tape1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2167,PACENOTE,PREPOSITIONS,AT_FENCE,At Fence,at_fence1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2168,PACENOTE,PREPOSITIONS,AT_FLAG,At Flag,at_flag1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2169,PACENOTE,PREPOSITIONS,AT_HOUSE,At House,at_house1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2170,PACENOTE,PREPOSITIONS,AT_SIGN,At Sign,at_sign1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2171,PACENOTE,PREPOSITIONS,AT_POST,At Post,at_post1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2172,PACENOTE,PREPOSITIONS,AT_JUNCTION,At Junction,at_junction1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2173,PACENOTE,PREPOSITIONS,AT_CREST,At Crest,at_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2174,PACENOTE,PREPOSITIONS,AT_GATE,At Gate,at_gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2175,PACENOTE,PREPOSITIONS,AT_BRIDGE,At Bridge,at_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2176,PACENOTE,CAUTIONS,BRAKE_INTO,Brake Into,brake_into1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2177,PACENOTE,CAUTIONS,BRAKE_AND,Brake And,brake_and1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2178,PACENOTE,CAUTIONS,BRAKE_20,Brake 20,brake_20_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2179,PACENOTE,CAUTIONS,BRAKE_30,Brake 30,brake_30_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2180,PACENOTE,CAUTIONS,BRAKE_40,Brake 40,brake_40_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2181,PACENOTE,CAUTIONS,BRAKE_50,Brake 50,brake_50_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2182,PACENOTE,CAUTIONS,SLIPPY_BRAKING,Slippy Braking,slippy_braking1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2183,PACENOTE,CAUTIONS,SLIPPY_ENTRY,Slippy Entry,slippy_entry1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2184,PACENOTE,CAUTIONS,SLIPPY_EXIT,Slippy Exit,slippy_exit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2185,PACENOTE,ADDITIONAL,SUMPPU,Sumppu,sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2186,PACENOTE,ADDITIONAL,WIDENS,Widens,widens1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2187,PACENOTE,ADJECTIVES,TIGHTENSSUMPPU,Tightens Sumppu,tightens_sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2188,PACENOTE,OBSTACLES,JUMP_MAYBE,Jump Maybe,jump_maybe1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2189,PACENOTE,OBSTACLES,OVER_SMALL_JUMP,Over Small Jump,over_small_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2190,PACENOTE,OBSTACLES,OVER_JUMP_DAB,Over Jump Dab,over_jump_dab1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2191,PACENOTE,OBSTACLES,OVERSMALLCREST,Over Small Crest,over_small_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2192,PACENOTE,OBSTACLES,OVERLONGCREST,Over Long Crest,over_long_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2193,PACENOTE,OBSTACLES,OVERTWOCRESTS,Over Two Crests,over_two_crests1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2194,PACENOTE,OBSTACLES,OVERTHREECRESTS,Over Three Crests,over_three_crests1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2195,PACENOTE,OBSTACLES,DOUBLECREST,Double Crest,double_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2196,PACENOTE,OBSTACLES,DOUBLE_JUMP,Double Jump,double_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2197,PACENOTE,LINE,ONTO_STRAIGHT,Onto Straight,onto_straight1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2198,PACENOTE,PREPOSITIONS,AT_EXIT,At Exit,at_exit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2199,PACENOTE,PREPOSITIONS,AT_OPENING,At Opening,at_opening1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2200,PACENOTE,CONSTRUCTION,LOGS_IN,Logs In,logs_in1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2201,PACENOTE,CONSTRUCTION,LOGS_OUT,Logs Out,logs_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/construction/Extended.ini
+2202,PACENOTE,CORNERS,SHORT_LEFT,Short Left,short_left1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2203,PACENOTE,CORNERS,SHORT_RIGHT,Short Right,short_right1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2204,PACENOTE,CAUTIONS,SLIPPERY_MAYBE,Maybe Slippy,maybe_slippy1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2205,PACENOTE,CORNERS,DONUT_RIGHT,Donut Right,donut_right1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2206,PACENOTE,CORNERS,DONUT_LEFT,Donut Left,donut_left1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2207,PACENOTE,CORNERS,HP_SCALE,Hairpin,hp_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2208,PACENOTE,CORNERS,ACUTE_SCALE,Acute,acute_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2209,PACENOTE,ADDITIONAL,PAST_JUNCTION,Past Junction,past_junction1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2210,PACENOTE,OBSTACLES,ONTO_BRIDGE,Onto Bridge,onto_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2211,PACENOTE,OBSTACLES,NARROW_BRIDGE,Narrow Bridge,narrow_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2212,PACENOTE,OBSTACLES,ONTO_NARROW_BRIDGE,Onto Narrow Bridge,onto_narrow_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2213,PACENOTE,OBSTACLES,THROUGH_GATE,Through Gate,through_gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2214,PACENOTE,OBSTACLES,NARROW_GATE,Narrow Gate,narrow_gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2215,PACENOTE,OBSTACLES,THROUGH_NARROW_GATE,Through Narrow Gate,through_narrow_gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2216,PACENOTE,ADDITIONAL,EXTRAEXTRALONG,Very Very Long,veryverylong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2217,PACENOTE,CAUTIONS,VERY_SLIPPY,Very Slippy,very_slippy1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2218,PACENOTE,PREPOSITIONS,AT_BUSH,At Bush,at_bush1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2219,PACENOTE,ADDITIONAL,BIG_SUMPPU,Big Sumppu,big_sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2220,PACENOTE,ADDITIONAL,SMALL_SUMPPU,Small Sumppu,small_sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2221,PACENOTE,ADDITIONAL,ONTO_NARROWER_ROAD,Onto Narrower,onto_narrower1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2222,PACENOTE,ADDITIONAL,ONTO_WIDER_ROAD,Onto Wider,onto_wider1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2223,PACENOTE,DRIVING,LIFT,Lift,lift1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+2224,PACENOTE,LINKS,AGAIN,Again,again1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini
+2225,PACENOTE,OBSTACLES,TO_CREST,To Crest,to_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2226,PACENOTE,CORNERS,LEFT_OVER,Left Over_(dist.),left_over1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2227,PACENOTE,CORNERS,RIGHT_OVER,Right Over_(dist.),right_over1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2228,PACENOTE,CAUTIONS,PRECISE,Precise,precise1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2229,PACENOTE,LINE,STAY_OUT,Stay Out,stay_out1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2230,PACENOTE,CAUTIONS,BUMPY_BRAKING,Bumpy Braking,bumpy_braking1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2231,PACENOTE,OBSTACLES,OVER_NARROW_BRIDGE,Over Narrow Bridge,over_narrow_bridge1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2232,PACENOTE,SURFACE,GETS_ROUGHER,Gets Rougher,gets_rougher1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+2233,PACENOTE,SURFACE,GETS_SMOOTHER,Gets Smoother,gets_smoother1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+2234,PACENOTE,ADDITIONAL,GETS_FASTER,Gets Faster,gets_faster1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2235,PACENOTE,ADDITIONAL,GETS_SLOWER,Gets Slower,gets_slower1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2236,PACENOTE,SURFACE,SURFACE_CHANGE,Surface Change,surface_change1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+2237,PACENOTE,OBSTACLES,BUMPS_OVER,Bumps Over_(dist.),bumps_over1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2238,PACENOTE,OBSTACLES,OVER_ROCKS,Over Rocks,over_rocks1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2239,PACENOTE,SURFACE,ONTO_FIELD,Onto Field,onto_field1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+2240,PACENOTE,ADDITIONAL,FICKLE,Fickle,fickle1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2241,PACENOTE,OBSTACLES,TO_JUMP,To Jump,to_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2242,PACENOTE,LINE,DOUBLE_DONT,Double Don't,double_dont1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2243,PACENOTE,LINE,TRIPLE_DONT,Triple Don't,triple_dont1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2244,PACENOTE,ADDITIONAL,IMPORTANT,Important,important1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2245,PACENOTE,OBSTACLES,CREST_TO_LEFT,Crest To Left,crest_to_left1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2246,PACENOTE,OBSTACLES,CREST_TO_RIGHT,Crest To Right,crest_to_right1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2247,PACENOTE,CORNERS,MEDIUM_SCALE,4,four_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2248,PACENOTE,ADDITIONAL,FUCKINGLONG,Fucking Long,fuckinglong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2249,PACENOTE,ADJECTIVES,TIGHTENSVERYVERYLONG,Tightens Very Very Long,tightens_veryverylong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2250,PACENOTE,ADJECTIVES,TIGHTENSFUCKINGLONG,Tightens Fucking Long,tightens_fuckinglong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2251,PACENOTE,ADJECTIVES,OPENSVERYVERYLONG,Opens Very Very Long,opens_veryverylong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2252,PACENOTE,ADJECTIVES,OPENSFUCKINGLONG,Opens Fucking Long,opens_fuckinglong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2253,PACENOTE,ADJECTIVES,TIGHTENSSHARP,Tightens Sharp,tightens_sharp1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2254,PACENOTE,ADJECTIVES,TIGHTENSROUND,Tightens Round,tightens_round1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2255,PACENOTE,ADJECTIVES,OPENSSHARP,Opens Sharp,opens_sharp1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2256,PACENOTE,ADJECTIVES,OPENSROUND,Opens Round,opens_round1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2257,PACENOTE,OBSTACLES,OVER_EARLY_CREST,Over Early Crest,over_early_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2258,PACENOTE,OBSTACLES,OVER_LATE_CREST,Over Late Crest,over_late_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2259,PACENOTE,CAUTIONS,BRAKE_10,Brake 10,brake_10_1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2260,PACENOTE,SURFACE,BLACK_ICE,Black Ice,black_ice1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+2261,PACENOTE,PREPOSITIONS,AT_LOG,At Log,at_log1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2262,PACENOTE,CORNERS,SQUARE_RIGHT_PLUS,2 Right+,two_right_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2263,PACENOTE,CORNERS,SQUARE_LEFT_PLUS,2 Left+,two_left_plus1.ogg,4,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2264,PACENOTE,ADJECTIVES,TIGHTENSTOSQUARE_PLUS,Tightens 2+,tightens_two_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2265,PACENOTE,ADJECTIVES,TOSQUARE_PLUS,_2+,_two_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini
+2266,PACENOTE,LINE,POST_EARLY,Post Early,post_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2267,PACENOTE,LINE,POST_LATE,Post Late,post_late1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2268,PACENOTE,LINE,POSTS,Posts,posts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2269,PACENOTE,OBSTACLES,OVERCREST_NOLINK,Over Crest,over_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2270,PACENOTE,CAUTIONS,CARE_NOLINK,Care,care1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2271,PACENOTE,CAUTIONS,CAUTION_NOLINK,Caution,caution1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2272,PACENOTE,CORNERS,SQUARE_PLUS_SCALE,2+,two_plus_scale1.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini
+2273,PACENOTE,LINE,LATE_CUT,Late Cut,late_cut1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2274,PACENOTE,PREPOSITIONS,AT_LOGS,At Logs,at_logs1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini
+2275,PACENOTE,CAUTIONS,NIU_BRAKE_JATKUU,Brake And (NIU),brake_and1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2276,PACENOTE,ADDITIONAL,DEEP,Deep,deep1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2277,PACENOTE,ADDITIONAL,TRUST,Trust,trust1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2405,PACENOTE,LINE,LEFTISH,Leftish,leftish1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2406,PACENOTE,LINE,RIGHTISH,Rightish,rightish1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini
+2501,PACENOTE,OBSTACLES,NIU_SMALL_CREST_FABZ,Small Crest (NIU),small_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2503,PACENOTE,OBSTACLES,NIU_BROW,Crest (NIU),crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2507,PACENOTE,OBSTACLES,TWO_BALES,Two Bales,two_bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2508,PACENOTE,OBSTACLES,THREE_BALES,Three Bales,three_bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2509,PACENOTE,OBSTACLES,FOUR_BALES,Four Bales,four_bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2512,PACENOTE,OBSTACLES,LOGS,Logs,logs1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2515,PACENOTE,OBSTACLES,GATE,Gate,gate1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2516,PACENOTE,OBSTACLES,BIG_JUMP,Big Jump,big_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2521,PACENOTE,OBSTACLES,BALES,Bales,bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2571,PACENOTE,SURFACE,SURFACE_NOTE,Surface,surface1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/surface/Extended.ini
+2600,PACENOTE,DRIVING,BE_BRAVE,Be Brave,be_brave1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+2604,PACENOTE,CAUTIONS,NIU_WATCH,Precise (NIU),precise1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini
+2611,PACENOTE,OBSTACLES,BALE,Bale,bale1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+2615,PACENOTE,DRIVING,NIU_DAB,Dab (NIU),dab1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini
+2622,PACENOTE,ADDITIONAL,TWO_PARTS,Two Parts,two_parts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2623,PACENOTE,ADDITIONAL,THREE_PARTS,Three Parts,three_parts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2624,PACENOTE,ADDITIONAL,FOUR_PARTS,Four Parts,four_parts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2625,PACENOTE,ADDITIONAL,FIVE_PARTS,Five Parts,five_parts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini
+2626,PACENOTE,OBSTACLES,FIVE_BALES,Five Bales,five_bales1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini
+9999,PACENOTE,CORNERS,LINE_CHANGE,,,0,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini

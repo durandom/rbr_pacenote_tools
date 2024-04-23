@@ -73,24 +73,25 @@ class CoDriver:
                     note.pop(key)
             csv_writer.writerow(note)
 
-    def merge(self, plugin: RbrPacenotePlugin, file, sound_dir=None):
-        with open(file) as csvfile:
-            csv_reader = csv.DictReader(csvfile)
-            for row in csv_reader:
-                # logging.debug(f"Merge: {row}")
-                if row['file']:
-                    base_file = row['file']
-                    for index in range(9):
-                        file = base_file
-                        if not file.endswith('.ogg'):
-                            file = file + '.ogg'
-                        (basename, ext) = os.path.splitext(file)
-                        if index > 0:
-                            file = f"{basename}_{index}{ext}"
-                        pathname = os.path.join(sound_dir, file)
-                        if os.path.exists(pathname):
-                            row['file'] = file
-                            plugin.merge(row, sound_dir)
+    def merge(self, plugin: RbrPacenotePlugin, files = [], sound_dir=None):
+        for file in files:
+            with open(file) as csvfile:
+                csv_reader = csv.DictReader(csvfile)
+                for row in csv_reader:
+                    # logging.debug(f"Merge: {row}")
+                    if row['file']:
+                        base_file = row['file']
+                        for index in range(9):
+                            file = base_file
+                            if not file.endswith('.ogg'):
+                                file = file + '.ogg'
+                            (basename, ext) = os.path.splitext(file)
+                            if index > 0:
+                                file = f"{basename}_{index}{ext}"
+                            pathname = os.path.join(sound_dir, file)
+                            if os.path.exists(pathname):
+                                row['file'] = file
+                                plugin.merge(row, sound_dir)
         plugin.merge_commit()
 
     def write(self, out, plugin):
@@ -114,7 +115,7 @@ if __name__ == '__main__':
     parser.add_argument('--list-fields', help='Only list fields', default='id,type,category,name,translation,file,sounds,error,ini')
     parser.add_argument('--list-sounds', help='List all sounds', action='store_true')
     parser.add_argument('--list-sounds-unique', help='List all sounds only one', action='store_true')
-    parser.add_argument('--merge', help='Merge from file', default=None)
+    parser.add_argument('--merge', help='Merge from file', default=None, nargs='+')
     parser.add_argument('--merge-sound-src-dir', help='Sound dir for merge', default=None)
     parser.add_argument('--merge-sound-dir', help='Sound dir for merge', default=None)
     parser.add_argument('--merge-language', help='Force new language e.g. english/german/french', default=None)

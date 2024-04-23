@@ -82,10 +82,12 @@ bollinger-v3: bollinger-numeric-unique
 	pipenv run ./codriver.py \
 	  --codriver janne-v3-numeric \
 	  --merge out/bollinger-numeric-sounds-unique-no-error.csv \
+              out/janne-v3-new-ids-trans-CORNERS-bollinger.csv \
 	  --merge-sound-src-dir assets/bollinger_sounds \
 	  --merge-sound-dir DavidBollinger \
 	  --merge-language german \
-	  --out build/bollinger-v3
+	  --out build/bollinger-v3 \
+	  --list-sounds > out/build-bollinger-v3.csv
 	@echo "Done"
 
 
