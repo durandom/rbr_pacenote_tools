@@ -91,6 +91,9 @@ bollinger-v3: bollinger-numeric-unique
 	  --out build/bollinger-v3 \
 	  --list-sounds-unique \
 	  --list-sounds out/build-bollinger-v3.csv
+	pipenv run ./scripts/add_translation.py --translation out/v3_calls_de.csv --infiles out/build-bollinger-v3.csv
+	head -n 1 out/build-bollinger-v3-trans.csv > out/build-bollinger-v3-missing.csv
+	grep "Janne Laahanen EnNu A" out/build-bollinger-v3-trans.csv >> out/build-bollinger-v3-missing.csv
 	@echo "Done"
 
 

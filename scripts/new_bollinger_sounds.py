@@ -70,10 +70,49 @@ if __name__ == '__main__':
         ['in', '2', 'plus', 'in_two_plus'],
         ['in', '1', 'plus', 'in_one_plus'],
         ['in', 'hairpin', 'plus', 'in_hairpin_plus'],
-
-
-
+        ['in', 'hairpin', 'in_hairpin'],
+        ['onto', 'finish', 'onto_finish'],
+        ['dontcut', 'early', 'dontcut_early'],
+        ['dontcut', 'late', 'dontcut_late'],
+        ['in', 'dip', 'in_dip'],
+        ['jump', 'small' 'jump_small'],
+        ['jump', 'big', 'jump_big'],
+        ['continuesovercrest.ogg', 'small', 'continuesovercrest_small'],
+        ['long', 'crest', 'long_crest'],
+        ['onto', 'bump', 'onto_bump'],
+        ['twisty', 'left', 'twisty_left'],
+        ['twisty', 'right', 'twisty_right'],
+        ['grip', 'keepmiddle', 'grip_keepmiddle'],
+        ['grip', 'inside', 'grip_inside'],
+        ['grip', 'outside', 'grip_outside'],
+        ['at', 'left', 'at_left'],
+        ['at', 'right', 'at_right'],
+        ['jump', 'brake', 'jump_brake'],
+        ['rock', 'inside', 'rock_inside'],
+        ['rock', 'outside', 'rock_outside'],
+        ['tree', 'inside', 'tree_inside'],
+        ['tree', 'outside', 'tree_outside'],
+        ['ditch', 'inside', 'ditch_inside'],
+        ['ditch', 'outside', 'ditch_outside'],
+        ['house', 'inside', 'house_inside'],
+        ['house', 'outside', 'house_outside'],
+        ['fence', 'inside', 'fence_inside'],
+        ['fence', 'outside', 'fence_outside'],
+        ['sign', 'inside', 'sign_inside'],
+        ['sign', 'outside', 'sign_outside'],
+        ['post', 'inside', 'post_inside'],
+        ['post', 'outside', 'post_outside'],
+        ['brake', 'into', 'brake_into'],
+        ['brake', 'and', 'brake_and'],
     ]
+
+    # obstacles
+    obstacles = ['tree', 'rock', 'house', 'sign', 'post', 'junction', 'bridge', 'crest']
+    for obstacle in obstacles:
+        notes.append(['at', obstacle, 'at_' + obstacle])
+
+    for dist in [20, 30, 40, 50]:
+        notes.append(['brake', 'in', str(dist), 'brake_in_'+str(dist)])
 
     # change to the directory
     os.chdir(args.dir)
