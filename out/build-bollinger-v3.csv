@@ -519,7 +519,7 @@ id,type,category,name,translation,file,sounds,error,ini,file_src_dir
 2267,PACENOTE,LINE,POST_LATE,Post Late,post_late1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2268,PACENOTE,LINE,POSTS,Posts,posts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2269,PACENOTE,OBSTACLES,OVERCREST_NOLINK,Over Crest,over_crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
-2270,PACENOTE,CAUTIONS,CARE_NOLINK,Care,care1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2270,PACENOTE,CAUTIONS,CARE_NOLINK,Care,care.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
 2271,PACENOTE,CAUTIONS,CAUTION_NOLINK,Caution,caution.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
 2272,PACENOTE,CORNERS,SQUARE_PLUS_SCALE,2+,two_plus.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 2273,PACENOTE,LINE,LATE_CUT,Late Cut,late_cut1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
