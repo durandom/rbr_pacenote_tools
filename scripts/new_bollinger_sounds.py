@@ -104,6 +104,14 @@ if __name__ == '__main__':
         ['post', 'outside', 'post_outside'],
         ['brake', 'into', 'brake_into'],
         ['brake', 'and', 'brake_and'],
+        ['on', 'crest', 'on_crest'],
+        ['over', 'crest', 'over_crest'],
+        ['crest', 'left', 'crest_left'],
+        ['crest', 'right', 'crest_right'],
+        ['until', 'finish', 'until_finish'],
+        ['tightens', 'sumppu', 'tightens_sumppu'],
+        ['big', 'sumppu', 'big_sumppu'],
+        ['small', 'sumppu', 'small_sumppu'],
     ]
 
     # obstacles
@@ -113,6 +121,9 @@ if __name__ == '__main__':
 
     for dist in [20, 30, 40, 50]:
         notes.append(['brake', 'in', str(dist), 'brake_in_'+str(dist)])
+
+    for c in ['small', 'long', '2', '3']:
+        notes.append(['over', c, 'crest', 'over_'+c+'_crest'])
 
     # change to the directory
     os.chdir(args.dir)

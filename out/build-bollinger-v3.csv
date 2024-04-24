@@ -352,9 +352,9 @@ id,type,category,name,translation,file,sounds,error,ini,file_src_dir
 2100,PACENOTE,LINE,FROM_LEFT,From Left,at_left.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
 2101,PACENOTE,LINE,FROM_RIGHT,From Right,at_right.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/bollinger_sounds
 2102,PACENOTE,ADDITIONAL,DOUBLE,Double,very.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
-2103,PACENOTE,ADDITIONAL,HALF_LONG,Halflong,halflong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2103,PACENOTE,ADDITIONAL,HALF_LONG,Halflong,half_long.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
 2104,PACENOTE,ADJECTIVES,NIU_LOIVA_ALKU,Late (NIU),late.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
-2105,PACENOTE,LINKS,TO_FINISH,To Finish,tofinish1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2105,PACENOTE,LINKS,TO_FINISH,To Finish,until_finish.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/bollinger_sounds
 2106,PACENOTE,OBSTACLES,FLAT_JUMP,Sprung Voll,jumpfull.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 2107,PACENOTE,OBSTACLES,JUMP_DAB,Jump Dab,jump_brake.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 2108,PACENOTE,OBSTACLES,OVER_JUMP,Über Sprung,overjump.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
@@ -434,17 +434,17 @@ id,type,category,name,translation,file,sounds,error,ini,file_src_dir
 2182,PACENOTE,CAUTIONS,SLIPPY_BRAKING,Slippy Braking,slippy_braking1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2183,PACENOTE,CAUTIONS,SLIPPY_ENTRY,Slippy Entry,slippy_entry1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2184,PACENOTE,CAUTIONS,SLIPPY_EXIT,Slippy Exit,slippy_exit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2185,PACENOTE,ADDITIONAL,SUMPPU,Sumppu,sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2185,PACENOTE,ADDITIONAL,SUMPPU,Sumppu,sumppu.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
 2186,PACENOTE,ADDITIONAL,WIDENS,Widens,widens1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2187,PACENOTE,ADJECTIVES,TIGHTENSSUMPPU,Tightens Sumppu,tightens_sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2187,PACENOTE,ADJECTIVES,TIGHTENSSUMPPU,Tightens Sumppu,tightens_sumppu.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
 2188,PACENOTE,OBSTACLES,JUMP_MAYBE,Jump Maybe,jump_maybe1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2189,PACENOTE,OBSTACLES,OVER_SMALL_JUMP,Over Small Jump,over_small_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2190,PACENOTE,OBSTACLES,OVER_JUMP_DAB,Over Jump Dab,over_jump_dab1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2191,PACENOTE,OBSTACLES,OVERSMALLCREST,Over Small Crest,over_small_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2192,PACENOTE,OBSTACLES,OVERLONGCREST,Over Long Crest,over_long_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2193,PACENOTE,OBSTACLES,OVERTWOCRESTS,Over Two Crests,over_two_crests1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2194,PACENOTE,OBSTACLES,OVERTHREECRESTS,Over Three Crests,over_three_crests1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2195,PACENOTE,OBSTACLES,DOUBLECREST,Double Crest,double_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2191,PACENOTE,OBSTACLES,OVERSMALLCREST,Over Small Crest,over_small_crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+2192,PACENOTE,OBSTACLES,OVERLONGCREST,Over Long Crest,over_long_crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+2193,PACENOTE,OBSTACLES,OVERTWOCRESTS,Over Two Crests,over_2_crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+2194,PACENOTE,OBSTACLES,OVERTHREECRESTS,Over Three Crests,over_3_crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+2195,PACENOTE,OBSTACLES,DOUBLECREST,Double Crest,double_crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 2196,PACENOTE,OBSTACLES,DOUBLE_JUMP,Double Jump,double_jump1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2197,PACENOTE,LINE,ONTO_STRAIGHT,Onto Straight,onto_straight1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2198,PACENOTE,PREPOSITIONS,AT_EXIT,At Exit,at_exit1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -468,13 +468,13 @@ id,type,category,name,translation,file,sounds,error,ini,file_src_dir
 2216,PACENOTE,ADDITIONAL,EXTRAEXTRALONG,Very Very Long,veryverylong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2217,PACENOTE,CAUTIONS,VERY_SLIPPY,Very Slippy,very_slippy1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2218,PACENOTE,PREPOSITIONS,AT_BUSH,At Bush,at_bush1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2219,PACENOTE,ADDITIONAL,BIG_SUMPPU,Big Sumppu,big_sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2220,PACENOTE,ADDITIONAL,SMALL_SUMPPU,Small Sumppu,small_sumppu1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2219,PACENOTE,ADDITIONAL,BIG_SUMPPU,Big Sumppu,big_sumppu.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
+2220,PACENOTE,ADDITIONAL,SMALL_SUMPPU,Small Sumppu,small_sumppu.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/bollinger_sounds
 2221,PACENOTE,ADDITIONAL,ONTO_NARROWER_ROAD,Onto Narrower,onto_narrower1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2222,PACENOTE,ADDITIONAL,ONTO_WIDER_ROAD,Onto Wider,onto_wider1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2223,PACENOTE,DRIVING,LIFT,Lift,lift1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/driving/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2224,PACENOTE,LINKS,AGAIN,Again,again1.ogg,4,,pacenotes/Rbr.ini/packages/Extended.ini/links/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2225,PACENOTE,OBSTACLES,TO_CREST,To Crest,to_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2225,PACENOTE,OBSTACLES,TO_CREST,To Crest,on_crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 2226,PACENOTE,CORNERS,LEFT_OVER,Left Over_(dist.),left_over.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 2227,PACENOTE,CORNERS,RIGHT_OVER,Right Over_(dist.),right_over.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 2228,PACENOTE,CAUTIONS,PRECISE,Precise,precise1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -494,8 +494,8 @@ id,type,category,name,translation,file,sounds,error,ini,file_src_dir
 2242,PACENOTE,LINE,DOUBLE_DONT,Double Don't,double_dont1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2243,PACENOTE,LINE,TRIPLE_DONT,Triple Don't,triple_dont1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2244,PACENOTE,ADDITIONAL,IMPORTANT,Important,important1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2245,PACENOTE,OBSTACLES,CREST_TO_LEFT,Crest To Left,crest_to_left1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2246,PACENOTE,OBSTACLES,CREST_TO_RIGHT,Crest To Right,crest_to_right1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2245,PACENOTE,OBSTACLES,CREST_TO_LEFT,Crest To Left,crest_left.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
+2246,PACENOTE,OBSTACLES,CREST_TO_RIGHT,Crest To Right,crest_right.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 2247,PACENOTE,CORNERS,MEDIUM_SCALE,4,4.ogg,3,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 2248,PACENOTE,ADDITIONAL,FUCKINGLONG,Fucking Long,fuckinglong1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/additional/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2249,PACENOTE,ADJECTIVES,TIGHTENSVERYVERYLONG,Tightens Very Very Long,tightens_veryverylong1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
@@ -518,9 +518,9 @@ id,type,category,name,translation,file,sounds,error,ini,file_src_dir
 2266,PACENOTE,LINE,POST_EARLY,Post Early,post_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2267,PACENOTE,LINE,POST_LATE,Post Late,post_late1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2268,PACENOTE,LINE,POSTS,Posts,posts1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2269,PACENOTE,OBSTACLES,OVERCREST_NOLINK,Over Crest,over_crest1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2269,PACENOTE,OBSTACLES,OVERCREST_NOLINK,Over Crest,over_crest.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/obstacles/Extended.ini,assets/bollinger_sounds
 2270,PACENOTE,CAUTIONS,CARE_NOLINK,Care,care1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
-2271,PACENOTE,CAUTIONS,CAUTION_NOLINK,Caution,caution1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2271,PACENOTE,CAUTIONS,CAUTION_NOLINK,Caution,caution.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/cautions/Extended.ini,assets/bollinger_sounds
 2272,PACENOTE,CORNERS,SQUARE_PLUS_SCALE,2+,two_plus.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 2273,PACENOTE,LINE,LATE_CUT,Late Cut,late_cut1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2274,PACENOTE,PREPOSITIONS,AT_LOGS,At Logs,at_logs1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
