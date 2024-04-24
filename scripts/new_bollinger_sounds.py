@@ -129,8 +129,18 @@ if __name__ == '__main__':
     os.chdir(args.dir)
 
     for note in notes:
-        files = [ f+'.ogg' for f in note]
-        command = ['sox'] + files
-        logging.info(command)
-        subprocess.run(command, check=True)
+        for i in range(1, 5):
+            if i > 1:
+                files = [ f+'_'+str(i)+'.ogg' for f in note]
+            else:
+                files = [ f+'.ogg' for f in note]
+            if not all([os.path.exists(f) for f in files[:-1]]):
+                logging.warning(f'Not all files exist: {files}')
+                if i == 1:
+                    logging.error('Exiting')
+                    exit(1)
+                continue
+            command = ['sox'] + files
+            logging.info(command)
+            subprocess.run(command, check=True)
 
