@@ -112,6 +112,9 @@ if __name__ == '__main__':
         ['tightens', 'sumppu', 'tightens_sumppu'],
         ['big', 'sumppu', 'big_sumppu'],
         ['small', 'sumppu', 'small_sumppu'],
+        ['onto', 'bridge', 'onto_bridge'],
+        ['narrow', 'bridge', 'narrow_bridge'],
+        ['onto', 'bridge', 'narrow', 'onto_bridge_narrow'],
     ]
 
     # obstacles
