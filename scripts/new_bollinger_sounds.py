@@ -77,7 +77,7 @@ if __name__ == '__main__':
         ['in', 'dip', 'in_dip'],
         ['jump', 'small' 'jump_small'],
         ['jump', 'big', 'jump_big'],
-        ['continuesovercrest.ogg', 'small', 'continuesovercrest_small'],
+        ['continuesovercrest', 'small', 'continuesovercrest_small'],
         ['long', 'crest', 'long_crest'],
         ['onto', 'bump', 'onto_bump'],
         ['twisty', 'left', 'twisty_left'],

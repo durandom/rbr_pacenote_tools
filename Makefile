@@ -84,6 +84,7 @@ bollinger-v3: bollinger-numeric-unique
 	  --merge out/bollinger-numeric-sounds-unique-no-error.csv \
               out/janne-v3-new-ids-trans-CORNERS-bollinger.csv \
 			  out/janne-v3-new-ids-trans-ADJECTIVES-bollinger.csv \
+			  out/build-bollinger-v3-missing-fixes.csv \
 			  out/bollinger-v3-fixes.csv \
 	  --merge-sound-src-dir assets/bollinger_sounds \
 	  --merge-sound-dir DavidBollinger \
