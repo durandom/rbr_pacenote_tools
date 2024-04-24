@@ -513,7 +513,7 @@ id,type,category,name,translation,file,sounds,error,ini,file_src_dir
 2261,PACENOTE,PREPOSITIONS,AT_LOG,At Log,at_log1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/prepositions/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2262,PACENOTE,CORNERS,SQUARE_RIGHT_PLUS,2 Right+,two_right_plus.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
 2263,PACENOTE,CORNERS,SQUARE_LEFT_PLUS,2 Left+,two_left_plus.ogg,1,,pacenotes/Rbr.ini/packages/Descriptive.ini/corners/Descriptive.ini,assets/bollinger_sounds
-2264,PACENOTE,ADJECTIVES,TIGHTENSTOSQUARE_PLUS,Tightens 2+,tightens_two_plus1.ogg,3,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
+2264,PACENOTE,ADJECTIVES,TIGHTENSTOSQUARE_PLUS,Tightens 2+,tightens_two_plus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
 2265,PACENOTE,ADJECTIVES,TOSQUARE_PLUS,_2+,in_two_plus.ogg,1,,pacenotes/Rbr.ini/packages/Extended.ini/adjectives/Extended.ini,assets/bollinger_sounds
 2266,PACENOTE,LINE,POST_EARLY,Post Early,post_early1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A
 2267,PACENOTE,LINE,POST_LATE,Post Late,post_late1.ogg,2,,pacenotes/Rbr.ini/packages/Extended.ini/line/Extended.ini,assets/Jannemod V3 - Public test_v1.1/English/English Numeric A/Plugins/Pacenote/sounds/Janne Laahanen EnNu A

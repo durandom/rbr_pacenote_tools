@@ -36,5 +36,5 @@ id,type,category,name,translation,file,translation-new
 2254,PACENOTE,ADJECTIVES,TIGHTENSROUND,Tightens Round,,Schliesst Rund
 2255,PACENOTE,ADJECTIVES,OPENSSHARP,Opens Sharp,,Öffnet Scharf
 2256,PACENOTE,ADJECTIVES,OPENSROUND,Opens Round,,Öffnet Rund
-2264,PACENOTE,ADJECTIVES,TIGHTENSTOSQUARE_PLUS,Tightens 2+,,Schliesst auf zwei+
+2264,PACENOTE,ADJECTIVES,TIGHTENSTOSQUARE_PLUS,Tightens 2+,tightens_two_plus.ogg,Schliesst auf zwei+
 2265,PACENOTE,ADJECTIVES,TOSQUARE_PLUS,_2+,in_two_plus.ogg,In zwei+
