@@ -128,6 +128,13 @@ if __name__ == '__main__':
     for c in ['small', 'long', '2', '3']:
         notes.append(['over', c, 'crest', 'over_'+c+'_crest'])
 
+    descriptive = ['90_left', 'kleft', 'mediumleft', 'fastleft',
+                   'easyleft', 'easyright', 'fastright', 'mediumright', 'kright',
+                   '90_right', 'slowleft', 'slowright', 'flat_right', 'flat_left']
+
+    for d in descriptive:
+        notes.append([d, 'plus', d + '_plus'])
+
     # change to the directory
     os.chdir(args.dir)
 

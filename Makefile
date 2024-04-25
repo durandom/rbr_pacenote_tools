@@ -48,6 +48,10 @@ bollinger-numeric-build:
 	pipenv run ./codriver.py --codriver bollinger-numeric --out build/bollinger-numeric
 	@echo "Done"
 
+bollinger-descriptive-unique:
+	pipenv run ./codriver.py --codriver bollinger-descriptive --list-sounds-unique --list-sounds out/bollinger-descriptive-sounds-unique.csv
+	@echo "Done"
+
 bollinger-numeric-merge:
 	pipenv run ./codriver.py \
 	  --codriver janne-v3-numeric \
@@ -103,6 +107,15 @@ bollinger-v3: bollinger-numeric-unique
 	  --merge-sound-src-dir assets/bollinger_sounds \
 	  --merge-sound-dir DavidBollinger \
 	  --out build/bollinger-v3-90
+
+	rm -rf build/bollinger-v3-descriptive
+	pipenv run ./codriver.py \
+	  --codriver bollinger-v3 \
+	  --merge out/janne-v3-CORNERS-bollinger-descriptive.csv \
+	  --merge-sound-src-dir assets/bollinger_sounds \
+	  --merge-sound-dir DavidBollinger \
+	  --out build/bollinger-v3-descriptive
+
 	@echo "Done"
 
 smo-v3:
