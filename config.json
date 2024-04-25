@@ -19,6 +19,11 @@
       "name": "Bollinger Numeric",
       "dir": "assets/Co_Driver_RBR_Deutsch_Bollinger_V1.1_22-12-03/David_Bollinger_(CH)/Deutsch Numerisch - Nummer zuerst",
       "ini": ["Rbr.ini", "Rbr-Enhanced.ini"]
+    },
+    "bollinger-v3": {
+      "name": "Bollinger Numeric",
+      "dir": "build/bollinger-v3",
+      "ini": ["Rbr.ini", "Rbr-Enhanced.ini"]
     }
   }
 }

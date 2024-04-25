@@ -95,8 +95,15 @@ bollinger-v3: bollinger-numeric-unique
 	pipenv run ./scripts/add_translation.py --translation out/v3_calls_de.csv --infiles out/build-bollinger-v3.csv
 	head -n 1 out/build-bollinger-v3-trans.csv > out/build-bollinger-v3-missing.csv
 	grep "Janne Laahanen EnNu A" out/build-bollinger-v3-trans.csv >> out/build-bollinger-v3-missing.csv
-	@echo "Done"
 
+	rm -rf build/bollinger-v3-90
+	pipenv run ./codriver.py \
+	  --codriver bollinger-v3 \
+	  --merge out/janne-v3-CORNERS-bollinger-90.csv \
+	  --merge-sound-src-dir assets/bollinger_sounds \
+	  --merge-sound-dir DavidBollinger \
+	  --out build/bollinger-v3-90
+	@echo "Done"
 
 smo-v3:
 	pipenv run ./codriver.py --codriver smo-v3 --list-sounds out/smo-v3-sounds.csv
