@@ -75,7 +75,7 @@ if __name__ == '__main__':
         ['dontcut', 'early', 'dontcut_early'],
         ['dontcut', 'late', 'dontcut_late'],
         ['in', 'dip', 'in_dip'],
-        ['jump', 'small' 'jump_small'],
+        ['jump', 'small', 'jump_small'],
         ['jump', 'big', 'jump_big'],
         ['continuesovercrest', 'small', 'continuesovercrest_small'],
         ['long', 'crest', 'long_crest'],
@@ -115,6 +115,30 @@ if __name__ == '__main__':
         ['onto', 'bridge', 'onto_bridge'],
         ['narrow', 'bridge', 'narrow_bridge'],
         ['onto', 'bridge', 'narrow', 'onto_bridge_narrow'],
+        ['jump', 'maybe', 'jump_maybe'],
+        ['over', 'jump', 'small', 'over_jump_small'],
+        ['over', 'jump', 'brake', 'over_jump_brake'],
+        ['double', 'jump', 'double_jump'],
+        ['onto', 'jump', 'onto_jump'],
+        ['onto', 'narrows', 'onto_narrows'],
+        ['onto', 'wideout', 'onto_wideout'],
+        ['bumpy', 'inside', 'bumpy_inside'],
+        ['bumpy', 'outside', 'bumpy_outside'],
+        ['stump', 'inside', 'stump_inside'],
+        ['stump', 'outside', 'stump_outside'],
+        ['slippy', 'at', 'brake', 'slippy_at_brake'],
+        ['slippy', 'entry', 'slippy_entry'],
+        ['slippy', 'maybe', 'slippy_maybe'],
+        ['onto', 'gostraight', 'onto_gostraight'],
+        ['after', 'junction', 'after_junction'],
+        ['very', 'very_long', 'very_very_long'],
+        ['slippy', 'very', 'slippy_very'],
+        ['at', 'bush', 'at_bush'],
+        ['bumps', 'at', 'brake', 'bumps_at_brake'],
+        ['over_bridge', 'narrow', 'over_bridge_narrow'],
+        ['sharp', 'hairpin', 'sharp_hairpin'],
+        ['sharp', 'hairpin', 'left', 'sharp_hairpin_left'],
+        ['sharp', 'hairpin', 'right', 'sharp_hairpin_right'],
     ]
 
     # obstacles
@@ -145,10 +169,13 @@ if __name__ == '__main__':
             else:
                 files = [ f+'.ogg' for f in note]
             if not all([os.path.exists(f) for f in files[:-1]]):
-                logging.warning(f'Not all files exist: {files}')
+                # logging.warning(f'Not all files exist: {files}')
                 if i == 1:
                     logging.error('Exiting')
                     exit(1)
+                continue
+            if os.path.exists(files[-1]):
+                # logging.info(f'Skipping {files[-1]}')
                 continue
             command = ['sox'] + files
             logging.info(command)

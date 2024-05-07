@@ -118,6 +118,11 @@ bollinger-v3: bollinger-numeric-unique
 
 	@echo "Done"
 
+bollinger-v3-release:
+	cp -av build/bollinger-v3/Plugins ../rbr_bollinger_v3/numerisch/
+	cp -av build/bollinger-v3-90/Plugins ../rbr_bollinger_v3/numerisch-90/
+	cp -av build/bollinger-v3-descriptive/Plugins ../rbr_bollinger_v3/deskriptiv/
+
 smo-v3:
 	pipenv run ./codriver.py --codriver smo-v3 --list-sounds out/smo-v3-sounds.csv
 	@echo "Done"

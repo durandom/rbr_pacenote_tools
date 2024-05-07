@@ -1,8 +1,8 @@
 id,type,category,name,translation,file,translation-new
 378,PACENOTE,CORNERS,CHICANE,Chicane,chicane.ogg,Schikane
 2026,PACENOTE,CORNERS,FLAT_SCALE,Flat,full.ogg,Voll
-2040,PACENOTE,CORNERS,ACUTE_LEFT,Acute Left,sharp_left.ogg,Spitz Links
-2041,PACENOTE,CORNERS,ACUTE_RIGHT,Acute Right,sharp_right.ogg,Spitz Rechts
+2040,PACENOTE,CORNERS,ACUTE_LEFT,Acute Left,sharp_hairpin_left.ogg,Spitz Links
+2041,PACENOTE,CORNERS,ACUTE_RIGHT,Acute Right,sharp_hairpin_right.ogg,Spitz Rechts
 2050,PACENOTE,CORNERS,FLATRIGHTMINUS,6 Right+,six_right_plus.ogg,sechs Rechts+
 2051,PACENOTE,CORNERS,QUICKRIGHT,5 Right+,five_right_plus.ogg,fünf Rechts+
 2052,PACENOTE,CORNERS,EMRIGHT,4 Right+,four_right_plus.ogg,vier Rechts+
